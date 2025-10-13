@@ -761,7 +761,14 @@
 			if (section === 'portfolio') {
 				curriculumSection.classList.add('slide-left');
 				portfolioSection.classList.add('slide-left');
-				sectionTitleHeader.textContent = 'Portfolio';
+
+				// Si hay una categoría seleccionada, mostrar su nombre; si no, mostrar "Portfolio"
+				if (currentCategory && portfolioData[currentCategory]) {
+					sectionTitleHeader.textContent = portfolioData[currentCategory].name;
+				} else {
+					sectionTitleHeader.textContent = 'Portfolio';
+				}
+
 				switchCV.classList.remove('active');
 				switchPortfolio.classList.add('active');
 				currentSection = 'portfolio';
@@ -1034,6 +1041,7 @@
 			const cardsContainer = document.getElementById('cardsContainer');
 			const contentArea = document.getElementById('contentArea');
 			const categoriesContainer = document.getElementById('categoriesContainer');
+			const sectionTitleHeader = document.getElementById('sectionTitleHeader');
 
 			console.log('Categories container found:', categoriesContainer);
 
@@ -1074,6 +1082,11 @@
 			contentArea.classList.remove('show');
 
 			currentCategory = category;
+
+			// Actualizar el título del header con el nombre de la sección
+			if (portfolioData[category]) {
+				sectionTitleHeader.textContent = portfolioData[category].name;
+			}
 
 			console.log('Calling renderCategories for:', category);
 			renderCategories(category);

@@ -83,6 +83,61 @@ body.pink-theme {
 		inset 0 -1px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Theme-specific header borders */
+body.red-theme .header-bar {
+	border-image: linear-gradient(90deg,
+			transparent 0%,
+			rgba(248, 113, 113, 0.3) 20%,
+			rgba(239, 68, 68, 0.4) 50%,
+			rgba(248, 113, 113, 0.3) 80%,
+			transparent 100%) 1;
+}
+
+body.blue-theme .header-bar {
+	border-image: linear-gradient(90deg,
+			transparent 0%,
+			rgba(96, 165, 250, 0.3) 20%,
+			rgba(59, 130, 246, 0.4) 50%,
+			rgba(96, 165, 250, 0.3) 80%,
+			transparent 100%) 1;
+}
+
+body.yellow-theme .header-bar {
+	border-image: linear-gradient(90deg,
+			transparent 0%,
+			rgba(251, 191, 36, 0.3) 20%,
+			rgba(245, 158, 11, 0.4) 50%,
+			rgba(251, 191, 36, 0.3) 80%,
+			transparent 100%) 1;
+}
+
+body.purple-theme .header-bar {
+	border-image: linear-gradient(90deg,
+			transparent 0%,
+			rgba(192, 132, 252, 0.3) 20%,
+			rgba(168, 85, 247, 0.4) 50%,
+			rgba(192, 132, 252, 0.3) 80%,
+			transparent 100%) 1;
+}
+
+body.pink-theme .header-bar {
+	border-image: linear-gradient(90deg,
+			transparent 0%,
+			rgba(244, 114, 182, 0.3) 20%,
+			rgba(236, 72, 153, 0.4) 50%,
+			rgba(244, 114, 182, 0.3) 80%,
+			transparent 100%) 1;
+}
+
+body.green-theme .header-bar {
+	border-image: linear-gradient(90deg,
+			transparent 0%,
+			rgba(34, 197, 94, 0.3) 20%,
+			rgba(22, 163, 74, 0.4) 50%,
+			rgba(16, 185, 129, 0.3) 80%,
+			transparent 100%) 1;
+}
+
 .header-bar::before {
 	content: '';
 	position: absolute;
@@ -96,6 +151,55 @@ body.pink-theme {
 			transparent 75%,
 			rgba(22, 163, 74, 0.05) 100%);
 	animation: shimmer 8s ease-in-out infinite;
+}
+
+/* Theme-specific shimmer effects */
+body.red-theme .header-bar::before {
+	background: linear-gradient(45deg,
+			rgba(248, 113, 113, 0.05) 0%,
+			transparent 25%,
+			transparent 75%,
+			rgba(239, 68, 68, 0.05) 100%);
+}
+
+body.blue-theme .header-bar::before {
+	background: linear-gradient(45deg,
+			rgba(96, 165, 250, 0.05) 0%,
+			transparent 25%,
+			transparent 75%,
+			rgba(59, 130, 246, 0.05) 100%);
+}
+
+body.yellow-theme .header-bar::before {
+	background: linear-gradient(45deg,
+			rgba(251, 191, 36, 0.05) 0%,
+			transparent 25%,
+			transparent 75%,
+			rgba(245, 158, 11, 0.05) 100%);
+}
+
+body.purple-theme .header-bar::before {
+	background: linear-gradient(45deg,
+			rgba(192, 132, 252, 0.05) 0%,
+			transparent 25%,
+			transparent 75%,
+			rgba(168, 85, 247, 0.05) 100%);
+}
+
+body.pink-theme .header-bar::before {
+	background: linear-gradient(45deg,
+			rgba(244, 114, 182, 0.05) 0%,
+			transparent 25%,
+			transparent 75%,
+			rgba(236, 72, 153, 0.05) 100%);
+}
+
+body.green-theme .header-bar::before {
+	background: linear-gradient(45deg,
+			rgba(34, 197, 94, 0.05) 0%,
+			transparent 25%,
+			transparent 75%,
+			rgba(22, 163, 74, 0.05) 100%);
 }
 
 @keyframes shimmer {
@@ -165,9 +269,9 @@ body.pink-theme {
 }
 
 .switch-btn.active {
-	background: linear-gradient(135deg, #22c55e, #16a34a);
+	background: linear-gradient(135deg, #64748b, #475569);
 	color: white;
-	box-shadow: 0 4px 20px rgba(34, 197, 94, 0.3);
+	box-shadow: 0 4px 20px rgba(100, 116, 139, 0.3);
 }
 
 .switch-btn:hover:not(.active) {
