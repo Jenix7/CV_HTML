@@ -797,6 +797,8 @@
 			});
 
 			setTimeout(() => {
+				createPlaceholders();
+
 				const portfolioCards = document.querySelectorAll('.portfolio-card');
 				portfolioCards.forEach(card => {
 					card.addEventListener('click', handleCardClick);
@@ -814,7 +816,7 @@
 
 		const cardOrder = ['todo', 'arte', 'programacion', 'diseño', 'produccion', 'comunicacion'];
 
-		function calculateMenuPosition(index, totalCards) {
+		function calculateMenuPosition(index) {
 			const startLeft = 0;
 			const cardHeight = 280;
 			const gap = 15;
@@ -828,27 +830,62 @@
 			};
 		}
 
-		function updateCardPositions() {
-			const allCardWrappers = document.querySelectorAll('.card-wrapper');
-			let menuIndex = 0;
+		function createPlaceholders() {
+			const cardsContainer = document.getElementById('cardsContainer');
 
-			cardOrder.forEach((category, originalIndex) => {
+			cardOrder.forEach((category, index) => {
+				const pos = calculateMenuPosition(index);
+
+				const placeholder = document.createElement('div');
+				placeholder.className = 'card-placeholder';
+				placeholder.dataset.category = category;
+				placeholder.style.position = 'fixed';
+				placeholder.style.left = pos.left + 'px';
+				placeholder.style.top = pos.top + 'px';
+				placeholder.style.width = '187px';
+				placeholder.style.height = '280px';
+				placeholder.style.transform = 'scale(1.2) rotateZ(90deg)';
+				placeholder.style.transformOrigin = 'center center';
+				placeholder.style.background = 'rgba(0, 0, 0, 0.6)';
+				placeholder.style.borderRadius = '16px';
+				placeholder.style.border = '2px solid rgba(255, 255, 255, 0.1)';
+				placeholder.style.zIndex = '800';
+				placeholder.style.opacity = '0';
+				placeholder.style.transition = 'opacity 0.3s ease';
+				placeholder.style.pointerEvents = 'none';
+
+				cardsContainer.appendChild(placeholder);
+			});
+		}
+
+		function updateCardPositions() {
+			cardOrder.forEach((category, index) => {
 				const wrapper = document.querySelector(`.card-wrapper[data-category="${category}"]`);
+				const placeholder = document.querySelector(`.card-placeholder[data-category="${category}"]`);
+
 				if (!wrapper) return;
+
+				const pos = calculateMenuPosition(index);
 
 				if (wrapper.classList.contains('featured')) {
 					wrapper.style.position = 'fixed';
 					wrapper.style.left = '24px';
 					wrapper.style.top = '100px';
 					wrapper.style.zIndex = '1000';
+
+					if (placeholder) {
+						placeholder.style.opacity = '1';
+					}
 				} else {
-					const pos = calculateMenuPosition(menuIndex, 5);
 					wrapper.classList.add('in-menu');
 					wrapper.style.position = 'fixed';
 					wrapper.style.left = pos.left + 'px';
 					wrapper.style.top = pos.top + 'px';
 					wrapper.style.zIndex = '900';
-					menuIndex++;
+
+					if (placeholder) {
+						placeholder.style.opacity = '0';
+					}
 				}
 			});
 		}
