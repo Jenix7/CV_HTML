@@ -849,9 +849,6 @@ body.green-theme .header-bar::before {
 .card-placeholder {
 	width: 187px;
 	height: 280px;
-	background: rgba(0, 0, 0, 0.8);
-	border-radius: 16px;
-	border: 2px solid rgba(255, 255, 255, 0.1);
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -860,6 +857,7 @@ body.green-theme .header-bar::before {
 	transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
 	pointer-events: none;
 	z-index: 1;
+	overflow: visible;
 }
 
 .card-slot.empty .card-placeholder {
@@ -1510,7 +1508,6 @@ body.green-theme .header-bar::before {
 	border-radius: 8px;
 	background: rgba(0, 0, 0, 0.8);
 	border: 1px solid rgba(255, 255, 255, 0.1);
-	transition: all 0.3s ease;
 }
 
 .category-image-wrapper img {
@@ -1518,15 +1515,6 @@ body.green-theme .header-bar::before {
 	height: 100%;
 	object-fit: cover;
 	display: block;
-	transition: all 0.3s ease;
-}
-
-.category-column:hover .category-image-wrapper {
-	border-color: rgba(255, 255, 255, 0.2);
-}
-
-.category-column:hover .category-image-wrapper img {
-	transform: scale(1.05);
 }
 
 @media (max-width: 1400px) {

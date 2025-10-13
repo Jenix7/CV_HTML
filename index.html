@@ -843,6 +843,11 @@
 			cardOrder.forEach((category, index) => {
 				const pos = calculateMenuPosition(index);
 
+				// Obtener la carta original para copiar su imagen y subtitle
+				const originalCard = document.querySelector(`.card-wrapper[data-category="${category}"]`);
+				const backImage = originalCard.querySelector('.card-back img');
+				const subtitleImage = originalCard.querySelector('.card-subtitle img');
+
 				const placeholder = document.createElement('div');
 				placeholder.className = 'card-placeholder';
 				placeholder.dataset.category = category;
@@ -853,13 +858,57 @@
 				placeholder.style.height = '280px';
 				placeholder.style.transform = 'scale(1.2) rotateZ(90deg)';
 				placeholder.style.transformOrigin = 'center center';
-				placeholder.style.background = 'rgba(0, 0, 0, 0.6)';
-				placeholder.style.borderRadius = '16px';
-				placeholder.style.border = '2px solid rgba(255, 255, 255, 0.1)';
 				placeholder.style.zIndex = '800';
 				placeholder.style.opacity = '0';
 				placeholder.style.transition = 'opacity 0.3s ease';
 				placeholder.style.pointerEvents = 'none';
+				placeholder.style.overflow = 'visible';
+
+				// Crear contenedor para la carta con overflow hidden
+				const cardContainer = document.createElement('div');
+				cardContainer.style.position = 'relative';
+				cardContainer.style.width = '100%';
+				cardContainer.style.height = '100%';
+				cardContainer.style.borderRadius = '16px';
+				cardContainer.style.border = '2px solid rgba(255, 255, 255, 0.1)';
+				cardContainer.style.overflow = 'hidden';
+
+				// Crear una imagen de fondo con la carta trasera
+				if (backImage) {
+					const img = document.createElement('img');
+					img.src = backImage.src;
+					img.style.width = '100%';
+					img.style.height = '100%';
+					img.style.objectFit = 'cover';
+					img.style.opacity = '0.3';
+					cardContainer.appendChild(img);
+				}
+
+				placeholder.appendChild(cardContainer);
+
+				// Crear el subtitle transparente fuera del contenedor de la carta
+				if (subtitleImage) {
+					const subtitleDiv = document.createElement('div');
+					subtitleDiv.className = 'placeholder-subtitle';
+					subtitleDiv.style.opacity = '0.3';
+					subtitleDiv.style.width = '280px';
+					subtitleDiv.style.height = '1307px';
+					subtitleDiv.style.position = 'absolute';
+					subtitleDiv.style.left = '50%';
+					subtitleDiv.style.top = '50%';
+					subtitleDiv.style.transform = 'translate(-50%, -50%) translateX(-750px) rotateZ(90deg)';
+					subtitleDiv.style.transformOrigin = 'center center';
+					subtitleDiv.style.pointerEvents = 'none';
+
+					const subImg = document.createElement('img');
+					subImg.src = subtitleImage.src;
+					subImg.style.width = '100%';
+					subImg.style.height = 'auto';
+					subImg.style.display = 'block';
+
+					subtitleDiv.appendChild(subImg);
+					placeholder.appendChild(subtitleDiv);
+				}
 
 				cardsContainer.appendChild(placeholder);
 			});
