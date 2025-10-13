@@ -1,0 +1,10 @@
+
+INSTRUCCIONES PORTFOLIO
+========================
+
+Cada vez que añadas, elimines o modifiques proyectos en la carpeta "proyectos/":
+
+1. Ejecuta: generate_portfolio.py (doble click)
+2. Sube al hosting: portfolio-data.json actualizado
+
+¡Eso es todo!
