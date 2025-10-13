@@ -238,7 +238,6 @@
 				portfolioData = await response.json();
 				console.log('✅ Portfolio data loaded successfully:', portfolioData);
 
-				// Mostrar resumen en consola
 				for (const [key, data] of Object.entries(portfolioData)) {
 					if (key !== 'todo') {
 						const totalImages = data.categories.reduce((sum, cat) => sum + cat.images.length, 0);
@@ -246,7 +245,6 @@
 					}
 				}
 
-				// Precargar todas las imágenes
 				preloadAllImages();
 			} catch (error) {
 				console.error('❌ Error loading portfolio data:', error);
@@ -896,9 +894,17 @@
 				useOneColumn = false;
 			}
 
+			const containerWidth = 1200;
+			const columnWidth = containerWidth / numColumns;
+			const imageWidth = useOneColumn ? columnWidth : (columnWidth / 2);
+
+			const useThumb = imageWidth < 200;
+
 			console.log('Max images:', maxImagesInAnyCategory);
 			console.log('Num columns:', numColumns);
 			console.log('Use one column:', useOneColumn);
+			console.log('Image width in screen:', imageWidth + 'px');
+			console.log('Use thumbnail:', useThumb);
 
 			sectionData.categories.forEach((categoryData, index) => {
 				const categoryColumn = document.createElement('div');
@@ -918,12 +924,27 @@
 					imagesGrid.style.gridTemplateColumns = '1fr';
 				}
 
-				categoryData.images.forEach(imageSrc => {
+				categoryData.images.forEach(imageData => {
 					const imageWrapper = document.createElement('div');
 					imageWrapper.className = 'category-image-wrapper';
 
 					const img = document.createElement('img');
-					img.src = imageSrc;
+
+					if (typeof imageData === 'object' && imageData.src) {
+						const srcEncoded = imageData.src.replace(/ /g, '%20');
+						const thumbEncoded = imageData.thumb ? imageData.thumb.replace(/ /g, '%20') : null;
+
+						if (useThumb && thumbEncoded) {
+							img.src = thumbEncoded;
+							console.log('Using THUMB:', thumbEncoded);
+						} else {
+							img.src = srcEncoded;
+							console.log('Using NORMAL:', srcEncoded);
+						}
+					} else {
+						img.src = imageData;
+					}
+
 					img.alt = categoryData.title;
 
 					imageWrapper.appendChild(img);

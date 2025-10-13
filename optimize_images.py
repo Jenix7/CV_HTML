@@ -37,35 +37,34 @@ def optimize_images():
                         background.paste(img, mask=img.split()[-1] if img.mode == 'RGBA' else None)
                         img = background
 
-                    # Calcular nuevo tamaño manteniendo aspect ratio
+                    print(f"📁 {file_path}")
+                    print(f"   Original: {img.width}x{img.height}px ({original_size:.1f}KB)")
+
+                    # Redimensionar a 600px
                     target_width = 600
                     aspect_ratio = img.height / img.width
                     target_height = int(target_width * aspect_ratio)
 
-                    # Solo redimensionar si es más grande
                     if img.width > target_width:
                         img = img.resize((target_width, target_height), Image.Resampling.LANCZOS)
-                        print(f"  📐 Redimensionado: {img.width}x{img.height}px")
-                    else:
-                        print(f"  ℹ️  Ya tiene buen tamaño: {img.width}x{img.height}px")
 
-                    # Guardar como JPG optimizado
-                    output_path = file_path.replace('.png', '.jpg').replace('.PNG', '.jpg')
+                    output_path = os.path.join(root, "portada.jpg")
                     img.save(output_path, 'JPEG', quality=85, optimize=True)
 
                     # Obtener nuevo tamaño
-                    new_size = os.path.getsize(output_path) / 1024  # KB
+                    new_size = os.path.getsize(output_path) / 1024
                     saved = original_size - new_size
                     total_saved += saved
 
+                    print(f"   ✅ portada.jpg: {img.width}x{img.height}px ({new_size:.1f}KB)")
+                    print(f"   💾 Ahorro: {saved:.1f}KB")
+
                     # Si era PNG, eliminar el original
-                    if file_path.lower().endswith('.png') and output_path != file_path:
+                    if file_path.lower().endswith('.png'):
                         os.remove(file_path)
+                        print(f"   🗑️  Eliminado PNG original")
 
-                    print(f"✅ {file_path}")
-                    print(f"   {original_size:.1f}KB → {new_size:.1f}KB (ahorro: {saved:.1f}KB)")
                     print()
-
                     optimized_count += 1
 
                 except Exception as e:
@@ -81,11 +80,10 @@ def optimize_images():
 
     if optimized_count > 0:
         print("\n⚠️  IMPORTANTE: Ahora ejecuta generate_portfolio.py")
-        print("   para actualizar las rutas de .png a .jpg en el JSON")
+        print("   para actualizar las rutas en el JSON")
 
 if __name__ == "__main__":
     try:
-        # Verificar que Pillow está instalado
         print("Verificando dependencias...\n")
         optimize_images()
     except ImportError:

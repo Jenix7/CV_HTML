@@ -106,7 +106,7 @@ def generate_portfolio_data():
                 else:
                     print(f"    ⚠️  No se encontró portada en {project_folder}")
 
-            print(f"  ✓ {category_title}: {len(images)} imágenes")
+            print(f"  ✔ {category_title}: {len(images)} imágenes")
 
             categories.append({
                 "title": category_title,
@@ -148,4 +148,4 @@ if __name__ == "__main__":
         import traceback
         traceback.print_exc()
 
-    input("\n✓ Presiona ENTER para cerrar...")
+    input("\n✔ Presiona ENTER para cerrar...")
