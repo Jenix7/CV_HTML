@@ -842,19 +842,16 @@ function openCategoryDetail(categoryIndex) {
 	const categoriesContainer = document.getElementById('categoriesContainer');
 
 	if (categoryDetailView && currentCategoryIndex !== null) {
-		// Cambio directo entre categorías (sin animación)
 		currentCategoryIndex = categoryIndex;
 		renderCategoryDetail(categoryIndex);
 		return;
 	}
 
-	// Primera vez entrando a Vista 3 (con animación)
 	categoryDetailView = true;
 	currentCategoryIndex = categoryIndex;
 
 	const cardsContainer = document.getElementById('cardsContainer');
 
-	// Ocultar cartas y placeholders sin animación
 	const allCardWrappers = document.querySelectorAll('.card-wrapper');
 	allCardWrappers.forEach(wrapper => {
 		if (!wrapper.classList.contains('featured')) {
@@ -870,14 +867,11 @@ function openCategoryDetail(categoryIndex) {
 		placeholder.style.opacity = '0';
 	});
 
-	// Expandir y animar la entrada
 	categoriesContainer.classList.add('expanded');
 	categoriesContainer.style.opacity = '0';
 
-	// Renderizar contenido
 	renderCategoryDetail(categoryIndex);
 
-	// Animar entrada con un pequeño delay
 	requestAnimationFrame(() => {
 		requestAnimationFrame(() => {
 			categoriesContainer.style.transition = 'opacity 0.4s ease-out';
@@ -893,12 +887,10 @@ function closeCategoryDetail() {
 	const cardsContainer = document.getElementById('cardsContainer');
 	const categoriesContainer = document.getElementById('categoriesContainer');
 
-	// Cerrar directamente sin animación
 	categoriesContainer.classList.remove('expanded');
 
 	renderCategories(currentCategory);
 
-	// Restaurar cartas directamente en sus posiciones finales
 	const allCardWrappers = document.querySelectorAll('.card-wrapper');
 	allCardWrappers.forEach(wrapper => {
 		if (!wrapper.classList.contains('featured')) {
@@ -978,12 +970,10 @@ function renderCategoryDetail(categoryIndex) {
 		imageContainer.className = 'category-detail-image';
 		imageContainer.dataset.imageIndex = imgIndex;
 
-		// Título
 		const title = document.createElement('div');
 		title.className = 'category-detail-image-title';
 		title.textContent = imageData.title || 'Sin título';
 
-		// Wrapper de la imagen
 		const imageWrapper = document.createElement('div');
 		imageWrapper.className = 'category-detail-image-wrapper';
 
@@ -997,32 +987,27 @@ function renderCategoryDetail(categoryIndex) {
 
 		imageWrapper.appendChild(img);
 
-		// Subtítulo
 		const subtitle = document.createElement('div');
 		subtitle.className = 'category-detail-image-subtitle';
 		subtitle.textContent = imageData.subtitle || '';
 
-		// Construir el contenedor
 		imageContainer.appendChild(title);
 		imageContainer.appendChild(imageWrapper);
 		if (imageData.subtitle) {
 			imageContainer.appendChild(subtitle);
 		}
 
-		// Click para abrir visualizador de proyecto
 		imageContainer.onclick = () => {
 			openProjectViewer(categoryIndex, imgIndex);
 		};
 
 		detailGrid.appendChild(imageContainer);
 
-		// Animar solo en la primera entrada (Vista 2 → Vista 3)
 		if (isFirstRender) {
 			setTimeout(() => {
 				imageContainer.classList.add('animate-in');
 			}, imgIndex * 50);
 		} else {
-			// Sin animación al cambiar entre categorías
 			imageContainer.style.opacity = '1';
 			imageContainer.style.transform = 'translateY(0)';
 		}
@@ -1169,12 +1154,10 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	currentProjectCategory = categoryIndex;
 	currentProjectIndex = projectIndex;
 
-	// Verificar si ya existe el header o crearlo
 	let detailHeader = categoriesContainer.querySelector('.category-detail-header');
 	let needsHeaderCreation = !detailHeader;
 
 	if (needsHeaderCreation) {
-		// CREAR EL HEADER solo si no existe
 		detailHeader = document.createElement('div');
 		detailHeader.className = 'category-detail-header';
 
@@ -1184,13 +1167,10 @@ function openProjectViewer(categoryIndex, projectIndex) {
 		backButton.style.display = 'flex';
 		backButton.innerHTML = '← Atrás';
 
-		// Función inteligente del botón Atrás
 		backButton.onclick = () => {
 			if (currentProjectIndex !== null && currentProjectCategory !== null) {
-				// Estamos en Vista 4 → Volver a Vista 3
 				closeProjectViewer();
 			} else {
-				// Estamos en Vista 3 → Volver a Vista 2
 				closeCategoryDetail();
 			}
 		};
@@ -1211,7 +1191,6 @@ function openProjectViewer(categoryIndex, projectIndex) {
 			navBtn.textContent = cat.title;
 			navBtn.onclick = () => {
 				if (idx !== categoryIndex) {
-					// Cambiar a otra categoría - volver a Vista 3
 					currentProjectIndex = null;
 					currentProjectCategory = null;
 					openCategoryDetail(idx);
@@ -1224,7 +1203,6 @@ function openProjectViewer(categoryIndex, projectIndex) {
 		detailHeader.appendChild(divider);
 		detailHeader.appendChild(categoryNav);
 	} else {
-		// Actualizar los botones de categoría activos
 		const categoryNavBtns = detailHeader.querySelectorAll('.category-nav-btn');
 		categoryNavBtns.forEach((btn, idx) => {
 			if (idx === categoryIndex) {
@@ -1235,38 +1213,31 @@ function openProjectViewer(categoryIndex, projectIndex) {
 		});
 	}
 
-	// SIEMPRE actualizar el event listener del botón Atrás cuando estamos en Vista 4
 	const backButton = detailHeader.querySelector('.back-button');
 	if (backButton) {
-		// Remover listener anterior clonando el botón
 		const newBackButton = backButton.cloneNode(true);
 		backButton.parentNode.replaceChild(newBackButton, backButton);
 
-		// Asignar nuevo listener para Vista 4
 		newBackButton.onclick = () => {
 			closeProjectViewer();
 		};
 	}
 
-	// Eliminar solo el viewer antiguo si existe
 	const oldViewer = categoriesContainer.querySelector('.project-viewer');
 	if (oldViewer) {
 		oldViewer.remove();
 	}
 
-	// Eliminar el grid de categorías si existe
 	const oldGrid = categoriesContainer.querySelector('.category-detail-grid');
 	if (oldGrid) {
 		oldGrid.remove();
 	}
 
-	// Si necesitamos crear el header, limpiamos todo y lo añadimos
 	if (needsHeaderCreation) {
 		categoriesContainer.innerHTML = '';
 		categoriesContainer.appendChild(detailHeader);
 	}
 
-	// CREAR LA VISTA 4
 	const projectViewer = document.createElement('div');
 	projectViewer.className = 'project-viewer active';
 	projectViewer.id = 'projectViewer';
@@ -1274,9 +1245,15 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	const projectContainer = document.createElement('div');
 	projectContainer.className = 'project-viewer-container';
 
-	// SIDEBAR IZQUIERDA
 	const sidebarLeft = document.createElement('div');
 	sidebarLeft.className = 'project-sidebar-left';
+
+	const titleSection = document.createElement('div');
+	titleSection.className = 'project-title-section';
+	titleSection.innerHTML = `
+		<div class="project-viewer-title">${projectData.title || 'Sin título'}</div>
+		<div class="project-viewer-subtitle">${projectData.subtitle || ''}</div>
+	`;
 
 	const descSection = document.createElement('div');
 	descSection.className = 'project-description';
@@ -1310,34 +1287,33 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	}
 
 	linksSection.appendChild(linksContainer);
+	sidebarLeft.appendChild(titleSection);
 	sidebarLeft.appendChild(descSection);
 	sidebarLeft.appendChild(linksSection);
 
-	// VIEWER CENTRAL
 	const mainViewer = document.createElement('div');
 	mainViewer.className = 'project-main-viewer';
-
-	const header = document.createElement('div');
-	header.className = 'project-viewer-header';
-	header.innerHTML = `
-		<div class="project-viewer-title-container">
-			<div class="project-viewer-title">${projectData.title || 'Sin título'}</div>
-			<div class="project-viewer-subtitle">${projectData.subtitle || ''}</div>
-		</div>
-		<div class="project-viewer-nav">
-			<button class="project-nav-btn" id="projectPrevBtn" title="Proyecto anterior">‹</button>
-			<button class="project-nav-btn" id="projectNextBtn" title="Proyecto siguiente">›</button>
-		</div>
-	`;
 
 	const imagesScroll = document.createElement('div');
 	imagesScroll.className = 'project-images-scroll';
 	imagesScroll.id = 'projectImagesScroll';
 
-	mainViewer.appendChild(header);
-	mainViewer.appendChild(imagesScroll);
+	const prevButton = document.createElement('button');
+	prevButton.className = 'project-nav-btn project-nav-prev';
+	prevButton.id = 'projectPrevBtn';
+	prevButton.title = 'Proyecto anterior';
+	prevButton.innerHTML = '‹';
 
-	// SIDEBAR DERECHA
+	const nextButton = document.createElement('button');
+	nextButton.className = 'project-nav-btn project-nav-next';
+	nextButton.id = 'projectNextBtn';
+	nextButton.title = 'Proyecto siguiente';
+	nextButton.innerHTML = '›';
+
+	mainViewer.appendChild(prevButton);
+	mainViewer.appendChild(imagesScroll);
+	mainViewer.appendChild(nextButton);
+
 	const sidebarRight = document.createElement('div');
 	sidebarRight.className = 'project-sidebar-right';
 
@@ -1347,14 +1323,12 @@ function openProjectViewer(categoryIndex, projectIndex) {
 
 	sidebarRight.appendChild(thumbnailsContainer);
 
-	// ENSAMBLAR TODO
 	projectContainer.appendChild(sidebarLeft);
 	projectContainer.appendChild(mainViewer);
 	projectContainer.appendChild(sidebarRight);
 	projectViewer.appendChild(projectContainer);
 	categoriesContainer.appendChild(projectViewer);
 
-	// CARGAR IMÁGENES
 	const allImages = projectData.images || [];
 
 	if (allImages.length === 0) {
@@ -1383,7 +1357,6 @@ function openProjectViewer(categoryIndex, projectIndex) {
 
 			thumbnail.appendChild(thumbImg);
 
-			// Capturar la referencia al scroll container aquí
 			const currentScrollContainer = imagesScroll;
 			thumbnail.onclick = (e) => {
 				e.preventDefault();
@@ -1413,12 +1386,16 @@ function openProjectViewer(categoryIndex, projectIndex) {
 
 	updateProjectNavButtons();
 
-	// EVENT LISTENERS
 	const prevBtn = document.getElementById('projectPrevBtn');
 	const nextBtn = document.getElementById('projectNextBtn');
 
 	if (prevBtn) prevBtn.onclick = () => navigateProject(-1);
 	if (nextBtn) nextBtn.onclick = () => navigateProject(1);
+
+	// Auto-scroll to first image when opening project viewer
+	setTimeout(() => {
+		scrollToImage(0, imagesScroll);
+	}, 100);
 }
 
 function scrollToImage(index, scrollContainer) {
@@ -1429,11 +1406,9 @@ function scrollToImage(index, scrollContainer) {
 
 	const imageItem = scrollContainer.querySelector(`[data-image-index="${index}"]`);
 	if (imageItem) {
-		// Obtener la posición del elemento relativa al contenedor de scroll
 		const containerRect = scrollContainer.getBoundingClientRect();
 		const itemRect = imageItem.getBoundingClientRect();
 
-		// Calcular cuánto necesitamos hacer scroll para centrar el elemento
 		const currentScroll = scrollContainer.scrollTop;
 		const itemRelativeTop = itemRect.top - containerRect.top;
 		const scrollTarget = currentScroll + itemRelativeTop - (containerRect.height / 2) + (itemRect.height / 2);
@@ -1471,7 +1446,6 @@ function navigateProject(direction) {
 	const newIndex = currentProjectIndex + direction;
 
 	if (newIndex >= 0 && newIndex < categoryData.images.length) {
-		// Guardar el header antes de cambiar
 		const categoriesContainer = document.getElementById('categoriesContainer');
 		const existingHeader = categoriesContainer.querySelector('.category-detail-header');
 
