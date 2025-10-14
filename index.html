@@ -46,7 +46,7 @@
 					<div id="cv-maya"><img src="images/Maya.png" alt="Maya"></div>
 					<div id="cv-blender"><img src="images/Blender.png" alt="Blender"></div>
 					<div id="cv-unity"><img src="images/Unity.png" alt="Unity"></div>
-					<div id="cv-illustrator"><img src="images/Ilustrator.png" alt="Illustrator"></div>
+					<div id="cv-illustrator"><img src="images/Ilustator.png" alt="Illustrator"></div>
 					<div id="cv-entrada2"><img src="images/Entrada2.png" alt="Entrada 2"></div>
 					<div id="cv-entrada1"><img src="images/Entrada1.png" alt="Entrada 1"></div>
 					<div id="cv-cinta-video2"><img src="images/CintaVideo2.png" alt="Cinta Video 2"></div>
@@ -204,6 +204,8 @@
 		let animationComplete = false;
 		let portfolioAnimated = false;
 		let selectedCard = null;
+		let categoryDetailView = false;
+		let currentCategoryIndex = null;
 
 		const tooltip = document.getElementById('customTooltip');
 		const tooltipText = tooltip.querySelector('.tooltip-text');
@@ -248,13 +250,13 @@
 				preloadAllImages();
 			} catch (error) {
 				console.error('❌ Error loading portfolio data:', error);
-				console.error('⚠️  Asegúrate de que existe el archivo portfolio-data.json');
-				console.error('⚠️  Ejecuta el script generate_portfolio.py primero');
+				console.error('⚠️ Asegúrate de que existe el archivo portfolio-data.json');
+				console.error('⚠️ Ejecuta el script generate_portfolio.py primero');
 			}
 		}
 
 		function preloadAllImages() {
-			console.log('🖼️  Precargando imágenes del portfolio...');
+			console.log('🖼️ Precargando imágenes del portfolio...');
 			let totalImages = 0;
 			let loadedImages = 0;
 
@@ -272,7 +274,7 @@
 							}
 						};
 						img.onerror = () => {
-							console.warn(`⚠️  Error cargando: ${imageSrc}`);
+							console.warn(`⚠️ Error cargando: ${imageSrc}`);
 							loadedImages++;
 						};
 						img.src = imageSrc;
@@ -762,7 +764,6 @@
 				curriculumSection.classList.add('slide-left');
 				portfolioSection.classList.add('slide-left');
 
-				// Si hay una categoría seleccionada, mostrar su nombre; si no, mostrar "Portfolio"
 				if (currentCategory && portfolioData[currentCategory]) {
 					sectionTitleHeader.textContent = portfolioData[currentCategory].name;
 				} else {
@@ -843,7 +844,6 @@
 			cardOrder.forEach((category, index) => {
 				const pos = calculateMenuPosition(index);
 
-				// Obtener la carta original para copiar su imagen y subtitle
 				const originalCard = document.querySelector(`.card-wrapper[data-category="${category}"]`);
 				const backImage = originalCard.querySelector('.card-back img');
 				const subtitleImage = originalCard.querySelector('.card-subtitle img');
@@ -864,7 +864,6 @@
 				placeholder.style.pointerEvents = 'none';
 				placeholder.style.overflow = 'visible';
 
-				// Crear contenedor para la carta con overflow hidden
 				const cardContainer = document.createElement('div');
 				cardContainer.style.position = 'relative';
 				cardContainer.style.width = '100%';
@@ -873,7 +872,6 @@
 				cardContainer.style.border = '2px solid rgba(255, 255, 255, 0.1)';
 				cardContainer.style.overflow = 'hidden';
 
-				// Crear una imagen de fondo con la carta trasera
 				if (backImage) {
 					const img = document.createElement('img');
 					img.src = backImage.src;
@@ -886,7 +884,6 @@
 
 				placeholder.appendChild(cardContainer);
 
-				// Crear el subtitle transparente fuera del contenedor de la carta
 				if (subtitleImage) {
 					const subtitleDiv = document.createElement('div');
 					subtitleDiv.className = 'placeholder-subtitle';
@@ -950,12 +947,7 @@
 			const categoriesContainer = document.getElementById('categoriesContainer');
 			const sectionData = portfolioData[sectionKey];
 
-			console.log('renderCategories called with:', sectionKey);
-			console.log('Section data:', sectionData);
-			console.log('Categories container:', categoriesContainer);
-
 			if (!sectionData || sectionData.categories.length === 0) {
-				console.log('No categories to show');
 				categoriesContainer.style.display = 'none';
 				return;
 			}
@@ -969,10 +961,7 @@
 				}
 			});
 
-			console.log('Max images:', maxImagesInAnyCategory);
-
 			const numColumns = sectionData.categories.length;
-
 			let useOneColumn = false;
 
 			if (maxImagesInAnyCategory === 1) {
@@ -980,24 +969,13 @@
 			} else if (maxImagesInAnyCategory === 2) {
 				if (numColumns >= 4) {
 					useOneColumn = true;
-				} else {
-					useOneColumn = false;
 				}
-			} else {
-				useOneColumn = false;
 			}
 
 			const containerWidth = 1200;
 			const columnWidth = containerWidth / numColumns;
 			const imageWidth = useOneColumn ? columnWidth : (columnWidth / 2);
-
 			const useThumb = imageWidth < 200;
-
-			console.log('Max images:', maxImagesInAnyCategory);
-			console.log('Num columns:', numColumns);
-			console.log('Use one column:', useOneColumn);
-			console.log('Image width in screen:', imageWidth + 'px');
-			console.log('Use thumbnail:', useThumb);
 
 			sectionData.categories.forEach((categoryData, index) => {
 				const categoryColumn = document.createElement('div');
@@ -1027,13 +1005,7 @@
 						const srcEncoded = imageData.src.replace(/ /g, '%20');
 						const thumbEncoded = imageData.thumb ? imageData.thumb.replace(/ /g, '%20') : null;
 
-						if (useThumb && thumbEncoded) {
-							img.src = thumbEncoded;
-							console.log('Using THUMB:', thumbEncoded);
-						} else {
-							img.src = srcEncoded;
-							console.log('Using NORMAL:', srcEncoded);
-						}
+						img.src = (useThumb && thumbEncoded) ? thumbEncoded : srcEncoded;
 					} else {
 						img.src = imageData;
 					}
@@ -1053,19 +1025,185 @@
 				}, index * 100);
 			});
 
-			console.log('Setting display flex');
-			setTimeout(() => {
-				categoriesContainer.style.display = 'flex';
-				console.log('Categories container display:', categoriesContainer.style.display);
-			}, 50);
+			categoriesContainer.style.display = 'flex';
 		}
 
 		function handleCategoryClick(e) {
 			const categoryColumn = e.target.closest('.category-column');
 			if (!categoryColumn) return;
 
-			const categoryIndex = categoryColumn.dataset.categoryIndex;
+			const categoryIndex = parseInt(categoryColumn.dataset.categoryIndex);
 			console.log('Clicked category:', categoryIndex);
+
+			openCategoryDetail(categoryIndex);
+		}
+
+		function openCategoryDetail(categoryIndex) {
+			const categoriesContainer = document.getElementById('categoriesContainer');
+
+			if (categoryDetailView && currentCategoryIndex !== null) {
+				currentCategoryIndex = categoryIndex;
+				renderCategoryDetail(categoryIndex);
+				return;
+			}
+
+			categoryDetailView = true;
+			currentCategoryIndex = categoryIndex;
+
+			const cardsContainer = document.getElementById('cardsContainer');
+
+			const allCardWrappers = document.querySelectorAll('.card-wrapper');
+			allCardWrappers.forEach(wrapper => {
+				if (!wrapper.classList.contains('featured')) {
+					wrapper.style.transition = 'none';
+					wrapper.style.opacity = '0';
+					wrapper.style.pointerEvents = 'none';
+				}
+			});
+
+			const allPlaceholders = document.querySelectorAll('.card-placeholder');
+			allPlaceholders.forEach(placeholder => {
+				placeholder.style.transition = 'none';
+				placeholder.style.opacity = '0';
+			});
+
+			categoriesContainer.classList.add('expanded');
+			renderCategoryDetail(categoryIndex);
+		}
+
+		function closeCategoryDetail() {
+			categoryDetailView = false;
+			currentCategoryIndex = null;
+
+			const cardsContainer = document.getElementById('cardsContainer');
+			const categoriesContainer = document.getElementById('categoriesContainer');
+
+			categoriesContainer.classList.remove('expanded');
+
+			renderCategories(currentCategory);
+
+			const allCardWrappers = document.querySelectorAll('.card-wrapper');
+			allCardWrappers.forEach(wrapper => {
+				if (!wrapper.classList.contains('featured')) {
+					wrapper.style.transition = 'none';
+					wrapper.style.opacity = '1';
+					wrapper.style.pointerEvents = 'auto';
+					wrapper.style.transform = wrapper.classList.contains('in-menu') ?
+						'scale(1.2) rotateZ(90deg)' : 'translateY(0)';
+				}
+			});
+
+			const allPlaceholders = document.querySelectorAll('.card-placeholder');
+			allPlaceholders.forEach(placeholder => {
+				const wrapper = document.querySelector(`.card-wrapper[data-category="${placeholder.dataset.category}"]`);
+				if (wrapper && wrapper.classList.contains('featured')) {
+					placeholder.style.transition = 'none';
+					placeholder.style.opacity = '1';
+					placeholder.style.transform = 'scale(1.2) rotateZ(90deg)';
+				}
+			});
+		}
+
+		function renderCategoryDetail(categoryIndex) {
+			const categoriesContainer = document.getElementById('categoriesContainer');
+			const sectionData = portfolioData[currentCategory];
+
+			if (!sectionData || !sectionData.categories[categoryIndex]) {
+				console.error('Category not found');
+				return;
+			}
+
+			const categoryData = sectionData.categories[categoryIndex];
+
+			categoriesContainer.innerHTML = '';
+
+			const detailHeader = document.createElement('div');
+			detailHeader.className = 'category-detail-header';
+
+			const backButton = document.createElement('button');
+			backButton.className = 'back-button';
+			backButton.style.display = 'flex';
+			backButton.innerHTML = '← Atrás';
+			backButton.onclick = closeCategoryDetail;
+
+			const divider = document.createElement('div');
+			divider.className = 'category-detail-header-divider';
+
+			const categoryNav = document.createElement('div');
+			categoryNav.className = 'category-navigation';
+			categoryNav.style.display = 'flex';
+
+			sectionData.categories.forEach((cat, idx) => {
+				const navBtn = document.createElement('button');
+				navBtn.className = 'category-nav-btn';
+				if (idx === categoryIndex) {
+					navBtn.classList.add('active');
+				}
+				navBtn.textContent = cat.title;
+				navBtn.onclick = () => {
+					if (idx !== categoryIndex) {
+						openCategoryDetail(idx);
+					}
+				};
+				categoryNav.appendChild(navBtn);
+			});
+
+			detailHeader.appendChild(backButton);
+			detailHeader.appendChild(divider);
+			detailHeader.appendChild(categoryNav);
+
+			const detailGrid = document.createElement('div');
+			detailGrid.className = 'category-detail-grid';
+
+			categoryData.images.forEach((imageData, imgIndex) => {
+				const imageContainer = document.createElement('div');
+				imageContainer.className = 'category-detail-image';
+				imageContainer.dataset.imageIndex = imgIndex;
+
+				// Título
+				const title = document.createElement('div');
+				title.className = 'category-detail-image-title';
+				title.textContent = imageData.title || 'Sin título';
+
+				// Wrapper de la imagen
+				const imageWrapper = document.createElement('div');
+				imageWrapper.className = 'category-detail-image-wrapper';
+
+				const img = document.createElement('img');
+				if (typeof imageData === 'object' && imageData.src) {
+					img.src = imageData.src.replace(/ /g, '%20');
+				} else {
+					img.src = imageData;
+				}
+				img.alt = imageData.title || categoryData.title;
+
+				imageWrapper.appendChild(img);
+
+				// Subtítulo
+				const subtitle = document.createElement('div');
+				subtitle.className = 'category-detail-image-subtitle';
+				subtitle.textContent = imageData.subtitle || '';
+
+				// Construir el contenedor
+				imageContainer.appendChild(title);
+				imageContainer.appendChild(imageWrapper);
+				if (imageData.subtitle) {
+					imageContainer.appendChild(subtitle);
+				}
+
+				// Click para abrir modal
+				imageContainer.onclick = () => {
+					modal.classList.add('active');
+					modalImage.src = img.src;
+					modalImage.removeAttribute('data-no-card-effect');
+					document.body.style.overflow = 'hidden';
+				};
+
+				detailGrid.appendChild(imageContainer);
+			});
+
+			categoriesContainer.appendChild(detailHeader);
+			categoriesContainer.appendChild(detailGrid);
 		}
 
 		function handleCardClick(e) {
@@ -1132,7 +1270,6 @@
 
 			currentCategory = category;
 
-			// Actualizar el título del header con el nombre de la sección
 			if (portfolioData[category]) {
 				sectionTitleHeader.textContent = portfolioData[category].name;
 			}

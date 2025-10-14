@@ -6,44 +6,54 @@
         "title": "MODELADO Y TEXTURICACIÓN 3D",
         "images": [
           {
-            "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
-          },
-          {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights"
+            "title": "Bubble Heights",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/5_LAYMA/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
+          },
+          {
+            "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/portada.jpg",
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -52,35 +62,43 @@
         "images": [
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -89,27 +107,33 @@
         "images": [
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -118,23 +142,28 @@
         "images": [
           {
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/1_PING_PONG_BONASPORT/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/2_EL_BEDEL_DE_LA_UNI_BOOKTRAILER/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/3_METAMORPHOSIS_TRAILER/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/4_THE_CLAUSTRUM_TEST/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/5_MI_PRIMERA_EDICION/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -143,19 +172,23 @@
         "images": [
           {
             "src": "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\ARTE/5_ANIMACION/4_EVIL_TOM_HOLLAND/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       }
@@ -169,19 +202,23 @@
         "images": [
           {
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -190,31 +227,38 @@
         "images": [
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -223,15 +267,18 @@
         "images": [
           {
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -240,15 +287,18 @@
         "images": [
           {
             "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       }
@@ -262,15 +312,18 @@
         "images": [
           {
             "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -279,15 +332,18 @@
         "images": [
           {
             "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -296,11 +352,13 @@
         "images": [
           {
             "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       }
@@ -314,11 +372,13 @@
         "images": [
           {
             "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -327,7 +387,8 @@
         "images": [
           {
             "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -336,7 +397,8 @@
         "images": [
           {
             "src": "proyectos\\PRODUCCION/3_ORGANIZACION_DE_ESCAPE_ROOMS/1_ORGANIZACION_DE_ESCAPE_ROOMS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -345,7 +407,8 @@
         "images": [
           {
             "src": "proyectos\\PRODUCCION/4_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       }
@@ -359,11 +422,13 @@
         "images": [
           {
             "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       },
@@ -372,11 +437,13 @@
         "images": [
           {
             "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           },
           {
             "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO"
+            "title": "Bubble Heights - VIDEOJUEGO",
+            "subtitle": "Modelado 3D de personajes y escenarios"
           }
         ]
       }
