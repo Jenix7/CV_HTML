@@ -1435,6 +1435,26 @@
 				});
 			}
 
+			// SIEMPRE actualizar el event listener del botón Atrás cuando estamos en Vista 4
+			const backButton = detailHeader.querySelector('.back-button');
+			console.log('🔍 Buscando botón Atrás con clase .back-button:', backButton);
+			console.log('🔍 detailHeader:', detailHeader);
+			if (backButton) {
+				// Remover listener anterior clonando el botón
+				const newBackButton = backButton.cloneNode(true);
+				backButton.parentNode.replaceChild(newBackButton, backButton);
+				console.log('✅ Botón Atrás actualizado para Vista 4');
+
+				// Asignar nuevo listener para Vista 4
+				newBackButton.onclick = () => {
+					console.log('🔙 Click en Atrás desde Vista 4');
+					closeProjectViewer();
+				};
+			} else {
+				console.error('❌ No se encontró el botón Atrás en el header');
+				console.error('❌ Header HTML:', detailHeader ? detailHeader.innerHTML : 'detailHeader es null');
+			}
+
 			// Eliminar solo el viewer antiguo si existe
 			const oldViewer = categoriesContainer.querySelector('.project-viewer');
 			if (oldViewer) {
