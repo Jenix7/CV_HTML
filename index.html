@@ -1042,16 +1042,19 @@
 			const categoriesContainer = document.getElementById('categoriesContainer');
 
 			if (categoryDetailView && currentCategoryIndex !== null) {
+				// Cambio directo entre categorías (sin animación)
 				currentCategoryIndex = categoryIndex;
 				renderCategoryDetail(categoryIndex);
 				return;
 			}
 
+			// Primera vez entrando a Vista 3 (con animación)
 			categoryDetailView = true;
 			currentCategoryIndex = categoryIndex;
 
 			const cardsContainer = document.getElementById('cardsContainer');
 
+			// Ocultar cartas y placeholders sin animación
 			const allCardWrappers = document.querySelectorAll('.card-wrapper');
 			allCardWrappers.forEach(wrapper => {
 				if (!wrapper.classList.contains('featured')) {
@@ -1067,8 +1070,20 @@
 				placeholder.style.opacity = '0';
 			});
 
+			// Expandir y animar la entrada
 			categoriesContainer.classList.add('expanded');
+			categoriesContainer.style.opacity = '0';
+
+			// Renderizar contenido
 			renderCategoryDetail(categoryIndex);
+
+			// Animar entrada con un pequeño delay
+			requestAnimationFrame(() => {
+				requestAnimationFrame(() => {
+					categoriesContainer.style.transition = 'opacity 0.4s ease-out';
+					categoriesContainer.style.opacity = '1';
+				});
+			});
 		}
 
 		function closeCategoryDetail() {
@@ -1078,10 +1093,12 @@
 			const cardsContainer = document.getElementById('cardsContainer');
 			const categoriesContainer = document.getElementById('categoriesContainer');
 
+			// Cerrar directamente sin animación
 			categoriesContainer.classList.remove('expanded');
 
 			renderCategories(currentCategory);
 
+			// Restaurar cartas directamente en sus posiciones finales
 			const allCardWrappers = document.querySelectorAll('.card-wrapper');
 			allCardWrappers.forEach(wrapper => {
 				if (!wrapper.classList.contains('featured')) {
@@ -1114,6 +1131,7 @@
 			}
 
 			const categoryData = sectionData.categories[categoryIndex];
+			const isFirstRender = !categoriesContainer.querySelector('.category-detail-header');
 
 			categoriesContainer.innerHTML = '';
 
@@ -1200,6 +1218,17 @@
 				};
 
 				detailGrid.appendChild(imageContainer);
+
+				// Animar solo en la primera entrada (Vista 2 → Vista 3)
+				if (isFirstRender) {
+					setTimeout(() => {
+						imageContainer.classList.add('animate-in');
+					}, imgIndex * 50);
+				} else {
+					// Sin animación al cambiar entre categorías
+					imageContainer.style.opacity = '1';
+					imageContainer.style.transform = 'translateY(0)';
+				}
 			});
 
 			categoriesContainer.appendChild(detailHeader);
