@@ -126,13 +126,15 @@ def generate_portfolio_data():
                 info_path = os.path.join(project_path, "info.json")
                 project_title = project_folder
                 project_subtitle = ""
+                project_description = ""
+                project_links = []
 
                 if os.path.exists(info_path):
                     try:
                         with open(info_path, 'r', encoding='utf-8') as f:
                             info_content = f.read().strip()
 
-                            # Parsear el formato "Tit:xxx\nSub:xxx"
+                            # Parsear el formato
                             lines = info_content.split('\n')
                             for line in lines:
                                 line = line.strip()
@@ -140,18 +142,72 @@ def generate_portfolio_data():
                                     project_title = line[4:].strip()
                                 elif line.startswith('Sub:'):
                                     project_subtitle = line[4:].strip()
+                                elif line.startswith('Des:'):
+                                    project_description = line[4:].strip()
+                                elif line.startswith('Link_'):
+                                    # Parsear Link_X:("texto","url","icono.png")
+                                    try:
+                                        link_content = line.split(':', 1)[1].strip()
+                                        # Extraer contenido entre paréntesis
+                                        if link_content.startswith('(') and link_content.endswith(')'):
+                                            link_content = link_content[1:-1]
+                                            # Separar por comas respetando comillas
+                                            parts = []
+                                            current = ""
+                                            in_quotes = False
+                                            for char in link_content:
+                                                if char == '"':
+                                                    in_quotes = not in_quotes
+                                                elif char == ',' and not in_quotes:
+                                                    parts.append(current.strip().strip('"'))
+                                                    current = ""
+                                                    continue
+                                                current += char
+                                            parts.append(current.strip().strip('"'))
+
+                                            if len(parts) >= 3:
+                                                project_links.append({
+                                                    "text": parts[0],
+                                                    "url": parts[1],
+                                                    "icon": parts[2]
+                                                })
+                                    except Exception as e:
+                                        print(f"    ⚠️  Error parseando link: {line} - {e}")
 
                             print(f"    ✓ {project_title} - {project_subtitle}")
+                            print(f"      Links: {len(project_links)}, Descripción: {len(project_description)} chars")
                     except Exception as e:
                         print(f"    ⚠️  Error leyendo {info_path}: {e}")
                 else:
                     print(f"    ⚠️  No se encontró info.json en {project_folder}")
 
-                # Agregar imagen con su información
+                # Buscar imágenes adicionales (1.jpg, 2.jpg, 3.jpg, etc.)
+                additional_images = []
+                img_number = 1
+                while True:
+                    img_jpg = os.path.join(project_path, f"{img_number}.jpg")
+                    img_png = os.path.join(project_path, f"{img_number}.png")
+
+                    if os.path.exists(img_jpg):
+                        additional_images.append(f"{section_path}/{category_folder}/{project_folder}/{img_number}.jpg")
+                        img_number += 1
+                    elif os.path.exists(img_png):
+                        additional_images.append(f"{section_path}/{category_folder}/{project_folder}/{img_number}.png")
+                        img_number += 1
+                    else:
+                        break
+
+                if additional_images:
+                    print(f"      Imágenes adicionales: {len(additional_images)}")
+
+                # Agregar imagen con toda su información
                 images.append({
                     "src": portada_relative,
                     "title": project_title,
-                    "subtitle": project_subtitle
+                    "subtitle": project_subtitle,
+                    "description": project_description,
+                    "links": project_links,
+                    "images": additional_images
                 })
 
             print(f"  ✅ {category_title}: {len(images)} imágenes")

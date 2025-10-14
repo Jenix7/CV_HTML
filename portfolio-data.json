@@ -8,52 +8,284 @@
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/1.png",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/2.png",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/3.png",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/4.png",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/5.png"
+            ]
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/1.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/2.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/1.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/2.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/1.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/2.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/5_LAYMA/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/5_LAYMA/1.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/5_LAYMA/2.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/5_LAYMA/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/1.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/2.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/1.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/2.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/1.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/2.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/1.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/2.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/1.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/2.jpg",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/3.jpg"
+            ]
           }
         ]
       },
@@ -63,42 +295,226 @@
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/1.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/2.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/1.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/2.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/1.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/2.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/1.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/2.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/1.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/2.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/1.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/2.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/1.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/2.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/1.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/2.jpg",
+              "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/3.jpg"
+            ]
           }
         ]
       },
@@ -108,32 +524,170 @@
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/1.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/2.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/1.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/2.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/1.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/2.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/1.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/2.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/1.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/2.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/1.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/2.jpg",
+              "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/3.jpg"
+            ]
           }
         ]
       },
@@ -143,27 +697,142 @@
           {
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/1_PING_PONG_BONASPORT/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/1_PING_PONG_BONASPORT/1.jpg",
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/1_PING_PONG_BONASPORT/2.jpg",
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/1_PING_PONG_BONASPORT/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/2_EL_BEDEL_DE_LA_UNI_BOOKTRAILER/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/2_EL_BEDEL_DE_LA_UNI_BOOKTRAILER/1.jpg",
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/2_EL_BEDEL_DE_LA_UNI_BOOKTRAILER/2.jpg",
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/2_EL_BEDEL_DE_LA_UNI_BOOKTRAILER/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/3_METAMORPHOSIS_TRAILER/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/3_METAMORPHOSIS_TRAILER/1.jpg",
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/3_METAMORPHOSIS_TRAILER/2.jpg",
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/3_METAMORPHOSIS_TRAILER/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/4_THE_CLAUSTRUM_TEST/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/4_THE_CLAUSTRUM_TEST/1.jpg",
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/4_THE_CLAUSTRUM_TEST/2.jpg",
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/4_THE_CLAUSTRUM_TEST/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/5_MI_PRIMERA_EDICION/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/5_MI_PRIMERA_EDICION/1.jpg",
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/5_MI_PRIMERA_EDICION/2.jpg",
+              "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/5_MI_PRIMERA_EDICION/3.jpg"
+            ]
           }
         ]
       },
@@ -173,22 +842,114 @@
           {
             "src": "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/1.jpg",
+              "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/2.jpg",
+              "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/1.jpg",
+              "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/2.jpg",
+              "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/1.jpg",
+              "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/2.jpg",
+              "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\ARTE/5_ANIMACION/4_EVIL_TOM_HOLLAND/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\ARTE/5_ANIMACION/4_EVIL_TOM_HOLLAND/1.jpg",
+              "proyectos\\ARTE/5_ANIMACION/4_EVIL_TOM_HOLLAND/2.jpg",
+              "proyectos\\ARTE/5_ANIMACION/4_EVIL_TOM_HOLLAND/3.jpg"
+            ]
           }
         ]
       }
@@ -203,22 +964,114 @@
           {
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/1.jpg",
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/2.jpg",
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/1.jpg",
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/2.jpg",
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/1.jpg",
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/2.jpg",
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/1.jpg",
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/2.jpg",
+              "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/3.jpg"
+            ]
           }
         ]
       },
@@ -228,37 +1081,198 @@
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/1.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/2.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/1.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/2.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/1.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/2.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/1.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/2.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/1.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/2.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/1.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/2.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/1.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/2.jpg",
+              "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/3.jpg"
+            ]
           }
         ]
       },
@@ -268,17 +1282,86 @@
           {
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/1.jpg",
+              "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/2.jpg",
+              "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/1.jpg",
+              "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/2.jpg",
+              "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/1.jpg",
+              "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/2.jpg",
+              "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/3.jpg"
+            ]
           }
         ]
       },
@@ -288,17 +1371,86 @@
           {
             "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/1.jpg",
+              "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/2.jpg",
+              "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/1.jpg",
+              "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/2.jpg",
+              "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/1.jpg",
+              "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/2.jpg",
+              "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/3.jpg"
+            ]
           }
         ]
       }
@@ -313,17 +1465,86 @@
           {
             "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/1.jpg",
+              "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/2.jpg",
+              "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/1.jpg",
+              "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/2.jpg",
+              "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/1.jpg",
+              "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/2.jpg",
+              "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/3.jpg"
+            ]
           }
         ]
       },
@@ -333,17 +1554,86 @@
           {
             "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/1.jpg",
+              "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/2.jpg",
+              "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/1.jpg",
+              "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/2.jpg",
+              "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/1.jpg",
+              "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/2.jpg",
+              "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/3.jpg"
+            ]
           }
         ]
       },
@@ -353,12 +1643,58 @@
           {
             "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/1.jpg",
+              "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/2.jpg",
+              "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/1.jpg",
+              "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/2.jpg",
+              "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/3.jpg"
+            ]
           }
         ]
       }
@@ -373,12 +1709,58 @@
           {
             "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/1.jpg",
+              "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/2.jpg",
+              "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/1.jpg",
+              "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/2.jpg",
+              "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/3.jpg"
+            ]
           }
         ]
       },
@@ -388,7 +1770,30 @@
           {
             "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/1.jpg",
+              "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/2.jpg",
+              "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/3.jpg"
+            ]
           }
         ]
       },
@@ -398,7 +1803,30 @@
           {
             "src": "proyectos\\PRODUCCION/3_ORGANIZACION_DE_ESCAPE_ROOMS/1_ORGANIZACION_DE_ESCAPE_ROOMS/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PRODUCCION/3_ORGANIZACION_DE_ESCAPE_ROOMS/1_ORGANIZACION_DE_ESCAPE_ROOMS/1.jpg",
+              "proyectos\\PRODUCCION/3_ORGANIZACION_DE_ESCAPE_ROOMS/1_ORGANIZACION_DE_ESCAPE_ROOMS/2.jpg",
+              "proyectos\\PRODUCCION/3_ORGANIZACION_DE_ESCAPE_ROOMS/1_ORGANIZACION_DE_ESCAPE_ROOMS/3.jpg"
+            ]
           }
         ]
       },
@@ -408,7 +1836,30 @@
           {
             "src": "proyectos\\PRODUCCION/4_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\PRODUCCION/4_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/1.jpg",
+              "proyectos\\PRODUCCION/4_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/2.jpg",
+              "proyectos\\PRODUCCION/4_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/3.jpg"
+            ]
           }
         ]
       }
@@ -423,12 +1874,58 @@
           {
             "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/1.jpg",
+              "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/2.jpg",
+              "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/1.jpg",
+              "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/2.jpg",
+              "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/3.jpg"
+            ]
           }
         ]
       },
@@ -438,12 +1935,58 @@
           {
             "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/1.jpg",
+              "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/2.jpg",
+              "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/3.jpg"
+            ]
           },
           {
             "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios"
+            "subtitle": "Modelado 3D de personajes y escenarios",
+            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "links": [
+              {
+                "text": "Ver Proyecto",
+                "url": "https://ejemplo.com/proyecto",
+                "icon": "link.png"
+              },
+              {
+                "text": "Video Demo",
+                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Descargar",
+                "url": "https://ejemplo.com/descarga",
+                "icon": "download.png"
+              }
+            ],
+            "images": [
+              "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/1.jpg",
+              "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/2.jpg",
+              "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/3.jpg"
+            ]
           }
         ]
       }
