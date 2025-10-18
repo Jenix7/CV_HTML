@@ -58,9 +58,9 @@
               }
             ],
             "images": [
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/1.jpg",
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/2.jpg",
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/3.jpg"
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/1.png",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/2.png",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/3.png"
             ]
           },
           {
@@ -86,9 +86,9 @@
               }
             ],
             "images": [
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/1.jpg",
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/2.jpg",
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/3.jpg"
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/1.png",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/2.png",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/3.png"
             ]
           },
           {
@@ -114,9 +114,9 @@
               }
             ],
             "images": [
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/1.jpg",
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/2.jpg",
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/3.jpg"
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/1.png",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/2.png",
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/3.png"
             ]
           },
           {
@@ -142,9 +142,7 @@
               }
             ],
             "images": [
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/5_LAYMA/1.jpg",
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/5_LAYMA/2.jpg",
-              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/5_LAYMA/3.jpg"
+              "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/5_LAYMA/1.png"
             ]
           },
           {
@@ -1192,8 +1190,8 @@
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
+            "title": "Space Grid",
+            "subtitle": "Desarrollo de un minijuego con sistemas de navegación y comportamiento de IA en NPCs",
             "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
             "links": [
               {
@@ -1220,8 +1218,8 @@
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
+            "title": "Basic Shop - Prototipo de Gameplay",
+            "subtitle": "Implementación de una mecánica de intercambio para juegos 2D",
             "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
             "links": [
               {
@@ -1248,8 +1246,8 @@
           },
           {
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
+            "title": "Basic Command - Prototipo de Gameplay",
+            "subtitle": "Implementación de una mecánica de peleas de comando para juegos 2D",
             "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
             "links": [
               {
@@ -1281,8 +1279,8 @@
         "images": [
           {
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
+            "title": "Alquílame Esta Moto",
+            "subtitle": "Desarrollo de web para un negocio de alquiler de equipación de motos",
             "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
             "links": [
               {
@@ -1309,8 +1307,8 @@
           },
           {
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
+            "title": "Branding Personal",
+            "subtitle": "Desarrollo de web personal con portfolio y CV interactivo",
             "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
             "links": [
               {
@@ -1337,8 +1335,8 @@
           },
           {
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
+            "title": "El Bedel de la Uni",
+            "subtitle": "Desarrollo de web para un libro",
             "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
             "links": [
               {

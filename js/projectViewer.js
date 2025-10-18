@@ -9,75 +9,6 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	currentProjectCategory = categoryIndex;
 	currentProjectIndex = projectIndex;
 
-	let detailHeader = categoriesContainer.querySelector('.category-detail-header');
-	let needsHeaderCreation = !detailHeader;
-
-	if (needsHeaderCreation) {
-		detailHeader = document.createElement('div');
-		detailHeader.className = 'category-detail-header';
-
-		const backButton = document.createElement('button');
-		backButton.className = 'back-button';
-		backButton.id = 'categoryBackButton';
-		backButton.style.display = 'flex';
-		backButton.innerHTML = '← Atrás';
-
-		backButton.onclick = () => {
-			if (currentProjectIndex !== null && currentProjectCategory !== null) {
-				closeProjectViewer();
-			} else {
-				closeCategoryDetail();
-			}
-		};
-
-		const divider = document.createElement('div');
-		divider.className = 'category-detail-header-divider';
-
-		const categoryNav = document.createElement('div');
-		categoryNav.className = 'category-navigation';
-		categoryNav.style.display = 'flex';
-
-		sectionData.categories.forEach((cat, idx) => {
-			const navBtn = document.createElement('button');
-			navBtn.className = 'category-nav-btn';
-			if (idx === categoryIndex) {
-				navBtn.classList.add('active');
-			}
-			navBtn.textContent = cat.title;
-			navBtn.onclick = () => {
-				if (idx !== categoryIndex) {
-					currentProjectIndex = null;
-					currentProjectCategory = null;
-					openCategoryDetail(idx);
-				}
-			};
-			categoryNav.appendChild(navBtn);
-		});
-
-		detailHeader.appendChild(backButton);
-		detailHeader.appendChild(divider);
-		detailHeader.appendChild(categoryNav);
-	} else {
-		const categoryNavBtns = detailHeader.querySelectorAll('.category-nav-btn');
-		categoryNavBtns.forEach((btn, idx) => {
-			if (idx === categoryIndex) {
-				btn.classList.add('active');
-			} else {
-				btn.classList.remove('active');
-			}
-		});
-	}
-
-	const backButton = detailHeader.querySelector('.back-button');
-	if (backButton) {
-		const newBackButton = backButton.cloneNode(true);
-		backButton.parentNode.replaceChild(newBackButton, backButton);
-
-		newBackButton.onclick = () => {
-			closeProjectViewer();
-		};
-	}
-
 	const oldViewer = categoriesContainer.querySelector('.project-viewer');
 	if (oldViewer) {
 		oldViewer.remove();
@@ -88,10 +19,77 @@ function openProjectViewer(categoryIndex, projectIndex) {
 		oldGrid.remove();
 	}
 
-	if (needsHeaderCreation) {
-		categoriesContainer.innerHTML = '';
-		categoriesContainer.appendChild(detailHeader);
+	let detailHeader = categoriesContainer.querySelector('.category-detail-header');
+	if (!detailHeader) {
+		detailHeader = document.createElement('div');
+		detailHeader.className = 'category-detail-header';
 	}
+
+	detailHeader.className = 'category-detail-header project-mode';
+	detailHeader.innerHTML = '';
+
+	const compactRow = document.createElement('div');
+	compactRow.className = 'category-compact-row';
+
+	const categoryNav = document.createElement('div');
+	categoryNav.className = 'category-navigation';
+
+	sectionData.categories.forEach((cat, idx) => {
+		const navBtn = document.createElement('button');
+		navBtn.className = 'category-nav-btn';
+		if (idx === categoryIndex) {
+			navBtn.classList.add('active');
+		}
+		navBtn.textContent = cat.title;
+		navBtn.onclick = () => {
+			if (idx !== categoryIndex) {
+				openProjectViewer(idx, 0);
+			}
+		};
+		categoryNav.appendChild(navBtn);
+	});
+
+	const thumbnailsNav = document.createElement('div');
+	thumbnailsNav.className = 'project-images-thumbnails-nav';
+	thumbnailsNav.id = 'projectImagesThumbnailsNav';
+
+	categoryData.images.forEach((project, projIdx) => {
+		const thumbNavItem = document.createElement('div');
+		thumbNavItem.className = 'project-thumbnail-nav-item';
+		if (projIdx === projectIndex) thumbNavItem.classList.add('active');
+		thumbNavItem.dataset.projectIndex = projIdx;
+
+		const thumbImg = document.createElement('img');
+		const projectSrc = typeof project === 'object' ? project.src : project;
+		const cleanSrc = projectSrc.replace(/ /g, '%20');
+
+		if (isCached(cleanSrc)) {
+			const cachedImg = getCachedImage(cleanSrc);
+			thumbImg.src = cachedImg.src;
+		} else {
+			thumbImg.src = cleanSrc;
+		}
+
+		thumbImg.alt = project.title || `Proyecto ${projIdx + 1}`;
+		thumbImg.title = project.title || `Proyecto ${projIdx + 1}`;
+
+		thumbNavItem.appendChild(thumbImg);
+
+		thumbNavItem.onclick = (e) => {
+			e.preventDefault();
+			e.stopPropagation();
+			if (projIdx !== projectIndex) {
+				openProjectViewer(categoryIndex, projIdx);
+			}
+		};
+
+		thumbnailsNav.appendChild(thumbNavItem);
+	});
+
+	compactRow.appendChild(categoryNav);
+	compactRow.appendChild(thumbnailsNav);
+
+	detailHeader.appendChild(compactRow);
 
 	const projectViewer = document.createElement('div');
 	projectViewer.className = 'project-viewer active';
@@ -102,6 +100,17 @@ function openProjectViewer(categoryIndex, projectIndex) {
 
 	const sidebarLeft = document.createElement('div');
 	sidebarLeft.className = 'project-sidebar-left';
+
+	const backButtonInSidebar = document.createElement('button');
+	backButtonInSidebar.className = 'back-button';
+	backButtonInSidebar.style.display = 'flex';
+	backButtonInSidebar.style.marginBottom = '20px';
+	backButtonInSidebar.innerHTML = '← Atrás';
+	backButtonInSidebar.onclick = () => {
+		closeProjectViewer();
+	};
+
+	sidebarLeft.appendChild(backButtonInSidebar);
 
 	const titleSection = document.createElement('div');
 	titleSection.className = 'project-title-section';
@@ -146,6 +155,18 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	sidebarLeft.appendChild(descSection);
 	sidebarLeft.appendChild(linksSection);
 
+	const sidebarRight = document.createElement('div');
+	sidebarRight.className = 'project-sidebar-right';
+
+	const thumbnailsContainer = document.createElement('div');
+	thumbnailsContainer.className = 'project-thumbnails';
+	thumbnailsContainer.id = 'projectThumbnails';
+
+	sidebarRight.appendChild(thumbnailsContainer);
+
+	const centerArea = document.createElement('div');
+	centerArea.className = 'project-center-area';
+
 	const mainViewer = document.createElement('div');
 	mainViewer.className = 'project-main-viewer';
 
@@ -169,19 +190,15 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	mainViewer.appendChild(imagesScroll);
 	mainViewer.appendChild(nextButton);
 
-	const sidebarRight = document.createElement('div');
-	sidebarRight.className = 'project-sidebar-right';
-
-	const thumbnailsContainer = document.createElement('div');
-	thumbnailsContainer.className = 'project-thumbnails';
-	thumbnailsContainer.id = 'projectThumbnails';
-
-	sidebarRight.appendChild(thumbnailsContainer);
+	centerArea.appendChild(detailHeader);
+	centerArea.appendChild(mainViewer);
 
 	projectContainer.appendChild(sidebarLeft);
-	projectContainer.appendChild(mainViewer);
+	projectContainer.appendChild(centerArea);
 	projectContainer.appendChild(sidebarRight);
 	projectViewer.appendChild(projectContainer);
+
+	categoriesContainer.innerHTML = '';
 	categoriesContainer.appendChild(projectViewer);
 
 	const allImages = projectData.images || [];
@@ -195,7 +212,17 @@ function openProjectViewer(categoryIndex, projectIndex) {
 			imageItem.dataset.imageIndex = index;
 
 			const img = document.createElement('img');
-			img.src = imageSrc.replace(/ /g, '%20');
+			const cleanSrc = imageSrc.replace(/ /g, '%20');
+
+			if (isCached(cleanSrc)) {
+				const cachedImg = getCachedImage(cleanSrc);
+				img.src = cachedImg.src;
+				img.setAttribute('data-cached', 'true');
+			} else {
+				img.src = cleanSrc;
+				img.setAttribute('loading', 'lazy');
+			}
+
 			img.alt = `${projectData.title} - Imagen ${index + 1}`;
 
 			imageItem.appendChild(img);
@@ -207,16 +234,23 @@ function openProjectViewer(categoryIndex, projectIndex) {
 			if (index === 0) thumbnail.classList.add('active');
 
 			const thumbImg = document.createElement('img');
-			thumbImg.src = imageSrc.replace(/ /g, '%20');
+
+			if (isCached(cleanSrc)) {
+				const cachedImg = getCachedImage(cleanSrc);
+				thumbImg.src = cachedImg.src;
+			} else {
+				thumbImg.src = cleanSrc;
+				thumbImg.setAttribute('loading', 'lazy');
+			}
+
 			thumbImg.alt = `Miniatura ${index + 1}`;
 
 			thumbnail.appendChild(thumbImg);
 
-			const currentScrollContainer = imagesScroll;
 			thumbnail.onclick = (e) => {
 				e.preventDefault();
 				e.stopPropagation();
-				scrollToImage(index, currentScrollContainer);
+				scrollToImage(index, imagesScroll);
 			};
 
 			thumbnailsContainer.appendChild(thumbnail);
@@ -285,6 +319,17 @@ function updateActiveThumbnail(index) {
 	});
 }
 
+function updateActiveNavThumbnail(index) {
+	const navThumbnails = document.querySelectorAll('.project-thumbnail-nav-item');
+	navThumbnails.forEach((thumb, i) => {
+		if (i === index) {
+			thumb.classList.add('active');
+		} else {
+			thumb.classList.remove('active');
+		}
+	});
+}
+
 function closeProjectViewer() {
 	currentProjectIndex = null;
 	const tempCategory = currentProjectCategory;
@@ -300,9 +345,6 @@ function navigateProject(direction) {
 	const newIndex = currentProjectIndex + direction;
 
 	if (newIndex >= 0 && newIndex < categoryData.images.length) {
-		const categoriesContainer = document.getElementById('categoriesContainer');
-		const existingHeader = categoriesContainer.querySelector('.category-detail-header');
-
 		openProjectViewer(currentProjectCategory, newIndex);
 	}
 }

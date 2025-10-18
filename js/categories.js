@@ -109,16 +109,14 @@ function openCategoryDetail(categoryIndex) {
 
 	const allCardWrappers = document.querySelectorAll('.card-wrapper');
 	allCardWrappers.forEach(wrapper => {
-		if (!wrapper.classList.contains('featured')) {
-			wrapper.style.transition = 'none';
-			wrapper.style.opacity = '0';
-			wrapper.style.pointerEvents = 'none';
-		}
+		wrapper.style.transition = 'opacity 0.3s ease';
+		wrapper.style.opacity = '0';
+		wrapper.style.pointerEvents = 'none';
 	});
 
 	const allPlaceholders = document.querySelectorAll('.card-placeholder');
 	allPlaceholders.forEach(placeholder => {
-		placeholder.style.transition = 'none';
+		placeholder.style.transition = 'opacity 0.3s ease';
 		placeholder.style.opacity = '0';
 	});
 
@@ -148,12 +146,14 @@ function closeCategoryDetail() {
 
 	const allCardWrappers = document.querySelectorAll('.card-wrapper');
 	allCardWrappers.forEach(wrapper => {
-		if (!wrapper.classList.contains('featured')) {
-			wrapper.style.transition = 'none';
-			wrapper.style.opacity = '1';
-			wrapper.style.pointerEvents = 'auto';
-			wrapper.style.transform = wrapper.classList.contains('in-menu') ?
-				'scale(1.2) rotateZ(90deg)' : 'translateY(0)';
+		wrapper.style.transition = 'opacity 0.3s ease';
+		wrapper.style.opacity = '1';
+		wrapper.style.pointerEvents = 'auto';
+
+		if (wrapper.classList.contains('featured')) {
+			wrapper.style.transform = 'scale(2.5)';
+		} else if (wrapper.classList.contains('in-menu')) {
+			wrapper.style.transform = 'scale(1.2) rotateZ(90deg)';
 		}
 	});
 
@@ -161,7 +161,7 @@ function closeCategoryDetail() {
 	allPlaceholders.forEach(placeholder => {
 		const wrapper = document.querySelector(`.card-wrapper[data-category="${placeholder.dataset.category}"]`);
 		if (wrapper && wrapper.classList.contains('featured')) {
-			placeholder.style.transition = 'none';
+			placeholder.style.transition = 'opacity 0.3s ease';
 			placeholder.style.opacity = '1';
 			placeholder.style.transform = 'scale(1.2) rotateZ(90deg)';
 		}
@@ -253,7 +253,11 @@ function renderCategoryDetail(categoryIndex) {
 		}
 
 		imageContainer.onclick = () => {
-			openProjectViewer(categoryIndex, imgIndex);
+			if (typeof openProjectViewer === 'function') {
+				openProjectViewer(categoryIndex, imgIndex);
+			} else {
+				console.error('openProjectViewer is not defined');
+			}
 		};
 
 		detailGrid.appendChild(imageContainer);
