@@ -45,12 +45,12 @@
                 "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/4.mp4"
               },
               {
-                "type": "youtube",
-                "src": "https://www.youtube.com/watch?v=XBfljElJQMw"
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/5.png"
               },
               {
-                "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/6.png"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=XBfljElJQMw"
               },
               {
                 "type": "image",
@@ -61,20 +61,36 @@
                 "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/8.png"
               },
               {
-                "type": "video",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/9.mp4"
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/9.png"
               },
               {
-                "type": "video",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/10.mp4"
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/10.png"
               },
               {
-                "type": "video",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/11.mp4"
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/11.png"
               },
               {
                 "type": "youtube",
                 "src": "https://www.youtube.com/watch?v=bPRH-fpcZxQ&feature=youtu.be"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/13.mp4"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/14.mp4"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/15.mp4"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/16.png"
               }
             ]
           },

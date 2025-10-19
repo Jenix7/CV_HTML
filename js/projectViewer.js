@@ -223,6 +223,8 @@ function openProjectViewer(categoryIndex, projectIndex) {
 				video.className = 'project-video';
 				video.controls = true;
 				video.preload = 'metadata';
+				video.loop = true;
+				video.muted = true;
 
 				const cleanSrc = mediaSrc.replace(/ /g, '%20');
 				video.src = cleanSrc;
@@ -233,6 +235,7 @@ function openProjectViewer(categoryIndex, projectIndex) {
 				});
 
 				imageItem.appendChild(video);
+				imageItem.dataset.videoElement = 'true';
 
 			} else if (mediaType === 'youtube') {
 				const iframeWrapper = document.createElement('div');
@@ -406,6 +409,18 @@ function openProjectViewer(categoryIndex, projectIndex) {
 				if (entry.isIntersecting && entry.intersectionRatio > 0.5) {
 					const index = parseInt(entry.target.dataset.imageIndex);
 					updateActiveThumbnail(index);
+
+					// Auto-reproducir videos MP4
+					const video = entry.target.querySelector('video.project-video');
+					if (video) {
+						video.play().catch(err => console.log('Error al reproducir video:', err));
+					}
+				} else {
+					// Pausar videos cuando salen del viewport
+					const video = entry.target.querySelector('video.project-video');
+					if (video) {
+						video.pause();
+					}
 				}
 			});
 		}, {
