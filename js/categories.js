@@ -67,6 +67,10 @@ function renderCategories(sectionKey) {
 
 			img.alt = categoryData.title;
 
+			img.addEventListener('load', function() {
+				this.classList.add('loaded');
+			});
+
 			imageWrapper.appendChild(img);
 			imagesGrid.appendChild(imageWrapper);
 		});
@@ -239,6 +243,10 @@ function renderCategoryDetail(categoryIndex) {
 			img.src = imageData;
 		}
 		img.alt = imageData.title || categoryData.title;
+
+		img.addEventListener('load', function() {
+			this.classList.add('loaded');
+		});
 
 		imageWrapper.appendChild(img);
 

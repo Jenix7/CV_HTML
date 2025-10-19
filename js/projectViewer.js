@@ -73,6 +73,10 @@ function openProjectViewer(categoryIndex, projectIndex) {
 		thumbImg.alt = project.title || `Proyecto ${projIdx + 1}`;
 		thumbImg.title = project.title || `Proyecto ${projIdx + 1}`;
 
+		thumbImg.addEventListener('load', function() {
+			this.classList.add('loaded');
+		});
+
 		thumbNavItem.appendChild(thumbImg);
 
 		thumbNavItem.onclick = (e) => {
@@ -225,6 +229,10 @@ function openProjectViewer(categoryIndex, projectIndex) {
 
 			img.alt = `${projectData.title} - Imagen ${index + 1}`;
 
+			img.addEventListener('load', function() {
+				this.classList.add('loaded');
+			});
+
 			imageItem.appendChild(img);
 			imagesScroll.appendChild(imageItem);
 
@@ -244,6 +252,10 @@ function openProjectViewer(categoryIndex, projectIndex) {
 			}
 
 			thumbImg.alt = `Miniatura ${index + 1}`;
+
+			thumbImg.addEventListener('load', function() {
+				this.classList.add('loaded');
+			});
 
 			thumbnail.appendChild(thumbImg);
 
