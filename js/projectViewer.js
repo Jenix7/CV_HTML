@@ -296,11 +296,6 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	setTimeout(() => {
 		scrollToImage(0, imagesScroll);
 	}, 100);
-
-	// NUEVO: Tracking del historial
-	if (typeof HistoryManager !== 'undefined') {
-		HistoryManager.trackProjectOpen(currentCategory, categoryIndex, projectIndex);
-	}
 }
 
 function scrollToImage(index, scrollContainer) {
@@ -352,9 +347,42 @@ function closeProjectViewer() {
 	const tempCategory = currentProjectCategory;
 	currentProjectCategory = null;
 	renderCategoryDetail(tempCategory);
+}
 
-	// NUEVO: Tracking del historial
-	if (typeof HistoryManager !== 'undefined') {
-		HistoryManager.trackProjectClose(currentCategory, tempCategory);
+function navigateProject(direction) {
+	const sectionData = portfolioData[currentCategory];
+	if (!sectionData || !sectionData.categories[currentProjectCategory]) return;
+
+	const categoryData = sectionData.categories[currentProjectCategory];
+	const newIndex = currentProjectIndex + direction;
+
+	if (newIndex >= 0 && newIndex < categoryData.images.length) {
+		openProjectViewer(currentProjectCategory, newIndex);
 	}
 }
+
+function updateProjectNavButtons() {
+	const sectionData = portfolioData[currentCategory];
+	if (!sectionData || !sectionData.categories[currentProjectCategory]) return;
+
+	const categoryData = sectionData.categories[currentProjectCategory];
+	const prevBtn = document.getElementById('projectPrevBtn');
+	const nextBtn = document.getElementById('projectNextBtn');
+
+	if (prevBtn && nextBtn) {
+		prevBtn.disabled = currentProjectIndex === 0;
+		nextBtn.disabled = currentProjectIndex === categoryData.images.length - 1;
+	}
+}
+
+document.addEventListener('keydown', (e) => {
+	if (currentProjectIndex !== null && currentProjectCategory !== null) {
+		if (e.key === 'Escape') {
+			closeProjectViewer();
+		} else if (e.key === 'ArrowLeft') {
+			navigateProject(-1);
+		} else if (e.key === 'ArrowRight') {
+			navigateProject(1);
+		}
+	}
+});

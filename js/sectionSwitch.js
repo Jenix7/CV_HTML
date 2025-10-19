@@ -39,9 +39,4 @@ function switchSection(section) {
 
 		document.body.className = '';
 	}
-
-	// NUEVO: Tracking del historial
-	if (typeof HistoryManager !== 'undefined') {
-		HistoryManager.trackSectionSwitch(section);
-	}
 }
