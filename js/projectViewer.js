@@ -485,9 +485,39 @@ function scrollToImage(index, scrollContainer) {
 
 function updateActiveThumbnail(index) {
 	const thumbnails = document.querySelectorAll('.project-thumbnail');
+	const sidebarRight = document.querySelector('.project-sidebar-right');
+
 	thumbnails.forEach((thumb, i) => {
 		if (i === index) {
 			thumb.classList.add('active');
+
+			// Hacer scroll en el sidebar para que la miniatura activa sea visible
+			if (sidebarRight && thumb) {
+				const thumbTop = thumb.offsetTop;
+				const thumbHeight = thumb.offsetHeight;
+				const sidebarScrollTop = sidebarRight.scrollTop;
+				const sidebarHeight = sidebarRight.clientHeight;
+
+				// Calcular si la miniatura está fuera del área visible
+				const thumbBottom = thumbTop + thumbHeight;
+				const visibleTop = sidebarScrollTop;
+				const visibleBottom = sidebarScrollTop + sidebarHeight;
+
+				// Si la miniatura está por encima del área visible
+				if (thumbTop < visibleTop) {
+					sidebarRight.scrollTo({
+						top: thumbTop - 20,
+						behavior: 'smooth'
+					});
+				}
+				// Si la miniatura está por debajo del área visible
+				else if (thumbBottom > visibleBottom) {
+					sidebarRight.scrollTo({
+						top: thumbBottom - sidebarHeight + 20,
+						behavior: 'smooth'
+					});
+				}
+			}
 		} else {
 			thumb.classList.remove('active');
 		}
