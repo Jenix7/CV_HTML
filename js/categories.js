@@ -103,6 +103,11 @@ function openCategoryDetail(categoryIndex) {
 	if (categoryDetailView && currentCategoryIndex !== null) {
 		currentCategoryIndex = categoryIndex;
 		renderCategoryDetail(categoryIndex);
+
+		// NUEVO: Tracking del historial
+		if (typeof HistoryManager !== 'undefined') {
+			HistoryManager.trackCategoryOpen(currentCategory, categoryIndex);
+		}
 		return;
 	}
 
@@ -135,6 +140,11 @@ function openCategoryDetail(categoryIndex) {
 			categoriesContainer.style.opacity = '1';
 		});
 	});
+
+	// NUEVO: Tracking del historial
+	if (typeof HistoryManager !== 'undefined') {
+		HistoryManager.trackCategoryOpen(currentCategory, categoryIndex);
+	}
 }
 
 function closeCategoryDetail() {
@@ -170,6 +180,11 @@ function closeCategoryDetail() {
 			placeholder.style.transform = 'scale(1.2) rotateZ(90deg)';
 		}
 	});
+
+	// NUEVO: Tracking del historial
+	if (typeof HistoryManager !== 'undefined') {
+		HistoryManager.trackCategoryClose(currentCategory);
+	}
 }
 
 function renderCategoryDetail(categoryIndex) {
