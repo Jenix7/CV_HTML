@@ -210,30 +210,86 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	if (allImages.length === 0) {
 		imagesScroll.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #666;">No hay imágenes disponibles</div>';
 	} else {
-		allImages.forEach((imageSrc, index) => {
+		allImages.forEach((mediaData, index) => {
 			const imageItem = document.createElement('div');
 			imageItem.className = 'project-image-item';
 			imageItem.dataset.imageIndex = index;
 
-			const img = document.createElement('img');
-			const cleanSrc = imageSrc.replace(/ /g, '%20');
+			const mediaType = typeof mediaData === 'object' ? mediaData.type : 'image';
+			const mediaSrc = typeof mediaData === 'object' ? mediaData.src : mediaData;
 
-			if (isCached(cleanSrc)) {
-				const cachedImg = getCachedImage(cleanSrc);
-				img.src = cachedImg.src;
-				img.setAttribute('data-cached', 'true');
+			if (mediaType === 'video') {
+				const video = document.createElement('video');
+				video.className = 'project-video';
+				video.controls = true;
+				video.preload = 'metadata';
+
+				const cleanSrc = mediaSrc.replace(/ /g, '%20');
+				video.src = cleanSrc;
+				video.alt = `${projectData.title} - Video ${index + 1}`;
+
+				video.addEventListener('loadedmetadata', function() {
+					this.classList.add('loaded');
+				});
+
+				imageItem.appendChild(video);
+
+			} else if (mediaType === 'youtube') {
+				const iframeWrapper = document.createElement('div');
+				iframeWrapper.className = 'project-youtube-wrapper';
+
+				const iframe = document.createElement('iframe');
+				iframe.className = 'project-youtube';
+
+				let videoId = '';
+				try {
+					const url = new URL(mediaSrc);
+					if (url.hostname.includes('youtube.com')) {
+						videoId = url.searchParams.get('v');
+					} else if (url.hostname.includes('youtu.be')) {
+						videoId = url.pathname.slice(1);
+					}
+				} catch (e) {
+					console.error('Error parsing YouTube URL:', e);
+				}
+
+				if (videoId) {
+					iframe.src = `https://www.youtube.com/embed/${videoId}`;
+					iframe.frameBorder = '0';
+					iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+					iframe.allowFullscreen = true;
+					iframe.title = `${projectData.title} - Video ${index + 1}`;
+
+					iframe.addEventListener('load', function() {
+						this.classList.add('loaded');
+					});
+				}
+
+				iframeWrapper.appendChild(iframe);
+				imageItem.appendChild(iframeWrapper);
+
 			} else {
-				img.src = cleanSrc;
-				img.setAttribute('loading', 'lazy');
+				const img = document.createElement('img');
+				const cleanSrc = mediaSrc.replace(/ /g, '%20');
+
+				if (isCached(cleanSrc)) {
+					const cachedImg = getCachedImage(cleanSrc);
+					img.src = cachedImg.src;
+					img.setAttribute('data-cached', 'true');
+				} else {
+					img.src = cleanSrc;
+					img.setAttribute('loading', 'lazy');
+				}
+
+				img.alt = `${projectData.title} - Imagen ${index + 1}`;
+
+				img.addEventListener('load', function() {
+					this.classList.add('loaded');
+				});
+
+				imageItem.appendChild(img);
 			}
 
-			img.alt = `${projectData.title} - Imagen ${index + 1}`;
-
-			img.addEventListener('load', function() {
-				this.classList.add('loaded');
-			});
-
-			imageItem.appendChild(img);
 			imagesScroll.appendChild(imageItem);
 
 			const thumbnail = document.createElement('div');
@@ -241,23 +297,100 @@ function openProjectViewer(categoryIndex, projectIndex) {
 			thumbnail.dataset.imageIndex = index;
 			if (index === 0) thumbnail.classList.add('active');
 
-			const thumbImg = document.createElement('img');
+			if (mediaType === 'video') {
+				// Para MP4: usar el primer frame del video
+				const videoElement = document.createElement('video');
+				videoElement.preload = 'metadata';
+				videoElement.muted = true;
+				const cleanSrc = mediaSrc.replace(/ /g, '%20');
+				videoElement.src = cleanSrc;
 
-			if (isCached(cleanSrc)) {
-				const cachedImg = getCachedImage(cleanSrc);
-				thumbImg.src = cachedImg.src;
+				videoElement.addEventListener('loadeddata', function() {
+					videoElement.currentTime = 0.1;
+				});
+
+				videoElement.addEventListener('seeked', function() {
+					const canvas = document.createElement('canvas');
+					canvas.width = videoElement.videoWidth;
+					canvas.height = videoElement.videoHeight;
+					const ctx = canvas.getContext('2d');
+					ctx.drawImage(videoElement, 0, 0, canvas.width, canvas.height);
+
+					const thumbImg = document.createElement('img');
+					thumbImg.src = canvas.toDataURL();
+					thumbImg.alt = `Miniatura ${index + 1}`;
+					thumbImg.addEventListener('load', function() {
+						this.classList.add('loaded');
+					});
+					thumbnail.appendChild(thumbImg);
+
+					// Añadir overlay de video
+					const overlay = document.createElement('div');
+					overlay.className = 'video-thumbnail-overlay';
+					const icon = document.createElement('div');
+					icon.className = 'video-thumbnail-icon';
+					icon.innerHTML = '▶';
+					overlay.appendChild(icon);
+					thumbnail.appendChild(overlay);
+				});
+
+				thumbnail.classList.add('video-thumb');
+
+			} else if (mediaType === 'youtube') {
+				// Para YouTube: usar la miniatura oficial de YouTube
+				let videoId = '';
+				try {
+					const url = new URL(mediaSrc);
+					if (url.hostname.includes('youtube.com')) {
+						videoId = url.searchParams.get('v');
+					} else if (url.hostname.includes('youtu.be')) {
+						videoId = url.pathname.slice(1);
+					}
+				} catch (e) {
+					console.error('Error parsing YouTube URL:', e);
+				}
+
+				if (videoId) {
+					const thumbImg = document.createElement('img');
+					thumbImg.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+					thumbImg.alt = `Miniatura ${index + 1}`;
+					thumbImg.addEventListener('load', function() {
+						this.classList.add('loaded');
+					});
+					thumbnail.appendChild(thumbImg);
+
+					// Añadir overlay de video
+					const overlay = document.createElement('div');
+					overlay.className = 'video-thumbnail-overlay';
+					const icon = document.createElement('div');
+					icon.className = 'video-thumbnail-icon';
+					icon.innerHTML = '▶';
+					overlay.appendChild(icon);
+					thumbnail.appendChild(overlay);
+				}
+
+				thumbnail.classList.add('video-thumb');
+
 			} else {
-				thumbImg.src = cleanSrc;
-				thumbImg.setAttribute('loading', 'lazy');
+				const thumbImg = document.createElement('img');
+				const cleanSrc = mediaSrc.replace(/ /g, '%20');
+
+				if (isCached(cleanSrc)) {
+					const cachedImg = getCachedImage(cleanSrc);
+					thumbImg.src = cachedImg.src;
+				} else {
+					thumbImg.src = cleanSrc;
+					thumbImg.setAttribute('loading', 'lazy');
+				}
+
+				thumbImg.alt = `Miniatura ${index + 1}`;
+
+				thumbImg.addEventListener('load', function() {
+					this.classList.add('loaded');
+				});
+
+				thumbnail.appendChild(thumbImg);
 			}
-
-			thumbImg.alt = `Miniatura ${index + 1}`;
-
-			thumbImg.addEventListener('load', function() {
-				this.classList.add('loaded');
-			});
-
-			thumbnail.appendChild(thumbImg);
 
 			thumbnail.onclick = (e) => {
 				e.preventDefault();
@@ -306,25 +439,26 @@ function scrollToImage(index, scrollContainer) {
 
 	const imageItem = scrollContainer.querySelector(`[data-image-index="${index}"]`);
 	if (imageItem) {
-		const img = imageItem.querySelector('img');
-		if (!img) return;
+		const media = imageItem.querySelector('img, video, .project-youtube-wrapper');
+		if (!media) return;
 
-		// Esperar a que la imagen esté cargada
-		if (img.complete) {
+		if (media.classList && media.classList.contains('project-youtube-wrapper')) {
+			performScroll();
+		} else if (media.complete || media.readyState >= 1) {
 			performScroll();
 		} else {
-			img.onload = performScroll;
+			media.onload = performScroll;
+			media.onloadedmetadata = performScroll;
 		}
 
 		function performScroll() {
 			const itemOffsetTop = imageItem.offsetTop;
-			const imgHeight = img.offsetHeight;
+			const mediaHeight = media.offsetHeight || imageItem.offsetHeight;
 			const containerHeight = scrollContainer.offsetHeight;
 
-			// Compensación por los márgenes negativos
 			const marginCompensation = index === 0 ? 150 : 280;
 
-			const scrollTarget = itemOffsetTop - (containerHeight / 2) + (imgHeight / 2) + marginCompensation;
+			const scrollTarget = itemOffsetTop - (containerHeight / 2) + (mediaHeight / 2) + marginCompensation;
 
 			scrollContainer.scrollTo({
 				top: scrollTarget,

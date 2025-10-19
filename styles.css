@@ -1537,6 +1537,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	width: 100%;
 	justify-content: center;
 }
+
 .category-detail-header.project-mode .category-nav-btn {
 	padding: 6px 12px;
 	font-size: 0.7rem;
@@ -1562,6 +1563,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	justify-content: center;
 	max-width: 100%;
 }
+
 .category-detail-header.project-mode .back-button {
 	display: none;
 }
@@ -2025,6 +2027,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	padding-bottom: 6px;
 	transition: all 0.3s ease;
 }
+
 .project-nav-prev:hover:not(:disabled),
 .project-nav-next:hover:not(:disabled) {
 	background: rgba(0, 0, 0, 0.9);
@@ -2114,8 +2117,14 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	flex-shrink: 0;
 	position: relative;
 	box-sizing: border-box;
+	pointer-events: none;
 }
 
+.project-image-item img,
+.project-image-item video,
+.project-image-item .project-youtube-wrapper {
+	pointer-events: auto;
+}
 .project-image-item:first-child {
 	margin-top: -20vh;
 }
@@ -2139,6 +2148,50 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 }
 
 .project-image-item img.loaded {
+	opacity: 1;
+}
+
+.project-video {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 90vh;
+	aspect-ratio: 16/9;
+	border-radius: 8px;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+	display: block;
+	margin: 0 auto;
+	opacity: 0;
+	transition: opacity 0.15s ease-out;
+	background: #000;
+}
+
+.project-video.loaded {
+	opacity: 1;
+}
+
+.project-youtube-wrapper {
+	width: 100%;
+	max-width: 1920px;
+	aspect-ratio: 16/9;
+	margin: 0 auto;
+	position: relative;
+}
+
+.project-youtube {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: opacity 0.15s ease-out;
+	background: #000;
+}
+
+.project-youtube.loaded {
 	opacity: 1;
 }
 
@@ -2253,6 +2306,35 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	background: rgba(74, 222, 128, 0.2);
 	pointer-events: none;
 	border-radius: 8px;
+}
+
+.project-thumbnail.video-thumb {
+	position: relative;
+}
+
+.video-thumbnail-overlay {
+	position: absolute;
+	top: 2px;
+	left: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.video-thumbnail-icon {
+	color: #fff;
+	font-size: 1.5rem;
+	text-align: center;
+	opacity: 0.85;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	transition: all 0.3s ease;
+	filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+}
+
+.project-thumbnail.video-thumb:hover .video-thumbnail-icon {
+	opacity: 1;
+	transform: scale(1.15);
 }
 
 @media (max-width: 1400px) {
