@@ -306,17 +306,31 @@ function scrollToImage(index, scrollContainer) {
 
 	const imageItem = scrollContainer.querySelector(`[data-image-index="${index}"]`);
 	if (imageItem) {
-		const containerRect = scrollContainer.getBoundingClientRect();
-		const itemRect = imageItem.getBoundingClientRect();
+		const img = imageItem.querySelector('img');
+		if (!img) return;
 
-		const currentScroll = scrollContainer.scrollTop;
-		const itemRelativeTop = itemRect.top - containerRect.top;
-		const scrollTarget = currentScroll + itemRelativeTop - (containerRect.height / 2) + (itemRect.height / 2);
+		// Esperar a que la imagen esté cargada
+		if (img.complete) {
+			performScroll();
+		} else {
+			img.onload = performScroll;
+		}
 
-		scrollContainer.scrollTo({
-			top: scrollTarget,
-			behavior: 'smooth'
-		});
+		function performScroll() {
+			const itemOffsetTop = imageItem.offsetTop;
+			const imgHeight = img.offsetHeight;
+			const containerHeight = scrollContainer.offsetHeight;
+
+			// Compensación por los márgenes negativos
+			const marginCompensation = index === 0 ? 150 : 280;
+
+			const scrollTarget = itemOffsetTop - (containerHeight / 2) + (imgHeight / 2) + marginCompensation;
+
+			scrollContainer.scrollTo({
+				top: scrollTarget,
+				behavior: 'smooth'
+			});
+		}
 	}
 }
 

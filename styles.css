@@ -1535,8 +1535,8 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 	display: flex !important;
 	width: 100%;
+	justify-content: center;
 }
-
 .category-detail-header.project-mode .category-nav-btn {
 	padding: 6px 12px;
 	font-size: 0.7rem;
@@ -1562,7 +1562,6 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	justify-content: center;
 	max-width: 100%;
 }
-
 .category-detail-header.project-mode .back-button {
 	display: none;
 }
@@ -2006,7 +2005,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 .project-nav-prev,
 .project-nav-next {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	transform: translateY(-50%);
 	z-index: 100;
 	width: 60px;
@@ -2026,7 +2025,6 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	padding-bottom: 6px;
 	transition: all 0.3s ease;
 }
-
 .project-nav-prev:hover:not(:disabled),
 .project-nav-next:hover:not(:disabled) {
 	background: rgba(0, 0, 0, 0.9);
@@ -2035,12 +2033,12 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 }
 
 .project-nav-prev {
-	left: 20px;
+	left: 10px;
 	padding-right: 2px;
 }
 
 .project-nav-next {
-	right: 20px;
+	right: 27px;
 	padding-left: 2px;
 }
 
@@ -2119,11 +2117,11 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 }
 
 .project-image-item:first-child {
-	margin-top: -15vh;
+	margin-top: -20vh;
 }
 
 .project-image-item:not(:last-child) {
-	margin-bottom: -30vh;
+	margin-bottom: -34vh;
 }
 
 .project-image-item img {
