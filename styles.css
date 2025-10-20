@@ -1959,21 +1959,20 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8px;
+	padding-left: 2px;
 }
 
 .project-program-icon {
 	width: 32px;
 	height: 32px;
 	object-fit: contain;
-	opacity: 0.8;
+	opacity: 1;
 	transition: all 0.3s ease;
-	filter: grayscale(0.3);
 }
 
 .project-program-icon:hover {
 	opacity: 1;
 	transform: scale(1.15);
-	filter: grayscale(0);
 }
 
 .project-links {
@@ -2404,6 +2403,12 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	background: rgba(74, 222, 128, 0.2);
 	pointer-events: none;
 	border-radius: 8px;
+	transition: transform 0.3s ease;
+	transform-origin: center center;
+}
+
+.project-thumbnail.active:hover::after {
+	transform: scale(1.1);
 }
 
 .project-thumbnail.video-thumb {

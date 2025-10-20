@@ -133,7 +133,8 @@ descTitle.textContent = 'Descripción';
 const descText = document.createElement('div');
 descText.className = 'project-description-text';
 const description = projectData.description || 'Sin descripción disponible';
-descText.textContent = description;
+// Reemplazar saltos de línea por <br> para mostrarlos en HTML
+descText.innerHTML = description.replace(/\n/g, '<br><br>');
 
 descSection.appendChild(descTitle);
 descSection.appendChild(descText);

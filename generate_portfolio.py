@@ -136,20 +136,42 @@ def generate_portfolio_data():
                         with open(info_path, 'r', encoding='utf-8') as f:
                             info_content = f.read().strip()
 
-                            # Parsear el formato
+                            # Parsear el formato con soporte multi-línea
                             lines = info_content.split('\n')
-                            for line in lines:
-                                line = line.strip()
+                            i = 0
+                            while i < len(lines):
+                                line = lines[i].strip()
+
                                 if line.startswith('Tit:'):
                                     project_title = line[4:].strip()
+                                    i += 1
+
                                 elif line.startswith('Sub:'):
                                     project_subtitle = line[4:].strip()
+                                    i += 1
+
                                 elif line.startswith('Des:'):
-                                    project_description = line[4:].strip()
+                                    # Leer descripción multi-línea
+                                    desc_lines = [line[4:].strip()]
+                                    i += 1
+                                    # Continuar leyendo líneas hasta encontrar otra etiqueta o fin de archivo
+                                    while i < len(lines):
+                                        next_line = lines[i].strip()
+                                        if next_line.startswith('Prog:') or next_line.startswith('Link_') or next_line.startswith('Tit:') or next_line.startswith('Sub:'):
+                                            break
+                                        if next_line:  # Solo añadir líneas no vacías
+                                            desc_lines.append(next_line)
+                                        else:  # Línea vacía = salto de párrafo
+                                            desc_lines.append('\n')
+                                        i += 1
+                                    project_description = ' '.join(desc_lines)
+
                                 elif line.startswith('Prog:'):
                                     # Parsear programas separados por comas
                                     programs_str = line[5:].strip()
                                     project_programs = [p.strip() for p in programs_str.split(',') if p.strip()]
+                                    i += 1
+
                                 elif line.startswith('Link_'):
                                     # Parsear Link_X:("texto","url","icono.png")
                                     try:
@@ -179,6 +201,10 @@ def generate_portfolio_data():
                                                 })
                                     except Exception as e:
                                         print(f"    ⚠️ Error parseando link: {line} - {e}")
+                                    i += 1
+
+                                else:
+                                    i += 1
 
                             print(f"    ✓ {project_title} - {project_subtitle}")
                             print(f"      Links: {len(project_links)}, Programas: {len(project_programs)}, Descripción: {len(project_description)} chars")

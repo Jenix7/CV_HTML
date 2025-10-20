@@ -9,30 +9,31 @@
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights",
             "subtitle": "Modelado 3D de personajes y escenarios para videojuego",
-            "description": "Este es un proyecto de videojuego 3D donde me encargué del modelado completo de personajes, props y escenarios. Utilicé técnicas de low-poly y texturizado PBR para optimizar el rendimiento sin sacrificar la calidad visual. El proyecto incluye más de 20 assets únicos y un sistema de iluminación dinámico implementado en Unity.Este es un proyecto de videojuego 3D donde me encargué del modelado completo de personajes, props y escenarios. Utilicé técnicas de low-poly y texturizado PBR para optimizar el rendimiento sin sacrificar la calidad visual. El proyecto incluye más de 20 assets únicos y un sistema de iluminación dinámico implementado en Unity.Este es un proyecto de videojuego 3D donde me encargué del modelado completo de personajes, props y escenarios. Utilicé técnicas de low-poly y texturizado PBR para optimizar el rendimiento sin sacrificar la calidad visual. El proyecto incluye más de 20 assets únicos y un sistema de iluminación dinámico implementado en Unity.Este es un proyecto de videojuego 3D donde me encargué del modelado completo de personajes, props y escenarios. Utilicé técnicas de low-poly y texturizado PBR para optimizar el rendimiento sin sacrificar la calidad visual. El proyecto incluye más de 20 assets únicos y un sistema de iluminación dinámico implementado en Unity.",
+            "description": "Bubble Heights es un juego de plataformas y rompecabezas en 3D protagonizado por Coral, una joven valiente que explora las ruinas de una antigua civilización en busca de un artefacto mágico capaz de salvar a su aldea. \n La mecánica principal consiste en disparar burbujas de agua en diferentes zonas del mapa, creando caminos acuáticos por los que Coral puede nadar y avanzar en su aventura. \n En este proyecto participé como Lead Artist, realizando tareas de modelado 3D, texturización, concept art y animaciones. El juego fue desarrollado junto a mis compañeros de universidad en la asignatura de Proyectos del tercer curso.",
             "links": [
               {
-                "text": "Ver en Itch.io",
-                "url": "https://ejemplo.itch.io/bubble-heights",
+                "text": "Bubble Heights",
+                "url": "https://demmiurge.itch.io/bubble-heights",
                 "icon": "itchio.png"
               },
               {
-                "text": "Video Gameplay",
-                "url": "https://www.youtube.com/watch?v=XBfljElJQMw",
+                "text": "Trailer Bubble Heights",
+                "url": "https://www.youtube.com/watch?v=bPRH-fpcZxQ",
                 "icon": "youtube.png"
               },
               {
-                "text": "Artstation",
-                "url": "https://www.artstation.com/proyecto",
-                "icon": "link.png"
+                "text": "Modelando a Coral",
+                "url": "https://www.youtube.com/watch?v=XBfljElJQMw&feature=youtu.be",
+                "icon": "youtube.png"
               }
             ],
             "programs": [
-              "Maya.png",
-              "opentoonz.png",
+              "zbrush.png",
+              "3dsmax.png",
               "substance.png",
-              "Photosho.png",
-              "Unity.png"
+              "cascadeur.png",
+              "unity.png",
+              "photoshop.png"
             ],
             "images": [
               {
@@ -105,25 +106,21 @@
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/portada.jpg",
             "title": "Kuni",
             "subtitle": "Modelado 3D de un héroe urbano",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Kuni es un héroe urbano capaz de controlar los tatuajes de su cuerpo y utilizarlos como armas. Joven artista del tatuaje, representa el espíritu de la libertad, la creatividad y la cultura japonesa. Está inspirado en un personaje popular de la novela china Suikoden, reinterpretado con una visión moderna. \n Este proyecto nace a partir de mi trabajo de fin de grado, en el que investigué en profundidad la cultura del tatuaje: su historia, estilos y aspectos psicológicos. El objetivo era diseñar personajes variados inspirados en este arte. \n Al finalizar la carrera, decidí continuar desarrollando uno de esos personajes y crear una versión más profesional y pulida en 3D, dando así forma al personaje de Kuni.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Estudio del tatuaje - TFG",
+                "url": "https://drive.google.com/file/d/1butCp-xx1XcKFQtdtC6nrTi28Y5vVrpJ/view?usp=sharing",
+                "icon": "pdf.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "zbrush.png",
+              "3dsmax.png",
+              "maya.png",
+              "substance.png",
+              "photoshop.png"
+            ],
             "images": [
               {
                 "type": "image",
@@ -136,6 +133,10 @@
               {
                 "type": "image",
                 "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/4.png"
               }
             ]
           },
