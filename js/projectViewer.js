@@ -181,37 +181,10 @@ function openProjectViewer(categoryIndex, projectIndex) {
 		sidebarLeft.appendChild(linksSection);
 	}
 
-	if (hasLinks && hasPrograms) {
+	if (hasLinks && hasRelated) {
 		const separator2 = document.createElement('div');
 		separator2.className = 'project-section-separator';
 		sidebarLeft.appendChild(separator2);
-	}
-
-	if (hasPrograms) {
-		const programsSection = document.createElement('div');
-		programsSection.className = 'project-programs';
-		programsSection.innerHTML = '<div class="project-programs-title">Programas</div>';
-
-		const programsContainer = document.createElement('div');
-		programsContainer.className = 'project-programs-icons';
-
-		projectData.programs.forEach(program => {
-			const progIcon = document.createElement('img');
-			progIcon.className = 'project-program-icon';
-			progIcon.src = `images/icons/${program}`;
-			progIcon.alt = program.replace('.png', '');
-			progIcon.title = program.replace('.png', '');
-			programsContainer.appendChild(progIcon);
-		});
-
-		programsSection.appendChild(programsContainer);
-		sidebarLeft.appendChild(programsSection);
-	}
-
-	if ((hasLinks || hasPrograms) && hasRelated) {
-		const separator3 = document.createElement('div');
-		separator3.className = 'project-section-separator';
-		sidebarLeft.appendChild(separator3);
 	}
 
 	if (hasRelated) {
@@ -240,6 +213,33 @@ function openProjectViewer(categoryIndex, projectIndex) {
 
 		relatedSection.appendChild(relatedContainer);
 		sidebarLeft.appendChild(relatedSection);
+	}
+
+	if ((hasLinks || hasRelated) && hasPrograms) {
+		const separator3 = document.createElement('div');
+		separator3.className = 'project-section-separator';
+		sidebarLeft.appendChild(separator3);
+	}
+
+	if (hasPrograms) {
+		const programsSection = document.createElement('div');
+		programsSection.className = 'project-programs';
+		programsSection.innerHTML = '<div class="project-programs-title">Programas</div>';
+
+		const programsContainer = document.createElement('div');
+		programsContainer.className = 'project-programs-icons';
+
+		projectData.programs.forEach(program => {
+			const progIcon = document.createElement('img');
+			progIcon.className = 'project-program-icon';
+			progIcon.src = `images/icons/${program}`;
+			progIcon.alt = program.replace('.png', '');
+			progIcon.title = program.replace('.png', '');
+			programsContainer.appendChild(progIcon);
+		});
+
+		programsSection.appendChild(programsContainer);
+		sidebarLeft.appendChild(programsSection);
 	}
 
 	const sidebarRight = document.createElement('div');
