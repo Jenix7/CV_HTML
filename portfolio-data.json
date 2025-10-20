@@ -31,9 +31,11 @@
               "zbrush.png",
               "3dsmax.png",
               "substance.png",
+              "marmoset.png",
               "cascadeur.png",
               "unity.png",
-              "photoshop.png"
+              "photoshop.png",
+              "illustrator.png"
             ],
             "images": [
               {
@@ -106,7 +108,7 @@
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/portada.jpg",
             "title": "Kuni",
             "subtitle": "Modelado 3D de un héroe urbano",
-            "description": "Kuni es un héroe urbano capaz de controlar los tatuajes de su cuerpo y utilizarlos como armas. Joven artista del tatuaje, representa el espíritu de la libertad, la creatividad y la cultura japonesa. Está inspirado en un personaje popular de la novela china Suikoden, reinterpretado con una visión moderna. \n Este proyecto nace a partir de mi trabajo de fin de grado, en el que investigué en profundidad la cultura del tatuaje: su historia, estilos y aspectos psicológicos. El objetivo era diseñar personajes variados inspirados en este arte. \n Al finalizar la carrera, decidí continuar desarrollando uno de esos personajes y crear una versión más profesional y pulida en 3D, dando así forma al personaje de Kuni.",
+            "description": "Kuni es un héroe urbano capaz de controlar los tatuajes de su cuerpo y utilizarlos como armas. Joven artista del tatuaje, representa el espíritu de la libertad, la creatividad y la cultura japonesa. Está inspirado en un personaje popular de la novela china Suikoden, reinterpretado con una visión moderna. \n Este proyecto nace a partir de mi trabajo final de carrera, en el que investigué en profundidad la cultura del tatuaje: su historia, estilos y aspectos psicológicos. El objetivo era diseñar personajes variados inspirados en este arte. \n Al finalizar la carrera, decidí continuar desarrollando uno de esos personajes y crear una versión más profesional y pulida en 3D, dando así forma al personaje de Kuni.",
             "links": [
               {
                 "text": "Estudio del tatuaje - TFG",
@@ -119,6 +121,7 @@
               "3dsmax.png",
               "maya.png",
               "substance.png",
+              "marmoset.png",
               "photoshop.png"
             ],
             "images": [

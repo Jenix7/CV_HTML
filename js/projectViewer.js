@@ -342,26 +342,39 @@ if (description.length > 400) {
 				imageItem.appendChild(iframeWrapper);
 
 			} else {
-				const img = document.createElement('img');
-				const cleanSrc = mediaSrc.replace(/ /g, '%20');
+	const img = document.createElement('img');
+	const cleanSrc = mediaSrc.replace(/ /g, '%20');
 
-				if (isCached(cleanSrc)) {
-					const cachedImg = getCachedImage(cleanSrc);
-					img.src = cachedImg.src;
-					img.setAttribute('data-cached', 'true');
-				} else {
-					img.src = cleanSrc;
-					img.setAttribute('loading', 'lazy');
-				}
+	if (isCached(cleanSrc)) {
+		const cachedImg = getCachedImage(cleanSrc);
+		img.src = cachedImg.src;
+		img.setAttribute('data-cached', 'true');
+	} else {
+		img.src = cleanSrc;
+		img.setAttribute('loading', 'lazy');
+	}
 
-				img.alt = `${projectData.title} - Imagen ${index + 1}`;
+	img.alt = `${projectData.title} - Imagen ${index + 1}`;
 
-				img.addEventListener('load', function() {
-					this.classList.add('loaded');
-				});
+	img.addEventListener('load', function() {
+		this.classList.add('loaded');
+	});
 
-				imageItem.appendChild(img);
-			}
+	// Hacer que la imagen sea clickeable para abrir el modal
+img.style.cursor = 'pointer';
+img.onclick = (e) => {
+	e.stopPropagation();
+	const modal = document.getElementById('imageModal');
+	const modalImage = document.getElementById('modalImage');
+	modalImage.src = cleanSrc;
+	modalImage.setAttribute('data-no-card-effect', 'true');
+	modalImage.style.maxWidth = '85vw';
+	modalImage.style.maxHeight = '85vh';
+	modal.classList.add('active');
+	document.body.style.overflow = 'hidden';
+};
+	imageItem.appendChild(img);
+}
 
 			imagesScroll.appendChild(imageItem);
 
