@@ -2020,6 +2020,41 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	transform: scale(1.15);
 }
 
+.project-related {
+	margin-bottom: 0;
+	flex-shrink: 0;
+	margin-top: 20px;
+}
+
+.project-related-title {
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: #e4e4e7;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.project-program-icon:hover {
+	opacity: 1;
+	transform: scale(1.15);
+}
+
+.project-related {
+	margin-bottom: 0;
+	flex-shrink: 0;
+	margin-top: 0;
+}
+
+.project-related-title {
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: #e4e4e7;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
 .project-main-viewer {
 	flex: 1;
 	display: flex;

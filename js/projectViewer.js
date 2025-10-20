@@ -148,8 +148,9 @@ function openProjectViewer(categoryIndex, projectIndex) {
 
 	const hasLinks = projectData.links && projectData.links.length > 0;
 	const hasPrograms = projectData.programs && projectData.programs.length > 0;
+	const hasRelated = projectData.related && projectData.related.length > 0;
 
-	if (hasLinks || hasPrograms) {
+	if (hasLinks || hasPrograms || hasRelated) {
 		const separator1 = document.createElement('div');
 		separator1.className = 'project-section-separator';
 		sidebarLeft.appendChild(separator1);
@@ -205,6 +206,40 @@ function openProjectViewer(categoryIndex, projectIndex) {
 
 		programsSection.appendChild(programsContainer);
 		sidebarLeft.appendChild(programsSection);
+	}
+
+	if ((hasLinks || hasPrograms) && hasRelated) {
+		const separator3 = document.createElement('div');
+		separator3.className = 'project-section-separator';
+		sidebarLeft.appendChild(separator3);
+	}
+
+	if (hasRelated) {
+		const relatedSection = document.createElement('div');
+		relatedSection.className = 'project-related';
+		relatedSection.innerHTML = '<div class="project-related-title">Proyectos Relacionados</div>';
+
+		const relatedContainer = document.createElement('div');
+		relatedContainer.className = 'project-links';
+		projectData.related.forEach(related => {
+			const relatedEl = document.createElement('div');
+			relatedEl.className = 'project-link';
+			relatedEl.style.cursor = 'pointer';
+
+			relatedEl.innerHTML = `
+				<img class="project-link-icon" src="images/icons/relacionado.png" alt="${related.text}">
+				<span class="project-link-text">${related.text}</span>
+			`;
+
+			relatedEl.onclick = () => {
+				navigateToRelatedProject(related.section, related.category_index, related.project_index);
+			};
+
+			relatedContainer.appendChild(relatedEl);
+		});
+
+		relatedSection.appendChild(relatedContainer);
+		sidebarLeft.appendChild(relatedSection);
 	}
 
 	const sidebarRight = document.createElement('div');
@@ -601,6 +636,67 @@ function navigateProject(direction) {
 	if (newIndex >= 0 && newIndex < categoryData.images.length) {
 		openProjectViewer(currentProjectCategory, newIndex);
 	}
+}
+
+function navigateToRelatedProject(targetSection, targetCategoryIndex, targetProjectIndex) {
+	console.log(`Navegando a proyecto relacionado: ${targetSection}/${targetCategoryIndex}/${targetProjectIndex}`);
+
+	if (currentCategory !== targetSection) {
+		const featuredCard = document.querySelector('.card-wrapper.featured');
+		if (featuredCard) {
+			featuredCard.classList.remove('featured');
+			featuredCard.classList.add('in-menu');
+		}
+
+		const targetCard = document.querySelector(`.card-wrapper[data-category="${targetSection}"]`);
+		if (targetCard) {
+			targetCard.classList.remove('in-menu');
+			targetCard.classList.add('featured');
+
+			const cardInner = targetCard.querySelector('.card-inner');
+			if (cardInner) {
+				cardInner.style.transform = 'rotateY(0deg)';
+			}
+		}
+
+		currentCategory = targetSection;
+
+		const sectionTitleHeader = document.getElementById('sectionTitleHeader');
+		if (portfolioData[targetSection]) {
+			sectionTitleHeader.textContent = portfolioData[targetSection].name;
+		}
+
+		const color = categoryColors[targetSection];
+		document.body.className = `${color}-theme`;
+		currentTheme = `${color}-theme`;
+
+		updateCardPositions();
+	}
+
+	categoryDetailView = true;
+	currentCategoryIndex = targetCategoryIndex;
+
+	const categoriesContainer = document.getElementById('categoriesContainer');
+	if (!categoriesContainer.classList.contains('expanded')) {
+		categoriesContainer.classList.add('expanded');
+
+		const allCardWrappers = document.querySelectorAll('.card-wrapper');
+		allCardWrappers.forEach(wrapper => {
+			if (!wrapper.classList.contains('featured')) {
+				wrapper.style.transition = 'none';
+				wrapper.style.opacity = '0';
+				wrapper.style.pointerEvents = 'none';
+			}
+		});
+
+		const allPlaceholders = document.querySelectorAll('.card-placeholder');
+		allPlaceholders.forEach(placeholder => {
+			placeholder.style.transition = 'none';
+			placeholder.style.opacity = '0';
+		});
+	}
+
+	openProjectViewer(targetCategoryIndex, targetProjectIndex);
 }
 
 function updateProjectNavButtons() {

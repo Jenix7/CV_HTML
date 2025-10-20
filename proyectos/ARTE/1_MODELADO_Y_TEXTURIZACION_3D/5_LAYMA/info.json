@@ -1,6 +1,7 @@
 Tit:Layma
 Sub:Modelado 3D facial de un personaje cartoon
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Rela:("Spray: Mi primer videojuego","SPRAY_MI_PRIMER_VIDEOJUEGO")
+Prog: zbrush.png
+Des:Layma es una joven heroína y artista capaz de controlar y dar vida a los grafitis que dibuja, utilizándolos para atacar y moverse con agilidad. Domina el estilo “Model Pastel”, caracterizado por su energía explosiva y dinamismo.
+
+Este modelo es una reinterpretación en estilo cartoon del personaje que diseñé durante el instituto, cuando desarrollé mi primer videojuego: Spray.
