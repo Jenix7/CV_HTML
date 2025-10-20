@@ -1884,6 +1884,43 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	text-align: justify;
 }
 
+.project-description-text.collapsed {
+	display: -webkit-box;
+	-webkit-line-clamp: 10;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.project-description-toggle {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	margin-top: 8px;
+	padding: 4px 8px;
+	background: transparent;
+	border: none;
+	color: #60a5fa;
+	font-size: 0.8rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	text-decoration: none;
+}
+
+.project-description-toggle:hover {
+	color: #93c5fd;
+	transform: translateX(2px);
+}
+
+.project-description-toggle-icon {
+	font-size: 0.7rem;
+	transition: transform 0.3s ease;
+}
+
+.project-description-toggle.expanded .project-description-toggle-icon {
+	transform: rotate(180deg);
+}
+
 .project-section-separator {
 	height: 1px;
 	background: rgba(255, 255, 255, 0.1);

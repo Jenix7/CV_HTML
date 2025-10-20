@@ -124,11 +124,47 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	`;
 
 	const descSection = document.createElement('div');
-	descSection.className = 'project-description';
-	descSection.innerHTML = `
-		<div class="project-description-title">Descripción</div>
-		<div class="project-description-text">${projectData.description || 'Sin descripción disponible'}</div>
+descSection.className = 'project-description';
+
+const descTitle = document.createElement('div');
+descTitle.className = 'project-description-title';
+descTitle.textContent = 'Descripción';
+
+const descText = document.createElement('div');
+descText.className = 'project-description-text';
+const description = projectData.description || 'Sin descripción disponible';
+descText.textContent = description;
+
+descSection.appendChild(descTitle);
+descSection.appendChild(descText);
+
+// Si la descripción tiene más de 400 caracteres, añadir botón "Ver más"
+if (description.length > 400) {
+	descText.classList.add('collapsed');
+
+	const toggleBtn = document.createElement('button');
+	toggleBtn.className = 'project-description-toggle';
+	toggleBtn.innerHTML = `
+		<span class="project-description-toggle-text">Ver más</span>
+		<span class="project-description-toggle-icon">▼</span>
 	`;
+
+	toggleBtn.onclick = () => {
+		const isCollapsed = descText.classList.contains('collapsed');
+
+		if (isCollapsed) {
+			descText.classList.remove('collapsed');
+			toggleBtn.classList.add('expanded');
+			toggleBtn.querySelector('.project-description-toggle-text').textContent = 'Ver menos';
+		} else {
+			descText.classList.add('collapsed');
+			toggleBtn.classList.remove('expanded');
+			toggleBtn.querySelector('.project-description-toggle-text').textContent = 'Ver más';
+		}
+	};
+
+	descSection.appendChild(toggleBtn);
+}
 
 	const separator1 = document.createElement('div');
 	separator1.className = 'project-section-separator';
