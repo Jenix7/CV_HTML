@@ -147,9 +147,13 @@
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/portada.jpg",
             "title": "Sneakers",
             "subtitle": "Modelado 3D de un zapato cyberpunk",
-            "description": "Este proyecto se basa en el modelado 3D de un zapato con estilo cyberpunk, que combina efectos de luz neón, metales estilizados y una estética urbana. \n Su desarrollo surgió por pura pasión y curiosidad, con el objetivo de aprender y explorar el diseño de piezas de moda originales. \n El objetivo personal del proyecto era aprender a modelar formas combinando herramientas orgánicas como ZBrush con técnicas más técnicas y precisas en 3ds Max. Además, busqué texturizar con gran nivel de detalle usando Substance Painter, puliendo cada pequeño elemento del zapato para lograr un resultado realista, cargado de carácter y coherente con el estilo cyberpunk.",
+            "description": "Este proyecto se basa en el modelado 3D de un zapato con estilo cyberpunk, que combina efectos de luz neón, metales estilizados y una estética urbana. \n Su desarrollo surgió por pura pasión y curiosidad, con el objetivo de aprender y explorar el diseño de piezas de moda originales. \n El objetivo personal del proyecto fue aprender a modelar y texturizar con gran nivel de detalle, utilizando ZBrush, 3ds Max y Substance Painter. Cuidé cada pequeño elemento del zapato para lograr un resultado realista y fiel al estilo cyberpunk.",
             "links": [],
-            "programs": [],
+            "programs": [
+              "zbrush.png",
+              "3dsmax.png",
+              "substance.png"
+            ],
             "images": [
               {
                 "type": "image",
@@ -167,27 +171,15 @@
           },
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/portada.jpg",
-            "title": "Electric Generator",
-            "subtitle": "Modelado 3D de un prop realista",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "title": "Kuni",
+            "subtitle": "Modelado 3D de un héroe urbano",
+            "description": "Este proyecto se basa en la creación de un prop realista para videojuegos: un generador eléctrico desgastado y lleno de piezas, diseñado para parecer funcional y creíble, tomando como referencia generadores reales. \n Lo realicé por pura pasión y ganas de aprender, siguiendo un curso de Domestika. \n El objetivo personal era aprender a modelar de forma profesional objetos hard surface, ya que hasta ese momento estaba más acostumbrado a modelar elementos orgánicos en ZBrush.",
+            "links": [],
+            "programs": [
+              "3dsmax.png",
+              "substance.png",
+              "photoshop.png"
             ],
-            "programs": [],
             "images": [
               {
                 "type": "image",

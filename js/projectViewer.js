@@ -123,59 +123,44 @@ function openProjectViewer(categoryIndex, projectIndex) {
 		<div class="project-viewer-subtitle">${projectData.subtitle || ''}</div>
 	`;
 
+	sidebarLeft.appendChild(titleSection);
+
 	const descSection = document.createElement('div');
-descSection.className = 'project-description';
+	descSection.className = 'project-description';
 
-const descTitle = document.createElement('div');
-descTitle.className = 'project-description-title';
-descTitle.textContent = 'Descripción';
+	const descTitle = document.createElement('div');
+	descTitle.className = 'project-description-title';
+	descTitle.textContent = 'Descripción';
 
-const descText = document.createElement('div');
-descText.className = 'project-description-text';
-const description = projectData.description || 'Sin descripción disponible';
-// Reemplazar saltos de línea por <br> para mostrarlos en HTML
-descText.innerHTML = description.replace(/\n/g, '<br><br>');
+	const descContent = document.createElement('div');
+	descContent.className = 'project-description-content';
 
-descSection.appendChild(descTitle);
-descSection.appendChild(descText);
+	const descText = document.createElement('div');
+	descText.className = 'project-description-text';
+	const description = projectData.description || 'Sin descripción disponible';
+	descText.innerHTML = description.replace(/\n/g, '<br><br>');
 
-// Si la descripción tiene más de 400 caracteres, añadir botón "Ver más"
-if (description.length > 400) {
-	descText.classList.add('collapsed');
+	descContent.appendChild(descText);
+	descSection.appendChild(descTitle);
+	descSection.appendChild(descContent);
 
-	const toggleBtn = document.createElement('button');
-	toggleBtn.className = 'project-description-toggle';
-	toggleBtn.innerHTML = `
-		<span class="project-description-toggle-text">Ver más</span>
-		<span class="project-description-toggle-icon">▼</span>
-	`;
+	sidebarLeft.appendChild(descSection);
 
-	toggleBtn.onclick = () => {
-		const isCollapsed = descText.classList.contains('collapsed');
+	const hasLinks = projectData.links && projectData.links.length > 0;
+	const hasPrograms = projectData.programs && projectData.programs.length > 0;
 
-		if (isCollapsed) {
-			descText.classList.remove('collapsed');
-			toggleBtn.classList.add('expanded');
-			toggleBtn.querySelector('.project-description-toggle-text').textContent = 'Ver menos';
-		} else {
-			descText.classList.add('collapsed');
-			toggleBtn.classList.remove('expanded');
-			toggleBtn.querySelector('.project-description-toggle-text').textContent = 'Ver más';
-		}
-	};
+	if (hasLinks || hasPrograms) {
+		const separator1 = document.createElement('div');
+		separator1.className = 'project-section-separator';
+		sidebarLeft.appendChild(separator1);
+	}
 
-	descSection.appendChild(toggleBtn);
-}
+	if (hasLinks) {
+		const linksSection = document.createElement('div');
+		linksSection.className = 'project-links';
+		linksSection.innerHTML = '<div class="project-links-title">Enlaces</div>';
 
-	const separator1 = document.createElement('div');
-	separator1.className = 'project-section-separator';
-
-	const linksSection = document.createElement('div');
-	linksSection.className = 'project-links';
-	linksSection.innerHTML = '<div class="project-links-title">Enlaces</div>';
-
-	const linksContainer = document.createElement('div');
-	if (projectData.links && projectData.links.length > 0) {
+		const linksContainer = document.createElement('div');
 		projectData.links.forEach(link => {
 			const linkEl = document.createElement('a');
 			linkEl.className = 'project-link';
@@ -190,23 +175,25 @@ if (description.length > 400) {
 
 			linksContainer.appendChild(linkEl);
 		});
-	} else {
-		linksContainer.innerHTML = '<p style="color: #666; font-size: 0.85rem;">No hay enlaces disponibles</p>';
+
+		linksSection.appendChild(linksContainer);
+		sidebarLeft.appendChild(linksSection);
 	}
 
-	linksSection.appendChild(linksContainer);
+	if (hasLinks && hasPrograms) {
+		const separator2 = document.createElement('div');
+		separator2.className = 'project-section-separator';
+		sidebarLeft.appendChild(separator2);
+	}
 
-	const separator2 = document.createElement('div');
-	separator2.className = 'project-section-separator';
+	if (hasPrograms) {
+		const programsSection = document.createElement('div');
+		programsSection.className = 'project-programs';
+		programsSection.innerHTML = '<div class="project-programs-title">Programas</div>';
 
-	const programsSection = document.createElement('div');
-	programsSection.className = 'project-programs';
-	programsSection.innerHTML = '<div class="project-programs-title">Programas</div>';
+		const programsContainer = document.createElement('div');
+		programsContainer.className = 'project-programs-icons';
 
-	const programsContainer = document.createElement('div');
-	programsContainer.className = 'project-programs-icons';
-
-	if (projectData.programs && projectData.programs.length > 0) {
 		projectData.programs.forEach(program => {
 			const progIcon = document.createElement('img');
 			progIcon.className = 'project-program-icon';
@@ -215,19 +202,10 @@ if (description.length > 400) {
 			progIcon.title = program.replace('.png', '');
 			programsContainer.appendChild(progIcon);
 		});
-	} else {
-		programsContainer.innerHTML = '<p style="color: #666; font-size: 0.85rem;">No hay programas especificados</p>';
+
+		programsSection.appendChild(programsContainer);
+		sidebarLeft.appendChild(programsSection);
 	}
-
-	programsSection.appendChild(programsContainer);
-
-	// Orden: Título → Descripción → Separador → Enlaces → Separador → Programas
-	sidebarLeft.appendChild(titleSection);
-	sidebarLeft.appendChild(descSection);
-	sidebarLeft.appendChild(separator1);
-	sidebarLeft.appendChild(linksSection);
-	sidebarLeft.appendChild(separator2);
-	sidebarLeft.appendChild(programsSection);
 
 	const sidebarRight = document.createElement('div');
 	sidebarRight.className = 'project-sidebar-right';
@@ -342,39 +320,38 @@ if (description.length > 400) {
 				imageItem.appendChild(iframeWrapper);
 
 			} else {
-	const img = document.createElement('img');
-	const cleanSrc = mediaSrc.replace(/ /g, '%20');
+				const img = document.createElement('img');
+				const cleanSrc = mediaSrc.replace(/ /g, '%20');
 
-	if (isCached(cleanSrc)) {
-		const cachedImg = getCachedImage(cleanSrc);
-		img.src = cachedImg.src;
-		img.setAttribute('data-cached', 'true');
-	} else {
-		img.src = cleanSrc;
-		img.setAttribute('loading', 'lazy');
-	}
+				if (isCached(cleanSrc)) {
+					const cachedImg = getCachedImage(cleanSrc);
+					img.src = cachedImg.src;
+					img.setAttribute('data-cached', 'true');
+				} else {
+					img.src = cleanSrc;
+					img.setAttribute('loading', 'lazy');
+				}
 
-	img.alt = `${projectData.title} - Imagen ${index + 1}`;
+				img.alt = `${projectData.title} - Imagen ${index + 1}`;
 
-	img.addEventListener('load', function() {
-		this.classList.add('loaded');
-	});
+				img.addEventListener('load', function() {
+					this.classList.add('loaded');
+				});
 
-	// Hacer que la imagen sea clickeable para abrir el modal
-img.style.cursor = 'pointer';
-img.onclick = (e) => {
-	e.stopPropagation();
-	const modal = document.getElementById('imageModal');
-	const modalImage = document.getElementById('modalImage');
-	modalImage.src = cleanSrc;
-	modalImage.setAttribute('data-no-card-effect', 'true');
-	modalImage.style.maxWidth = '85vw';
-	modalImage.style.maxHeight = '85vh';
-	modal.classList.add('active');
-	document.body.style.overflow = 'hidden';
-};
-	imageItem.appendChild(img);
-}
+				img.style.cursor = 'pointer';
+				img.onclick = (e) => {
+					e.stopPropagation();
+					const modal = document.getElementById('imageModal');
+					const modalImage = document.getElementById('modalImage');
+					modalImage.src = cleanSrc;
+					modalImage.setAttribute('data-no-card-effect', 'true');
+					modalImage.style.maxWidth = '85vw';
+					modalImage.style.maxHeight = '85vh';
+					modal.classList.add('active');
+					document.body.style.overflow = 'hidden';
+				};
+				imageItem.appendChild(img);
+			}
 
 			imagesScroll.appendChild(imageItem);
 

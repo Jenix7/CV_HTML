@@ -1,6 +1,8 @@
-Tit:Electric Generator
-Sub:Modelado 3D de un prop realista
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Tit:Kuni
+Sub:Modelado 3D de un héroe urbano
+Prog: 3dsmax.png, substance.png, photoshop.png
+Des:Este proyecto se basa en la creación de un prop realista para videojuegos: un generador eléctrico desgastado y lleno de piezas, diseñado para parecer funcional y creíble, tomando como referencia generadores reales.
+
+Lo realicé por pura pasión y ganas de aprender, siguiendo un curso de Domestika.
+
+El objetivo personal era aprender a modelar de forma profesional objetos hard surface, ya que hasta ese momento estaba más acostumbrado a modelar elementos orgánicos en ZBrush.
