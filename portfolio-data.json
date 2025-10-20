@@ -147,24 +147,8 @@
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/portada.jpg",
             "title": "Sneakers",
             "subtitle": "Modelado 3D de un zapato cyberpunk",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
-            ],
+            "description": "Este proyecto se basa en el modelado 3D de un zapato con estilo cyberpunk, que combina efectos de luz neón, metales estilizados y una estética urbana. \n Su desarrollo surgió por pura pasión y curiosidad, con el objetivo de aprender y explorar el diseño de piezas de moda originales. \n El objetivo personal del proyecto era aprender a modelar formas combinando herramientas orgánicas como ZBrush con técnicas más técnicas y precisas en 3ds Max. Además, busqué texturizar con gran nivel de detalle usando Substance Painter, puliendo cada pequeño elemento del zapato para lograr un resultado realista, cargado de carácter y coherente con el estilo cyberpunk.",
+            "links": [],
             "programs": [],
             "images": [
               {
