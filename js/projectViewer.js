@@ -130,6 +130,9 @@ function openProjectViewer(categoryIndex, projectIndex) {
 		<div class="project-description-text">${projectData.description || 'Sin descripción disponible'}</div>
 	`;
 
+	const separator1 = document.createElement('div');
+	separator1.className = 'project-section-separator';
+
 	const linksSection = document.createElement('div');
 	linksSection.className = 'project-links';
 	linksSection.innerHTML = '<div class="project-links-title">Enlaces</div>';
@@ -155,9 +158,39 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	}
 
 	linksSection.appendChild(linksContainer);
+
+	const separator2 = document.createElement('div');
+	separator2.className = 'project-section-separator';
+
+	const programsSection = document.createElement('div');
+	programsSection.className = 'project-programs';
+	programsSection.innerHTML = '<div class="project-programs-title">Programas</div>';
+
+	const programsContainer = document.createElement('div');
+	programsContainer.className = 'project-programs-icons';
+
+	if (projectData.programs && projectData.programs.length > 0) {
+		projectData.programs.forEach(program => {
+			const progIcon = document.createElement('img');
+			progIcon.className = 'project-program-icon';
+			progIcon.src = `images/icons/${program}`;
+			progIcon.alt = program.replace('.png', '');
+			progIcon.title = program.replace('.png', '');
+			programsContainer.appendChild(progIcon);
+		});
+	} else {
+		programsContainer.innerHTML = '<p style="color: #666; font-size: 0.85rem;">No hay programas especificados</p>';
+	}
+
+	programsSection.appendChild(programsContainer);
+
+	// Orden: Título → Descripción → Separador → Enlaces → Separador → Programas
 	sidebarLeft.appendChild(titleSection);
 	sidebarLeft.appendChild(descSection);
+	sidebarLeft.appendChild(separator1);
 	sidebarLeft.appendChild(linksSection);
+	sidebarLeft.appendChild(separator2);
+	sidebarLeft.appendChild(programsSection);
 
 	const sidebarRight = document.createElement('div');
 	sidebarRight.className = 'project-sidebar-right';
@@ -301,7 +334,6 @@ function openProjectViewer(categoryIndex, projectIndex) {
 			if (index === 0) thumbnail.classList.add('active');
 
 			if (mediaType === 'video') {
-				// Para MP4: usar el primer frame del video
 				const videoElement = document.createElement('video');
 				videoElement.preload = 'metadata';
 				videoElement.muted = true;
@@ -327,7 +359,6 @@ function openProjectViewer(categoryIndex, projectIndex) {
 					});
 					thumbnail.appendChild(thumbImg);
 
-					// Añadir overlay de video
 					const overlay = document.createElement('div');
 					overlay.className = 'video-thumbnail-overlay';
 					const icon = document.createElement('div');
@@ -340,7 +371,6 @@ function openProjectViewer(categoryIndex, projectIndex) {
 				thumbnail.classList.add('video-thumb');
 
 			} else if (mediaType === 'youtube') {
-				// Para YouTube: usar la miniatura oficial de YouTube
 				let videoId = '';
 				try {
 					const url = new URL(mediaSrc);
@@ -362,7 +392,6 @@ function openProjectViewer(categoryIndex, projectIndex) {
 					});
 					thumbnail.appendChild(thumbImg);
 
-					// Añadir overlay de video
 					const overlay = document.createElement('div');
 					overlay.className = 'video-thumbnail-overlay';
 					const icon = document.createElement('div');
@@ -410,13 +439,11 @@ function openProjectViewer(categoryIndex, projectIndex) {
 					const index = parseInt(entry.target.dataset.imageIndex);
 					updateActiveThumbnail(index);
 
-					// Auto-reproducir videos MP4
 					const video = entry.target.querySelector('video.project-video');
 					if (video) {
 						video.play().catch(err => console.log('Error al reproducir video:', err));
 					}
 				} else {
-					// Pausar videos cuando salen del viewport
 					const video = entry.target.querySelector('video.project-video');
 					if (video) {
 						video.pause();
@@ -491,27 +518,22 @@ function updateActiveThumbnail(index) {
 		if (i === index) {
 			thumb.classList.add('active');
 
-			// Hacer scroll en el sidebar para que la miniatura activa sea visible
 			if (sidebarRight && thumb) {
 				const thumbTop = thumb.offsetTop;
 				const thumbHeight = thumb.offsetHeight;
 				const sidebarScrollTop = sidebarRight.scrollTop;
 				const sidebarHeight = sidebarRight.clientHeight;
 
-				// Calcular si la miniatura está fuera del área visible
 				const thumbBottom = thumbTop + thumbHeight;
 				const visibleTop = sidebarScrollTop;
 				const visibleBottom = sidebarScrollTop + sidebarHeight;
 
-				// Si la miniatura está por encima del área visible
 				if (thumbTop < visibleTop) {
 					sidebarRight.scrollTo({
 						top: thumbTop - 20,
 						behavior: 'smooth'
 					});
-				}
-				// Si la miniatura está por debajo del área visible
-				else if (thumbBottom > visibleBottom) {
+				} else if (thumbBottom > visibleBottom) {
 					sidebarRight.scrollTo({
 						top: thumbBottom - sidebarHeight + 20,
 						behavior: 'smooth'

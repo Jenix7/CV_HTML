@@ -8,24 +8,31 @@
           {
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "subtitle": "Modelado 3D de personajes y escenarios para videojuego",
+            "description": "Este es un proyecto de videojuego 3D donde me encargué del modelado completo de personajes, props y escenarios. Utilicé técnicas de low-poly y texturizado PBR para optimizar el rendimiento sin sacrificar la calidad visual. El proyecto incluye más de 20 assets únicos y un sistema de iluminación dinámico implementado en Unity.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
+                "text": "Ver en Itch.io",
+                "url": "https://ejemplo.itch.io/bubble-heights",
+                "icon": "itchio.png"
               },
               {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Video Gameplay",
+                "url": "https://www.youtube.com/watch?v=XBfljElJQMw",
                 "icon": "youtube.png"
               },
               {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Artstation",
+                "url": "https://www.artstation.com/proyecto",
+                "icon": "link.png"
               }
+            ],
+            "programs": [
+              "Maya.png",
+              "opentoonz.png",
+              "substance.png",
+              "Photosho.png",
+              "Unity.png"
             ],
             "images": [
               {
@@ -116,6 +123,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -153,6 +161,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -190,6 +199,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -227,6 +237,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -256,6 +267,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -293,6 +305,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -330,6 +343,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -367,6 +381,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -404,6 +419,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -446,6 +462,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -483,6 +500,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -520,6 +538,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -557,6 +576,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -594,6 +614,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -631,6 +652,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -668,6 +690,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -705,6 +728,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -747,6 +771,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -784,6 +809,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -821,6 +847,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -858,6 +885,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -895,6 +923,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -932,6 +961,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -974,6 +1004,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1011,6 +1042,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1048,6 +1080,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1085,6 +1118,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1122,6 +1156,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1164,6 +1199,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1201,6 +1237,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1238,6 +1275,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1275,6 +1313,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1322,6 +1361,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1359,6 +1399,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1396,6 +1437,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1433,6 +1475,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1475,6 +1518,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1512,6 +1556,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1549,6 +1594,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1586,6 +1632,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1623,6 +1670,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1660,6 +1708,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1697,6 +1746,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1739,6 +1789,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1776,6 +1827,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1813,6 +1865,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1855,6 +1908,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1892,6 +1946,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1929,6 +1984,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -1976,6 +2032,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2013,6 +2070,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2050,6 +2108,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2092,6 +2151,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2129,6 +2189,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2166,6 +2227,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2208,6 +2270,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2245,6 +2308,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2292,6 +2356,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2329,6 +2394,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2371,6 +2437,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2413,6 +2480,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2455,6 +2523,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2502,6 +2571,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2539,6 +2609,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2581,6 +2652,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",
@@ -2618,6 +2690,7 @@
                 "icon": "download.png"
               }
             ],
+            "programs": [],
             "images": [
               {
                 "type": "image",

@@ -1818,6 +1818,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	background: transparent;
 	border-right: 2px solid rgba(255, 255, 255, 0.1);
 	padding: 30px 20px;
+	margin-left: -20px;
 	overflow-y: auto;
 	scrollbar-width: thin;
 	scrollbar-color: rgba(100, 116, 139, 0.8) rgba(0, 0, 0, 0.3);
@@ -1883,10 +1884,66 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	text-align: justify;
 }
 
+.project-section-separator {
+	height: 1px;
+	background: rgba(255, 255, 255, 0.1);
+	margin: 20px 0;
+}
+
+.project-links {
+	margin-bottom: 0;
+}
+
+.project-link {
+	padding: 8px 12px;
+	gap: 10px;
+	font-size: 0.8rem;
+}
+
+.project-link-icon {
+	width: 20px;
+	height: 20px;
+}
+
+.project-programs {
+	margin-bottom: 30px;
+}
+
+.project-programs-title {
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: #e4e4e7;
+	margin-bottom: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.project-programs-icons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.project-program-icon {
+	width: 32px;
+	height: 32px;
+	object-fit: contain;
+	opacity: 0.8;
+	transition: all 0.3s ease;
+	filter: grayscale(0.3);
+}
+
+.project-program-icon:hover {
+	opacity: 1;
+	transform: scale(1.15);
+	filter: grayscale(0);
+}
+
 .project-links {
 	display: flex;
 	flex-direction: column;
-	gap: 12px;
+	gap: 6px;
+	margin-bottom: 0;
 }
 
 .project-links-title {
@@ -1901,33 +1958,37 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 .project-link {
 	display: flex;
 	align-items: center;
-	gap: 12px;
-	padding: 12px 16px;
-	background: rgba(255, 255, 255, 0.05);
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	border-radius: 8px;
+	gap: 8px;
+	padding: 6px 10px;
+	background: rgba(255, 255, 255, 0.03);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: 6px;
 	text-decoration: none;
 	color: #e4e4e7;
-	font-size: 0.85rem;
+	font-size: 0.75rem;
 	transition: all 0.3s ease;
 	cursor: pointer;
 }
 
 .project-link:hover {
-	background: rgba(255, 255, 255, 0.1);
-	border-color: rgba(255, 255, 255, 0.3);
-	transform: translateX(4px);
+	background: rgba(255, 255, 255, 0.08);
+	border-color: rgba(255, 255, 255, 0.2);
+	transform: translateX(2px);
 }
 
 .project-link-icon {
-	width: 24px;
-	height: 24px;
+	width: 18px;
+	height: 18px;
 	object-fit: contain;
 	flex-shrink: 0;
+	opacity: 0.9;
 }
 
 .project-link-text {
 	flex: 1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .project-main-viewer {

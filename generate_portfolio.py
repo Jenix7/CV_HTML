@@ -129,6 +129,7 @@ def generate_portfolio_data():
                 project_subtitle = ""
                 project_description = ""
                 project_links = []
+                project_programs = []
 
                 if os.path.exists(info_path):
                     try:
@@ -145,6 +146,10 @@ def generate_portfolio_data():
                                     project_subtitle = line[4:].strip()
                                 elif line.startswith('Des:'):
                                     project_description = line[4:].strip()
+                                elif line.startswith('Prog:'):
+                                    # Parsear programas separados por comas
+                                    programs_str = line[5:].strip()
+                                    project_programs = [p.strip() for p in programs_str.split(',') if p.strip()]
                                 elif line.startswith('Link_'):
                                     # Parsear Link_X:("texto","url","icono.png")
                                     try:
@@ -176,7 +181,7 @@ def generate_portfolio_data():
                                         print(f"    ⚠️ Error parseando link: {line} - {e}")
 
                             print(f"    ✓ {project_title} - {project_subtitle}")
-                            print(f"      Links: {len(project_links)}, Descripción: {len(project_description)} chars")
+                            print(f"      Links: {len(project_links)}, Programas: {len(project_programs)}, Descripción: {len(project_description)} chars")
                     except Exception as e:
                         print(f"    ⚠️ Error leyendo {info_path}: {e}")
                 else:
@@ -236,6 +241,7 @@ def generate_portfolio_data():
                     "subtitle": project_subtitle,
                     "description": project_description,
                     "links": project_links,
+                    "programs": project_programs,
                     "images": additional_images
                 })
 
