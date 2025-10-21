@@ -234,38 +234,25 @@
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/portada.jpg",
             "title": "Rosalia x Flamingo",
             "subtitle": "Modelado 3D de un personaje teriantropo",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "El proyecto esta basado en el concepto de fusionar el flamenco como animal y como el género de música, adaptando esta unión a una criatura monstruoso y grotesca al mismo estilo de Diablo IW \n El personaje está basado e interpretado por la cantante Rosalía, muy asociada a dicho genero de música. Además, la actitud de la artista en el escena rio encaja muy bien para una criatura poderosa, el aura de diva y majestuosidad que transmite encaja con el concepto de una divinidad poderosa del juego. \n Realicé este proyecto como un trabajo de la asignatura de Modelado 3D en la universidad, durante el segundo curso de la carrera.",
+            "links": [],
+            "programs": [
+              "zbrush.png",
+              "3dsmax.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/1.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/2.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/3.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/3.png"
               }
             ]
           },
@@ -273,38 +260,42 @@
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/portada.jpg",
             "title": "Wood Temple",
             "subtitle": "Modelado 3D de un templo élfico",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Este proyecto es el modelado de un calabozo de estilo élfico, ambientado en una antigua fortaleza de elfos silvanos. La estructura está construida con madera y piedra, materiales naturales característicos de su cultura. Presenta formas curvas y elegantes propias de su arquitectura. En su interior se encuentra un dragón de tamaño medio, al que la tribu veneraba y alimentaba con prisioneros. \n Realicé este proyecto como un trabajo de la asignatura de Modelado 3D en la universidad, durante el segundo curso de la carrera.",
+            "links": [],
+            "programs": [
+              "3dsmax.png",
+              "zbrush.png",
+              "substance.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/1.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/2.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/3.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/6.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/7.png"
               }
             ]
           },
@@ -312,38 +303,30 @@
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/portada.jpg",
             "title": "Monster UFO",
             "subtitle": "Modelado 3D de un vehículo cartoon",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "El proyecto consiste en el modelado de un OVNI básico, reinterpretado con una fusión de Monster Truck, donde un alienígena rebelde personaliza su nave con su propio estilo. \n Lo desarrollé como segundo trabajo de la asignatura de 3D en la universidad, buscando darle un enfoque diferente y original al concepto clásico de crear un simple platillo volador.",
+            "links": [],
+            "programs": [
+              "3dsmax.png",
+              "zbrush.png",
+              "photoshop.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/1.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/2.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/3.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/4.png"
               }
             ]
           },
@@ -351,38 +334,22 @@
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/portada.jpg",
             "title": "Maria Singer",
             "subtitle": "Modelado e Impresión 3D de una figura",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Un regalo personalizado en el que modelé una figura chibi de la persona a quien se lo destiné, intentando reflejar sus aficiones y personalidad. \n Posteriormente, la imprimí en una impresora 3D de resina y la pinté a mano con pintura acrílica.",
+            "links": [],
+            "programs": [
+              "zbrush.png",
+              "3dsmax.png",
+              "substance.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/1.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/3.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/2.png"
               }
             ]
           },
@@ -390,38 +357,29 @@
             "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/portada.jpg",
             "title": "Camino a la luna",
             "subtitle": "Modelado 3D de un nivel Monument Valley",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "El proyecto consiste en el diseño y modelado de un nivel inspirado en Monument Valley, basado en el concepto “Camino a la Luna”. Para transmitir esta idea, tomé como referencia una escena de la serie animada Steven Universe, en la que una torre de agua se eleva hasta la luna. \n Lo desarrollé como primer trabajo de la asignatura de 3D en la universidad, donde comenzamos a aprender a modelar formas simples.",
+            "links": [],
+            "programs": [
+              "3dsmax.png",
+              "photoshop.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/1.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/2.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/3.jpg"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/4.png"
               }
             ]
           }
@@ -434,38 +392,36 @@
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/portada.jpg",
             "title": "Cartoon Crew",
             "subtitle": "Ilustración de personajes cartoon",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
+            "description": "Recopilación de ilustraciones de distintos personajes cartoon que he creado en diferentes momentos como parte de mi práctica personal y afición por el dibujo. \n Cada pieza refleja mi interés por explorar expresiones, formas y colores, manteniendo un estilo caricaturesco y dinámico.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
+            ],
+            "related": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Porky's Day Out",
+                "section": "arte",
+                "category_index": 4,
+                "project_index": 0
               }
             ],
-            "programs": [],
-            "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/1.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/2.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/3.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/4.png"
               }
             ]
           },
@@ -473,38 +429,22 @@
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/portada.jpg",
             "title": "Empathy Code",
             "subtitle": "Ilustración de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Ilustraciones para Empathy Code, un videojuego de plataformas 2D con estilo cartoon, donde la protagonista, Sydan, tiene la habilidad de intercambiar posiciones con personajes y objetos. \n El proyecto destaca por su paleta de colores vibrantes y formas simples, así como por un diseño de personaje ilustrado por partes, lo que permite animarlo directamente en Unity mediante el sistema de árbol de animaciones.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png",
+              "unity.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/1.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/3.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/2.png"
               }
             ]
           },
@@ -512,38 +452,37 @@
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/portada.jpg",
             "title": "Green Heart",
             "subtitle": "Ilustración de personajes cartoon",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Ilustraciones de personajes para el diseño de Green Heart, un videojuego de plataformas y combate 2D ambientado en un mundo steampunk con estética art nouveau. \n El protagonista, Leafor, es un científico que debe investigar una misteriosa actividad biológica detectada en un jardín botánico abandonado en una isla.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/1.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/2.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/3.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/6.png"
               }
             ]
           },
@@ -551,38 +490,33 @@
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/portada.jpg",
             "title": "Nubipoly",
             "subtitle": "Ilustraciones paródicas de un juego de mesa",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Ilustraciones y diseño completo de un juego de mesa, una versión paródica de Monopoly creada como regalo personalizado para un amigo. Las casillas, cartas y tarjetas de suerte incluyen bromas y referencias internas basadas en su personalidad. \n Todo el juego, incluidas las cartas, el tablero y los distintos elementos, fue diseñado, ilustrado e impreso físicamente, con un estilo cómico y caricaturesco, lleno de expresiones exageradas, disfraces y situaciones humorísticas que transmiten un tono divertido y cercano.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/1.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/2.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/3.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/5.png"
               }
             ]
           },
@@ -590,38 +524,53 @@
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/portada.jpg",
             "title": "Tabuun Universe - Personajes",
             "subtitle": "Ilustraciones de personajes mágicos para el diseño de un universo narrativo",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Tabuun Universe es un proyecto personal que consiste en la creación de un universo completo: con su propio worldbuilding, personajes, sistema de poderes y múltiples historias que se entrelazan dentro de un vasto cosmos de acción y magia. \n Generé ilustraciones de varios personajes que imaginé para este universo, algunos más detallados y otros en formato de boceto, con el objetivo de representar rápidamente su personalidad, rol y esencia dentro del mundo que he ido imaginando.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/1.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/2.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/3.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/6.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/7.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/8.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/9.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/10.png"
               }
             ]
           },
@@ -629,38 +578,33 @@
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/portada.jpg",
             "title": "Los Juegos reunidos Nadie",
             "subtitle": "lustraciones de un juego de mesa para Nadie Sabe Nada",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Este es un proyecto que diseñé para el programa de radio Nadie Sabe Nada, creado como fan del programa. A partir de su narrativa interna y bromas recurrentes, elaboré una propuesta de juego de mesa con ilustraciones cartoon y caricaturescas que representan el humor y la esencia del show.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/1.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/2.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/3.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/5.png"
               }
             ]
           },
@@ -668,38 +612,43 @@
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/portada.jpg",
             "title": "ROSALIA el Videojuego",
             "subtitle": "Diseño UI de videojuego tributo",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "“Rosalía: The Videogame” es una aventura de plataformas musical que lleva a los jugadores al universo de la artista Rosalía, con escenarios inspirados en sus canciones y álbumes, especialmente El Mal Querer, y desafíos rítmicos que reflejan su fusión de flamenco y estilo urbano. \n El proyecto lo realicé para una asignatura universitaria de diseño UI, con la que obtuve matrícula de honor. \n Diseñé la interfaz de usuario (UI) y el arte de escenarios y personajes del videojuego. Para ello realicé un proceso completo de estudio y diseño que incluyó la elaboración del briefing, el persona profile, el benchmarking, la creación del moodboard, el desarrollo de wireframes y mock-ups, y finalmente la biblia de estilo.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Diseño UI - Rosalia el Videojuego",
+                "url": "https://drive.google.com/file/d/1b_-7_2n_QZ9sXYcSUrgVe1_gfYS1kFJL/view?usp=sharing",
+                "icon": "pdf.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/1.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/2.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/3.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/6.png"
               }
             ]
           },
@@ -707,38 +656,21 @@
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/portada.jpg",
             "title": "Keep Working",
             "subtitle": "Arte completo de un minijuego prototipo",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Keep Working es un videojuego de plataformas 2D con físicas cómicas y caóticas, desarrollado para la asignatura de Serious Games en la universidad. Además de su diseño, realicé todas las ilustraciones y el arte visual, empleando un estilo cartoon y cómico que contrasta con el tono crítico del proyecto. \n La historia transcurre en un almacén de una empresa logística dedicada a las compras online, donde el jugador asume el papel de un trabajador que debe clasificar y mover cajas contrarreloj, enfrentándose a situaciones surrealistas y exageradas que transmiten estrés, confusión y falta de descanso. El ritmo es constante, frenético y desafiante. \n Al finalizar la partida, el juego revela que todas las situaciones vividas están inspiradas en casos reales, con el objetivo de concienciar al jugador sobre las duras condiciones laborales y motivar a apoyar la causa de los trabajadores afectados.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/1.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/3.jpg"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/2.png"
               }
             ]
           }
