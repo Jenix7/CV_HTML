@@ -1,6 +1,7 @@
 Tit:Super Mario Xmas
 Sub:Desarrollo de un nivel de Mario 64 tematizado en Navidad
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Super Mario Xmas","https://www.youtube.com/watch?v=GMDSRdKfywA","youtube.png")
+Prog:unity.png,3dsmax.png,photoshop.png
+Des:El proyecto se basa en la recreación del primer nivel del videojuego Super Mario 64, reinterpretado con un estilo y enfoque navideño. Desarrollado como práctica de programación y desarrollo en Unity para la asignatura universitaria de Desarrollo 3D.
+
+El nivel reproduce de forma funcional las principales características del juego original: todos los tipos de movimiento de Mario, los efectos de cámara, obstáculos y plataformas móviles. Además, se añadió una ambientación navideña para dotar al proyecto de personalidad propia y experimentar con la implementación de nuevos elementos dentro del entorno 3D de Unity.

@@ -1,6 +1,7 @@
 Tit:Basic Shop - Prototipo de Gameplay
 Sub:Implementación de una mecánica de intercambio para juegos 2D
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Basic Shop","https://www.youtube.com/watch?v=B5Fcxk3SSGw","youtube.png")
+Prog:unity.png,photoshop.png,illustrator.png
+Des:Este proyecto se basa en la implementación de un sistema de lógica para una tienda, que incluye mecánicas de interacción, compra y venta a través de una interfaz. Fue desarrollado como práctica de programación y desarrollo en Unity para la asignatura universitaria de Desarrollo 2D.
+
+Para mejorar el resultado final, incorporé arte de personajes propios reciclados, añadiendo animaciones y variaciones de pose a los personajes que interactúan en la tienda.

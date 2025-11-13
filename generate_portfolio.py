@@ -258,6 +258,7 @@ def generate_portfolio_data():
                                             if len(parts) >= 2:
                                                 button_text = parts[0]
                                                 target_folder_input = parts[1]
+                                                custom_icon = parts[2] if len(parts) >= 3 else None
 
                                                 # Buscar el proyecto en el mapa (ignorando números al inicio)
                                                 target_folder = None
@@ -272,15 +273,20 @@ def generate_portfolio_data():
 
                                                 if target_folder and target_folder in project_map:
                                                     target_info = project_map[target_folder]
-                                                    project_related.append({
+                                                    related_item = {
                                                         "text": button_text,
                                                         "section": target_info['section'],
                                                         "category_index": target_info['category_index'],
                                                         "project_index": target_info['project_index']
-                                                    })
-                                                    print(f"    ✅ Relacionado: '{button_text}' -> {target_folder}")
+                                                    }
+                                                    if custom_icon:
+                                                        related_item["icon"] = custom_icon
+
+                                                    project_related.append(related_item)
+                                                    icon_info = f" (icono: {custom_icon})" if custom_icon else ""
+                                                    print(f"    ✅ Relacionado: '{button_text}' -> {target_folder}{icon_info}")
                                                 else:
-                                                    print(f"    ⚠️ Proyecto relacionado no encontrado: {target_folder}")
+                                                    print(f"    ⚠️ Proyecto relacionado no encontrado: {target_folder_input}")
                                     except Exception as e:
                                         print(f"    ⚠️ Error parseando relacionado: {line} - {e}")
                                     i += 1

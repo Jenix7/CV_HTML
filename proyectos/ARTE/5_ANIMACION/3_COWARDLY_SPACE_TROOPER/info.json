@@ -1,6 +1,7 @@
 Tit:Cowardly Space Trooper
 Sub:Animaciones 3D corporales de un personaje
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Animaciones - Cowardly Space Trooper","https://www.youtube.com/watch?v=ocPxbcr6r1U","youtube.png")
+Prog:3dsmax.png,marmoset.png
+Des:Animación 3D de un personaje humanoide para un videojuego, creada en 3ds Max. Se realizaron diversas animaciones que representan distintos estados y situaciones del personaje dentro del entorno del juego.
+
+Este proyecto fue desarrollado para la asignatura Introducción a la Animación 3D, donde el objetivo era animar un space trooper. Decidí darle un enfoque original, representándolo como un soldado cobarde y torpe que tiembla constantemente. Esta dirección creativa permitió dotarlo de personalidad y exagerar sus gestos para expresar con claridad su actitud.

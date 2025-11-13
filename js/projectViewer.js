@@ -199,8 +199,10 @@ function openProjectViewer(categoryIndex, projectIndex) {
 			relatedEl.className = 'project-link';
 			relatedEl.style.cursor = 'pointer';
 
+			const iconSrc = related.icon ? `images/icons/${related.icon}` : 'images/icons/relacionado.png';
+
 			relatedEl.innerHTML = `
-				<img class="project-link-icon" src="images/icons/relacionado.png" alt="${related.text}">
+				<img class="project-link-icon" src="${iconSrc}" alt="${related.text}">
 				<span class="project-link-text">${related.text}</span>
 			`;
 

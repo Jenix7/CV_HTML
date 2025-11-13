@@ -25,6 +25,11 @@
                 "text": "Modelando a Coral",
                 "url": "https://www.youtube.com/watch?v=XBfljElJQMw&feature=youtu.be",
                 "icon": "youtube.png"
+              },
+              {
+                "text": "Game Design Document",
+                "url": "https://drive.google.com/file/d/13IKzX3V7Nn-9waTLjOlEzsG03ZoU-VuC/view?usp=drive_link",
+                "icon": "pdf.png"
               }
             ],
             "programs": [
@@ -422,6 +427,14 @@
               {
                 "type": "image",
                 "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/6.png"
               }
             ]
           },
@@ -452,8 +465,14 @@
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/portada.jpg",
             "title": "Green Heart",
             "subtitle": "Ilustración de personajes cartoon",
-            "description": "Ilustraciones de personajes para el diseño de Green Heart, un videojuego de plataformas y combate 2D ambientado en un mundo steampunk con estética art nouveau. \n El protagonista, Leafor, es un científico que debe investigar una misteriosa actividad biológica detectada en un jardín botánico abandonado en una isla.",
-            "links": [],
+            "description": "Ilustraciones de personajes para el diseño de Green Heart, un videojuego de plataformas y combate 2D ambientado en un mundo steampunk con estética art nouveau. \n El protagonista, Gary, es un científico que debe investigar una misteriosa actividad biológica detectada en un jardín botánico abandonado en una isla.",
+            "links": [
+              {
+                "text": "Game Document Design",
+                "url": "https://drive.google.com/file/d/1Gjhygh0eaIcQuXImthzghVoZIMDlqpzx/view?usp=drive_link",
+                "icon": "pdf.png"
+              }
+            ],
             "programs": [
               "photoshop.png",
               "illustrator.png"
@@ -521,7 +540,7 @@
             ]
           },
           {
-            "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/portada.jpg",
+            "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/portada.jpg",
             "title": "Tabuun Universe - Personajes",
             "subtitle": "Ilustraciones de personajes mágicos para el diseño de un universo narrativo",
             "description": "Tabuun Universe es un proyecto personal que consiste en la creación de un universo completo: con su propio worldbuilding, personajes, sistema de poderes y múltiples historias que se entrelazan dentro de un vasto cosmos de acción y magia. \n Generé ilustraciones de varios personajes que imaginé para este universo, algunos más detallados y otros en formato de boceto, con el objetivo de representar rápidamente su personalidad, rol y esencia dentro del mundo que he ido imaginando.",
@@ -534,43 +553,43 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/1.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/2.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/3.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/4.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/5.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/5.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/6.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/6.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/7.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/7.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/8.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/8.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/9.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/9.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSOANJES/10.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/10.png"
               }
             ]
           },
@@ -618,6 +637,11 @@
                 "text": "Diseño UI - Rosalia el Videojuego",
                 "url": "https://drive.google.com/file/d/1b_-7_2n_QZ9sXYcSUrgVe1_gfYS1kFJL/view?usp=sharing",
                 "icon": "pdf.png"
+              },
+              {
+                "text": "Análisis UI en Videojuegos",
+                "url": "https://drive.google.com/file/d/1ItCruFm9AXFww6eMD7oieirLcoAHux2z/view?usp=drive_link",
+                "icon": "pdf.png"
               }
             ],
             "programs": [
@@ -649,6 +673,10 @@
               {
                 "type": "image",
                 "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/6.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/7.png"
               }
             ]
           },
@@ -656,7 +684,7 @@
             "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/portada.jpg",
             "title": "Keep Working",
             "subtitle": "Arte completo de un minijuego prototipo",
-            "description": "Keep Working es un videojuego de plataformas 2D con físicas cómicas y caóticas, desarrollado para la asignatura de Serious Games en la universidad. Además de su diseño, realicé todas las ilustraciones y el arte visual, empleando un estilo cartoon y cómico que contrasta con el tono crítico del proyecto. \n La historia transcurre en un almacén de una empresa logística dedicada a las compras online, donde el jugador asume el papel de un trabajador que debe clasificar y mover cajas contrarreloj, enfrentándose a situaciones surrealistas y exageradas que transmiten estrés, confusión y falta de descanso. El ritmo es constante, frenético y desafiante. \n Al finalizar la partida, el juego revela que todas las situaciones vividas están inspiradas en casos reales, con el objetivo de concienciar al jugador sobre las duras condiciones laborales y motivar a apoyar la causa de los trabajadores afectados.",
+            "description": "Keep Working es un videojuego de plataformas 2D con físicas cómicas y caóticas, desarrollado para la asignatura de Serious Games en la universidad. Además de su diseño, realicé las ilustraciones y el arte visual, empleando un estilo cartoon y cómico que contrasta con el tono crítico del proyecto. \n La historia transcurre en un almacén de una empresa logística dedicada a las compras online, donde el jugador asume el papel de un trabajador que debe clasificar y mover cajas contrarreloj, enfrentándose a situaciones surrealistas y exageradas que transmiten estrés, confusión y falta de descanso. El ritmo es constante, frenético y desafiante. \n Al finalizar la partida, el juego revela que todas las situaciones vividas están inspiradas en casos reales, con el objetivo de concienciar al jugador sobre las duras condiciones laborales y motivar a apoyar la causa de los trabajadores afectados.",
             "links": [],
             "programs": [
               "photoshop.png",
@@ -673,6 +701,86 @@
                 "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/2.png"
               }
             ]
+          },
+          {
+            "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/portada.jpg",
+            "title": "Aether",
+            "subtitle": "Pixelart para un videojuego 2D Top Down",
+            "description": "Aether es un videojuego RPG de puzles y acción con vista cenital (top-down), desarrollado en estilo pixel art. Su mecánica principal combina estrategia y creatividad, basada en la fusión de elementos primarios; planta, agua, fuego y electricidad, que pueden mezclarse entre sí para crear defensas, circuitos o herramientas necesarias para avanzar en el juego. \n Para llevar a cabo el proyecto, diseñé íntegramente las mecánicas y los niveles, además de realizar todo el arte visual en estilo pixel art e implementar el juego completo en Unity. Aether cuenta con dos niveles que introducen progresivamente las mecánicas principales, con la posibilidad de expandir el proyecto en el futuro gracias a la originalidad de su sistema de juego. \n Fue desarrollado para la asignatura de Proyectos del primer curso universitario, con el cual pude obtener matrícula de honor.",
+            "links": [
+              {
+                "text": "Tráiler Aether",
+                "url": "https://www.youtube.com/watch?v=M9VmHHxm92c",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Aether - Gameplay",
+                "url": "https://www.youtube.com/watch?v=1SVAl43raVo&feature=youtu.be",
+                "icon": "youtube.png"
+              }
+            ],
+            "programs": [
+              "unity.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
+            "related": [],
+            "images": [
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/1.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=M9VmHHxm92c&feature=youtu.be"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/3.mp4"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/6.png"
+              }
+            ]
+          },
+          {
+            "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/10_MINIJUEGOS_ARTE/portada.jpg",
+            "title": "Minijuegos - Arte",
+            "subtitle": "Arte completo para minijuegos",
+            "description": "Recopilación de ilustraciones y diseños 2D creados para varios prototipos de minijuegos. El estilo es cartoon, con un tono cómico, sencillo, colorido y coherente, buscando un aspecto amigable en cada propuesta. \n Son proyectos realizados para la asignatura de IA en la universidad, donde además de desarrollar el código para implementar sistemas de navegación y comportamientos de IA en NPCs, decidí crear todo el arte visual de los minijuegos. De esta forma, pude darles más identidad, cohesión y flexibilidad en el diseño, potenciando la experiencia general.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
+            ],
+            "related": [],
+            "images": [
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/10_MINIJUEGOS_ARTE/1.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/10_MINIJUEGOS_ARTE/2.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/10_MINIJUEGOS_ARTE/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/10_MINIJUEGOS_ARTE/4.png"
+              }
+            ]
           }
         ]
       },
@@ -683,38 +791,41 @@
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/portada.jpg",
             "title": "Events - Branding",
             "subtitle": "Diseño de flyers y contenido para eventos",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Diseño de flyers publicitarios, pósters y piezas gráficas, incluyendo posts para redes sociales y branding general, destinados a promocionar fiestas y eventos temáticos variados. \n Cada cartel presenta una temática distinta, buscando transmitir una esencia única para cada evento, pero manteniendo a la vez una coherencia visual global mediante el uso de paletas de color y estilos específicos.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/1.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/2.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/3.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/6.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/7.png"
               }
             ]
           },
@@ -722,38 +833,17 @@
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/portada.jpg",
             "title": "Tecno Phone",
             "subtitle": "Diseño de una carpeta para Tecnocampus",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Diseño gráfico de una carpeta para la universidad Tecnocampus. Durante mi etapa universitaria participé en un concurso abierto a estudiantes de todas las áreas, en el que se buscaban propuestas creativas para la carpeta oficial del siguiente curso académico. \n Mi propuesta consistió en diseñar una carpeta que simula ser un teléfono o una tablet de gran tamaño, cuidando cada detalle como los botones, la cámara y las aplicaciones personalizadas, que integraban la información útil de la universidad. El objetivo fue promocionar, informar y aportar una identidad original a través del diseño.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/3.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/1.png"
               }
             ]
           },
@@ -761,38 +851,38 @@
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/portada.jpg",
             "title": "Alquílame esta moto - Branding",
             "subtitle": "Branding y mockups para negocio de motos",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Alquílame esta moto es un negocio dedicado al alquiler de equipamiento para motoristas. Me encargué personalmente de crear el branding y definir la identidad visual del proyecto, desarrollando un estilo coherente y una paleta de colores corporativos que transmiten profesionalidad y confianza. \n Diseñé tarjetas de visita, flyers y piezas gráficas publicitarias e informativas, pensadas tanto para impresión física como para difusión digital en redes sociales. Además, desarrollé por completo una web funcional, donde los usuarios pueden calcular pedidos automáticamente y contactar fácilmente, accediendo a toda la información necesaria del servicio.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Web - Alquílame Esta Moto",
+                "url": "https://alquilamestamoto.es/",
+                "icon": "web.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png",
+              "HTML.png",
+              "JAVA.png",
+              "CSS.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/1.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/2.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/3.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/3.png"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/4.mp4"
               }
             ]
           },
@@ -800,38 +890,37 @@
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/portada.jpg",
             "title": "Relaxium Experience",
             "subtitle": "Branding y mockups para negocio de masajes",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "description": "Relaxium Experience es una marca creada para un servicio de masajes en el Club Tenis Llafranc, para la cual desarrollé el diseño completo e identidad visual, incluyendo logotipo, colores y estilo gráfico general. \n Diseñé tarjetas, tickets y bonos para sesiones, así como flyers informativos sobre los distintos servicios, manteniendo una identidad unificada y coherente. La propuesta buscaba transmitir equilibrio, paz y relajación mediante el uso de colores suaves y una estética que evocara bienestar y salud.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/1.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/2.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/3.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/6.png"
               }
             ]
           },
@@ -839,38 +928,47 @@
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/portada.jpg",
             "title": "El Bedel de la Uni",
             "subtitle": "Gestión y creación de contenido para las redes de una novela",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Diseñé la identidad visual completa del libro, asegurando una coherencia estética entre la portada, la paleta de colores y el estilo gráfico general. Generé piezas gráficas para redes sociales y diseños impresos para el lanzamiento de la novela. También desarrollé una página web y un booktráiler para reforzar su campaña de difusión. \n El Bedel de la Uni es una novela de romance y misterio ambientada en la Barcelona de los años 80. Carla, una joven universitaria enamorada de un profesor, se ve envuelta en un escalofriante suceso que hace que su vida dé un giro totalmente inesperado.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
+                "text": "Web - El Bedel de la Uni",
+                "url": "https://www.elbedeldelauni.com/",
+                "icon": "web.png"
               },
               {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Booktrailer - El Bedel de la Uni",
+                "url": "https://www.youtube.com/watch?time_continue=1&v=1ZGBZWnoohE&embeds_referring_euri=https%3A%2F%2Fwww.elbedeldelauni.com%2F&source_ve_path=MjM4NTE",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png",
+              "HTML.png",
+              "JAVA.png",
+              "CSS.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/1.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/2.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/3.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/4.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=1ZGBZWnoohE&t=1s"
               }
             ]
           },
@@ -878,38 +976,83 @@
             "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/portada.jpg",
             "title": "Branding Personal",
             "subtitle": "Desarrollo de web personal, portfolio y CV interactivo",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Desarrollé un branding personal completo para promocionarme de forma creativa y coherente. Creé un currículum interactivo y animado con un estilo de collage artístico que refleja mi identidad y habilidades. \n Diseñé también un portafolio animado, muy visual e interactivo, donde cada proyecto cuenta con su propia sección detallada. Todo el contenido se integró en una web personal con una estética unificada y coherente. Además, incluí cartas tipo cartoon que me representan en distintos roles. \n El objetivo fue mostrar mis capacidades creativas y técnicas a través del propio diseño y funcionamiento del sitio.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Web - El Bedel de la Uni",
+                "url": "https://www.elbedeldelauni.com/",
+                "icon": "web.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png",
+              "HTML.png",
+              "JAVA.png",
+              "CSS.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/1.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/2.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/2.png"
+              }
+            ]
+          },
+          {
+            "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/portada.jpg",
+            "title": "ROSALIA el Videojuego",
+            "subtitle": "Diseño UI de videojuego tributo",
+            "description": "“Rosalía: The Videogame” es una aventura de plataformas musical que lleva a los jugadores al universo de la artista Rosalía, con escenarios inspirados en sus canciones y álbumes, especialmente El Mal Querer, y desafíos rítmicos que reflejan su fusión de flamenco y estilo urbano. \n El proyecto lo realicé para una asignatura universitaria de diseño UI, con la que obtuve matrícula de honor. \n Diseñé la interfaz de usuario (UI) y el arte de escenarios y personajes del videojuego. Para ello realicé un proceso completo de estudio y diseño que incluyó la elaboración del briefing, el persona profile, el benchmarking, la creación del moodboard, el desarrollo de wireframes y mock-ups, y finalmente la biblia de estilo.",
+            "links": [
+              {
+                "text": "Diseño UI - Rosalia el Videojuego",
+                "url": "https://drive.google.com/file/d/1b_-7_2n_QZ9sXYcSUrgVe1_gfYS1kFJL/view?usp=sharing",
+                "icon": "pdf.png"
+              },
+              {
+                "text": "Análisis UI en Videojuegos",
+                "url": "https://drive.google.com/file/d/1ItCruFm9AXFww6eMD7oieirLcoAHux2z/view?usp=drive_link",
+                "icon": "pdf.png"
+              }
+            ],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
+            ],
+            "related": [],
+            "images": [
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/3.jpg"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/2.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/6.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/7.png"
               }
             ]
           }
@@ -922,38 +1065,23 @@
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/1_PING_PONG_BONASPORT/portada.jpg",
             "title": "Ping Pong - Bonasport",
             "subtitle": "Producción y edición de un tráiler para la sección de Ping Pong de un gimnasio",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Grabación y edición de video para la presentación de la sección de tenis de mesa del gimnasio Bonasport. \n El proyecto consiste en la creación de un video que combina planos reales con imágenes generadas mediante inteligencia artificial, integrados de forma coherente a través de una edición cuidada. Se emplean técnicas de edición tradicional junto con recursos digitales innovadores para lograr un resultado visual profesional y consistente.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Tennis Taula | Bonasport",
+                "url": "https://www.youtube.com/watch?v=5sU4ReWIAr8",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "premiere.png",
+              "capcut.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/1_PING_PONG_BONASPORT/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/1_PING_PONG_BONASPORT/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/1_PING_PONG_BONASPORT/3.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=5sU4ReWIAr8"
               }
             ]
           },
@@ -961,38 +1089,35 @@
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/2_EL_BEDEL_DE_LA_UNI_BOOKTRAILER/portada.jpg",
             "title": "El Bedel de la Uni - Booktrailer",
             "subtitle": "Producción y edición de un booktrailer",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Edición completa del booktrailer para la novela El Bedel de la Uni, utilizando planos y sonidos generados mediante inteligencia artificial, combinados con efectos, transiciones, corrección de color y ajuste de tempo en Adobe Premiere Pro. La pieza sincroniza las imágenes con la música épica para transmitir emociones específicas en cada momento y despertar el interés del espectador, con el objetivo de incentivar la compra del libro. \n El Bedel de la Uni es una novela de romance y misterio ambientada en la Barcelona de los años 80. Narra la historia de Carla, una joven universitaria enamorada de su profesor, que se ve envuelta en un suceso escalofriante que cambia su vida por completo.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "El Bedel de la Uni - Booktrailer",
+                "url": "https://www.youtube.com/watch?v=1ZGBZWnoohE&t=1s",
                 "icon": "youtube.png"
               },
               {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Web - El Bedel de la Uni",
+                "url": "https://www.elbedeldelauni.com/",
+                "icon": "web.png"
               }
             ],
-            "programs": [],
-            "related": [],
+            "programs": [
+              "premiere.png",
+              "photoshop.png"
+            ],
+            "related": [
+              {
+                "text": "El Bedel de la Uni - Branding",
+                "section": "arte",
+                "category_index": 2,
+                "project_index": 4
+              }
+            ],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/2_EL_BEDEL_DE_LA_UNI_BOOKTRAILER/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/2_EL_BEDEL_DE_LA_UNI_BOOKTRAILER/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/2_EL_BEDEL_DE_LA_UNI_BOOKTRAILER/3.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=1ZGBZWnoohE&t=1s"
               }
             ]
           },
@@ -1000,116 +1125,31 @@
             "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/3_METAMORPHOSIS_TRAILER/portada.jpg",
             "title": "Metamorphosis - Tráiler",
             "subtitle": "Producción y edición de un tráiler para evento temático",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Grabación y edición de un tráiler promocional para el evento temático de carnaval Metamorphosis. El proyecto incluyó la filmación con cámara y dron, además de la edición completa en Adobe Premiere Pro. \n Se realizaron correcciones de color, efectos visuales, diseño sonoro y una banda sonora épica cuidadosamente seleccionada. La música fue sincronizada con precisión para que encajara con la intensidad y el ritmo de cada escena.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Metamorphosis - Tráiler",
+                "url": "https://www.youtube.com/watch?v=5RiASQOkb_o&feature=youtu.be",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
-            "related": [],
-            "images": [
+            "programs": [
+              "premiere.png",
+              "afterefects.png",
+              "photoshop.png"
+            ],
+            "related": [
               {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/3_METAMORPHOSIS_TRAILER/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/3_METAMORPHOSIS_TRAILER/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/3_METAMORPHOSIS_TRAILER/3.jpg"
-              }
-            ]
-          },
-          {
-            "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/4_THE_CLAUSTRUM_TEST/portada.jpg",
-            "title": "The Claustrum Test",
-            "subtitle": "Producción y edición de un corto",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Events Branding",
+                "section": "arte",
+                "category_index": 2,
+                "project_index": 0
               }
             ],
-            "programs": [],
-            "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/4_THE_CLAUSTRUM_TEST/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/4_THE_CLAUSTRUM_TEST/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/4_THE_CLAUSTRUM_TEST/3.jpg"
-              }
-            ]
-          },
-          {
-            "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/5_MI_PRIMERA_EDICION/portada.jpg",
-            "title": "Mi primera edición",
-            "subtitle": "Montaje de efectos y videos",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
-            ],
-            "programs": [],
-            "related": [],
-            "images": [
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/5_MI_PRIMERA_EDICION/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/5_MI_PRIMERA_EDICION/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/5_MI_PRIMERA_EDICION/3.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=5RiASQOkb_o&feature=youtu.be"
               }
             ]
           }
@@ -1122,77 +1162,138 @@
             "src": "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/portada.jpg",
             "title": "Porky's Day Out",
             "subtitle": "Animación y edición de dibujos animados",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Animación 2D y edición de video de un cortometraje de dibujos animados de estilo cómico y cartoon. El proyecto combina habilidades de ilustración, animación y montaje audiovisual. \n Los personajes y escenarios fueron diseñados en Photoshop e Illustrator, y posteriormente animados en OpenToonz. Finalmente, el material se editó en Adobe Premiere Pro para crear un corto con ritmo y humor visual. Además, se desarrolló una narrativa específica y una planificación de planos que guiaron la estructura y el tono del cortometraje.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Porky's Day Out",
+                "url": "https://www.youtube.com/watch?v=58sHdVyKeGw&feature=youtu.be",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "opentoonz.png",
+              "premiere.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/1.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=58sHdVyKeGw&feature=youtu.be"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/2.jpg"
+                "src": "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/3.jpg"
+                "src": "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/3.png"
               }
             ]
           },
           {
             "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/portada.jpg",
             "title": "Bubble Heights",
-            "subtitle": "Animaciones 3D de personajes y objetos integradas en un videojuego",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "subtitle": "Modelado 3D de personajes y escenarios para videojuego",
+            "description": "Bubble Heights es un juego de plataformas y rompecabezas en 3D protagonizado por Coral, una joven valiente que explora las ruinas de una antigua civilización en busca de un artefacto mágico capaz de salvar a su aldea. \n La mecánica principal consiste en disparar burbujas de agua en diferentes zonas del mapa, creando caminos acuáticos por los que Coral puede nadar y avanzar en su aventura. \n En este proyecto participé como Lead Artist, realizando tareas de modelado 3D, texturización, concept art y animaciones. El juego fue desarrollado junto a mis compañeros de universidad en la asignatura de Proyectos del tercer curso.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
+                "text": "Bubble Heights",
+                "url": "https://demmiurge.itch.io/bubble-heights",
+                "icon": "itchio.png"
               },
               {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Trailer Bubble Heights",
+                "url": "https://www.youtube.com/watch?v=bPRH-fpcZxQ",
                 "icon": "youtube.png"
               },
               {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Modelando a Coral",
+                "url": "https://www.youtube.com/watch?v=XBfljElJQMw&feature=youtu.be",
+                "icon": "youtube.png"
+              },
+              {
+                "text": "Game Design Document",
+                "url": "https://drive.google.com/file/d/13IKzX3V7Nn-9waTLjOlEzsG03ZoU-VuC/view?usp=drive_link",
+                "icon": "pdf.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "zbrush.png",
+              "3dsmax.png",
+              "substance.png",
+              "marmoset.png",
+              "cascadeur.png",
+              "unity.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/1.jpg"
+                "type": "video",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/1.mp4"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/2.mp4"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/3.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/2.jpg"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/3.jpg"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/5.png"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/6.mp4"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/7.mp4"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/8.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=XBfljElJQMw"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/10.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/11.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/12.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/13.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/14.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=bPRH-fpcZxQ&feature=youtu.be"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/16.png"
               }
             ]
           },
@@ -1200,38 +1301,27 @@
             "src": "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/portada.jpg",
             "title": "Cowardly Space Trooper",
             "subtitle": "Animaciones 3D corporales de un personaje",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Animación 3D de un personaje humanoide para un videojuego, creada en 3ds Max. Se realizaron diversas animaciones que representan distintos estados y situaciones del personaje dentro del entorno del juego. \n Este proyecto fue desarrollado para la asignatura Introducción a la Animación 3D, donde el objetivo era animar un space trooper. Decidí darle un enfoque original, representándolo como un soldado cobarde y torpe que tiembla constantemente. Esta dirección creativa permitió dotarlo de personalidad y exagerar sus gestos para expresar con claridad su actitud.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Animaciones - Cowardly Space Trooper",
+                "url": "https://www.youtube.com/watch?v=ocPxbcr6r1U",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "3dsmax.png",
+              "marmoset.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/1.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=ocPxbcr6r1U"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/3.jpg"
+                "src": "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/2.png"
               }
             ]
           },
@@ -1239,38 +1329,22 @@
             "src": "proyectos\\ARTE/5_ANIMACION/4_EVIL_TOM_HOLLAND/portada.jpg",
             "title": "Evil Tom Holland",
             "subtitle": "Animacion 3D corporal y facial",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Animación 3D corporal y facial de un personaje, desarrollada como una secuencia en la que el modelo debía interpretar una frase mediante lipsync, combinando expresiones faciales y movimientos corporales de forma coherente. \n El proyecto fue realizado para la asignatura Animación 3D, donde se debía animar el modelo de Tom Holland recitando una frase extraída de una película. La interpretación se enfocó en reflejar un carácter oscuro y malicioso, acorde con el tono del audio, que transmitía una sensación lenta, siniestra y contenida.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Animacion - Evil Tom Holland",
+                "url": "https://www.youtube.com/watch?v=rDvlEVBQUsc",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "maya.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/4_EVIL_TOM_HOLLAND/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/4_EVIL_TOM_HOLLAND/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/4_EVIL_TOM_HOLLAND/3.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=rDvlEVBQUsc"
               }
             ]
           }
@@ -1288,38 +1362,49 @@
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/portada.jpg",
             "title": "Aether",
             "subtitle": "Creación de un videojuego 2D Top Down",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Aether es un videojuego RPG de puzles y acción con vista cenital (top-down), desarrollado en estilo pixel art. Su mecánica principal combina estrategia y creatividad, basada en la fusión de elementos primarios; planta, agua, fuego y electricidad, que pueden mezclarse entre sí para crear defensas, circuitos o herramientas necesarias para avanzar en el juego. \n Para llevar a cabo el proyecto, diseñé íntegramente las mecánicas y los niveles, además de realizar todo el arte visual en estilo pixel art e implementar el juego completo en Unity. Aether cuenta con dos niveles que introducen progresivamente las mecánicas principales, con la posibilidad de expandir el proyecto en el futuro gracias a la originalidad de su sistema de juego. \n Fue desarrollado para la asignatura de Proyectos del primer curso universitario, con el cual pude obtener matrícula de honor.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Tráiler Aether",
+                "url": "https://www.youtube.com/watch?v=M9VmHHxm92c",
                 "icon": "youtube.png"
               },
               {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Aether - Gameplay",
+                "url": "https://www.youtube.com/watch?v=1SVAl43raVo&feature=youtu.be",
+                "icon": "youtube.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/1.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/1.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=M9VmHHxm92c&feature=youtu.be"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/3.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/2.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/3.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/6.png"
               }
             ]
           },
@@ -1327,38 +1412,34 @@
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/portada.jpg",
             "title": "Paper Pioneers",
             "subtitle": "Creación de un videojuego 3D de plataformas",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Paper Pioneers es un prototipo de videojuego de plataformas 3D en el que un diminuto muelle se fusiona con distintos objetos cotidianos para adquirir nuevas habilidades y escapar de una escuela. El entorno tiene un tono narrativo y cómico que se expresa visualmente, sin necesidad de diálogo. \n El proyecto fue desarrollado directamente para la asignatura de Diseño de Niveles en la universidad, donde debía considerarse tanto el aspecto espacial como el narrativo del entorno. El objetivo no era solo crear un nivel de plataformas funcional, sino también lograr que el propio escenario contara una historia. \n El nivel diseñado tiene lugar en un aula, donde se integran pequeños detalles humorísticos y reconocibles de situaciones típicas escolares. Se emplearon distintos elementos físicos como superficies elásticas en sillas o zonas resbaladizas para enriquecer la jugabilidad. Además, se trabajó cuidadosamente la player guidance para mantener una orientación clara del jugador, especialmente considerando la escala reducida del personaje y la amplitud del entorno.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Paper Pioneers - Gameplay",
+                "url": "https://www.youtube.com/watch?v=8JS_S7ndNrQ",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/1.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/1.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=8JS_S7ndNrQ"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/2.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/3.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/4.png"
               }
             ]
           },
@@ -1366,38 +1447,38 @@
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/portada.jpg",
             "title": "Star Crossed",
             "subtitle": "Creación de un videojuego narrativo",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Star-Crossed es un videojuego narrativo centrado en la historia de Jessica, una joven psicóloga que, mientras intenta ayudar a los demás, debe enfrentarse también a sus propios demonios internos. Cuando su pareja desaparece misteriosamente, se ve arrastrada a una serie de sucesos paranormales que podrían alterar el destino del mundo. \n El juego combina toma de decisiones, gestión de habilidades y elementos de azar. El jugador debe elegir cuidadosamente sus acciones para evitar game overs, mejorar sus capacidades y superar los distintos obstáculos de la trama. La narrativa es inmersiva y ramificada, con varios personajes a los que interrogar y múltiples caminos que conducen a un mismo desenlace desde diferentes perspectivas. \n Se diseñaron en detalle la historia, los personajes y los árboles de decisión, y posteriormente se implementó todo en el motor Narrat, que emplea su propio lenguaje.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Star Crossed",
+                "url": "https://jenix7.itch.io/star-crossed",
+                "icon": "itchio.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "narrat.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/1.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/2.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/3.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/5.png"
               }
             ]
           },
@@ -1405,38 +1486,54 @@
             "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/portada.jpg",
             "title": "Spray: Mi primer videojuego",
             "subtitle": "Creación de un shooter en tercera persona",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Spray fue mi primer contacto con el mundo de los videojuegos desde pequeño. Se trata de un shooter en tercera persona en el que un grupo de grafiteros, capaces de materializar sus obras, se enfrenta a una sociedad dominada por un régimen autoritario y robótico. \n El proyecto formó parte de mi trabajo de investigación en el bachillerato, en una etapa en la que aún no tenía experiencia en el desarrollo de videojuegos ni en el ámbito del 3D. Esta primera creación me permitió explorar y experimentar con las bases del diseño y la programación, despertando mi interés por la industria y marcando el inicio de mi trayectoria en este campo.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Trailer Spray",
+                "url": "https://www.youtube.com/watch?v=vqj4yA2vkY4",
                 "icon": "youtube.png"
               },
               {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "TR - Spray",
+                "url": "https://drive.google.com/file/d/1J4Aik55U4AbUVC2Xhjq_RFOlQRdS3iD6/view?usp=sharing",
+                "icon": "pdf.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png",
+              "zbrush.png",
+              "3dsmax.png",
+              "photoshop.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/1.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/1.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=vqj4yA2vkY4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/2.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/3.jpg"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/6.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/7.png"
               }
             ]
           }
@@ -1449,38 +1546,26 @@
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
             "title": "Portal - Prototipo de Gameplay",
             "subtitle": "Diseño de niveles e implementación de las mecánicas de Portal",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Este proyecto se basa en la implementación de las mecánicas del videojuego Portal como práctica de programación y desarrollo en Unity, realizado para la asignatura universitaria de Desarrollo 3D. \n El nivel integra de forma funcional las principales características del juego original; creación de portales, agarre y lanzamiento de objetos, interacción con materiales elásticos y deslizantes, botones, puertas y enemigos, además de incluir nuevas mecánicas, como la modificación del tamaño de portales y objetos al atravesarlos.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Portal - Prototipo",
+                "url": "https://www.youtube.com/watch?v=rvlES-dg72o",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/1.jpg"
+                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/1.png"
               },
               {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/3.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=rvlES-dg72o"
               }
             ]
           },
@@ -1488,38 +1573,28 @@
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/portada.jpg",
             "title": "Super Mario Xmas",
             "subtitle": "Desarrollo de un nivel de Mario 64 tematizado en Navidad",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "El proyecto se basa en la recreación del primer nivel del videojuego Super Mario 64, reinterpretado con un estilo y enfoque navideño. Desarrollado como práctica de programación y desarrollo en Unity para la asignatura universitaria de Desarrollo 3D. \n El nivel reproduce de forma funcional las principales características del juego original: todos los tipos de movimiento de Mario, los efectos de cámara, obstáculos y plataformas móviles. Además, se añadió una ambientación navideña para dotar al proyecto de personalidad propia y experimentar con la implementación de nuevos elementos dentro del entorno 3D de Unity.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Super Mario Xmas",
+                "url": "https://www.youtube.com/watch?v=GMDSRdKfywA",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png",
+              "3dsmax.png",
+              "photoshop.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/1.jpg"
+                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/1.png"
               },
               {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/3.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=GMDSRdKfywA"
               }
             ]
           },
@@ -1527,38 +1602,26 @@
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
             "title": "Basic Shooter - Prototipo de Gameplay",
             "subtitle": "Implementación de una mecánica shooter para juegos 3D",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Prototipo de shooter en primera persona compuesto por dos niveles, desarrollado como práctica de programación y desarrollo en Unity para la asignatura universitaria de Desarrollo 3D. \n El proyecto incluye diseño de niveles y modelado, además de la implementación de iluminación, mecánicas de disparo, sistema de vida, defensa y munición. También se integraron obstáculos, enemigos con comportamiento ofensivo y seguimiento, así como la interacción con distintos objetos del entorno.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Basic Shooter",
+                "url": "https://www.youtube.com/watch?v=nDkWO9yb8s4",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/1.jpg"
+                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/1.png"
               },
               {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/3.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=nDkWO9yb8s4"
               }
             ]
           },
@@ -1566,38 +1629,32 @@
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/portada.jpg",
             "title": "Guard & Grow",
             "subtitle": "Desarrollo de un minijuego con sistemas de navegación y comportamiento de IA en NPCs",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Guard and Grow es un sencillo minijuego top-down de tipo clicker en el que el jugador debe proteger su huerto de cuervos y moscas que intentan robar las patatas. Mientras el granjero las recolecta, el jugador controla un espantapájaros que, al hacer clic en distintas zonas, ahuyenta a las criaturas utilizando un sistema de energía recargable. \n El juego incorpora sistemas de navegación y comportamiento de IA en NPCs, desarrollado como práctica de programación para la asignatura universitaria de Inteligencia Artificial. \n Además, creé el arte visual del proyecto para dotarlo de personalidad y autenticidad.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Guard & Grow",
+                "url": "https://www.youtube.com/watch?v=0JjwsvII62c",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/1.jpg"
+                "type": "video",
+                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/1.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/2.jpg"
+                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/3.jpg"
+                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/3.png"
               }
             ]
           },
@@ -1605,38 +1662,28 @@
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/portada.jpg",
             "title": "Space Grid",
             "subtitle": "Desarrollo de un minijuego con sistemas de navegación y comportamiento de IA en NPCs",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Space Grid es un sencillo minijuego top-down de tipo clicker desarrollado para implementar sistemas de navegación en Unity dentro de una cuadrícula (grid). El juego transcurre en un laberinto donde un astronauta debe recolectar piezas para abrir la puerta final y escapar del nivel, mientras es perseguido por enemigos que siguen sus propias rutas, se desvían al detectarlo y respetan zonas restringidas. \n El proyecto incorpora sistemas de navegación y comportamiento de IA en NPCs, desarrollado como práctica de programación para la asignatura universitaria de Inteligencia Artificial. \n Además, creé el arte visual del juego para dotarlo de personalidad y autenticidad.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Space Grid",
+                "url": "https://www.youtube.com/watch?v=ArKfsq8XfmQ",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/1.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=ArKfsq8XfmQ"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/3.jpg"
+                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/2.png"
               }
             ]
           },
@@ -1644,38 +1691,24 @@
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
             "title": "Basic Shop - Prototipo de Gameplay",
             "subtitle": "Implementación de una mecánica de intercambio para juegos 2D",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Este proyecto se basa en la implementación de un sistema de lógica para una tienda, que incluye mecánicas de interacción, compra y venta a través de una interfaz. Fue desarrollado como práctica de programación y desarrollo en Unity para la asignatura universitaria de Desarrollo 2D. \n Para mejorar el resultado final, incorporé arte de personajes propios reciclados, añadiendo animaciones y variaciones de pose a los personajes que interactúan en la tienda.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Basic Shop",
+                "url": "https://www.youtube.com/watch?v=B5Fcxk3SSGw",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/3.jpg"
+                "type": "video",
+                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/1.mp4"
               }
             ]
           },
@@ -1683,38 +1716,24 @@
             "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
             "title": "Basic Command - Prototipo de Gameplay",
             "subtitle": "Implementación de una mecánica de peleas de comando para juegos 2D",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Este proyecto se basa en la implementación de un sistema de combate por comandos, inspirado en los clásicos RPG por turnos. En él, dos equipos de tres personajes se enfrentan utilizando un sistema de vida, daño y habilidades, con selección de atacante y víctima. Permite partidas jugador vs jugador, jugador vs consola o incluso consola vs consola. \n Fue desarrollado como práctica de programación y desarrollo en Unity para la asignatura universitaria de Desarrollo 2D. \n Para darle más vida y dinamismo, utilicé personajes propios reciclados y animados.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Basic Command",
+                "url": "https://www.youtube.com/watch?v=sRN9RYU-SSU",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/3.jpg"
+                "type": "video",
+                "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/1.mp4"
               }
             ]
           }
@@ -1727,38 +1746,38 @@
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/portada.jpg",
             "title": "Alquílame Esta Moto",
             "subtitle": "Desarrollo de web para un negocio de alquiler de equipación de motos",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Desarrollé por completo la página web de Alquílame esta moto, un negocio dedicado al alquiler de equipamiento para motoristas. La web permite a los usuarios calcular pedidos de forma automática, contactar fácilmente y acceder a toda la información necesaria del servicio, ofreciendo una experiencia clara, funcional y profesional. \n Además, me encargué de crear todo el branding y la identidad visual del proyecto, definiendo un estilo coherente y una paleta de colores corporativos que transmiten confianza y profesionalidad. También diseñé tarjetas de visita, flyers y piezas gráficas publicitarias e informativas, pensadas tanto para impresión física como para su difusión digital en redes sociales.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Web - Alquílame Esta Moto",
+                "url": "https://alquilamestamoto.es/",
+                "icon": "web.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "HTML.png",
+              "JAVA.png",
+              "CSS.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/1.jpg"
+                "type": "video",
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/1.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/2.jpg"
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/3.jpg"
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/4.png"
               }
             ]
           },
@@ -1766,38 +1785,30 @@
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/portada.jpg",
             "title": "Branding Personal",
             "subtitle": "Desarrollo de web personal con portfolio y CV interactivo",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Desarrollé una web personal como eje central de mi identidad profesional, integrando en ella todo mi contenido creativo de forma unificada y coherente. La página reúne un portafolio animado, muy visual e interactivo, donde cada proyecto cuenta con su propia sección detallada, y un currículum animado con estilo de collage artístico que refleja mi personalidad y habilidades. \n Además, creé cartas tipo cartoon que me representan en distintos roles, aportando un toque distintivo y original. Todo el diseño responde a un branding personal completo, ideado para mostrar mis capacidades creativas y técnicas a través del propio estilo, estructura y funcionamiento del sitio.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Web - El Bedel de la Uni",
+                "url": "https://www.elbedeldelauni.com/",
+                "icon": "web.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "HTML.png",
+              "JAVA.png",
+              "CSS.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/1.jpg"
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/3.jpg"
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/2.png"
               }
             ]
           },
@@ -1805,38 +1816,54 @@
             "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/portada.jpg",
             "title": "El Bedel de la Uni",
             "subtitle": "Desarrollo de web para un libro",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "description": "Desarrollé la página web de la novela El Bedel de la Uni como eje principal de su campaña de lanzamiento, concebida para reflejar la atmósfera de la historia y ofrecer un espacio informativo y visualmente coherente con la identidad del libro. \n Además, diseñé la identidad visual completa, asegurando una coherencia estética entre la portada, la paleta de colores y el estilo gráfico general. También creé el booktráiler y distintas piezas gráficas para redes sociales y materiales impresos, reforzando así la difusión del proyecto en distintos formatos. \n El Bedel de la Uni es una novela de romance y misterio ambientada en la Barcelona de los años 80. Narra la historia de Carla, una joven universitaria enamorada de su profesor, que se ve envuelta en un suceso escalofriante que transforma por completo su vida.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
+                "text": "Web - El Bedel de la Uni",
+                "url": "https://www.elbedeldelauni.com/",
+                "icon": "web.png"
               },
               {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Booktrailer - El Bedel de la Uni",
+                "url": "https://www.youtube.com/watch?time_continue=1&v=1ZGBZWnoohE&embeds_referring_euri=https%3A%2F%2Fwww.elbedeldelauni.com%2F&source_ve_path=MjM4NTE",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "HTML.png",
+              "JAVA.png",
+              "CSS.png",
+              "photoshop.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/1.jpg"
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/2.jpg"
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/3.jpg"
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/6.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=1ZGBZWnoohE&t=1s"
               }
             ]
           }
@@ -1847,118 +1874,103 @@
         "images": [
           {
             "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "title": "Configurador de cabinas 3D ERSCE",
+            "subtitle": "Desarrollo de software 3D para una empresa de ascensores",
+            "description": "Desarrollé un configurador 3D online en HTML y JavaScript utilizando Three.js, un motor de renderizado en JavaScript que permite generar entornos tridimensionales interactivos directamente en el navegador. El proyecto, realizado para una empresa de ascensores, permite a los clientes personalizar cabinas en tiempo real a través de una interfaz clara e intuitiva, desde la cual pueden modificar medidas, texturas, iluminación, espejos y pasamanos con un alto nivel de detalle, obteniendo una experiencia visual fluida y realista. \n El configurador sigue la identidad corporativa de la empresa, aplicando sus colores, tipografía y logotipo para mantener una imagen coherente y profesional.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Configurador de cabinas",
+                "url": "https://www.ersceconfigurador.com/",
+                "icon": "web.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "HTML.png",
+              "JAVA.png",
+              "CSS.png",
+              "photoshop.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/1.jpg"
+                "type": "video",
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/1.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/2.jpg"
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/3.jpg"
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/3.png"
               }
             ]
           },
           {
             "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "title": "Alquílame esta moto - Manager",
+            "subtitle": "Desarrollo de plataforma para la gestión de un negocio de alquiler de equipación de moto",
+            "description": "Desarrollé un software interno (manager) para gestionar el negocio de alquiler de equipamiento de moto Alquílame esta moto. La aplicación, implementada en Python con interfaz web en HTML, incluye: control de inventario y reservas, gestión de entregas y devoluciones, calendario inteligente, mapa interactivo de colaboradores y gestor de clientes con historiales personalizados. El objetivo fue centralizar la operativa diaria y mejorar la trazabilidad de cada pedido, desde la solicitud hasta la devolución. \n Además del software interno, también desarrollé la web y el branding del proyecto.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Web - Alquílame Esta Moto",
+                "url": "https://alquilamestamoto.es/",
+                "icon": "web.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "PY.png",
+              "HTML.png",
+              "CSS.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/1.jpg"
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/2.jpg"
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/3.jpg"
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/3.png"
               }
             ]
           },
           {
             "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "title": "Mis herramientas internas",
+            "subtitle": "Pequeños programas desarrollados para optimizar mi flujo de trabajo y agilizar tareas",
+            "description": "He desarrollado varias herramientas personalizadas para optimizar mi flujo de trabajo y agilizar tareas específicas, cada uno con una función concreta y diferenciada. \n Estos programas me permiten un nivel de personalización total, adaptándose completamente a mi forma de trabajar y a las necesidades concretas de cada proyecto, mejorando la eficiencia y reduciendo los tiempos de ejecución.",
+            "links": [],
+            "programs": [
+              "PY.png",
+              "HTML.png",
+              "CSS.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/1.jpg"
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/2.jpg"
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/3.jpg"
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/5.png"
               }
             ]
           }
@@ -1974,118 +1986,130 @@
         "images": [
           {
             "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "title": "Tattoo Heroes",
+            "subtitle": "Estudio y creación conceptual de personajes inspirados en la cultura del tatuaje",
+            "description": "He diseñado los personajes para un videojuego de acción urbana a partir de un estudio de investigación propio sobre el mundo del tatuaje, en el que analicé su evolución, estilos, significados y la psicología que motiva a las personas a tatuarse. Este proyecto constituye mi Trabajo Final de Grado en la carrera de Diseño y Desarrollo de Videojuegos. \n Cada personaje se inspira en un estilo de tatuaje específico que define su identidad, cultura, personalidad, apariencia y habilidades, dando lugar a héroes urbanos únicos, con una fuerte carga simbólica y visual.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "TFG - Estudio y creación de personajes basados en el tattoo",
+                "url": "https://drive.google.com/file/d/1butCp-xx1XcKFQtdtC6nrTi28Y5vVrpJ/view?usp=sharing",
+                "icon": "pdf.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/1.jpg"
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/2.jpg"
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/3.jpg"
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/6.png"
               }
             ]
           },
           {
             "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "title": "Tabuun Universe - Personajes",
+            "subtitle": "Diseño de personajes mágicos para un universo narrativo",
+            "description": "Tabuun Universe es un proyecto personal que consiste en la creación de un universo completo: con su propio worldbuilding, personajes, sistema de poderes y múltiples historias que se entrelazan dentro de un vasto cosmos de acción y magia. \n Generé ilustraciones de varios personajes que imaginé para este universo, algunos más detallados y otros en formato de boceto, con el objetivo de representar rápidamente su personalidad, rol y esencia dentro del mundo que he ido imaginando.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/1.jpg"
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/2.jpg"
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/3.jpg"
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/2_TABUUN_UNIVERSE_PERSONAJES/6.png"
               }
             ]
           },
           {
             "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
+            "title": "My Character Verse",
+            "subtitle": "Diseño de personajes aplicados a otros proyectos",
+            "description": "Recopilación de personajes diseñados para diferentes proyectos, cada uno desarrollado según el género, estilo y contexto de su respectivo universo creativo.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
+            ],
+            "related": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
+                "text": "SYDAN - Empathy Code",
+                "section": "arte",
+                "category_index": 1,
+                "project_index": 1,
+                "icon": "sydan.png"
               },
               {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
+                "text": "PORKY - Porky's Day Out",
+                "section": "arte",
+                "category_index": 4,
+                "project_index": 0,
+                "icon": "porky.png"
               },
               {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "CORAL - Bubble Heights",
+                "section": "arte",
+                "category_index": 0,
+                "project_index": 0,
+                "icon": "coral.png"
+              },
+              {
+                "text": "GARY - Green Heart",
+                "section": "arte",
+                "category_index": 1,
+                "project_index": 2,
+                "icon": "gary.png"
               }
             ],
-            "programs": [],
-            "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/3.jpg"
+                "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/1.png"
               }
             ]
           }
@@ -2096,118 +2120,129 @@
         "images": [
           {
             "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "title": "Aether",
+            "subtitle": "Creación de un videojuego 2D Top Down",
+            "description": "Aether es un videojuego RPG de puzles y acción con vista cenital (top-down), desarrollado en estilo pixel art. Su mecánica principal combina estrategia y creatividad, basada en la fusión de elementos primarios; planta, agua, fuego y electricidad, que pueden mezclarse entre sí para crear defensas, circuitos o herramientas necesarias para avanzar en el juego. \n Para llevar a cabo el proyecto, diseñé íntegramente las mecánicas y los niveles, además de realizar todo el arte visual en estilo pixel art e implementar el juego completo en Unity. Aether cuenta con dos niveles que introducen progresivamente las mecánicas principales, con la posibilidad de expandir el proyecto en el futuro gracias a la originalidad de su sistema de juego. \n Fue desarrollado para la asignatura de Proyectos del primer curso universitario, con el cual pude obtener matrícula de honor.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Tráiler Aether",
+                "url": "https://www.youtube.com/watch?v=M9VmHHxm92c",
                 "icon": "youtube.png"
               },
               {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Aether - Gameplay",
+                "url": "https://www.youtube.com/watch?v=1SVAl43raVo&feature=youtu.be",
+                "icon": "youtube.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/1.jpg"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/1.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=M9VmHHxm92c&feature=youtu.be"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/2.jpg"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/3.png"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/4.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/3.jpg"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/6.png"
               }
             ]
           },
           {
             "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "title": "Paper Pioneers",
+            "subtitle": "Creación de un videojuego 3D de plataformas",
+            "description": "Paper Pioneers es un prototipo de videojuego de plataformas 3D en el que un diminuto muelle se fusiona con distintos objetos cotidianos para adquirir nuevas habilidades y escapar de una escuela. El entorno tiene un tono narrativo y cómico que se expresa visualmente, sin necesidad de diálogo. \n El proyecto fue desarrollado directamente para la asignatura de Diseño de Niveles en la universidad, donde debía considerarse tanto el aspecto espacial como el narrativo del entorno. El objetivo no era solo crear un nivel de plataformas funcional, sino también lograr que el propio escenario contara una historia. \n El nivel diseñado tiene lugar en un aula, donde se integran pequeños detalles humorísticos y reconocibles de situaciones típicas escolares. Se emplearon distintos elementos físicos como superficies elásticas en sillas o zonas resbaladizas para enriquecer la jugabilidad. Además, se trabajó cuidadosamente la player guidance para mantener una orientación clara del jugador, especialmente considerando la escala reducida del personaje y la amplitud del entorno.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Paper Pioneers - Gameplay",
+                "url": "https://www.youtube.com/watch?v=8JS_S7ndNrQ",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "unity.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/1.jpg"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/1.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=8JS_S7ndNrQ"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/2.jpg"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/3.jpg"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/4.png"
               }
             ]
           },
           {
             "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "title": "Minijuegos y prototipos",
+            "subtitle": "Otros diseños de mecánicas y niveles aplicadas a minijuegos",
+            "description": "Recopilación de prototipos y minijuegos con diseño de mecánicas y niveles, desarrollados como proyectos cortos donde el diseño aplicado cumple una función secundaria pero necesaria para complementar la experiencia jugable.",
+            "links": [],
+            "programs": [
+              "unity.png",
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/1.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=rvlES-dg72o"
               },
               {
-                "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/2.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=GMDSRdKfywA"
               },
               {
-                "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/3.jpg"
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=nDkWO9yb8s4"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/4.mp4"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=ArKfsq8XfmQ"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/6.mp4"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/7.mp4"
               }
             ]
           }
@@ -2218,79 +2253,78 @@
         "images": [
           {
             "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "title": "Star Crossed",
+            "subtitle": "Creación de un videojuego narrativo",
+            "description": "Star-Crossed es un videojuego narrativo centrado en la historia de Jessica, una joven psicóloga que, mientras intenta ayudar a los demás, debe enfrentarse también a sus propios demonios internos. Cuando su pareja desaparece misteriosamente, se ve arrastrada a una serie de sucesos paranormales que podrían alterar el destino del mundo. \n El juego combina toma de decisiones, gestión de habilidades y elementos de azar. El jugador debe elegir cuidadosamente sus acciones para evitar game overs, mejorar sus capacidades y superar los distintos obstáculos de la trama. La narrativa es inmersiva y ramificada, con varios personajes a los que interrogar y múltiples caminos que conducen a un mismo desenlace desde diferentes perspectivas. \n Se diseñaron en detalle la historia, los personajes y los árboles de decisión, y posteriormente se implementó todo en el motor Narrat, que emplea su propio lenguaje.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Star Crossed",
+                "url": "https://jenix7.itch.io/star-crossed",
+                "icon": "itchio.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "narrat.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/1.jpg"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/2.jpg"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/3.jpg"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/5.png"
               }
             ]
           },
           {
             "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "title": "Tabuun Universe - Worldbuilding",
+            "subtitle": "Diseño de personajes mágicos para un universo narrativo",
+            "description": "Tabuun Universe es un proyecto personal que consiste en la creación de un universo completo: con su propio worldbuilding, personajes, sistema de poderes y múltiples historias que se entrelazan dentro de un vasto cosmos de acción y magia.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/1.jpg"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/2.jpg"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/3.jpg"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/6.png"
               }
             ]
           }
@@ -2429,54 +2463,10 @@
         ]
       },
       {
-        "title": "ORGANIZACIÓN DE ESCAPE ROOMS",
-        "images": [
-          {
-            "src": "proyectos\\PRODUCCION/3_ORGANIZACION_DE_ESCAPE_ROOMS/1_ORGANIZACION_DE_ESCAPE_ROOMS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
-            ],
-            "programs": [],
-            "related": [],
-            "images": [
-              {
-                "type": "image",
-                "src": "proyectos\\PRODUCCION/3_ORGANIZACION_DE_ESCAPE_ROOMS/1_ORGANIZACION_DE_ESCAPE_ROOMS/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PRODUCCION/3_ORGANIZACION_DE_ESCAPE_ROOMS/1_ORGANIZACION_DE_ESCAPE_ROOMS/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PRODUCCION/3_ORGANIZACION_DE_ESCAPE_ROOMS/1_ORGANIZACION_DE_ESCAPE_ROOMS/3.jpg"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "title": "PRODUCCIÓN DE VIDEOJUEGOS",
         "images": [
           {
-            "src": "proyectos\\PRODUCCION/4_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/portada.jpg",
+            "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/portada.jpg",
             "title": "Bubble Heights - VIDEOJUEGO",
             "subtitle": "Modelado 3D de personajes y escenarios",
             "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
@@ -2502,15 +2492,15 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/4_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/1.jpg"
+                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/1.jpg"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/4_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/2.jpg"
+                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/2.jpg"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/4_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/3.jpg"
+                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/3.jpg"
               }
             ]
           }

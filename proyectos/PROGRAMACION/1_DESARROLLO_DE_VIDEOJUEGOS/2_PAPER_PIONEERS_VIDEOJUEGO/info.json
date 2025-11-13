@@ -1,6 +1,9 @@
 Tit:Paper Pioneers
 Sub:Creación de un videojuego 3D de plataformas
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Paper Pioneers - Gameplay","https://www.youtube.com/watch?v=8JS_S7ndNrQ","youtube.png")
+Prog:unity.png
+Des:Paper Pioneers es un prototipo de videojuego de plataformas 3D en el que un diminuto muelle se fusiona con distintos objetos cotidianos para adquirir nuevas habilidades y escapar de una escuela. El entorno tiene un tono narrativo y cómico que se expresa visualmente, sin necesidad de diálogo.
+
+El proyecto fue desarrollado directamente para la asignatura de Diseño de Niveles en la universidad, donde debía considerarse tanto el aspecto espacial como el narrativo del entorno. El objetivo no era solo crear un nivel de plataformas funcional, sino también lograr que el propio escenario contara una historia.
+
+El nivel diseñado tiene lugar en un aula, donde se integran pequeños detalles humorísticos y reconocibles de situaciones típicas escolares. Se emplearon distintos elementos físicos como superficies elásticas en sillas o zonas resbaladizas para enriquecer la jugabilidad. Además, se trabajó cuidadosamente la player guidance para mantener una orientación clara del jugador, especialmente considerando la escala reducida del personaje y la amplitud del entorno.

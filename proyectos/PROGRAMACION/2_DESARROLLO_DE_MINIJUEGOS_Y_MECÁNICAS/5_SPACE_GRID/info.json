@@ -1,6 +1,9 @@
 Tit:Space Grid
 Sub:Desarrollo de un minijuego con sistemas de navegación y comportamiento de IA en NPCs
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Space Grid","https://www.youtube.com/watch?v=ArKfsq8XfmQ","youtube.png")
+Prog:unity.png,photoshop.png,illustrator.png
+Des:Space Grid es un sencillo minijuego top-down de tipo clicker desarrollado para implementar sistemas de navegación en Unity dentro de una cuadrícula (grid). El juego transcurre en un laberinto donde un astronauta debe recolectar piezas para abrir la puerta final y escapar del nivel, mientras es perseguido por enemigos que siguen sus propias rutas, se desvían al detectarlo y respetan zonas restringidas.
+
+El proyecto incorpora sistemas de navegación y comportamiento de IA en NPCs, desarrollado como práctica de programación para la asignatura universitaria de Inteligencia Artificial.
+
+Además, creé el arte visual del juego para dotarlo de personalidad y autenticidad.

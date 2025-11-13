@@ -1,6 +1,7 @@
-Tit:Bubble Heights - VIDEOJUEGO
-Sub:Modelado 3D de personajes y escenarios
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Tit:Alquílame esta moto - Manager
+Sub:Desarrollo de plataforma para la gestión de un negocio de alquiler de equipación de moto
+Link_1:("Web - Alquílame Esta Moto","https://alquilamestamoto.es/","web.png")
+Prog:PY.png, HTML.png, CSS.png
+Des:Desarrollé un software interno (manager) para gestionar el negocio de alquiler de equipamiento de moto Alquílame esta moto. La aplicación, implementada en Python con interfaz web en HTML, incluye: control de inventario y reservas, gestión de entregas y devoluciones, calendario inteligente, mapa interactivo de colaboradores y gestor de clientes con historiales personalizados. El objetivo fue centralizar la operativa diaria y mejorar la trazabilidad de cada pedido, desde la solicitud hasta la devolución.
+
+Además del software interno, también desarrollé la web y el branding del proyecto.

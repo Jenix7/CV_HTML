@@ -1,6 +1,12 @@
-Tit:Bubble Heights
-Sub:Animaciones 3D de personajes y objetos integradas en un videojuego
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Tit: Bubble Heights
+Sub: Modelado 3D de personajes y escenarios para videojuego
+Des: Bubble Heights es un juego de plataformas y rompecabezas en 3D protagonizado por Coral, una joven valiente que explora las ruinas de una antigua civilización en busca de un artefacto mágico capaz de salvar a su aldea.
+
+La mecánica principal consiste en disparar burbujas de agua en diferentes zonas del mapa, creando caminos acuáticos por los que Coral puede nadar y avanzar en su aventura.
+
+En este proyecto participé como Lead Artist, realizando tareas de modelado 3D, texturización, concept art y animaciones. El juego fue desarrollado junto a mis compañeros de universidad en la asignatura de Proyectos del tercer curso.
+Prog: zbrush.png, 3dsmax.png, substance.png, marmoset.png, cascadeur.png, unity.png, photoshop.png, illustrator.png
+Link_1:("Bubble Heights","https://demmiurge.itch.io/bubble-heights","itchio.png")
+Link_2:("Trailer Bubble Heights","https://www.youtube.com/watch?v=bPRH-fpcZxQ","youtube.png")
+Link_3:("Modelando a Coral","https://www.youtube.com/watch?v=XBfljElJQMw&feature=youtu.be","youtube.png")
+Link_4:("Game Design Document","https://drive.google.com/file/d/13IKzX3V7Nn-9waTLjOlEzsG03ZoU-VuC/view?usp=drive_link","pdf.png")

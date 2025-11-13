@@ -1,6 +1,7 @@
 Tit:Porky's Day Out
 Sub:Animación y edición de dibujos animados
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Porky's Day Out","https://www.youtube.com/watch?v=58sHdVyKeGw&feature=youtu.be","youtube.png")
+Prog:opentoonz.png,premiere.png,photoshop.png,illustrator.png
+Des:Animación 2D y edición de video de un cortometraje de dibujos animados de estilo cómico y cartoon. El proyecto combina habilidades de ilustración, animación y montaje audiovisual.
+
+Los personajes y escenarios fueron diseñados en Photoshop e Illustrator, y posteriormente animados en OpenToonz. Finalmente, el material se editó en Adobe Premiere Pro para crear un corto con ritmo y humor visual. Además, se desarrolló una narrativa específica y una planificación de planos que guiaron la estructura y el tono del cortometraje.

@@ -1,6 +1,7 @@
 Tit:Evil Tom Holland
 Sub:Animacion 3D corporal y facial
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Animacion - Evil Tom Holland","https://www.youtube.com/watch?v=rDvlEVBQUsc","youtube.png")
+Prog:maya.png
+Des:Animación 3D corporal y facial de un personaje, desarrollada como una secuencia en la que el modelo debía interpretar una frase mediante lipsync, combinando expresiones faciales y movimientos corporales de forma coherente.
+
+El proyecto fue realizado para la asignatura Animación 3D, donde se debía animar el modelo de Tom Holland recitando una frase extraída de una película. La interpretación se enfocó en reflejar un carácter oscuro y malicioso, acorde con el tono del audio, que transmitía una sensación lenta, siniestra y contenida.

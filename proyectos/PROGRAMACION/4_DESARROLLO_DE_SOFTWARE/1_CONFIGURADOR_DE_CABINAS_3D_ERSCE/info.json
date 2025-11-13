@@ -1,6 +1,7 @@
-Tit:Bubble Heights - VIDEOJUEGO
-Sub:Modelado 3D de personajes y escenarios
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Tit:Configurador de cabinas 3D ERSCE
+Sub:Desarrollo de software 3D para una empresa de ascensores
+Prog:HTML.png, JAVA.png, CSS.png, photoshop.png
+Link_1:("Configurador de cabinas","https://www.ersceconfigurador.com/","web.png")
+Des:Desarrollé un configurador 3D online en HTML y JavaScript utilizando Three.js, un motor de renderizado en JavaScript que permite generar entornos tridimensionales interactivos directamente en el navegador. El proyecto, realizado para una empresa de ascensores, permite a los clientes personalizar cabinas en tiempo real a través de una interfaz clara e intuitiva, desde la cual pueden modificar medidas, texturas, iluminación, espejos y pasamanos con un alto nivel de detalle, obteniendo una experiencia visual fluida y realista.
+
+El configurador sigue la identidad corporativa de la empresa, aplicando sus colores, tipografía y logotipo para mantener una imagen coherente y profesional.

@@ -1,6 +1,10 @@
 Tit:Aether
 Sub:Creación de un videojuego 2D Top Down
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Tráiler Aether","https://www.youtube.com/watch?v=M9VmHHxm92c","youtube.png")
+Link_2:("Aether - Gameplay","https://www.youtube.com/watch?v=1SVAl43raVo&feature=youtu.be","youtube.png")
+Prog:unity.png,photoshop.png,illustrator.png
+Des:Aether es un videojuego RPG de puzles y acción con vista cenital (top-down), desarrollado en estilo pixel art. Su mecánica principal combina estrategia y creatividad, basada en la fusión de elementos primarios; planta, agua, fuego y electricidad, que pueden mezclarse entre sí para crear defensas, circuitos o herramientas necesarias para avanzar en el juego.
+
+Para llevar a cabo el proyecto, diseñé íntegramente las mecánicas y los niveles, además de realizar todo el arte visual en estilo pixel art e implementar el juego completo en Unity. Aether cuenta con dos niveles que introducen progresivamente las mecánicas principales, con la posibilidad de expandir el proyecto en el futuro gracias a la originalidad de su sistema de juego.
+
+Fue desarrollado para la asignatura de Proyectos del primer curso universitario, con el cual pude obtener matrícula de honor.

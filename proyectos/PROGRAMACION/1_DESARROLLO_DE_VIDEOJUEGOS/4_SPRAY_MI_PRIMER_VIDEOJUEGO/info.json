@@ -1,6 +1,8 @@
 Tit:Spray: Mi primer videojuego
 Sub:Creación de un shooter en tercera persona
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Trailer Spray","https://www.youtube.com/watch?v=vqj4yA2vkY4","youtube.png")
+Prog:unity.png,zbrush.png,3dsmax.png,photoshop.png
+Link_1:("TR - Spray","https://drive.google.com/file/d/1J4Aik55U4AbUVC2Xhjq_RFOlQRdS3iD6/view?usp=sharing","pdf.png")
+Des:Spray fue mi primer contacto con el mundo de los videojuegos desde pequeño. Se trata de un shooter en tercera persona en el que un grupo de grafiteros, capaces de materializar sus obras, se enfrenta a una sociedad dominada por un régimen autoritario y robótico.
+
+El proyecto formó parte de mi trabajo de investigación en el bachillerato, en una etapa en la que aún no tenía experiencia en el desarrollo de videojuegos ni en el ámbito del 3D. Esta primera creación me permitió explorar y experimentar con las bases del diseño y la programación, despertando mi interés por la industria y marcando el inicio de mi trayectoria en este campo.

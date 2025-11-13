@@ -1,6 +1,9 @@
-Tit:Bubble Heights - VIDEOJUEGO
-Sub:Modelado 3D de personajes y escenarios
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Tit:Star Crossed
+Sub:Creación de un videojuego narrativo
+Link_1:("Star Crossed","https://jenix7.itch.io/star-crossed","itchio.png")
+Prog:narrat.png
+Des:Star-Crossed es un videojuego narrativo centrado en la historia de Jessica, una joven psicóloga que, mientras intenta ayudar a los demás, debe enfrentarse también a sus propios demonios internos. Cuando su pareja desaparece misteriosamente, se ve arrastrada a una serie de sucesos paranormales que podrían alterar el destino del mundo.
+
+El juego combina toma de decisiones, gestión de habilidades y elementos de azar. El jugador debe elegir cuidadosamente sus acciones para evitar game overs, mejorar sus capacidades y superar los distintos obstáculos de la trama. La narrativa es inmersiva y ramificada, con varios personajes a los que interrogar y múltiples caminos que conducen a un mismo desenlace desde diferentes perspectivas.
+
+Se diseñaron en detalle la historia, los personajes y los árboles de decisión, y posteriormente se implementó todo en el motor Narrat, que emplea su propio lenguaje.

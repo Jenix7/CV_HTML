@@ -1,6 +1,7 @@
 Tit:Branding Personal
 Sub:Desarrollo de web personal con portfolio y CV interactivo
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Prog:HTML.png, JAVA.png, CSS.png, photoshop.png, illustrator.png
+Link_1:("Web - El Bedel de la Uni","https://www.elbedeldelauni.com/","web.png")
+Des:Desarrollé una web personal como eje central de mi identidad profesional, integrando en ella todo mi contenido creativo de forma unificada y coherente. La página reúne un portafolio animado, muy visual e interactivo, donde cada proyecto cuenta con su propia sección detallada, y un currículum animado con estilo de collage artístico que refleja mi personalidad y habilidades.
+
+Además, creé cartas tipo cartoon que me representan en distintos roles, aportando un toque distintivo y original. Todo el diseño responde a un branding personal completo, ideado para mostrar mis capacidades creativas y técnicas a través del propio estilo, estructura y funcionamiento del sitio.

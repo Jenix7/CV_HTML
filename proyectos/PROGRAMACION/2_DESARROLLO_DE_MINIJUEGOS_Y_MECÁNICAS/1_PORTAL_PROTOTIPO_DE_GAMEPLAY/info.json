@@ -1,6 +1,7 @@
 Tit:Portal - Prototipo de Gameplay
 Sub:Diseño de niveles e implementación de las mecánicas de Portal
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Portal - Prototipo","https://www.youtube.com/watch?v=rvlES-dg72o","youtube.png")
+Prog:unity.png
+Des:Este proyecto se basa en la implementación de las mecánicas del videojuego Portal como práctica de programación y desarrollo en Unity, realizado para la asignatura universitaria de Desarrollo 3D.
+
+El nivel integra de forma funcional las principales características del juego original; creación de portales, agarre y lanzamiento de objetos, interacción con materiales elásticos y deslizantes, botones, puertas y enemigos, además de incluir nuevas mecánicas, como la modificación del tamaño de portales y objetos al atravesarlos.

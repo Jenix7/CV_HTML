@@ -1,6 +1,9 @@
 Tit:Guard & Grow
 Sub:Desarrollo de un minijuego con sistemas de navegación y comportamiento de IA en NPCs
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Guard & Grow","https://www.youtube.com/watch?v=0JjwsvII62c","youtube.png")
+Prog:unity.png,photoshop.png,illustrator.png
+Des:Guard and Grow es un sencillo minijuego top-down de tipo clicker en el que el jugador debe proteger su huerto de cuervos y moscas que intentan robar las patatas. Mientras el granjero las recolecta, el jugador controla un espantapájaros que, al hacer clic en distintas zonas, ahuyenta a las criaturas utilizando un sistema de energía recargable.
+
+El juego incorpora sistemas de navegación y comportamiento de IA en NPCs, desarrollado como práctica de programación para la asignatura universitaria de Inteligencia Artificial.
+
+Además, creé el arte visual del proyecto para dotarlo de personalidad y autenticidad.

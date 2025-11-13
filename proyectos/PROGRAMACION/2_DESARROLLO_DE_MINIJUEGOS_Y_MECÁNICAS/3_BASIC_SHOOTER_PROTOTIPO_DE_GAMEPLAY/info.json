@@ -1,6 +1,7 @@
 Tit:Basic Shooter - Prototipo de Gameplay
 Sub:Implementación de una mecánica shooter para juegos 3D
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Link_1:("Basic Shooter","https://www.youtube.com/watch?v=nDkWO9yb8s4","youtube.png")
+Prog:unity.png
+Des:Prototipo de shooter en primera persona compuesto por dos niveles, desarrollado como práctica de programación y desarrollo en Unity para la asignatura universitaria de Desarrollo 3D.
+
+El proyecto incluye diseño de niveles y modelado, además de la implementación de iluminación, mecánicas de disparo, sistema de vida, defensa y munición. También se integraron obstáculos, enemigos con comportamiento ofensivo y seguimiento, así como la interacción con distintos objetos del entorno.
