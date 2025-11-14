@@ -2435,13 +2435,13 @@
         ]
       },
       {
-        "title": "ORGANIZACIÓN DE EVENTOS",
+        "title": "ORGANIZACIÓN DE EXPERIENCIAS",
         "images": [
           {
-            "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/portada.jpg",
-            "title": "Events - Gestión",
+            "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/1_ORGANIZACION_DE_EVENTOS/portada.jpg",
+            "title": "Eventos temáticos",
             "subtitle": "Planificación y coordinación de eventos y fiestas temáticas",
-            "description": "Planificación y coordinación de eventos y fiestas temáticas, con ambientaciones personalizadas que incluyen música, decoración y actividades interactivas adaptadas a cada ocasión. \n Como complemento, diseñé flyers, pósters y piezas gráficas para promocionar los eventos, adaptando cada cartel a su temática y manteniendo una coherencia visual global.",
+            "description": "Conducción y dinamización de eventos temáticos, organizando y guiando actividades recreativas como juegos, concursos y pruebas interactivas durante fiestas y encuentros. \n Como complemento, realicé gráficos, manualidades y pequeños trofeos pintados a mano para las actividades y juegos de cada evento.",
             "links": [],
             "programs": [
               "photoshop.png",
@@ -2451,31 +2451,53 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/1.png"
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/1_ORGANIZACION_DE_EVENTOS/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/2.png"
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/1_ORGANIZACION_DE_EVENTOS/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/3.png"
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/1_ORGANIZACION_DE_EVENTOS/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/4.png"
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/1_ORGANIZACION_DE_EVENTOS/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/5.png"
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/1_ORGANIZACION_DE_EVENTOS/5.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/6.png"
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/1_ORGANIZACION_DE_EVENTOS/6.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/7.png"
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/1_ORGANIZACION_DE_EVENTOS/7.png"
+              }
+            ]
+          },
+          {
+            "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/2_ORGANIZACION_DE_ESCAPEROOMS/portada.jpg",
+            "title": "Escape rooms y gymkanas",
+            "subtitle": "Planificación y creación de escaperooms",
+            "description": "Planificación, diseño y gestión de escape rooms y gymkanas exteriores, organizadas de forma puntual como hobby con familiares, amigos, compañeros y en algún evento escolar, impulsado por mi pasión por los juegos y las experiencias tipo escape room. \n También creé gráficos, mapas y materiales necesarios para ambientar y estructurar cada experiencia.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
+            ],
+            "related": [],
+            "images": [
+              {
+                "type": "image",
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/2_ORGANIZACION_DE_ESCAPEROOMS/1.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/2_ORGANIZACION_DE_ESCAPEROOMS/2.png"
               }
             ]
           }
@@ -2664,79 +2686,45 @@
         "images": [
           {
             "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "title": "Juegos en eventos",
+            "subtitle": "Dinamización de juegos en fiestas y eventos tématicos",
+            "description": "Planificación y conducción de dinámicas sociales y juegos participativos en fiestas y eventos temáticos, creando experiencias adaptadas a cada ocasión mediante ambientaciones con música, decoración y propuestas interactivas que fomentan la participación del grupo. \n Como complemento, diseñé flyers, pósters y piezas gráficas para promocionar los eventos, adaptando cada cartel a su temática y manteniendo una coherencia visual global.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/1.jpg"
+                "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/3.jpg"
+                "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/2.png"
               }
             ]
           },
           {
             "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "title": "Escape rooms y gymkanas",
+            "subtitle": "Acompañamiento e interacción en escaperooms",
+            "description": "Dinamización y organización de escape rooms y gymkanas exteriores, acompañando e interactuando con los jugadores durante la actividad y guiando la experiencia. Realizadas de forma puntual con familiares, amigos, compañeros y en algún evento escolar, impulsado por mi pasión por los juegos y las experiencias tipo escape room. \n También creé gráficos, mapas y materiales necesarios para ambientar y estructurar cada experiencia.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/1.jpg"
+                "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/3.jpg"
+                "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/2_ESCAPE_ROOMS/2.png"
               }
             ]
           }
