@@ -6,7 +6,7 @@
         "title": "MODELADO Y TEXTURICACIÓN 3D",
         "images": [
           {
-            "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/portada.jpg",
             "title": "Bubble Heights",
             "subtitle": "Modelado 3D de personajes y escenarios para videojuego",
             "description": "Bubble Heights es un juego de plataformas y rompecabezas en 3D protagonizado por Coral, una joven valiente que explora las ruinas de una antigua civilización en busca de un artefacto mágico capaz de salvar a su aldea. \n La mecánica principal consiste en disparar burbujas de agua en diferentes zonas del mapa, creando caminos acuáticos por los que Coral puede nadar y avanzar en su aventura. \n En este proyecto participé como Lead Artist, realizando tareas de modelado 3D, texturización, concept art y animaciones. El juego fue desarrollado junto a mis compañeros de universidad en la asignatura de Proyectos del tercer curso.",
@@ -46,23 +46,23 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/1.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/2.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/2.png"
               },
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/3.mp4"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/3.mp4"
               },
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/4.mp4"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/4.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/5.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/5.png"
               },
               {
                 "type": "youtube",
@@ -70,23 +70,23 @@
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/7.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/7.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/8.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/8.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/9.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/9.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/10.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/10.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/11.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/11.png"
               },
               {
                 "type": "youtube",
@@ -94,19 +94,19 @@
               },
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/13.mp4"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/13.mp4"
               },
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/14.mp4"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/14.mp4"
               },
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/15.mp4"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/15.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_VIDEOJUEGO/16.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/16.png"
               }
             ]
           },
@@ -540,7 +540,7 @@
             ]
           },
           {
-            "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/portada.jpg",
+            "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/portada.jpg",
             "title": "Tabuun Universe - Personajes",
             "subtitle": "Ilustraciones de personajes mágicos para el diseño de un universo narrativo",
             "description": "Tabuun Universe es un proyecto personal que consiste en la creación de un universo completo: con su propio worldbuilding, personajes, sistema de poderes y múltiples historias que se entrelazan dentro de un vasto cosmos de acción y magia. \n Generé ilustraciones de varios personajes que imaginé para este universo, algunos más detallados y otros en formato de boceto, con el objetivo de representar rápidamente su personalidad, rol y esencia dentro del mundo que he ido imaginando.",
@@ -553,43 +553,43 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/1.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/2.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/3.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/4.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/5.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/5.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/6.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/6.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/7.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/7.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/8.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/8.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/9.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/9.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_PERSONAJES/10.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/5_TABUUN_UNIVERSE_ARTE/10.png"
               }
             ]
           },
@@ -628,7 +628,7 @@
             ]
           },
           {
-            "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO_ILUSTRACION/portada.jpg",
             "title": "ROSALIA el Videojuego",
             "subtitle": "Diseño UI de videojuego tributo",
             "description": "“Rosalía: The Videogame” es una aventura de plataformas musical que lleva a los jugadores al universo de la artista Rosalía, con escenarios inspirados en sus canciones y álbumes, especialmente El Mal Querer, y desafíos rítmicos que reflejan su fusión de flamenco y estilo urbano. \n El proyecto lo realicé para una asignatura universitaria de diseño UI, con la que obtuve matrícula de honor. \n Diseñé la interfaz de usuario (UI) y el arte de escenarios y personajes del videojuego. Para ello realicé un proceso completo de estudio y diseño que incluyó la elaboración del briefing, el persona profile, el benchmarking, la creación del moodboard, el desarrollo de wireframes y mock-ups, y finalmente la biblia de estilo.",
@@ -652,31 +652,31 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/1.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO_ILUSTRACION/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/2.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO_ILUSTRACION/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/3.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO_ILUSTRACION/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/4.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO_ILUSTRACION/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/5.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO_ILUSTRACION/5.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/6.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO_ILUSTRACION/6.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO/7.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO_ILUSTRACION/7.png"
               }
             ]
           },
@@ -703,7 +703,7 @@
             ]
           },
           {
-            "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_ARTE/portada.jpg",
             "title": "Aether",
             "subtitle": "Pixelart para un videojuego 2D Top Down",
             "description": "Aether es un videojuego RPG de puzles y acción con vista cenital (top-down), desarrollado en estilo pixel art. Su mecánica principal combina estrategia y creatividad, basada en la fusión de elementos primarios; planta, agua, fuego y electricidad, que pueden mezclarse entre sí para crear defensas, circuitos o herramientas necesarias para avanzar en el juego. \n Para llevar a cabo el proyecto, diseñé íntegramente las mecánicas y los niveles, además de realizar todo el arte visual en estilo pixel art e implementar el juego completo en Unity. Aether cuenta con dos niveles que introducen progresivamente las mecánicas principales, con la posibilidad de expandir el proyecto en el futuro gracias a la originalidad de su sistema de juego. \n Fue desarrollado para la asignatura de Proyectos del primer curso universitario, con el cual pude obtener matrícula de honor.",
@@ -728,7 +728,7 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/1.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_ARTE/1.png"
               },
               {
                 "type": "youtube",
@@ -736,19 +736,19 @@
               },
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/3.mp4"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_ARTE/3.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/4.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_ARTE/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/5.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_ARTE/5.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_VIDEOJUEGO/6.png"
+                "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_ARTE/6.png"
               }
             ]
           },
@@ -1004,7 +1004,7 @@
             ]
           },
           {
-            "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO_DISENO_GRAFICO/portada.jpg",
             "title": "ROSALIA el Videojuego",
             "subtitle": "Diseño UI de videojuego tributo",
             "description": "“Rosalía: The Videogame” es una aventura de plataformas musical que lleva a los jugadores al universo de la artista Rosalía, con escenarios inspirados en sus canciones y álbumes, especialmente El Mal Querer, y desafíos rítmicos que reflejan su fusión de flamenco y estilo urbano. \n El proyecto lo realicé para una asignatura universitaria de diseño UI, con la que obtuve matrícula de honor. \n Diseñé la interfaz de usuario (UI) y el arte de escenarios y personajes del videojuego. Para ello realicé un proceso completo de estudio y diseño que incluyó la elaboración del briefing, el persona profile, el benchmarking, la creación del moodboard, el desarrollo de wireframes y mock-ups, y finalmente la biblia de estilo.",
@@ -1028,31 +1028,31 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/1.png"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO_DISENO_GRAFICO/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/2.png"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO_DISENO_GRAFICO/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/3.png"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO_DISENO_GRAFICO/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/4.png"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO_DISENO_GRAFICO/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/5.png"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO_DISENO_GRAFICO/5.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/6.png"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO_DISENO_GRAFICO/6.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO/7.png"
+                "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/7_ROSALIA_EL_VIDEOJUEGO_DISENO_GRAFICO/7.png"
               }
             ]
           }
@@ -1193,7 +1193,7 @@
             ]
           },
           {
-            "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/portada.jpg",
             "title": "Bubble Heights",
             "subtitle": "Modelado 3D de personajes y escenarios para videojuego",
             "description": "Bubble Heights es un juego de plataformas y rompecabezas en 3D protagonizado por Coral, una joven valiente que explora las ruinas de una antigua civilización en busca de un artefacto mágico capaz de salvar a su aldea. \n La mecánica principal consiste en disparar burbujas de agua en diferentes zonas del mapa, creando caminos acuáticos por los que Coral puede nadar y avanzar en su aventura. \n En este proyecto participé como Lead Artist, realizando tareas de modelado 3D, texturización, concept art y animaciones. El juego fue desarrollado junto a mis compañeros de universidad en la asignatura de Proyectos del tercer curso.",
@@ -1233,35 +1233,35 @@
             "images": [
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/1.mp4"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/1.mp4"
               },
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/2.mp4"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/2.mp4"
               },
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/3.mp4"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/3.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/4.png"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/5.png"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/5.png"
               },
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/6.mp4"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/6.mp4"
               },
               {
                 "type": "video",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/7.mp4"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/7.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/8.png"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/8.png"
               },
               {
                 "type": "youtube",
@@ -1269,23 +1269,23 @@
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/10.png"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/10.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/11.png"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/11.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/12.png"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/12.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/13.png"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/13.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/14.png"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/14.png"
               },
               {
                 "type": "youtube",
@@ -1293,7 +1293,7 @@
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_VIDEOJUEGO/16.png"
+                "src": "proyectos\\ARTE/5_ANIMACION/2_BUBBLE_HEIGHTS_ANIMACION/16.png"
               }
             ]
           },
@@ -1359,7 +1359,7 @@
         "title": "DESARROLLO DE VIDEOJUEGOS",
         "images": [
           {
-            "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_PROGRAMACION/portada.jpg",
             "title": "Aether",
             "subtitle": "Creación de un videojuego 2D Top Down",
             "description": "Aether es un videojuego RPG de puzles y acción con vista cenital (top-down), desarrollado en estilo pixel art. Su mecánica principal combina estrategia y creatividad, basada en la fusión de elementos primarios; planta, agua, fuego y electricidad, que pueden mezclarse entre sí para crear defensas, circuitos o herramientas necesarias para avanzar en el juego. \n Para llevar a cabo el proyecto, diseñé íntegramente las mecánicas y los niveles, además de realizar todo el arte visual en estilo pixel art e implementar el juego completo en Unity. Aether cuenta con dos niveles que introducen progresivamente las mecánicas principales, con la posibilidad de expandir el proyecto en el futuro gracias a la originalidad de su sistema de juego. \n Fue desarrollado para la asignatura de Proyectos del primer curso universitario, con el cual pude obtener matrícula de honor.",
@@ -1384,7 +1384,7 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/1.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_PROGRAMACION/1.png"
               },
               {
                 "type": "youtube",
@@ -1392,24 +1392,24 @@
               },
               {
                 "type": "video",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/3.mp4"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_PROGRAMACION/3.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/4.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_PROGRAMACION/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/5.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_PROGRAMACION/5.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/6.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_PROGRAMACION/6.png"
               }
             ]
           },
           {
-            "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_PROGRAMACION/portada.jpg",
             "title": "Paper Pioneers",
             "subtitle": "Creación de un videojuego 3D de plataformas",
             "description": "Paper Pioneers es un prototipo de videojuego de plataformas 3D en el que un diminuto muelle se fusiona con distintos objetos cotidianos para adquirir nuevas habilidades y escapar de una escuela. El entorno tiene un tono narrativo y cómico que se expresa visualmente, sin necesidad de diálogo. \n El proyecto fue desarrollado directamente para la asignatura de Diseño de Niveles en la universidad, donde debía considerarse tanto el aspecto espacial como el narrativo del entorno. El objetivo no era solo crear un nivel de plataformas funcional, sino también lograr que el propio escenario contara una historia. \n El nivel diseñado tiene lugar en un aula, donde se integran pequeños detalles humorísticos y reconocibles de situaciones típicas escolares. Se emplearon distintos elementos físicos como superficies elásticas en sillas o zonas resbaladizas para enriquecer la jugabilidad. Además, se trabajó cuidadosamente la player guidance para mantener una orientación clara del jugador, especialmente considerando la escala reducida del personaje y la amplitud del entorno.",
@@ -1427,7 +1427,7 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/1.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_PROGRAMACION/1.png"
               },
               {
                 "type": "youtube",
@@ -1435,16 +1435,16 @@
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/3.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_PROGRAMACION/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/4.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_PROGRAMACION/4.png"
               }
             ]
           },
           {
-            "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_PROGRAMACION/portada.jpg",
             "title": "Star Crossed",
             "subtitle": "Creación de un videojuego narrativo",
             "description": "Star-Crossed es un videojuego narrativo centrado en la historia de Jessica, una joven psicóloga que, mientras intenta ayudar a los demás, debe enfrentarse también a sus propios demonios internos. Cuando su pareja desaparece misteriosamente, se ve arrastrada a una serie de sucesos paranormales que podrían alterar el destino del mundo. \n El juego combina toma de decisiones, gestión de habilidades y elementos de azar. El jugador debe elegir cuidadosamente sus acciones para evitar game overs, mejorar sus capacidades y superar los distintos obstáculos de la trama. La narrativa es inmersiva y ramificada, con varios personajes a los que interrogar y múltiples caminos que conducen a un mismo desenlace desde diferentes perspectivas. \n Se diseñaron en detalle la historia, los personajes y los árboles de decisión, y posteriormente se implementó todo en el motor Narrat, que emplea su propio lenguaje.",
@@ -1462,23 +1462,23 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/1.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_PROGRAMACION/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/2.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_PROGRAMACION/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/3.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_PROGRAMACION/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/4.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_PROGRAMACION/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_VIDEOJUEGO/5.png"
+                "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/3_STAR_CROSSED_PROGRAMACION/5.png"
               }
             ]
           },
@@ -2119,7 +2119,7 @@
         "title": "DISEÑO DE VIDEOJUEGOS",
         "images": [
           {
-            "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_DISENO/portada.jpg",
             "title": "Aether",
             "subtitle": "Creación de un videojuego 2D Top Down",
             "description": "Aether es un videojuego RPG de puzles y acción con vista cenital (top-down), desarrollado en estilo pixel art. Su mecánica principal combina estrategia y creatividad, basada en la fusión de elementos primarios; planta, agua, fuego y electricidad, que pueden mezclarse entre sí para crear defensas, circuitos o herramientas necesarias para avanzar en el juego. \n Para llevar a cabo el proyecto, diseñé íntegramente las mecánicas y los niveles, además de realizar todo el arte visual en estilo pixel art e implementar el juego completo en Unity. Aether cuenta con dos niveles que introducen progresivamente las mecánicas principales, con la posibilidad de expandir el proyecto en el futuro gracias a la originalidad de su sistema de juego. \n Fue desarrollado para la asignatura de Proyectos del primer curso universitario, con el cual pude obtener matrícula de honor.",
@@ -2144,7 +2144,7 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/1.png"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_DISENO/1.png"
               },
               {
                 "type": "youtube",
@@ -2152,24 +2152,24 @@
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/3.png"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_DISENO/3.png"
               },
               {
                 "type": "video",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/4.mp4"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_DISENO/4.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/5.png"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_DISENO/5.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_VIDEOJUEGO/6.png"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/1_AETHER_DISENO/6.png"
               }
             ]
           },
           {
-            "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_DISENO/portada.jpg",
             "title": "Paper Pioneers",
             "subtitle": "Creación de un videojuego 3D de plataformas",
             "description": "Paper Pioneers es un prototipo de videojuego de plataformas 3D en el que un diminuto muelle se fusiona con distintos objetos cotidianos para adquirir nuevas habilidades y escapar de una escuela. El entorno tiene un tono narrativo y cómico que se expresa visualmente, sin necesidad de diálogo. \n El proyecto fue desarrollado directamente para la asignatura de Diseño de Niveles en la universidad, donde debía considerarse tanto el aspecto espacial como el narrativo del entorno. El objetivo no era solo crear un nivel de plataformas funcional, sino también lograr que el propio escenario contara una historia. \n El nivel diseñado tiene lugar en un aula, donde se integran pequeños detalles humorísticos y reconocibles de situaciones típicas escolares. Se emplearon distintos elementos físicos como superficies elásticas en sillas o zonas resbaladizas para enriquecer la jugabilidad. Además, se trabajó cuidadosamente la player guidance para mantener una orientación clara del jugador, especialmente considerando la escala reducida del personaje y la amplitud del entorno.",
@@ -2187,7 +2187,7 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/1.png"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_DISENO/1.png"
               },
               {
                 "type": "youtube",
@@ -2195,11 +2195,11 @@
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/3.png"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_DISENO/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_VIDEOJUEGO/4.png"
+                "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_DISENO/4.png"
               }
             ]
           },
@@ -2252,7 +2252,7 @@
         "title": "DISEÑO NARRATIVO",
         "images": [
           {
-            "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/portada.jpg",
+            "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_NARRATIVO/portada.jpg",
             "title": "Star Crossed",
             "subtitle": "Creación de un videojuego narrativo",
             "description": "Star-Crossed es un videojuego narrativo centrado en la historia de Jessica, una joven psicóloga que, mientras intenta ayudar a los demás, debe enfrentarse también a sus propios demonios internos. Cuando su pareja desaparece misteriosamente, se ve arrastrada a una serie de sucesos paranormales que podrían alterar el destino del mundo. \n El juego combina toma de decisiones, gestión de habilidades y elementos de azar. El jugador debe elegir cuidadosamente sus acciones para evitar game overs, mejorar sus capacidades y superar los distintos obstáculos de la trama. La narrativa es inmersiva y ramificada, con varios personajes a los que interrogar y múltiples caminos que conducen a un mismo desenlace desde diferentes perspectivas. \n Se diseñaron en detalle la historia, los personajes y los árboles de decisión, y posteriormente se implementó todo en el motor Narrat, que emplea su propio lenguaje.",
@@ -2270,23 +2270,23 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/1.png"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_NARRATIVO/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/2.png"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_NARRATIVO/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/3.png"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_NARRATIVO/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/4.png"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_NARRATIVO/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_VIDEOJUEGO/5.png"
+                "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_NARRATIVO/5.png"
               }
             ]
           },
@@ -2530,15 +2530,15 @@
               },
               {
                 "text": "Aether",
-                "section": "arte",
-                "category_index": 1,
-                "project_index": 8,
+                "section": "programacion",
+                "category_index": 0,
+                "project_index": 0,
                 "icon": "aether.png"
               },
               {
                 "text": "Paper Pioneers",
-                "section": "diseño",
-                "category_index": 1,
+                "section": "programacion",
+                "category_index": 0,
                 "project_index": 1,
                 "icon": "paperpioneers.png"
               },
@@ -2641,7 +2641,7 @@
             ]
           },
           {
-            "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/portada.jpg",
+            "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/portada.jpg",
             "title": "Alquílame Esta Moto",
             "subtitle": "Asesoramiento y gestión con personas",
             "description": "Atención y asesoramiento a las personas durante el alquiler de equipamiento de moto homologado, explicando el servicio y gestionando las entregas y recogidas de forma rápida y cómoda para cada usuario. \n Además, desarrollé el branding, la web y el material gráfico del proyecto, creando una identidad visual coherente, una página funcional con cálculo automático de pedidos y piezas promocionales para impresión y redes sociales.",
@@ -2663,19 +2663,19 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/1.png"
+                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/1.png"
               },
               {
                 "type": "video",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/2.mp4"
+                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/2.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/3.png"
+                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/4.png"
+                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/4.png"
               }
             ]
           }
