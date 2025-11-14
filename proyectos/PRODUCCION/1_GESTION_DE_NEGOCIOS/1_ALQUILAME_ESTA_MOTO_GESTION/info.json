@@ -1,6 +1,5 @@
-Tit:Bubble Heights - VIDEOJUEGO
-Sub:Modelado 3D de personajes y escenarios
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Tit:Alquílame Esta Moto
+Sub:Gestión de un servicio de alquiler
+Link_1:("Web - Alquílame Esta Moto","https://alquilamestamoto.es/","web.png")
+Prog:HTML.png, JAVA.png, CSS.png,photoshop.png, illustrator.png
+Des:Dirección de un servicio de alquiler de equipamiento de moto homologado, pensado para quienes necesitan practicar o presentarse al examen de moto. El objetivo es facilitar todo el proceso, gestionando la entrega y recogida del material de forma rápida y cómoda para cada persona. Además, desarrollé el branding, la web y el material gráfico del proyecto, creando una identidad visual coherente, una página funcional con cálculo automático de pedidos y piezas promocionales para impresión y redes sociales.

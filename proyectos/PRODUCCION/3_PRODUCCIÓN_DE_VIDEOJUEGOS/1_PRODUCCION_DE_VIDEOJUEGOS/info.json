@@ -1,6 +1,9 @@
-Tit:Bubble Heights - VIDEOJUEGO
-Sub:Modelado 3D de personajes y escenarios
-Link_1:("Ver Proyecto","https://ejemplo.com/proyecto","link.png")
-Link_2:("Video Demo","https://www.youtube.com/watch?v=ejemplo","youtube.png")
-Link_3:("Descargar","https://ejemplo.com/descarga","download.png")
-Des:Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.
+Tit:Videojuegos en la Uni
+Sub:Gestión de proyectos de videojuegos durante mi etapa universitaria
+Prog:unity.png, 3dsmax.png, zbrush.png, substance.png, photoshop.png, illustrator.png
+Rela:("Bubble Heights","BUBBLE_HEIGHTS_VIDEOJUEGO","coral.png")
+Rela:("Aether","AETHER_VIDEOJUEGO","aether.png")
+Rela:("Paper Pioneers","PAPER_PIONEERS_VIDEOJUEGO","paperpioneers.png")
+Rela:("Star Crossed","STAR_CROSSED_VIDEOJUEGO","starcrossed.png")
+Rela:("Spray: Mi primer videojuego","SPRAY_MI_PRIMER_VIDEOJUEGO","spray.png")
+Des:Gestión y seguimiento del desarrollo de diversos proyectos, controlando tiempos, tareas y la organización del proceso de producción. Todos fueron realizados entre mi etapa universitaria y el final del instituto, abarcando una gran variedad de géneros, métodos de trabajo y equipos, con diferentes roles y niveles de responsabilidad en cada proyecto.

@@ -2340,79 +2340,95 @@
         "images": [
           {
             "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "title": "Alquílame Esta Moto",
+            "subtitle": "Gestión de un servicio de alquiler",
+            "description": "Dirección de un servicio de alquiler de equipamiento de moto homologado, pensado para quienes necesitan practicar o presentarse al examen de moto. El objetivo es facilitar todo el proceso, gestionando la entrega y recogida del material de forma rápida y cómoda para cada persona. Además, desarrollé el branding, la web y el material gráfico del proyecto, creando una identidad visual coherente, una página funcional con cálculo automático de pedidos y piezas promocionales para impresión y redes sociales.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Web - Alquílame Esta Moto",
+                "url": "https://alquilamestamoto.es/",
+                "icon": "web.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "HTML.png",
+              "JAVA.png",
+              "CSS.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/1.jpg"
+                "type": "video",
+                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/1.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/2.jpg"
+                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/3.jpg"
+                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/4.png"
               }
             ]
           },
           {
             "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "title": "El Bedel de la Uni",
+            "subtitle": "Manejo de redes y contenido para un libro",
+            "description": "Encargado de la gestión y creación de contenido para plataformas; Instagram, X (Twitter), YouTube, TikTok, Facebook y LinkedIn, durante el proceso de lanzamiento y venta de una novela de misterio. \n El trabajo incluyó el desarrollo de una estrategia de comunicación y branding para dar identidad al universo de la obra: presentación de personajes, lugares del libro, curiosidades y materiales exclusivos. También se gestionó la difusión del booktrailer, la presencia en librerías, y el desarrollo de una página web dedicada al proyecto.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
+                "text": "Web - El Bedel de la Uni",
+                "url": "https://www.elbedeldelauni.com/",
+                "icon": "web.png"
               },
               {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
+                "text": "Booktrailer - El Bedel de la Uni",
+                "url": "https://www.youtube.com/watch?time_continue=1&v=1ZGBZWnoohE&embeds_referring_euri=https%3A%2F%2Fwww.elbedeldelauni.com%2F&source_ve_path=MjM4NTE",
                 "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "HTML.png",
+              "JAVA.png",
+              "CSS.png",
+              "photoshop.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/1.jpg"
+                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/2.jpg"
+                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/3.jpg"
+                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/4.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=1ZGBZWnoohE&t=1s"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/6.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/7.png"
               }
             ]
           }
@@ -2423,40 +2439,43 @@
         "images": [
           {
             "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
-              {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
-              }
+            "title": "Events - Gestión",
+            "subtitle": "Planificación y coordinación de eventos y fiestas temáticas",
+            "description": "Planificación y coordinación de eventos y fiestas temáticas, con ambientaciones personalizadas que incluyen música, decoración y actividades interactivas adaptadas a cada ocasión. \n Como complemento, diseñé flyers, pósters y piezas gráficas para promocionar los eventos, adaptando cada cartel a su temática y manteniendo una coherencia visual global.",
+            "links": [],
+            "programs": [
+              "photoshop.png",
+              "illustrator.png"
             ],
-            "programs": [],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/1.jpg"
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/2.jpg"
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/3.jpg"
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/3.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/4.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/5.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/6.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EVENTOS/1_ORGANIZACION_DE_EVENTOS/7.png"
               }
             ]
           }
@@ -2467,40 +2486,99 @@
         "images": [
           {
             "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
-            "links": [
+            "title": "Videojuegos en la Uni",
+            "subtitle": "Gestión de proyectos de videojuegos durante mi etapa universitaria",
+            "description": "Gestión y seguimiento del desarrollo de diversos proyectos, controlando tiempos, tareas y la organización del proceso de producción. Todos fueron realizados entre mi etapa universitaria y el final del instituto, abarcando una gran variedad de géneros, métodos de trabajo y equipos, con diferentes roles y niveles de responsabilidad en cada proyecto.",
+            "links": [],
+            "programs": [
+              "unity.png",
+              "3dsmax.png",
+              "zbrush.png",
+              "substance.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
+            "related": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
+                "text": "Bubble Heights",
+                "section": "arte",
+                "category_index": 0,
+                "project_index": 0,
+                "icon": "coral.png"
               },
               {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
+                "text": "Aether",
+                "section": "arte",
+                "category_index": 1,
+                "project_index": 8,
+                "icon": "aether.png"
               },
               {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Paper Pioneers",
+                "section": "diseño",
+                "category_index": 1,
+                "project_index": 1,
+                "icon": "paperpioneers.png"
+              },
+              {
+                "text": "Star Crossed",
+                "section": "programacion",
+                "category_index": 0,
+                "project_index": 2,
+                "icon": "starcrossed.png"
+              },
+              {
+                "text": "Spray: Mi primer videojuego",
+                "section": "programacion",
+                "category_index": 0,
+                "project_index": 3,
+                "icon": "spray.png"
               }
             ],
-            "programs": [],
-            "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/1.jpg"
+                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/2.jpg"
+                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/3.jpg"
+                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/3.png"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=8JS_S7ndNrQ"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=GMDSRdKfywA"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=nDkWO9yb8s4"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=vqj4yA2vkY4"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/8.mp4"
+              },
+              {
+                "type": "youtube",
+                "src": "https://www.youtube.com/watch?v=ArKfsq8XfmQ"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/10.mp4"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\PRODUCCION/3_PRODUCCIÓN_DE_VIDEOJUEGOS/1_PRODUCCION_DE_VIDEOJUEGOS/11.mp4"
               }
             ]
           }
@@ -2516,24 +2594,19 @@
         "images": [
           {
             "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "title": "21 de Marzo - Catering",
+            "subtitle": "Camarero y coordinación de eventos",
+            "description": "Experiencia en atención y servicio en distintos tipos de eventos como bodas, celebraciones corporativas, encuentros privados y festivales de música como el Festival Cap Roig. \n He gestionado barra, servido pases de comida y participado en el montaje previo y apoyo general durante el catering.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
+                "text": "21 de Marzo",
+                "url": "https://21demarzo.com/",
+                "icon": "web.png"
               },
               {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Cap Roig",
+                "url": "https://caproigfestival.com/es/",
+                "icon": "web.png"
               }
             ],
             "programs": [],
@@ -2541,54 +2614,46 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/1.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/2.jpg"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/3.jpg"
+                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/1.png"
               }
             ]
           },
           {
             "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/portada.jpg",
-            "title": "Bubble Heights - VIDEOJUEGO",
-            "subtitle": "Modelado 3D de personajes y escenarios",
-            "description": "Este es un proyecto de ejemplo que demuestra las capacidades técnicas y creativas aplicadas. El proyecto incluye múltiples aspectos como diseño, desarrollo, animación y producción. Se utilizaron diversas herramientas profesionales para lograr un resultado de alta calidad que cumple con los estándares de la industria.",
+            "title": "Alquílame Esta Moto",
+            "subtitle": "Asesoramiento y gestión con personas",
+            "description": "Atención y asesoramiento a las personas durante el alquiler de equipamiento de moto homologado, explicando el servicio y gestionando las entregas y recogidas de forma rápida y cómoda para cada usuario. \n Además, desarrollé el branding, la web y el material gráfico del proyecto, creando una identidad visual coherente, una página funcional con cálculo automático de pedidos y piezas promocionales para impresión y redes sociales.",
             "links": [
               {
-                "text": "Ver Proyecto",
-                "url": "https://ejemplo.com/proyecto",
-                "icon": "link.png"
-              },
-              {
-                "text": "Video Demo",
-                "url": "https://www.youtube.com/watch?v=ejemplo",
-                "icon": "youtube.png"
-              },
-              {
-                "text": "Descargar",
-                "url": "https://ejemplo.com/descarga",
-                "icon": "download.png"
+                "text": "Web - Alquílame Esta Moto",
+                "url": "https://alquilamestamoto.es/",
+                "icon": "web.png"
               }
             ],
-            "programs": [],
+            "programs": [
+              "HTML.png",
+              "JAVA.png",
+              "CSS.png",
+              "photoshop.png",
+              "illustrator.png"
+            ],
             "related": [],
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/1.jpg"
+                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/1.png"
+              },
+              {
+                "type": "video",
+                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/2.mp4"
               },
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/2.jpg"
+                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/3.jpg"
+                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_GESTION/4.png"
               }
             ]
           }
