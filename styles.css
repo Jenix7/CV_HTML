@@ -2610,29 +2610,25 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	}
 }
 
-
 /* Botón flotante para volver al proyecto anterior */
 .back-to-previous-floating {
 	position: fixed;
-	bottom: 30px;
+	bottom: 40px;
 	left: 50%;
 	transform: translateX(-50%) translateY(100px);
 	z-index: 10000;
 
-	padding: 6px 12px;
 	background: rgba(0, 0, 0, 0.85);
 	backdrop-filter: blur(12px);
 	-webkit-backdrop-filter: blur(12px);
+
+	padding: 14px 28px;
+	border-radius: 30px;
 	border: 1px solid rgba(74, 222, 128, 0.4);
-	border-radius: 8px;
 
 	color: #4ade80;
-	font-size: 0.7rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	line-height: 1.2;
-	min-height: 32px;
+	font-size: 0.95rem;
+	font-weight: 500;
 
 	cursor: pointer;
 
@@ -2645,12 +2641,6 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 
 	opacity: 0;
 	pointer-events: none;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	gap: 6px;
 }
 
 .back-to-previous-floating.show {
@@ -2679,10 +2669,159 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 
 .back-to-previous-floating .button-icon {
 	display: inline-block;
+	margin-right: 8px;
+	font-size: 1.1rem;
+	transition: transform 0.3s ease;
+}
+
+.back-to-previous-floating:hover .button-icon {
+	transform: translateX(-3px);
+}
+
+/* Botón flotante para volver al proyecto anterior */
+.back-to-previous-floating {
+	position: fixed;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%) translateY(100px);
+	z-index: 10000;
+	padding: 6px 12px;
+	background: rgba(0, 0, 0, 0.85);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border: 1px solid rgba(74, 222, 128, 0.4);
+	border-radius: 8px;
+	color: #4ade80;
+	font-size: 0.7rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	min-height: 32px;
+	cursor: pointer;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 20px rgba(74, 222, 128, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	opacity: 0;
+	pointer-events: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	gap: 6px;
+}
+
+.back-to-previous-floating.show {
+	transform: translateX(-50%) translateY(0);
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.back-to-previous-floating:hover {
+	background: rgba(0, 0, 0, 0.92);
+	border-color: rgba(74, 222, 128, 0.7);
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(74, 222, 128, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+	transform: translateX(-50%) translateY(-2px);
+}
+
+.back-to-previous-floating:active {
+	transform: translateX(-50%) translateY(0);
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 0 0 15px rgba(74, 222, 128, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.back-to-previous-floating .button-icon {
+	display: inline-block;
 	font-size: 0.7rem;
 	transition: transform 0.3s ease;
 }
 
 .back-to-previous-floating:hover .button-icon {
 	transform: translateX(-3px);
+}
+
+/* ============================================== */
+/* SECCIÓN TODO - GRID DINÁMICO CALCULADO POR JS */
+/* ============================================== */
+
+.categories-container.todo-grid-mode {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	overflow: hidden;
+	width: 100%;
+	height: calc(100vh - 140px);
+}
+
+.todo-projects-grid {
+	display: grid;
+	gap: 12px;
+	width: 100%;
+	height: 100%;
+	align-content: center;
+	justify-content: center;
+	/* Las columnas se establecen dinámicamente por JS */
+	/* Las filas son automáticas basadas en aspect-ratio */
+}
+
+.todo-project-card {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	background: rgba(0, 0, 0, 0.6);
+	border: 2px solid rgba(255, 255, 255, 0.15);
+	border-radius: 8px;
+	overflow: hidden;
+	cursor: pointer;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	opacity: 0;
+	transform: scale(0.9);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.todo-project-card.show {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.todo-project-card:hover {
+	background: rgba(0, 0, 0, 0.8);
+	border-color: rgba(74, 222, 128, 0.8);
+	transform: scale(1.05);
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7), 0 0 40px rgba(74, 222, 128, 0.4);
+	z-index: 10;
+}
+
+.todo-project-image-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.todo-project-image-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	transition: transform 0.3s ease, opacity 0.15s ease-out;
+	opacity: 0;
+}
+
+.todo-project-image-wrapper img.loaded {
+	opacity: 1;
+}
+
+.todo-project-card:hover .todo-project-image-wrapper img {
+	transform: scale(1.05);
+}
+
+.todo-project-title,
+.todo-project-subtitle {
+	display: none !important;
 }

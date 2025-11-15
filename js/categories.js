@@ -1,13 +1,130 @@
+// Función para calcular la configuración óptima del grid TODO
+function calculateOptimalTodoGrid(numProjects) {
+	// Obtener dimensiones del contenedor
+	const container = document.getElementById('categoriesContainer');
+	const containerWidth = window.innerWidth - 60; // Restamos padding
+	const containerHeight = window.innerHeight - 140; // Restamos header y padding
+
+	const gap = 12;
+	const aspectRatio = 16 / 9; // Proporción de las tarjetas
+
+	let bestConfig = { cols: 1, rows: 1, cardSize: 0 };
+
+	// Probar diferentes configuraciones
+	for (let cols = 1; cols <= numProjects; cols++) {
+		const rows = Math.ceil(numProjects / cols);
+
+		// Calcular el tamaño de tarjeta que resultaría con esta configuración
+		const availableWidth = containerWidth - (gap * (cols - 1));
+		const availableHeight = containerHeight - (gap * (rows - 1));
+
+		const cardWidthByColumns = availableWidth / cols;
+		const cardHeightByWidth = cardWidthByColumns / aspectRatio;
+
+		const cardHeightByRows = availableHeight / rows;
+		const cardWidthByHeight = cardHeightByRows * aspectRatio;
+
+		// La tarjeta debe caber tanto horizontal como verticalmente
+		let cardWidth, cardHeight;
+
+		if (cardHeightByWidth <= cardHeightByRows) {
+			// Limitado por el ancho
+			cardWidth = cardWidthByColumns;
+			cardHeight = cardHeightByWidth;
+		} else {
+			// Limitado por el alto
+			cardWidth = cardWidthByHeight;
+			cardHeight = cardHeightByRows;
+		}
+
+		const cardSize = cardWidth * cardHeight; // Área de la tarjeta
+
+		// Queremos maximizar el tamaño de las tarjetas
+		if (cardSize > bestConfig.cardSize) {
+			bestConfig = { cols, rows, cardSize };
+		}
+	}
+
+	return bestConfig;
+}
 function renderCategories(sectionKey) {
 	const categoriesContainer = document.getElementById('categoriesContainer');
 	const sectionData = portfolioData[sectionKey];
 
-	if (!sectionData || sectionData.categories.length === 0) {
+	if (!sectionData) {
+		categoriesContainer.style.display = 'none';
+		return;
+	}
+
+	// Manejo especial para la sección TODO
+	if (sectionKey === 'todo') {
+		if (!sectionData.projects || sectionData.projects.length === 0) {
+			categoriesContainer.style.display = 'none';
+			return;
+		}
+
+		categoriesContainer.innerHTML = '';
+		categoriesContainer.classList.remove('expanded');
+		categoriesContainer.classList.add('todo-grid-mode');
+
+		const todoGrid = document.createElement('div');
+		todoGrid.className = 'todo-projects-grid';
+
+		const numProjects = sectionData.projects.length;
+		todoGrid.setAttribute('data-num-projects', numProjects);
+
+		// Calcular la configuración óptima del grid
+		const optimalConfig = calculateOptimalTodoGrid(numProjects);
+
+		// Aplicar SOLO las columnas - las filas serán automáticas
+		todoGrid.style.gridTemplateColumns = `repeat(${optimalConfig.cols}, 1fr)`;
+		todoGrid.style.gridAutoRows = 'auto';
+
+		sectionData.projects.forEach((projectData, index) => {
+			const projectCard = document.createElement('div');
+			projectCard.className = 'todo-project-card';
+			projectCard.dataset.projectIndex = index;
+
+			const imageWrapper = document.createElement('div');
+			imageWrapper.className = 'todo-project-image-wrapper';
+
+			const img = document.createElement('img');
+			const srcEncoded = projectData.src.replace(/ /g, '%20');
+			img.src = srcEncoded;
+			img.alt = projectData.title;
+
+			img.addEventListener('load', function() {
+				this.classList.add('loaded');
+			});
+
+			imageWrapper.appendChild(img);
+			projectCard.appendChild(imageWrapper);
+
+			projectCard.onclick = () => {
+				// Abrir directamente el visor de proyecto
+				openTodoProject(projectData);
+			};
+
+			todoGrid.appendChild(projectCard);
+
+			setTimeout(() => {
+				projectCard.classList.add('show');
+			}, index * 30);
+		});
+
+		categoriesContainer.appendChild(todoGrid);
+		categoriesContainer.style.display = 'flex';
+		return;
+	}
+
+	// Código original para otras secciones
+	if (sectionData.categories.length === 0) {
 		categoriesContainer.style.display = 'none';
 		return;
 	}
 
 	categoriesContainer.innerHTML = '';
+	categoriesContainer.classList.remove('todo-grid-mode');
 
 	let maxImagesInAnyCategory = 0;
 	sectionData.categories.forEach(cat => {
@@ -290,4 +407,76 @@ function renderCategoryDetail(categoryIndex) {
 
 	categoriesContainer.appendChild(detailHeader);
 	categoriesContainer.appendChild(detailGrid);
+}
+
+function openTodoProject(projectData) {
+	// Abrir el proyecto usando la información de sección/categoría/proyecto
+	if (typeof openProjectViewer === 'function') {
+		// Cambiar a la sección correspondiente primero
+		const targetSection = projectData.section;
+		const targetCategoryIndex = projectData.category_index;
+		const targetProjectIndex = projectData.project_index;
+
+		// Si no estamos ya en esa sección, cambiar
+		if (currentCategory !== targetSection) {
+			const featuredCard = document.querySelector('.card-wrapper.featured');
+			if (featuredCard) {
+				featuredCard.classList.remove('featured');
+				featuredCard.classList.add('in-menu');
+			}
+
+			const targetCard = document.querySelector(`.card-wrapper[data-category="${targetSection}"]`);
+			if (targetCard) {
+				targetCard.classList.remove('in-menu');
+				targetCard.classList.add('featured');
+
+				const cardInner = targetCard.querySelector('.card-inner');
+				if (cardInner) {
+					cardInner.style.transform = 'rotateY(0deg)';
+				}
+			}
+
+			currentCategory = targetSection;
+
+			const sectionTitleHeader = document.getElementById('sectionTitleHeader');
+			if (portfolioData[targetSection]) {
+				sectionTitleHeader.textContent = portfolioData[targetSection].name;
+			}
+
+			const color = categoryColors[targetSection];
+			document.body.className = `${color}-theme`;
+			currentTheme = `${color}-theme`;
+
+			updateCardPositions();
+		}
+
+		// Activar vista de categoría expandida
+		categoryDetailView = true;
+		currentCategoryIndex = targetCategoryIndex;
+
+		const categoriesContainer = document.getElementById('categoriesContainer');
+		if (!categoriesContainer.classList.contains('expanded')) {
+			categoriesContainer.classList.add('expanded');
+
+			const allCardWrappers = document.querySelectorAll('.card-wrapper');
+			allCardWrappers.forEach(wrapper => {
+				if (!wrapper.classList.contains('featured')) {
+					wrapper.style.transition = 'none';
+					wrapper.style.opacity = '0';
+					wrapper.style.pointerEvents = 'none';
+				}
+			});
+
+			const allPlaceholders = document.querySelectorAll('.card-placeholder');
+			allPlaceholders.forEach(placeholder => {
+				placeholder.style.transition = 'none';
+				placeholder.style.opacity = '0';
+			});
+		}
+
+		// Abrir el visor del proyecto
+		openProjectViewer(targetCategoryIndex, targetProjectIndex);
+	} else {
+		console.error('openProjectViewer is not defined');
+	}
 }

@@ -372,11 +372,104 @@ def generate_portfolio_data():
             "categories": categories
         }
 
-    # Añadir sección TODO vacía
+
+    # Procesar sección TODO de manera especial
+    print(f"\n📂 Procesando sección especial: TODO")
+    todo_json_path = os.path.join(base_path, "TODO", "todo.json")
+    todo_projects = []
+
+    if os.path.exists(todo_json_path):
+        try:
+            with open(todo_json_path, 'r', encoding='utf-8') as f:
+                todo_list = json.load(f)
+                print(f"  📄 Encontrado todo.json con {len(todo_list)} proyectos")
+
+                # Para cada nombre de proyecto en la lista
+                for project_name_input in todo_list:
+                    # Buscar el proyecto en todas las secciones
+                    found = False
+                    for section_folder, section_key in section_map.items():
+                        if found:
+                            break
+                        section_path = os.path.join(base_path, section_folder)
+                        if not os.path.exists(section_path):
+                            continue
+
+                        category_folders = [f for f in os.listdir(section_path)
+                                          if os.path.isdir(os.path.join(section_path, f))]
+
+                        for category_folder in category_folders:
+                            if found:
+                                break
+                            category_path = os.path.join(section_path, category_folder)
+                            project_folders = [f for f in os.listdir(category_path)
+                                             if os.path.isdir(os.path.join(category_path, f))]
+
+                            for project_folder in project_folders:
+                                # Extraer nombre sin el número inicial
+                                folder_without_number = re.sub(r'^\d+_', '', project_folder)
+                                input_without_number = re.sub(r'^\d+_', '', project_name_input)
+
+                                if folder_without_number.upper() == input_without_number.upper():
+                                    # Encontrado! Obtener la información del proyecto
+                                    project_path = os.path.join(category_path, project_folder)
+
+                                    # Buscar portada
+                                    portada_jpg = os.path.join(project_path, "portada.jpg")
+                                    portada_png = os.path.join(project_path, "portada.png")
+
+                                    portada_relative = None
+                                    if os.path.exists(portada_jpg):
+                                        portada_relative = f"{section_path}/{category_folder}/{project_folder}/portada.jpg"
+                                    elif os.path.exists(portada_png):
+                                        portada_relative = f"{section_path}/{category_folder}/{project_folder}/portada.png"
+
+                                    if portada_relative:
+                                        # Obtener índices para navegación
+                                        if project_folder in project_map:
+                                            proj_info = project_map[project_folder]
+
+                                            # Leer info.json
+                                            info_path = os.path.join(project_path, "info.json")
+                                            project_title = project_folder
+                                            project_subtitle = ""
+
+                                            if os.path.exists(info_path):
+                                                try:
+                                                    with open(info_path, 'r', encoding='utf-8') as inf:
+                                                        info_data = json.load(inf)
+                                                        project_title = info_data.get("title", project_folder)
+                                                        project_subtitle = info_data.get("subtitle", "")
+                                                except:
+                                                    pass
+
+                                            todo_projects.append({
+                                                "src": portada_relative,
+                                                "title": project_title,
+                                                "subtitle": project_subtitle,
+                                                "section": proj_info['section'],
+                                                "category_index": proj_info['category_index'],
+                                                "project_index": proj_info['project_index']
+                                            })
+
+                                            print(f"    ✅ Agregado: {project_title} ({section_key})")
+                                            found = True
+                                            break
+
+                    if not found:
+                        print(f"    ⚠️ No encontrado: {project_name_input}")
+
+        except Exception as e:
+            print(f"  ⚠️ Error procesando todo.json: {e}")
+    else:
+        print(f"  ⚠️ No se encontró {todo_json_path}")
+
     portfolio_data["todo"] = {
         "name": "TODO",
-        "categories": []
+        "projects": todo_projects
     }
+
+    print(f"  ✅ TODO: {len(todo_projects)} proyectos seleccionados")
 
     # Guardar el JSON
     output_file = "portfolio-data.json"
@@ -389,7 +482,9 @@ def generate_portfolio_data():
     # Mostrar resumen
     print("\n📋 RESUMEN:")
     for key, data in portfolio_data.items():
-        if key != "todo":
+        if key == "todo":
+            print(f"  • {data['name']}: {len(data['projects'])} proyectos seleccionados")
+        else:
             total_images = sum(len(cat["images"]) for cat in data["categories"])
             print(f"  • {data['name']}: {len(data['categories'])} categorías, {total_images} proyectos")
 
