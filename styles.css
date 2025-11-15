@@ -2739,17 +2739,21 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 }
 
 /* ============================================== */
-/* SECCIÓN TODO - GRID DINÁMICO CALCULADO POR JS */
+/* SECCIÓN TODO - CONTENEDOR FIJO, NO SE EXPANDE */
 /* ============================================== */
 
 .categories-container.todo-grid-mode {
+	position: fixed;
+	top: 200px;
+	left: 280px;
+	right: 40px;
+	bottom: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 30px;
-	overflow: hidden;
-	width: 100%;
-	height: calc(100vh - 140px);
+	overflow: visible;
+	background: rgba(0, 0, 0, 0.4);
 }
 
 .todo-projects-grid {
@@ -2759,6 +2763,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	height: 100%;
 	align-content: center;
 	justify-content: center;
+	overflow: visible;
 	/* Las columnas se establecen dinámicamente por JS */
 	/* Las filas son automáticas basadas en aspect-ratio */
 }
@@ -2808,7 +2813,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 .todo-project-image-wrapper img {
 	width: 100%;
 	height: 100%;
-	object-fit: contain;
+	object-fit: cover;
 	transition: transform 0.3s ease, opacity 0.15s ease-out;
 	opacity: 0;
 }

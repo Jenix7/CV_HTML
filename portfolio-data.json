@@ -2872,220 +2872,276 @@
         "project_index": 7
       },
       {
-        "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_ARTE/portada.jpg",
-        "title": "9_AETHER_ARTE",
+        "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/1_EVENTS_BRANDING/portada.jpg",
+        "title": "1_EVENTS_BRANDING",
         "subtitle": "",
         "section": "arte",
-        "category_index": 1,
-        "project_index": 8
-      },
-      {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/portada.jpg",
-        "title": "1_BUBBLE_HEIGHTS_MODELADO",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 0,
+        "category_index": 2,
         "project_index": 0
       },
       {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/portada.jpg",
-        "title": "2_KUNI",
+        "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/2_TECNO_PHONE/portada.jpg",
+        "title": "2_TECNO_PHONE",
         "subtitle": "",
         "section": "arte",
-        "category_index": 0,
+        "category_index": 2,
         "project_index": 1
       },
       {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/portada.jpg",
-        "title": "3_SNEAKERS",
+        "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/3_ALQUILAME_ESTA_MOTO_BRANDING/portada.jpg",
+        "title": "3_ALQUILAME_ESTA_MOTO_BRANDING",
         "subtitle": "",
         "section": "arte",
-        "category_index": 0,
+        "category_index": 2,
         "project_index": 2
       },
       {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC_GENERATOR/portada.jpg",
-        "title": "4_ELECTRIC_GENERATOR",
+        "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/4_RELAXIUM_EPERIENCE/portada.jpg",
+        "title": "4_RELAXIUM_EPERIENCE",
         "subtitle": "",
         "section": "arte",
-        "category_index": 0,
+        "category_index": 2,
         "project_index": 3
       },
       {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/portada.jpg",
-        "title": "1_BUBBLE_HEIGHTS_MODELADO",
+        "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/5_EL_BEDEL_DE_LA_UNI/portada.jpg",
+        "title": "5_EL_BEDEL_DE_LA_UNI",
         "subtitle": "",
         "section": "arte",
-        "category_index": 0,
-        "project_index": 0
-      },
-      {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/portada.jpg",
-        "title": "2_KUNI",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 0,
-        "project_index": 1
-      },
-      {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/portada.jpg",
-        "title": "3_SNEAKERS",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 0,
-        "project_index": 2
-      },
-      {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC_GENERATOR/portada.jpg",
-        "title": "4_ELECTRIC_GENERATOR",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 0,
-        "project_index": 3
-      },
-      {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/5_LAYMA/portada.jpg",
-        "title": "5_LAYMA",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 0,
+        "category_index": 2,
         "project_index": 4
       },
       {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/6_ROSALIA_X_FLAMINGO/portada.jpg",
-        "title": "6_ROSALIA_X_FLAMINGO",
+        "src": "proyectos\\ARTE/3_DISENO_GRAFICO_Y_BRANDING/6_BRANDING_PERSONAL/portada.jpg",
+        "title": "6_BRANDING_PERSONAL",
         "subtitle": "",
         "section": "arte",
-        "category_index": 0,
+        "category_index": 2,
         "project_index": 5
       },
       {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD_TEMPLE/portada.jpg",
-        "title": "7_WOOD_TEMPLE",
+        "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/1_PING_PONG_BONASPORT/portada.jpg",
+        "title": "1_PING_PONG_BONASPORT",
         "subtitle": "",
         "section": "arte",
-        "category_index": 0,
-        "project_index": 6
-      },
-      {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/8_MONSTER_UFO/portada.jpg",
-        "title": "8_MONSTER_UFO",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 0,
-        "project_index": 7
-      },
-      {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/9_MARIA_SINGER/portada.jpg",
-        "title": "9_MARIA_SINGER",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 0,
-        "project_index": 8
-      },
-      {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/10_CAMINO_A_LA_LUNA/portada.jpg",
-        "title": "10_CAMINO_A_LA_LUNA",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 0,
-        "project_index": 9
-      },
-      {
-        "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/1_CARTOON_CREW/portada.jpg",
-        "title": "1_CARTOON_CREW",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 1,
+        "category_index": 3,
         "project_index": 0
       },
       {
-        "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/2_EMPATHY_CODE/portada.jpg",
-        "title": "2_EMPATHY_CODE",
+        "src": "proyectos\\ARTE/4_EDICION_DE_VIDEO_Y_SONIDO/3_METAMORPHOSIS_TRAILER/portada.jpg",
+        "title": "3_METAMORPHOSIS_TRAILER",
         "subtitle": "",
         "section": "arte",
-        "category_index": 1,
-        "project_index": 1
-      },
-      {
-        "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/3_GREEN_HEART/portada.jpg",
-        "title": "3_GREEN_HEART",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 1,
+        "category_index": 3,
         "project_index": 2
       },
       {
-        "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/4_NUBIPOLY/portada.jpg",
-        "title": "4_NUBIPOLY",
+        "src": "proyectos\\ARTE/5_ANIMACION/1_PORKYS_DAY_OUT/portada.jpg",
+        "title": "1_PORKYS_DAY_OUT",
         "subtitle": "",
         "section": "arte",
-        "category_index": 1,
+        "category_index": 4,
+        "project_index": 0
+      },
+      {
+        "src": "proyectos\\ARTE/5_ANIMACION/3_COWARDLY_SPACE_TROOPER/portada.jpg",
+        "title": "3_COWARDLY_SPACE_TROOPER",
+        "subtitle": "",
+        "section": "arte",
+        "category_index": 4,
+        "project_index": 2
+      },
+      {
+        "src": "proyectos\\ARTE/5_ANIMACION/4_EVIL_TOM_HOLLAND/portada.jpg",
+        "title": "4_EVIL_TOM_HOLLAND",
+        "subtitle": "",
+        "section": "arte",
+        "category_index": 4,
         "project_index": 3
       },
       {
-        "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/6_LOS_JUEGOS_REUNIDOS_NADIE/portada.jpg",
-        "title": "6_LOS_JUEGOS_REUNIDOS_NADIE",
+        "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/1_AETHER_PROGRAMACION/portada.jpg",
+        "title": "1_AETHER_PROGRAMACION",
         "subtitle": "",
-        "section": "arte",
-        "category_index": 1,
-        "project_index": 5
-      },
-      {
-        "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/7_ROSALIA_EL_VIDEOJUEGO_ILUSTRACION/portada.jpg",
-        "title": "7_ROSALIA_EL_VIDEOJUEGO_ILUSTRACION",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 1,
-        "project_index": 6
-      },
-      {
-        "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/8_KEEP_WORKING/portada.jpg",
-        "title": "8_KEEP_WORKING",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 1,
-        "project_index": 7
-      },
-      {
-        "src": "proyectos\\ARTE/2_ARTE_E_ILUSTRACION/9_AETHER_ARTE/portada.jpg",
-        "title": "9_AETHER_ARTE",
-        "subtitle": "",
-        "section": "arte",
-        "category_index": 1,
-        "project_index": 8
-      },
-      {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/1_BUBBLE_HEIGHTS_MODELADO/portada.jpg",
-        "title": "1_BUBBLE_HEIGHTS_MODELADO",
-        "subtitle": "",
-        "section": "arte",
+        "section": "programacion",
         "category_index": 0,
         "project_index": 0
       },
       {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/2_KUNI/portada.jpg",
-        "title": "2_KUNI",
+        "src": "proyectos\\PROGRAMACION/1_DESARROLLO_DE_VIDEOJUEGOS/4_SPRAY_MI_PRIMER_VIDEOJUEGO/portada.jpg",
+        "title": "4_SPRAY_MI_PRIMER_VIDEOJUEGO",
         "subtitle": "",
-        "section": "arte",
+        "section": "programacion",
         "category_index": 0,
+        "project_index": 3
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/1_PORTAL_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
+        "title": "1_PORTAL_PROTOTIPO_DE_GAMEPLAY",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 1,
+        "project_index": 0
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/2_SUPER_MARIO_XMAS/portada.jpg",
+        "title": "2_SUPER_MARIO_XMAS",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 1,
         "project_index": 1
       },
       {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/3_SNEAKERS/portada.jpg",
-        "title": "3_SNEAKERS",
+        "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
+        "title": "3_BASIC_SHOOTER_PROTOTIPO_DE_GAMEPLAY",
         "subtitle": "",
-        "section": "arte",
+        "section": "programacion",
+        "category_index": 1,
+        "project_index": 2
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/4_GUARD_AND_GROW/portada.jpg",
+        "title": "4_GUARD_AND_GROW",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 1,
+        "project_index": 3
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/5_SPACE_GRID/portada.jpg",
+        "title": "5_SPACE_GRID",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 1,
+        "project_index": 4
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
+        "title": "6_BASIC_SHOP_PROTOTIPO_DE_GAMEPLAY",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 1,
+        "project_index": 5
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/2_DESARROLLO_DE_MINIJUEGOS_Y_MECÁNICAS/7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY/portada.jpg",
+        "title": "7_BASIC_COMMAND_PROTOTIPO_DE_GAMEPLAY",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 1,
+        "project_index": 6
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/1_ALQUILAME_ESTA_MOTO_WEB/portada.jpg",
+        "title": "1_ALQUILAME_ESTA_MOTO_WEB",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 2,
+        "project_index": 0
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/3_EL_BEDEL_DE_LA_UNI_WEB/portada.jpg",
+        "title": "3_EL_BEDEL_DE_LA_UNI_WEB",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 2,
+        "project_index": 2
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/1_CONFIGURADOR_DE_CABINAS_3D_ERSCE/portada.jpg",
+        "title": "1_CONFIGURADOR_DE_CABINAS_3D_ERSCE",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 3,
+        "project_index": 0
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/2_ALQUILAME_ESTA_MOTO_MANAGER/portada.jpg",
+        "title": "2_ALQUILAME_ESTA_MOTO_MANAGER",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 3,
+        "project_index": 1
+      },
+      {
+        "src": "proyectos\\PROGRAMACION/4_DESARROLLO_DE_SOFTWARE/3_MIS_HERRAMIENTAS_INTERNAS/portada.jpg",
+        "title": "3_MIS_HERRAMIENTAS_INTERNAS",
+        "subtitle": "",
+        "section": "programacion",
+        "category_index": 3,
+        "project_index": 2
+      },
+      {
+        "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/1_TATTO_HEROES/portada.jpg",
+        "title": "1_TATTO_HEROES",
+        "subtitle": "",
+        "section": "diseño",
+        "category_index": 0,
+        "project_index": 0
+      },
+      {
+        "src": "proyectos\\DISENO/1_DISENO_DE_PERSONAJES/3_MY_CHARACTER_VERSE/portada.jpg",
+        "title": "3_MY_CHARACTER_VERSE",
+        "subtitle": "",
+        "section": "diseño",
         "category_index": 0,
         "project_index": 2
       },
       {
-        "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC_GENERATOR/portada.jpg",
-        "title": "4_ELECTRIC_GENERATOR",
+        "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/2_PAPER_PIONEERS_DISENO/portada.jpg",
+        "title": "2_PAPER_PIONEERS_DISENO",
         "subtitle": "",
-        "section": "arte",
+        "section": "diseño",
+        "category_index": 1,
+        "project_index": 1
+      },
+      {
+        "src": "proyectos\\DISENO/2_DISENO_DE_VIDEOJUEGOS/3_MINIJUEGOS/portada.jpg",
+        "title": "3_MINIJUEGOS",
+        "subtitle": "",
+        "section": "diseño",
+        "category_index": 1,
+        "project_index": 2
+      },
+      {
+        "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/1_STAR_CROSSED_NARRATIVO/portada.jpg",
+        "title": "1_STAR_CROSSED_NARRATIVO",
+        "subtitle": "",
+        "section": "diseño",
+        "category_index": 2,
+        "project_index": 0
+      },
+      {
+        "src": "proyectos\\DISENO/3_DISENO_NARRATIVO/2_TABUUN_UNIVERSE_WORLDBUILDING/portada.jpg",
+        "title": "2_TABUUN_UNIVERSE_WORLDBUILDING",
+        "subtitle": "",
+        "section": "diseño",
+        "category_index": 2,
+        "project_index": 1
+      },
+      {
+        "src": "proyectos\\PRODUCCION/2_ORGANIZACION_DE_EXPERIENCIAS/2_ORGANIZACION_DE_ESCAPEROOMS/portada.jpg",
+        "title": "2_ORGANIZACION_DE_ESCAPEROOMS",
+        "subtitle": "",
+        "section": "produccion",
+        "category_index": 1,
+        "project_index": 1
+      },
+      {
+        "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/portada.jpg",
+        "title": "2_ALQUILAME_ESTA_MOTO_COMUNICACION",
+        "subtitle": "",
+        "section": "comunicacion",
         "category_index": 0,
-        "project_index": 3
+        "project_index": 1
+      },
+      {
+        "src": "proyectos\\COMUNICACION/2_DINAMIZACION_DE_ACTIVIDADES/1_EVENTOS/portada.jpg",
+        "title": "1_EVENTOS",
+        "subtitle": "",
+        "section": "comunicacion",
+        "category_index": 1,
+        "project_index": 0
       }
     ]
   }
