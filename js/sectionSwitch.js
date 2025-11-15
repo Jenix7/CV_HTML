@@ -13,11 +13,8 @@ function switchSection(section) {
 		curriculumSection.classList.add('slide-left');
 		portfolioSection.classList.add('slide-left');
 
-		if (currentCategory && portfolioData[currentCategory]) {
-			sectionTitleHeader.textContent = portfolioData[currentCategory].name;
-		} else {
-			sectionTitleHeader.textContent = 'Portfolio';
-		}
+		// Siempre mostrar "Portfolio" al entrar
+		sectionTitleHeader.textContent = 'Portfolio';
 
 		switchCV.classList.remove('active');
 		switchPortfolio.classList.add('active');

@@ -31,6 +31,15 @@ Object.values(hoverGroups).forEach(group => {
 					}
 				});
 			});
+
+			// NUEVO: Añadir click para abrir panel de información
+			element.addEventListener('click', () => {
+				hideTooltip();
+				const groupName = elementNames[elementId]?.name;
+				if (groupName && typeof openCVInfoPanel === 'function') {
+					openCVInfoPanel(groupName);
+				}
+			});
 		}
 	});
 });
