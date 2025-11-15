@@ -185,7 +185,7 @@
             ]
           },
           {
-            "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/portada.jpg",
+            "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC_GENERATOR/portada.jpg",
             "title": "Kuni",
             "subtitle": "Modelado 3D de un héroe urbano",
             "description": "Este proyecto se basa en la creación de un prop realista para videojuegos: un generador eléctrico desgastado y lleno de piezas, diseñado para parecer funcional y creíble, tomando como referencia generadores reales. \n Lo realicé por pura pasión y ganas de aprender, siguiendo un curso de Domestika. \n El objetivo personal era aprender a modelar de forma profesional objetos hard surface, ya que hasta ese momento estaba más acostumbrado a modelar elementos orgánicos en ZBrush.",
@@ -199,15 +199,15 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/1.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC_GENERATOR/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/2.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC_GENERATOR/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC GENERATOR/3.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/4_ELECTRIC_GENERATOR/3.png"
               }
             ]
           },
@@ -262,7 +262,7 @@
             ]
           },
           {
-            "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/portada.jpg",
+            "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD_TEMPLE/portada.jpg",
             "title": "Wood Temple",
             "subtitle": "Modelado 3D de un templo élfico",
             "description": "Este proyecto es el modelado de un calabozo de estilo élfico, ambientado en una antigua fortaleza de elfos silvanos. La estructura está construida con madera y piedra, materiales naturales característicos de su cultura. Presenta formas curvas y elegantes propias de su arquitectura. En su interior se encuentra un dragón de tamaño medio, al que la tribu veneraba y alimentaba con prisioneros. \n Realicé este proyecto como un trabajo de la asignatura de Modelado 3D en la universidad, durante el segundo curso de la carrera.",
@@ -276,31 +276,31 @@
             "images": [
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/1.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD_TEMPLE/1.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/2.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD_TEMPLE/2.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/3.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD_TEMPLE/3.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/4.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD_TEMPLE/4.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/5.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD_TEMPLE/5.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/6.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD_TEMPLE/6.png"
               },
               {
                 "type": "image",
-                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD TEMPLE/7.png"
+                "src": "proyectos\\ARTE/1_MODELADO_Y_TEXTURIZACION_3D/7_WOOD_TEMPLE/7.png"
               }
             ]
           },

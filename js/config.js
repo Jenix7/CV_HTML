@@ -8,6 +8,7 @@ let categoryDetailView = false;
 let currentCategoryIndex = null;
 let currentProjectIndex = null;
 let currentProjectCategory = null;
+let previousProject = null;
 
 const tooltip = document.getElementById('customTooltip');
 const tooltipText = tooltip.querySelector('.tooltip-text');

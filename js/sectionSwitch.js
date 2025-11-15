@@ -1,4 +1,8 @@
 function switchSection(section) {
+	previousProject = null;
+	if (typeof updateBackToPreviousButton === 'function') {
+		updateBackToPreviousButton();
+	}
 	const curriculumSection = document.getElementById('curriculumSection');
 	const portfolioSection = document.getElementById('portfolioSection');
 	const sectionTitleHeader = document.getElementById('sectionTitleHeader');

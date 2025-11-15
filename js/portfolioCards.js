@@ -144,6 +144,10 @@ function updateCardPositions() {
 }
 
 function handleCardClick(e) {
+	previousProject = null;
+	if (typeof updateBackToPreviousButton === 'function') {
+		updateBackToPreviousButton();
+	}
 	const card = e.currentTarget;
 	const category = card.getAttribute('data-category');
 	const color = categoryColors[category];

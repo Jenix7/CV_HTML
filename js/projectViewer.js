@@ -1,10 +1,14 @@
-function openProjectViewer(categoryIndex, projectIndex) {
+function openProjectViewer(categoryIndex, projectIndex, fromRelated = false) {
 	const categoriesContainer = document.getElementById('categoriesContainer');
 	const sectionData = portfolioData[currentCategory];
 	if (!sectionData || !sectionData.categories[categoryIndex]) return;
 
 	const categoryData = sectionData.categories[categoryIndex];
 	const projectData = categoryData.images[projectIndex];
+
+	if (!fromRelated) {
+		previousProject = null;
+	}
 
 	currentProjectCategory = categoryIndex;
 	currentProjectIndex = projectIndex;
@@ -115,6 +119,8 @@ function openProjectViewer(categoryIndex, projectIndex) {
 	};
 
 	sidebarLeft.appendChild(backButtonInSidebar);
+
+	updateBackToPreviousButton();
 
 	const titleSection = document.createElement('div');
 	titleSection.className = 'project-title-section';
@@ -622,6 +628,8 @@ function updateActiveNavThumbnail(index) {
 }
 
 function closeProjectViewer() {
+	previousProject = null;
+	updateBackToPreviousButton();
 	currentProjectIndex = null;
 	const tempCategory = currentProjectCategory;
 	currentProjectCategory = null;
@@ -642,6 +650,95 @@ function navigateProject(direction) {
 
 function navigateToRelatedProject(targetSection, targetCategoryIndex, targetProjectIndex) {
 	console.log(`Navegando a proyecto relacionado: ${targetSection}/${targetCategoryIndex}/${targetProjectIndex}`);
+
+	previousProject = {
+		section: currentCategory,
+		categoryIndex: currentProjectCategory,
+		projectIndex: currentProjectIndex
+	};
+	updateBackToPreviousButton();
+
+	if (currentCategory !== targetSection) {
+		const featuredCard = document.querySelector('.card-wrapper.featured');
+		if (featuredCard) {
+			featuredCard.classList.remove('featured');
+			featuredCard.classList.add('in-menu');
+		}
+
+		const targetCard = document.querySelector(`.card-wrapper[data-category="${targetSection}"]`);
+		if (targetCard) {
+			targetCard.classList.remove('in-menu');
+			targetCard.classList.add('featured');
+
+			const cardInner = targetCard.querySelector('.card-inner');
+			if (cardInner) {
+				cardInner.style.transform = 'rotateY(0deg)';
+			}
+		}
+
+		currentCategory = targetSection;
+
+		const sectionTitleHeader = document.getElementById('sectionTitleHeader');
+		if (portfolioData[targetSection]) {
+			sectionTitleHeader.textContent = portfolioData[targetSection].name;
+		}
+
+		const color = categoryColors[targetSection];
+		document.body.className = `${color}-theme`;
+		currentTheme = `${color}-theme`;
+
+		updateCardPositions();
+	}
+
+	categoryDetailView = true;
+	currentCategoryIndex = targetCategoryIndex;
+
+	const categoriesContainer = document.getElementById('categoriesContainer');
+	if (!categoriesContainer.classList.contains('expanded')) {
+		categoriesContainer.classList.add('expanded');
+
+		const allCardWrappers = document.querySelectorAll('.card-wrapper');
+		allCardWrappers.forEach(wrapper => {
+			if (!wrapper.classList.contains('featured')) {
+				wrapper.style.transition = 'none';
+				wrapper.style.opacity = '0';
+				wrapper.style.pointerEvents = 'none';
+			}
+		});
+
+		const allPlaceholders = document.querySelectorAll('.card-placeholder');
+		allPlaceholders.forEach(placeholder => {
+			placeholder.style.transition = 'none';
+			placeholder.style.opacity = '0';
+		});
+	}
+
+	openProjectViewer(targetCategoryIndex, targetProjectIndex, true);
+}
+
+function updateProjectNavButtons() {
+	const sectionData = portfolioData[currentCategory];
+	if (!sectionData || !sectionData.categories[currentProjectCategory]) return;
+
+	const categoryData = sectionData.categories[currentProjectCategory];
+	const prevBtn = document.getElementById('projectPrevBtn');
+	const nextBtn = document.getElementById('projectNextBtn');
+
+	if (prevBtn && nextBtn) {
+		prevBtn.disabled = currentProjectIndex === 0;
+		nextBtn.disabled = currentProjectIndex === categoryData.images.length - 1;
+	}
+}
+
+function returnToPreviousProject() {
+	if (!previousProject) return;
+
+	const targetSection = previousProject.section;
+	const targetCategoryIndex = previousProject.categoryIndex;
+	const targetProjectIndex = previousProject.projectIndex;
+
+	previousProject = null;
+	updateBackToPreviousButton();
 
 	if (currentCategory !== targetSection) {
 		const featuredCard = document.querySelector('.card-wrapper.featured');
@@ -701,17 +798,33 @@ function navigateToRelatedProject(targetSection, targetCategoryIndex, targetProj
 	openProjectViewer(targetCategoryIndex, targetProjectIndex);
 }
 
-function updateProjectNavButtons() {
-	const sectionData = portfolioData[currentCategory];
-	if (!sectionData || !sectionData.categories[currentProjectCategory]) return;
+function updateBackToPreviousButton() {
+	let floatingButton = document.getElementById('backToPreviousFloating');
 
-	const categoryData = sectionData.categories[currentProjectCategory];
-	const prevBtn = document.getElementById('projectPrevBtn');
-	const nextBtn = document.getElementById('projectNextBtn');
+	if (previousProject) {
+		if (!floatingButton) {
+			floatingButton = document.createElement('button');
+			floatingButton.id = 'backToPreviousFloating';
+			floatingButton.className = 'back-to-previous-floating';
+			floatingButton.innerHTML = '<span class="button-icon">⮌</span>Volver al proyecto anterior';
+			floatingButton.onclick = () => {
+				returnToPreviousProject();
+			};
+			document.body.appendChild(floatingButton);
+		}
 
-	if (prevBtn && nextBtn) {
-		prevBtn.disabled = currentProjectIndex === 0;
-		nextBtn.disabled = currentProjectIndex === categoryData.images.length - 1;
+		setTimeout(() => {
+			floatingButton.classList.add('show');
+		}, 100);
+	} else {
+		if (floatingButton) {
+			floatingButton.classList.remove('show');
+			setTimeout(() => {
+				if (floatingButton && floatingButton.parentNode) {
+					floatingButton.parentNode.removeChild(floatingButton);
+				}
+			}, 300);
+		}
 	}
 }
 

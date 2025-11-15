@@ -98,6 +98,10 @@ function handleCategoryClick(e) {
 }
 
 function openCategoryDetail(categoryIndex) {
+	previousProject = null;
+	if (typeof updateBackToPreviousButton === 'function') {
+		updateBackToPreviousButton();
+	}
 	const categoriesContainer = document.getElementById('categoriesContainer');
 
 	if (categoryDetailView && currentCategoryIndex !== null) {
@@ -138,6 +142,10 @@ function openCategoryDetail(categoryIndex) {
 }
 
 function closeCategoryDetail() {
+	previousProject = null;
+	if (typeof updateBackToPreviousButton === 'function') {
+		updateBackToPreviousButton();
+	}
 	categoryDetailView = false;
 	currentCategoryIndex = null;
 
