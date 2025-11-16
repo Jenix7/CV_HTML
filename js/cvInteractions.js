@@ -32,12 +32,12 @@ Object.values(hoverGroups).forEach(group => {
 				});
 			});
 
-			// NUEVO: Añadir click para abrir panel de información
+			// Añadir click para abrir modal de información
 			element.addEventListener('click', () => {
 				hideTooltip();
 				const groupName = elementNames[elementId]?.name;
-				if (groupName && typeof openCVInfoPanel === 'function') {
-					openCVInfoPanel(groupName);
+				if (groupName && typeof openCVInfoModal === 'function') {
+					openCVInfoModal(groupName);
 				}
 			});
 		}
@@ -68,7 +68,22 @@ clickableElements.forEach(elementId => {
 		});
 
 		element.addEventListener('click', () => {
+			console.log('🔍 CLICK en elemento clickable:', elementId);
+
 			hideTooltip();
+
+			// IMPORTANTE: Obtener referencias frescas cada vez
+			const modal = document.getElementById('imageModal');
+			const modalImage = document.getElementById('modalImage');
+
+			console.log('🔍 Modal encontrado:', modal);
+			console.log('🔍 ModalImage encontrado:', modalImage);
+
+			if (!modalImage) {
+				console.error('❌ ERROR: modalImage no existe!');
+				return;
+			}
+
 			const highResImage = highResMap[elementId];
 			if (highResImage) {
 				modalImage.src = highResImage;
