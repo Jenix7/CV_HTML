@@ -1,15 +1,3 @@
-// Mapeo de nombres de sección a imágenes de título
-const cvInfoTitleImages = {
-	'Diseño Gráfico': 'images/DiseñoGrafico_Titulo.png',
-	'Modelado 3D': 'images/Modelado3D_Titulo.png',
-	'Ilustración': 'images/Ilustracion_Titulo.png',
-	'Edición de Video': 'images/Edicion_Titulo.png',
-	'Desarrollo Web': 'images/Web_Titulo.png',
-	'Webs': 'images/Web_Titulo.png',
-	'Videojuegos': 'images/Videojuegos_Titulo.png',
-	'Edición': 'images/Edicion_Titulo.png'
-};
-
 // Mapeo de imágenes para cada sección (según el PSD)
 const cvInfoImages = {
 	'Videojuegos': {
@@ -258,10 +246,6 @@ function openCVInfoModal(groupName) {
 	const images = cvInfoImages[groupName] || {};
 
 	// Crear estructura del modal de información a pantalla completa
-	const titleImage = cvInfoTitleImages[groupName];
-	const titleHTML = titleImage
-		? `<div class="modal-info-title-image" style="pointer-events: auto;"><img src="${titleImage}" alt="${content.title}"></div>`
-		: '';
 
 	const image1HTML = images.image1
 		? `<div class="modal-info-image-1" style="pointer-events: auto;"><img src="${images.image1}" alt="Imagen principal"></div>`
@@ -293,7 +277,6 @@ function openCVInfoModal(groupName) {
 				<div class="modal-info-text-area" style="pointer-events: auto;">
 					${content.content}
 				</div>
-				${titleHTML}
 			</div>
 		</div>
 	`;

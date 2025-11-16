@@ -2993,25 +2993,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	font-size: 0.95rem;
 }
 
-.modal-info-title-image {
-	position: absolute;
-	left: 76px;
-	top: 110px;
-	width: 837px;
-	height: 104px;
-	z-index: 3;
-}
 
-.modal-info-title-image img {
-	position: relative;
-	left: 432px;
-	top: 39px;
-	transform: rotate(3deg);
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	display: block;
-}
 
 /* Botón de cerrar para modal de información */
 .modal.info-modal .modal-close {
@@ -3059,8 +3041,8 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 /* Estilos para video en modal de Webs - Video libre sin contenedor */
 .modal.info-modal.modal-webs .modal-info-video-1 video {
 	position: absolute;
-	left: 169px;
-	top: 319px;
+	left: 183px;
+	top: 255px;
 	width: 1054px;
 	height: 627px;
 	object-fit: cover;
@@ -3079,32 +3061,13 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	z-index: 3;
 }
 
-.modal.info-modal.modal-webs .modal-info-title-image {
-	position: absolute;
-	left: 993px;
-	top: 240px;
-	width: 837px;
-	height: 104px;
-	z-index: 3;
-}
-
-.modal.info-modal.modal-webs .modal-info-title-image img {
-	position: relative;
-	left: -801px;
-	top: -99px;
-	transform: rotate(-3deg);
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	display: block;
-}
 
 .modal.info-modal.modal-webs .modal-info-text-area {
 	position: absolute;
-	left: 1031px;
-	top: 333px;
+	left: 1042px;
+	top: 303px;
 	width: 437px;
-	height: 560px;
+	height: 626px;
 	z-index: 2;
 	padding: 30px;
 	overflow-y: auto;
@@ -3113,12 +3076,12 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	backdrop-filter: blur(10px);
 	border-radius: 8px;
 	border: 1px solid rgba(255, 255, 255, 0.1);
-	transform: translate(223px, 0px);
+	transform: translate(223px, -66px);
 }
 
 .modal.info-modal.modal-webs .modal-close {
 	position: fixed;
-	top: 276px;
+	top: 161px;
 	right: 170px;
 	width: 60px;
 	height: 60px;
@@ -3151,7 +3114,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 
 .modal.info-modal.modal-videojuegos .modal-close {
 	position: fixed;
-	top: 190px;
+	top: 175px;
 	right: 130px;
 	width: 60px;
 	height: 60px;
@@ -3207,16 +3170,6 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	transform: rotate(0deg);
 }
 
-.modal.info-modal.modal-edicion .modal-info-title-image img {
-	position: relative;
-	left: 436px;
-	top: 47px;
-	transform: rotate(-3deg);
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	display: block;
-}
 
 .modal.info-modal.modal-edicion .modal-close {
 	position: fixed;
@@ -3256,6 +3209,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	transform: rotate(0deg);
 }
 
+
 /* Estilos para video en modal de Videojuegos */
 .modal.info-modal.modal-videojuegos .modal-info-video-1 {
 	position: absolute;
@@ -3271,7 +3225,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 .modal.info-modal.modal-videojuegos .modal-info-video-1 video {
 	position: relative;
 	left: 94px;
-	top: -15px;
+	top: -70px;
 	width: 547px;
 	height: 309px;
 	transform: translate(144px, 87px);
@@ -3287,8 +3241,8 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 /* Asegurar que en Videojuegos la imagen esté por encima del video */
 .modal.info-modal.modal-videojuegos .modal-info-image-1 img {
 	position: absolute;
-	left: 114px;
-	top: 330px;
+	left: 113px;
+	top: 277px;
 	width: 1019px;
 	height: 539px;
 	z-index: 3;
@@ -3298,8 +3252,14 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 .modal.info-modal.modal-videojuegos .modal-info-image-2 img {
 	position: absolute;
 	left: 114px;
-	top: 330px;
+	top: 280px;
 	width: 1019px;
 	height: 539px;
 	z-index: 0;
+}
+
+/* Text area específico para modal de Videojuegos */
+.modal.info-modal.modal-videojuegos .modal-info-text-area {
+	left: 1136px;
+	top: 257px;
 }
