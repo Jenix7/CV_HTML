@@ -2879,14 +2879,71 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 
 
 
+
 .modal-info-image-1 img {
 	position: absolute;
 	left: 114px;
-	top: 342px;
+	top: 330px;
 	width: 1019px;
 	height: 539px;
-	transform: rotate(-5deg);
 }
+
+.modal-info-image-1 img {
+	position: absolute;
+	left: 114px;
+	top: 330px;
+	width: 1019px;
+	height: 539px;
+}
+
+.modal-info-image-1 img {
+	position: absolute;
+	left: 114px;
+	top: 330px;
+	width: 1019px;
+	height: 539px;
+}
+
+.modal-info-image-1 img {
+	position: absolute;
+	left: 114px;
+	top: 330px;
+	width: 1019px;
+	height: 539px;
+}
+
+.modal-info-image-1 img {
+	position: absolute;
+	left: 114px;
+	top: 330px;
+	width: 1019px;
+	height: 539px;
+}
+
+.modal-info-image-1 img {
+	position: absolute;
+	left: 114px;
+	top: 330px;
+	width: 1019px;
+	height: 539px;
+}
+
+.modal-info-image-1 img {
+	position: absolute;
+	left: 114px;
+	top: 330px;
+	width: 1019px;
+	height: 539px;
+}
+
+.modal-info-image-1 img {
+	position: absolute;
+	left: 114px;
+	top: 330px;
+	width: 1019px;
+	height: 539px;
+}
+
 .modal-info-text-area {
 	position: absolute;
 	left: 1156px;
@@ -2984,4 +3041,265 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	border-color: rgba(248, 113, 113, 0.5);
 	transform: rotate(90deg) scale(1.1);
 	box-shadow: 0 0 20px rgba(248, 113, 113, 0.5);
+}
+
+/* ============================================
+   ESTILOS ESPECÍFICOS PARA MODAL DE WEBS
+   ============================================ */
+
+.modal.info-modal.modal-webs .modal-info-image-1 img {
+	position: absolute;
+	left: 208px;
+	top: 198px;
+	width: 744px;
+	height: 736px;
+	transform: rotate(0deg);
+}
+
+/* Estilos para video en modal de Webs - Video libre sin contenedor */
+.modal.info-modal.modal-webs .modal-info-video-1 video {
+	position: absolute;
+	left: 169px;
+	top: 319px;
+	width: 1054px;
+	height: 627px;
+	object-fit: cover;
+	display: block;
+	border-radius: 12px;
+	z-index: 1;
+	transform: translate(0px, -18px);
+}
+
+/* Asegurar que la imagen de artilugio esté por encima del video */
+.modal.info-modal.modal-webs .modal-info-image-1 {
+	z-index: 2;
+}
+
+.modal.info-modal.modal-webs .modal-info-image-1 img {
+	z-index: 3;
+}
+
+.modal.info-modal.modal-webs .modal-info-title-image {
+	position: absolute;
+	left: 993px;
+	top: 240px;
+	width: 837px;
+	height: 104px;
+	z-index: 3;
+}
+
+.modal.info-modal.modal-webs .modal-info-title-image img {
+	position: relative;
+	left: -801px;
+	top: -99px;
+	transform: rotate(-3deg);
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+}
+
+.modal.info-modal.modal-webs .modal-info-text-area {
+	position: absolute;
+	left: 1031px;
+	top: 333px;
+	width: 437px;
+	height: 560px;
+	z-index: 2;
+	padding: 30px;
+	overflow-y: auto;
+	color: #e4e4e7;
+	background: rgba(24, 24, 27, 0.85);
+	backdrop-filter: blur(10px);
+	border-radius: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transform: translate(223px, 0px);
+}
+
+.modal.info-modal.modal-webs .modal-close {
+	position: fixed;
+	top: 276px;
+	right: 170px;
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.1);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	color: #fff;
+	font-size: 32px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	backdrop-filter: blur(10px);
+	line-height: 1;
+	padding: 0;
+	z-index: 10002;
+}
+
+.modal.info-modal.modal-webs .modal-close:hover {
+	background: rgba(248, 113, 113, 0.3);
+	border-color: rgba(248, 113, 113, 0.5);
+	transform: rotate(90deg) scale(1.1);
+	box-shadow: 0 0 20px rgba(248, 113, 113, 0.5);
+}
+
+/* ============================================
+   ESTILOS ESPECÍFICOS PARA MODAL DE VIDEOJUEGOS
+   ============================================ */
+
+.modal.info-modal.modal-videojuegos .modal-close {
+	position: fixed;
+	top: 190px;
+	right: 130px;
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.1);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	color: #fff;
+	font-size: 32px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	backdrop-filter: blur(10px);
+	line-height: 1;
+	padding: 0;
+	z-index: 10002;
+}
+
+.modal.info-modal.modal-videojuegos .modal-close:hover {
+	background: rgba(248, 113, 113, 0.3);
+	border-color: rgba(248, 113, 113, 0.5);
+	transform: rotate(90deg) scale(1.1);
+	box-shadow: 0 0 20px rgba(248, 113, 113, 0.5);
+}
+
+/* ============================================
+   ESTILOS ESPECÍFICOS PARA MODAL DE EDICIÓN
+   ============================================ */
+
+.modal.info-modal.modal-edicion .modal-info-text-area {
+	position: absolute;
+	left: 222px;
+	top: 322px;
+	width: 660px;
+	height: 560px;
+	z-index: 2;
+	padding: 30px;
+	overflow-y: auto;
+	color: #e4e4e7;
+	background: rgba(24, 24, 27, 0.85);
+	backdrop-filter: blur(10px);
+	border-radius: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal.info-modal.modal-edicion .modal-info-image-1 img {
+	position: absolute;
+	left: 908px;
+	top: 306px;
+	width: 890px;
+	height: 573px;
+	transform: rotate(0deg);
+}
+
+.modal.info-modal.modal-edicion .modal-info-title-image img {
+	position: relative;
+	left: 436px;
+	top: 47px;
+	transform: rotate(-3deg);
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+}
+
+.modal.info-modal.modal-edicion .modal-close {
+	position: fixed;
+	top: 190px;
+	right: 100px;
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.1);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	color: #fff;
+	font-size: 32px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	backdrop-filter: blur(10px);
+	line-height: 1;
+	padding: 0;
+	z-index: 10002;
+}
+
+.modal.info-modal.modal-edicion .modal-close:hover {
+	background: rgba(248, 113, 113, 0.3);
+	border-color: rgba(248, 113, 113, 0.5);
+	transform: rotate(90deg) scale(1.1);
+	box-shadow: 0 0 20px rgba(248, 113, 113, 0.5);
+}
+
+.modal.info-modal.modal-videojuegos .modal-info-image-1 img {
+	position: absolute;
+	left: 114px;
+	top: 342px;
+	width: 1019px;
+	height: 539px;
+	transform: rotate(0deg);
+}
+
+/* Estilos para video en modal de Videojuegos */
+.modal.info-modal.modal-videojuegos .modal-info-video-1 {
+	position: absolute;
+	left: 114px;
+	top: 330px;
+	width: 1019px;
+	height: 539px;
+	z-index: 1;
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+.modal.info-modal.modal-videojuegos .modal-info-video-1 video {
+	position: relative;
+	left: 94px;
+	top: -15px;
+	width: 547px;
+	height: 309px;
+	transform: translate(144px, 87px);
+	object-fit: cover;
+	display: block;
+}
+
+/* Asegurar que la imagen de consola esté por encima del video */
+.modal.info-modal.modal-videojuegos .modal-info-image-1 {
+	z-index: 2;
+}
+
+/* Asegurar que en Videojuegos la imagen esté por encima del video */
+.modal.info-modal.modal-videojuegos .modal-info-image-1 img {
+	position: absolute;
+	left: 114px;
+	top: 330px;
+	width: 1019px;
+	height: 539px;
+	z-index: 3;
+}
+
+/* Imagen de fondo (consolaback) en modal de Videojuegos */
+.modal.info-modal.modal-videojuegos .modal-info-image-2 img {
+	position: absolute;
+	left: 114px;
+	top: 330px;
+	width: 1019px;
+	height: 539px;
+	z-index: 0;
 }

@@ -13,7 +13,9 @@ const cvInfoTitleImages = {
 // Mapeo de imágenes para cada sección (según el PSD)
 const cvInfoImages = {
 	'Videojuegos': {
-		image1: 'images/consola_Detalles.png'
+		image1: 'images/consola_Detalles.png',
+		video1: 'videos/Videojeugos_Recap.mp4',
+		image2: 'images/consolaback_Detalles.png'
 	},
 	'Modelado 3D': {
 		image1: 'images/consola_Detalles.png' // Temporal, cambiarás esto después
@@ -25,16 +27,16 @@ const cvInfoImages = {
 		image1: 'images/consola_Detalles.png' // Temporal, cambiarás esto después
 	},
 	'Edición de Video': {
-		image1: 'images/consola_Detalles.png' // Temporal, cambiarás esto después
+		image1: 'images/cintavideo_Detalles.png'
 	},
 	'Desarrollo Web': {
-		image1: 'images/consola_Detalles.png' // Temporal, cambiarás esto después
+		video1: 'videos/Webs_Recap.mp4'
 	},
 	'Webs': {
-		image1: 'images/consola_Detalles.png' // Temporal, cambiarás esto después
+		video1: 'videos/Webs_Recap.mp4'
 	},
 	'Edición': {
-		image1: 'images/consola_Detalles.png' // Temporal, cambiarás esto después
+		image1: 'images/cintavideo_Detalles.png'
 	}
 };
 
@@ -234,6 +236,24 @@ function openCVInfoModal(groupName) {
 	// Agregar clase especial para modal de información
 	modal.classList.add('info-modal');
 
+	// Mapeo de nombres de grupo a clases CSS específicas
+	const modalClassMap = {
+		'Desarrollo Web': 'modal-webs',
+		'Webs': 'modal-webs',
+		'Videojuegos': 'modal-videojuegos',
+		'Modelado 3D': 'modal-modelado3d',
+		'Ilustración': 'modal-ilustracion',
+		'Edición de Video': 'modal-edicion',
+		'Edición': 'modal-edicion',
+		'Diseño Gráfico': 'modal-diseño-grafico'
+	};
+
+	// Agregar clase específica del tipo de modal
+	const modalSpecificClass = modalClassMap[groupName];
+	if (modalSpecificClass) {
+		modal.classList.add(modalSpecificClass);
+	}
+
 	// Obtener las imágenes según la sección
 	const images = cvInfoImages[groupName] || {};
 
@@ -245,6 +265,14 @@ function openCVInfoModal(groupName) {
 
 	const image1HTML = images.image1
 		? `<div class="modal-info-image-1" style="pointer-events: auto;"><img src="${images.image1}" alt="Imagen principal"></div>`
+		: '';
+
+	const video1HTML = images.video1
+		? `<div class="modal-info-video-1" style="pointer-events: auto;"><video src="${images.video1}" autoplay loop muted playsinline></video></div>`
+		: '';
+
+	const image2HTML = images.image2
+		? `<div class="modal-info-image-2" style="pointer-events: auto;"><img src="${images.image2}" alt="Imagen de fondo"></div>`
 		: '';
 
 	const modalContent = modal.querySelector('.modal-content');
@@ -259,6 +287,8 @@ function openCVInfoModal(groupName) {
 		<div class="modal-info-layout-wrapper" style="pointer-events: none;">
 			<div class="modal-info-layout" id="modalInfoLayout" style="pointer-events: none;">
 				<button class="modal-close" id="modalClose" style="pointer-events: auto;">&times;</button>
+				${image2HTML}
+				${video1HTML}
 				${image1HTML}
 				<div class="modal-info-text-area" style="pointer-events: auto;">
 					${content.content}
@@ -332,6 +362,14 @@ function closeCVInfoModal() {
 
 	modal.classList.remove('active');
 	modal.classList.remove('info-modal');
+
+	// Remover todas las clases específicas de modales
+	modal.classList.remove('modal-webs');
+	modal.classList.remove('modal-videojuegos');
+	modal.classList.remove('modal-modelado3d');
+	modal.classList.remove('modal-ilustracion');
+	modal.classList.remove('modal-edicion');
+	modal.classList.remove('modal-diseño-grafico');
 	document.body.style.overflow = '';
 
 	// Restaurar estructura original del modal
