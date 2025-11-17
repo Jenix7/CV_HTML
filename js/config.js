@@ -1,3 +1,9 @@
+// ============================================
+// CONFIGURACIÓN DE SECCIÓN TODO
+// ============================================
+// Cambiar a true para activar la sección TODO
+const ENABLE_TODO_SECTION = false;
+
 let currentSection = 'curriculum';
 let currentCategory = 'todo';
 let currentTheme = '';
@@ -71,7 +77,10 @@ const elementNames = {
 	'cv-videojuegos': { name: 'Videojuegos', icon: '🕹️', clickable: false }
 };
 
-const cardOrder = ['todo', 'arte', 'programacion', 'diseño', 'produccion', 'comunicacion'];
+// Orden de las tarjetas - se modifica dinámicamente según ENABLE_TODO_SECTION
+const cardOrder = ENABLE_TODO_SECTION
+	? ['todo', 'arte', 'programacion', 'diseño', 'produccion', 'comunicacion']
+	: ['arte', 'programacion', 'diseño', 'produccion', 'comunicacion'];
 
 const highResMap = {
 	'cv-targeta-javier': 'images/TargetaJavier_High.png',

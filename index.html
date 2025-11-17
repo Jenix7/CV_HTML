@@ -73,7 +73,8 @@
 		<div class="section portfolio" id="portfolioSection">
 			<div class="portfolio-content">
 				<div class="cards-container" id="cardsContainer">
-					<div class="card-wrapper" data-category="todo">
+					<!-- TARJETA TODO - Se oculta/muestra según ENABLE_TODO_SECTION -->
+					<div class="card-wrapper" data-category="todo" id="todoCardWrapper" style="display: none;">
 						<div class="card-title">TODO</div>
 						<div class="portfolio-card" data-category="todo">
 							<div class="card-inner">
@@ -198,6 +199,7 @@
 	</div>
 
 	<script src="js/config.js"></script>
+	<script src="js/todoInit.js"></script>
 	<script src="js/dataLoader.js"></script>
 	<script src="js/tooltip.js"></script>
 	<script src="js/cvAnimations.js"></script>

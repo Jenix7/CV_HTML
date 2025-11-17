@@ -1,6 +1,11 @@
 function animatePortfolioCards() {
 	const cards = document.querySelectorAll('.card-wrapper');
 	cards.forEach((card, index) => {
+		// Saltar la tarjeta TODO si está desactivada
+		if (card.dataset.category === 'todo' && !ENABLE_TODO_SECTION) {
+			return;
+		}
+
 		setTimeout(() => {
 			card.classList.add('animate-in');
 		}, index * 100);
@@ -11,6 +16,11 @@ function animatePortfolioCards() {
 
 		const portfolioCards = document.querySelectorAll('.portfolio-card');
 		portfolioCards.forEach(card => {
+			// Saltar la tarjeta TODO si está desactivada
+			if (card.dataset.category === 'todo' && !ENABLE_TODO_SECTION) {
+				return;
+			}
+
 			card.addEventListener('click', handleCardClick);
 
 			const cardInner = card.querySelector('.card-inner');
@@ -42,9 +52,18 @@ function createPlaceholders() {
 	const cardsContainer = document.getElementById('cardsContainer');
 
 	cardOrder.forEach((category, index) => {
+		// Saltar TODO si está desactivado
+		if (category === 'todo' && !ENABLE_TODO_SECTION) {
+			return;
+		}
+
 		const pos = calculateMenuPosition(index);
 
 		const originalCard = document.querySelector(`.card-wrapper[data-category="${category}"]`);
+
+		// Verificar que la tarjeta existe antes de continuar
+		if (!originalCard) return;
+
 		const backImage = originalCard.querySelector('.card-back img');
 		const subtitleImage = originalCard.querySelector('.card-subtitle img');
 
@@ -113,6 +132,11 @@ function createPlaceholders() {
 
 function updateCardPositions() {
 	cardOrder.forEach((category, index) => {
+		// Saltar TODO si está desactivado
+		if (category === 'todo' && !ENABLE_TODO_SECTION) {
+			return;
+		}
+
 		const wrapper = document.querySelector(`.card-wrapper[data-category="${category}"]`);
 		const placeholder = document.querySelector(`.card-placeholder[data-category="${category}"]`);
 
@@ -150,6 +174,12 @@ function handleCardClick(e) {
 	}
 	const card = e.currentTarget;
 	const category = card.getAttribute('data-category');
+
+	// Bloquear click en TODO si está desactivado
+	if (category === 'todo' && !ENABLE_TODO_SECTION) {
+		return;
+	}
+
 	const color = categoryColors[category];
 	const clickedWrapper = card.closest('.card-wrapper');
 
@@ -223,6 +253,11 @@ function handleCardHover(e) {
 	const card = e.currentTarget;
 	const wrapper = card.closest('.card-wrapper');
 
+	// Ignorar hover en TODO si está desactivado
+	if (wrapper.dataset.category === 'todo' && !ENABLE_TODO_SECTION) {
+		return;
+	}
+
 	const rect = card.getBoundingClientRect();
 	const x = e.clientX - rect.left;
 	const y = e.clientY - rect.top;
@@ -255,12 +290,25 @@ function handleCardHover(e) {
 
 function handleCardEnter(e) {
 	const card = e.currentTarget;
+	const wrapper = card.closest('.card-wrapper');
+
+	// Ignorar enter en TODO si está desactivado
+	if (wrapper.dataset.category === 'todo' && !ENABLE_TODO_SECTION) {
+		return;
+	}
+
 	card.style.transition = 'transform 0.15s ease-out';
 }
 
 function handleCardLeave(e) {
 	const card = e.currentTarget;
 	const wrapper = card.closest('.card-wrapper');
+
+	// Ignorar leave en TODO si está desactivado
+	if (wrapper.dataset.category === 'todo' && !ENABLE_TODO_SECTION) {
+		return;
+	}
+
 	card.style.transition = 'transform 0.6s ease-out';
 
 	if (wrapper.classList.contains('in-menu')) {
@@ -269,3 +317,15 @@ function handleCardLeave(e) {
 		card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
 	}
 }
+
+// Inicialización: ocultar/mostrar tarjeta TODO según configuración
+document.addEventListener('DOMContentLoaded', () => {
+	const todoCardWrapper = document.getElementById('todoCardWrapper');
+	if (todoCardWrapper) {
+		if (ENABLE_TODO_SECTION) {
+			todoCardWrapper.style.display = '';
+		} else {
+			todoCardWrapper.style.display = 'none';
+		}
+	}
+});

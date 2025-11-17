@@ -30,160 +30,96 @@ const cvInfoImages = {
 	}
 };
 
-// Contenido específico para cada grupo
-const cvInfoContent = {
-	'Diseño Gráfico': {
-		title: 'Diseño Gráfico',
-		content: `
-			<h3>Diseño Gráfico</h3>
-
-			<p>Tengo amplia experiencia en diseño gráfico para proyectos de distintos ámbitos. El diseño y la edición digital siempre han sido esenciales en mi trabajo, ya que resultan fundamentales para la presentación de cualquier proyecto creativo. He realizado interfaces, branding, flyers publicitarios, tarjetas, pósters y publicaciones para redes.</p>
-
-			<p>Trabajo con Photoshop e Illustrator, herramientas en las que tengo gran soltura. Soy meticuloso con la composición, buscando siempre armonía visual, claridad y equilibrio entre formas, espacios y colores, combinando lógica y estética en cada diseño.</p>
-
-			<div class="separator-line"></div>
-
-			<div class="cta-section">
-				<p class="cta-text">Descubre más</p>
-				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
-			</div>
-		`
-	},
-	'Modelado 3D': {
-		title: 'Modelado y Texturización 3D',
-		content: `
-			<h3>Modelado y Texturización 3D</h3>
-
-			<p>Tengo experiencia en proyectos de distintos géneros y estilos, dominando el modelado 3D en hard surface y soft surface. He creado personajes, escenarios, props, ítems, renders realistas de productos y arquitectura, además de trabajar con impresión 3D.</p>
-
-			<p>Realizo el pipeline completo: concept, high poly, low poly, bakeo, texturización, skinning, rigging, animación, iluminación, renderizado y postprocesado.</p>
-
-			<p>Uso 3ds Max y Blender para hard surface; ZBrush para soft surface; Marmoset Toolbag, Substance Painter y Photoshop para bakeo y texturas; y Maya y Cascadeur para rigging y animación corporal y facial.</p>
-
-			<div class="separator-line"></div>
-
-			<div class="cta-section">
-				<p class="cta-text">Descubre más</p>
-				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
-			</div>
-		`
-	},
-	'Ilustración': {
-		title: 'Arte e Ilustración',
-		content: `
-			<h3>Arte e Ilustración</h3>
-
-			<p>Siempre he tenido una gran pasión por el dibujo y por plasmar ideas de forma visual. He realizado ilustraciones y arte digital para una amplia variedad de proyectos relacionados con videojuegos, juegos de mesa, caricaturas y diseño de mundos. Trabajo con Photoshop e Illustrator, herramientas con las que tengo mucha experiencia y me desenvuelvo con soltura.</p>
-
-			<p>Me gusta dar vida a mis personajes con colores vibrantes, expresiones claras y una personalidad bien definida. Disfruto especialmente de los estilos cartoon con expresiones exageradas, aunque también he creado ilustraciones semi-realistas, concept art, escenarios, personajes, planos, interfaces (UI), fotomontajes y piezas de edición digital.</p>
-
-			<div class="separator-line"></div>
-
-			<div class="cta-section">
-				<p class="cta-text">Descubre más</p>
-				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
-			</div>
-		`
-	},
-
-	'Desarrollo Web': {
-		title: 'Desarrollo Web',
-		content: `
-			<h3>Desarrollo de Webs y Software</h3>
-
-			<p>He trabajado como freelance desarrollando páginas web y software tanto para clientes como para mis propios proyectos. He creado webs comerciales para marcas y productos, sistemas de gestión de datos, herramientas de edición 3D y pequeños programas diseñados para optimizar tareas específicas dentro de mi flujo de trabajo.</p>
-
-			<p>Combino enfoque creativo y técnico para diseñar soluciones coherentes, funcionales y visualmente profesionales, siempre adaptadas al estilo y las necesidades del proyecto. Trabajo con HTML, CSS, JavaScript y Python, utilizando diversas librerías para crear tanto aplicaciones web como programas locales.</p>
-
-			<div class="separator-line"></div>
-
-			<div class="cta-section">
-				<p class="cta-text">Descubre más</p>
-				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
-			</div>
-		`
-	},
-	'Videojuegos': {
-		title: 'Videojuegos',
-		content: `
-			<h3>Desarrollo de Videojuegos</h3>
-
-			<p>Soy licenciado en Diseño y Producción de Videojuegos y cuento con experiencia desarrollando proyectos de diversos géneros tanto en 2D como en 3D. He creado mecánicas, personajes, niveles, animaciones, interfaces, efectos y sistemas completos para juegos de acción, shooters, plataformas y experiencias narrativas.</p>
-
-			<p>He trabajado en roles de diseño, arte, programación y producción. Me apasionan todas las áreas del desarrollo y disfruto involucrarme en cada una para tener una visión global del proyecto y comprender en profundidad todo el proceso creativo y técnico.</p>
-
-			<div class="roles-grid">
-				<div class="role-item">DISEÑO</div>
-				<div class="role-item">ARTE</div>
-				<div class="role-item">PROGRAMACIÓN</div>
-				<div class="role-item">PRODUCCIÓN</div>
-			</div>
-
-			<div class="cta-section">
-				<p class="cta-text">Descubre más</p>
-				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
-			</div>
-		`
-	},
-	'Edición': {
-		title: 'Animación y Edición de Video',
-		content: `
-			<h3>Animación y Edición de Video</h3>
-
-			<p>He creado diversas piezas audiovisuales para proyectos muy variados, tanto personales como para terceros. Realizo edición y montaje de vídeo, creación de efectos y composición, trabajando principalmente con Premiere Pro, After Effects y CapCut. En algunas ocasiones he combinado planos generados con IA junto con edición tradicional para lograr resultados más complejos y con mayor libertad creativa.</p>
-
-			<p>También he desarrollado animaciones 2D y 3D, especialmente orientadas a videojuegos. En 2D trabajo con técnicas como morphing, sprite sheets y animación cuadro a cuadro. En 3D tengo experiencia en rigging, skinning, keyframe animation, cámaras, iluminación, materiales y renderizado, entre otras áreas del pipeline.</p>
-
-			<div class="separator-line"></div>
-
-			<div class="cta-section">
-				<p class="cta-text">Descubre más</p>
-				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
-			</div>
-		`
-	},
-	'Edición de Video': {
-		title: 'Animación y Edición de Video',
-		content: `
-			<h3>Animación y Edición de Video</h3>
-
-			<p>He creado diversas piezas audiovisuales para proyectos muy variados, tanto personales como para terceros. Realizo edición y montaje de vídeo, creación de efectos y composición, trabajando principalmente con Premiere Pro, After Effects y CapCut. En algunas ocasiones he combinado planos generados con IA junto con edición tradicional para lograr resultados más complejos y con mayor libertad creativa.</p>
-
-			<p>También he desarrollado animaciones 2D y 3D, especialmente orientadas a videojuegos. En 2D trabajo con técnicas como morphing, sprite sheets y animación cuadro a cuadro. En 3D tengo experiencia en rigging, skinning, keyframe animation, cámaras, iluminación, materiales y renderizado, entre otras áreas del pipeline.</p>
-
-			<div class="separator-line"></div>
-
-			<div class="cta-section">
-				<p class="cta-text">Descubre más</p>
-				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
-			</div>
-		`
-	},
-	'Webs': {
-		title: 'Desarrollo Web',
-		content: `
-			<h3>Desarrollo de Webs y Software</h3>
-
-			<p>He trabajado como freelance desarrollando páginas web y software tanto para clientes como para mis propios proyectos. He creado webs comerciales para marcas y productos, sistemas de gestión de datos, herramientas de edición 3D y pequeños programas diseñados para optimizar tareas específicas dentro de mi flujo de trabajo.</p>
-
-			<p>Combino enfoque creativo y técnico para diseñar soluciones coherentes, funcionales y visualmente profesionales, siempre adaptadas al estilo y las necesidades del proyecto. Trabajo con HTML, CSS, JavaScript y Python, utilizando diversas librerías para crear tanto aplicaciones web como programas locales.</p>
-
-			<div class="separator-line"></div>
-
-			<div class="cta-section">
-				<p class="cta-text">Descubre más</p>
-				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
-			</div>
-		`
-	}
+// Mapeo de nombres de grupos a archivos JSON
+const cvInfoJSONMap = {
+	'Diseño Gráfico': 'curriculum/diseno_grafico.json',
+	'Modelado 3D': 'curriculum/modelado_3d.json',
+	'Ilustración': 'curriculum/ilustracion.json',
+	'Desarrollo Web': 'curriculum/desarrollo_web.json',
+	'Webs': 'curriculum/desarrollo_web.json',
+	'Videojuegos': 'curriculum/videojuegos.json',
+	'Edición': 'curriculum/edicion_video.json',
+	'Edición de Video': 'curriculum/edicion_video.json'
 };
 
+// Cache para almacenar JSONs cargados
+const cvInfoCache = {};
+
+// Función para cargar contenido desde JSON
+async function loadCVInfoContent(groupName) {
+	// Si ya está en caché, retornar inmediatamente
+	if (cvInfoCache[groupName]) {
+		return cvInfoCache[groupName];
+	}
+
+	const jsonFile = cvInfoJSONMap[groupName];
+	if (!jsonFile) {
+		console.error('No JSON file mapped for:', groupName);
+		return null;
+	}
+
+	try {
+		const response = await fetch(jsonFile);
+		if (!response.ok) {
+			throw new Error(`HTTP error! status: ${response.status}`);
+		}
+		const data = await response.json();
+
+		// Formatear el contenido HTML
+		const formattedContent = {
+			title: data.title,
+			content: formatCVContent(data.title, data.description, groupName)
+		};
+
+		// Guardar en caché
+		cvInfoCache[groupName] = formattedContent;
+
+		console.log('✅ CV Info loaded from JSON:', groupName);
+		return formattedContent;
+	} catch (error) {
+		console.error('❌ Error loading CV info JSON:', jsonFile, error);
+		return null;
+	}
+}
+
+// Función para formatear el contenido HTML
+function formatCVContent(title, description, groupName) {
+	// Convertir saltos de línea \n a párrafos HTML
+	const paragraphs = description.split('\n\n')
+		.map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`)
+		.join('\n\t\t\t\t');
+
+	// Caso especial para Videojuegos con grid de roles
+	const rolesGrid = groupName === 'Videojuegos'
+		? `\n\t\t\t\t<div class="roles-grid">
+					<div class="role-item">DISEÑO</div>
+					<div class="role-item">ARTE</div>
+					<div class="role-item">PROGRAMACIÓN</div>
+					<div class="role-item">PRODUCCIÓN</div>
+				</div>\n`
+		: `\n\t\t\t\t<div class="separator-line"></div>\n`;
+
+	return `
+			<h3>${title}</h3>
+
+			${paragraphs}
+
+			${rolesGrid}
+			<div class="cta-section">
+				<p class="cta-text">Descubre más</p>
+				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
+			</div>
+		`;
+}
+
 // Función para abrir el modal de información
-function openCVInfoModal(groupName) {
+async function openCVInfoModal(groupName) {
 	console.log('Opening info modal for:', groupName);
 
 	const modal = document.getElementById('imageModal');
-	const content = cvInfoContent[groupName];
+
+	// Cargar contenido desde JSON
+	const content = await loadCVInfoContent(groupName);
 
 	if (!content) {
 		console.error('No content for:', groupName);
@@ -195,28 +131,22 @@ function openCVInfoModal(groupName) {
 
 	// Mapeo de nombres de grupo a clases CSS específicas
 	const modalClassMap = {
-		'Desarrollo Web': 'modal-webs',
 		'Webs': 'modal-webs',
+		'Desarrollo Web': 'modal-webs',
 		'Videojuegos': 'modal-videojuegos',
 		'Modelado 3D': 'modal-modelado3d',
 		'Ilustración': 'modal-ilustracion',
-		'Edición de Video': 'modal-edicion',
 		'Edición': 'modal-edicion',
+		'Edición de Video': 'modal-edicion',
 		'Diseño Gráfico': 'modal-diseño-grafico'
 	};
 
-	// Agregar clase específica del tipo de modal
-	const modalSpecificClass = modalClassMap[groupName];
-	if (modalSpecificClass) {
-		modal.classList.add(modalSpecificClass);
+	const modalClass = modalClassMap[groupName];
+	if (modalClass) {
+		modal.classList.add(modalClass);
 	}
 
-	// Obtener las imágenes según la sección
 	const images = cvInfoImages[groupName] || {};
-
-console.log("📹 Images config for", groupName, ":", images);
-
-	// Crear estructura del modal de información a pantalla completa
 
 	const image1HTML = images.image1
 		? `<div class="modal-info-image-1" style="pointer-events: auto;"><img src="${images.image1}" alt="Imagen principal"></div>`
@@ -230,7 +160,7 @@ console.log("📹 Images config for", groupName, ":", images);
 		? `<div class="modal-info-image-2" style="pointer-events: auto;"><img src="${images.image2}" alt="Imagen de fondo"></div>`
 		: '';
 
-console.log("📹 Video HTML:", video1HTML ? "YES" : "NO");
+	console.log("🔹 Video HTML:", video1HTML ? "YES" : "NO");
 
 	const modalContent = modal.querySelector('.modal-content');
 
@@ -260,7 +190,13 @@ console.log("📹 Video HTML:", video1HTML ? "YES" : "NO");
 		const scaleX = window.innerWidth / 1920;
 		const scaleY = window.innerHeight / 1080;
 		const scale = Math.min(scaleX, scaleY);
-		layout.style.transform = `scale(${scale})`;
+
+		// MEJORAS ANTI-BLUR: añadir translateZ y propiedades de renderizado
+		layout.style.transform = `scale(${scale}) translateZ(0)`;
+		layout.style.transformOrigin = 'center center';
+		layout.style.webkitFontSmoothing = 'antialiased';
+		layout.style.backfaceVisibility = 'hidden';
+		layout.style.perspective = '1000px';
 	}, 10);
 
 	// Mostrar modal
@@ -307,7 +243,9 @@ console.log("📹 Video HTML:", video1HTML ? "YES" : "NO");
 			const scaleX = window.innerWidth / 1920;
 			const scaleY = window.innerHeight / 1080;
 			const scale = Math.min(scaleX, scaleY);
-			layout.style.transform = `scale(${scale})`;
+
+			// MEJORA ANTI-BLUR: mantener translateZ en el resize
+			layout.style.transform = `scale(${scale}) translateZ(0)`;
 		}
 	};
 	window.addEventListener('resize', handleResize);

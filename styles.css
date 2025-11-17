@@ -334,6 +334,8 @@ body:has(.section.portfolio.slide-left .project-viewer.active) .switch-btn {
 	height: 297mm;
 	position: relative;
 	transform: scale(0.75);
+	margin-top: -24px;
+	/* Añade esto para subir el CV */
 	transition: none;
 	overflow: visible;
 }
@@ -3485,11 +3487,15 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	z-index: 0;
 }
 
-/* Text area específico para modal de Videojuegos */
 .modal.info-modal.modal-videojuegos .modal-info-text-area {
 	left: 1127px;
 	top: 256px;
 	height: 592px;
+	/* Mejoras anti-blur */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translateZ(0);
+	backface-visibility: hidden;
 }
 
 /* ============================================
@@ -3503,6 +3509,11 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	margin: 20px 0 10px 0;
 	padding: 0 0 20px 0;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	/* Mejoras anti-blur */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translateZ(0);
+	backface-visibility: hidden;
 }
 
 .role-item {
@@ -3515,6 +3526,11 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 	background: rgba(161, 161, 170, 0.15);
 	border-radius: 6px;
 	border: 1px solid rgba(161, 161, 170, 0.25);
+	/* Mejoras anti-blur */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translateZ(0);
+	backface-visibility: hidden;
 }
 
 .cta-section {

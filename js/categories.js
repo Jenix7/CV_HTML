@@ -56,8 +56,15 @@ function renderCategories(sectionKey) {
 		return;
 	}
 
-	// Manejo especial para la sección TODO
+	// Manejo especial para la sección TODO - SOLO SI ESTÁ ACTIVADA
 	if (sectionKey === 'todo') {
+		// Si TODO está desactivado, no renderizar nada
+		if (!ENABLE_TODO_SECTION) {
+			console.warn('⚠️ TODO section is disabled via ENABLE_TODO_SECTION');
+			categoriesContainer.style.display = 'none';
+			return;
+		}
+
 		if (!sectionData.projects || sectionData.projects.length === 0) {
 			categoriesContainer.style.display = 'none';
 			return;
@@ -410,6 +417,12 @@ function renderCategoryDetail(categoryIndex) {
 }
 
 function openTodoProject(projectData) {
+	// Solo funciona si TODO está activado
+	if (!ENABLE_TODO_SECTION) {
+		console.warn('⚠️ Cannot open TODO project: TODO section is disabled');
+		return;
+	}
+
 	// Abrir el proyecto usando la información de sección/categoría/proyecto
 	if (typeof openProjectViewer === 'function') {
 		// Cambiar a la sección correspondiente primero
