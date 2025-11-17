@@ -1,0 +1,31 @@
+# ============================================
+# ARCHIVOS QUE NO SE SUBEN A GITHUB
+# ============================================
+
+# Configuración con API Key de DeepL (SENSIBLE - NO SUBIR)
+config_deepl.py
+
+# Caché de traducciones (archivo temporal, no es necesario subirlo)
+translation_cache.json
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores de código
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
