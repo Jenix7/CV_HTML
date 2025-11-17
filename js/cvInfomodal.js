@@ -6,16 +6,17 @@ const cvInfoImages = {
 		image2: 'images/consolaback_Detalles.png'
 	},
 	'Modelado 3D': {
-		image1: 'images/consola_Detalles.png' // Temporal, cambiarás esto después
+		image1: 'images/Modelado_Detalles.png'
 	},
 	'Diseño Gráfico': {
-		image1: 'images/consola_Detalles.png' // Temporal, cambiarás esto después
+		image1: 'images/DisenoGrafico_Detalles.png'
 	},
 	'Ilustración': {
-		image1: 'images/consola_Detalles.png' // Temporal, cambiarás esto después
+		image1: 'images/Ilustracion_Detalles.png'
 	},
 	'Edición de Video': {
-		image1: 'images/cintavideo_Detalles.png'
+		image1: 'images/cintavideo_Detalles.png',
+		video1: 'videos/Edicion_Recap.mp4'
 	},
 	'Desarrollo Web': {
 		video1: 'videos/Webs_Recap.mp4'
@@ -24,7 +25,8 @@ const cvInfoImages = {
 		video1: 'videos/Webs_Recap.mp4'
 	},
 	'Edición': {
-		image1: 'images/cintavideo_Detalles.png'
+		image1: 'images/cintavideo_Detalles.png',
+		video1: 'videos/Edicion_Recap.mp4'
 	}
 };
 
@@ -33,178 +35,145 @@ const cvInfoContent = {
 	'Diseño Gráfico': {
 		title: 'Diseño Gráfico',
 		content: `
-			<h3>Experiencia en Diseño Gráfico</h3>
-			<p>Especializado en la creación de identidades visuales cohesivas y materiales gráficos que comunican efectivamente el mensaje de marca.</p>
+			<h3>Diseño Gráfico</h3>
 
-			<h3>Habilidades</h3>
-			<ul>
-				<li>Diseño de identidad corporativa y branding</li>
-				<li>Diseño editorial y maquetación</li>
-				<li>Ilustración digital y vectorial</li>
-				<li>Diseño de materiales publicitarios</li>
-				<li>Tipografía y composición</li>
-			</ul>
+			<p>Tengo amplia experiencia en diseño gráfico para proyectos de distintos ámbitos. El diseño y la edición digital siempre han sido esenciales en mi trabajo, ya que resultan fundamentales para la presentación de cualquier proyecto creativo. He realizado interfaces, branding, flyers publicitarios, tarjetas, pósters y publicaciones para redes.</p>
 
-			<div class="modal-info-highlight">
-				<strong>Herramientas:</strong> Adobe Illustrator, Photoshop, InDesign
+			<p>Trabajo con Photoshop e Illustrator, herramientas en las que tengo gran soltura. Soy meticuloso con la composición, buscando siempre armonía visual, claridad y equilibrio entre formas, espacios y colores, combinando lógica y estética en cada diseño.</p>
+
+			<div class="separator-line"></div>
+
+			<div class="cta-section">
+				<p class="cta-text">Descubre más</p>
+				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
 			</div>
-
-			<h3>Proyectos Destacados</h3>
-			<p>He trabajado en diversos proyectos de branding, desde eventos hasta productos comerciales, creando soluciones visuales únicas y memorables.</p>
 		`
 	},
 	'Modelado 3D': {
-		title: 'Modelado 3D',
+		title: 'Modelado y Texturización 3D',
 		content: `
-			<h3>Especialización en Modelado 3D</h3>
-			<p>Experiencia en la creación de assets 3D de alta calidad para videojuegos, animación y visualización arquitectónica.</p>
+			<h3>Modelado y Texturización 3D</h3>
 
-			<h3>Técnicas y Procesos</h3>
-			<ul>
-				<li>Modelado hard surface y orgánico</li>
-				<li>Esculpido digital de alta resolución</li>
-				<li>Retopología y optimización de mallas</li>
-				<li>UV mapping y texturización PBR</li>
-				<li>Rigging y preparación para animación</li>
-			</ul>
+			<p>Tengo experiencia en proyectos de distintos géneros y estilos, dominando el modelado 3D en hard surface y soft surface. He creado personajes, escenarios, props, ítems, renders realistas de productos y arquitectura, además de trabajar con impresión 3D.</p>
 
-			<div class="modal-info-highlight">
-				<strong>Software:</strong> Blender, 3DS Max, Maya, ZBrush, Substance Painter
+			<p>Realizo el pipeline completo: concept, high poly, low poly, bakeo, texturización, skinning, rigging, animación, iluminación, renderizado y postprocesado.</p>
+
+			<p>Uso 3ds Max y Blender para hard surface; ZBrush para soft surface; Marmoset Toolbag, Substance Painter y Photoshop para bakeo y texturas; y Maya y Cascadeur para rigging y animación corporal y facial.</p>
+
+			<div class="separator-line"></div>
+
+			<div class="cta-section">
+				<p class="cta-text">Descubre más</p>
+				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
 			</div>
-
-			<h3>Aplicaciones</h3>
-			<p>Desde personajes estilizados para videojuegos hasta props realistas para producciones audiovisuales.</p>
 		`
 	},
 	'Ilustración': {
-		title: 'Ilustración',
+		title: 'Arte e Ilustración',
 		content: `
-			<h3>Arte e Ilustración Digital</h3>
-			<p>Creación de ilustraciones originales con diversos estilos, desde concept art hasta ilustraciones finalizadas para productos comerciales.</p>
+			<h3>Arte e Ilustración</h3>
 
-			<h3>Estilos y Técnicas</h3>
-			<ul>
-				<li>Ilustración digital y tradicional</li>
-				<li>Concept art para videojuegos</li>
-				<li>Character design y development</li>
-				<li>Ilustración editorial</li>
-				<li>Arte para redes sociales</li>
-			</ul>
+			<p>Siempre he tenido una gran pasión por el dibujo y por plasmar ideas de forma visual. He realizado ilustraciones y arte digital para una amplia variedad de proyectos relacionados con videojuegos, juegos de mesa, caricaturas y diseño de mundos. Trabajo con Photoshop e Illustrator, herramientas con las que tengo mucha experiencia y me desenvuelvo con soltura.</p>
 
-			<div class="modal-info-highlight">
-				<strong>Herramientas:</strong> Photoshop, Illustrator, Procreate
+			<p>Me gusta dar vida a mis personajes con colores vibrantes, expresiones claras y una personalidad bien definida. Disfruto especialmente de los estilos cartoon con expresiones exageradas, aunque también he creado ilustraciones semi-realistas, concept art, escenarios, personajes, planos, interfaces (UI), fotomontajes y piezas de edición digital.</p>
+
+			<div class="separator-line"></div>
+
+			<div class="cta-section">
+				<p class="cta-text">Descubre más</p>
+				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
 			</div>
-
-			<h3>Proyectos</h3>
-			<p>He desarrollado personajes únicos y mundos visuales completos para diversos proyectos creativos.</p>
 		`
 	},
-	'Edición de Video': {
-		title: 'Edición de Video',
-		content: `
-			<h3>Edición y Postproducción</h3>
-			<p>Experiencia en la edición de video profesional, desde cortometrajes hasta contenido para redes sociales y trailers de videojuegos.</p>
 
-			<h3>Servicios</h3>
-			<ul>
-				<li>Edición de video narrativo y comercial</li>
-				<li>Motion graphics y animación 2D</li>
-				<li>Corrección de color y grading</li>
-				<li>Diseño de sonido y mezcla de audio</li>
-				<li>Efectos visuales y composición</li>
-			</ul>
-
-			<div class="modal-info-highlight">
-				<strong>Software:</strong> Adobe Premiere Pro, After Effects, DaVinci Resolve
-			</div>
-
-			<h3>Tipos de Proyectos</h3>
-			<p>Trailers de videojuegos, booktrailers, contenido promocional y videos corporativos.</p>
-		`
-	},
 	'Desarrollo Web': {
 		title: 'Desarrollo Web',
 		content: `
-			<h3>Desarrollo Web Full Stack</h3>
-			<p>Creación de aplicaciones web modernas, responsivas y optimizadas, con enfoque en experiencia de usuario y rendimiento.</p>
+			<h3>Desarrollo de Webs y Software</h3>
 
-			<h3>Tecnologías</h3>
-			<ul>
-				<li>HTML5, CSS3, JavaScript (ES6+)</li>
-				<li>React, Vue.js</li>
-				<li>Node.js, Express</li>
-				<li>Bases de datos SQL y NoSQL</li>
-				<li>APIs RESTful y GraphQL</li>
-				<li>Control de versiones con Git</li>
-			</ul>
+			<p>He trabajado como freelance desarrollando páginas web y software tanto para clientes como para mis propios proyectos. He creado webs comerciales para marcas y productos, sistemas de gestión de datos, herramientas de edición 3D y pequeños programas diseñados para optimizar tareas específicas dentro de mi flujo de trabajo.</p>
 
-			<div class="modal-info-highlight">
-				<strong>Especialidades:</strong> UI/UX, Responsive Design, Performance Optimization
+			<p>Combino enfoque creativo y técnico para diseñar soluciones coherentes, funcionales y visualmente profesionales, siempre adaptadas al estilo y las necesidades del proyecto. Trabajo con HTML, CSS, JavaScript y Python, utilizando diversas librerías para crear tanto aplicaciones web como programas locales.</p>
+
+			<div class="separator-line"></div>
+
+			<div class="cta-section">
+				<p class="cta-text">Descubre más</p>
+				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
 			</div>
-
-			<h3>Proyectos</h3>
-			<p>Desde portfolios personales hasta aplicaciones empresariales complejas y sistemas de gestión.</p>
 		`
 	},
 	'Videojuegos': {
 		title: 'Videojuegos',
 		content: `
 			<h3>Desarrollo de Videojuegos</h3>
-			<p>Experiencia completa en el ciclo de desarrollo de videojuegos, desde el concepto inicial hasta el lanzamiento.</p>
 
-			<p>Especializado en la creación de mecánicas innovadoras y experiencias de juego memorables que combinan arte, programación y diseño narrativo.</p>
+			<p>Soy licenciado en Diseño y Producción de Videojuegos y cuento con experiencia desarrollando proyectos de diversos géneros tanto en 2D como en 3D. He creado mecánicas, personajes, niveles, animaciones, interfaces, efectos y sistemas completos para juegos de acción, shooters, plataformas y experiencias narrativas.</p>
 
-			<h3>Áreas de Expertise</h3>
-			<p>Programación de gameplay, diseño de niveles, implementación de sistemas de IA, optimización de rendimiento y game design.</p>
+			<p>He trabajado en roles de diseño, arte, programación y producción. Me apasionan todas las áreas del desarrollo y disfruto involucrarme en cada una para tener una visión global del proyecto y comprender en profundidad todo el proceso creativo y técnico.</p>
 
-			<p>Trabajo con Unity y Unreal Engine para crear prototipos rápidos y productos finales pulidos.</p>
+			<div class="roles-grid">
+				<div class="role-item">DISEÑO</div>
+				<div class="role-item">ARTE</div>
+				<div class="role-item">PROGRAMACIÓN</div>
+				<div class="role-item">PRODUCCIÓN</div>
+			</div>
+
+			<div class="cta-section">
+				<p class="cta-text">Descubre más</p>
+				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
+			</div>
 		`
 	},
 	'Edición': {
-		title: 'Edición de Video',
+		title: 'Animación y Edición de Video',
 		content: `
-			<h3>Edición y Postproducción</h3>
-			<p>Experiencia en la edición de video profesional, desde cortometrajes hasta contenido para redes sociales y trailers de videojuegos.</p>
+			<h3>Animación y Edición de Video</h3>
 
-			<h3>Servicios</h3>
-			<ul>
-				<li>Edición de video narrativo y comercial</li>
-				<li>Motion graphics y animación 2D</li>
-				<li>Corrección de color y grading</li>
-				<li>Diseño de sonido y mezcla de audio</li>
-				<li>Efectos visuales y composición</li>
-			</ul>
+			<p>He creado diversas piezas audiovisuales para proyectos muy variados, tanto personales como para terceros. Realizo edición y montaje de vídeo, creación de efectos y composición, trabajando principalmente con Premiere Pro, After Effects y CapCut. En algunas ocasiones he combinado planos generados con IA junto con edición tradicional para lograr resultados más complejos y con mayor libertad creativa.</p>
 
-			<div class="modal-info-highlight">
-				<strong>Software:</strong> Adobe Premiere Pro, After Effects, DaVinci Resolve
+			<p>También he desarrollado animaciones 2D y 3D, especialmente orientadas a videojuegos. En 2D trabajo con técnicas como morphing, sprite sheets y animación cuadro a cuadro. En 3D tengo experiencia en rigging, skinning, keyframe animation, cámaras, iluminación, materiales y renderizado, entre otras áreas del pipeline.</p>
+
+			<div class="separator-line"></div>
+
+			<div class="cta-section">
+				<p class="cta-text">Descubre más</p>
+				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
 			</div>
+		`
+	},
+	'Edición de Video': {
+		title: 'Animación y Edición de Video',
+		content: `
+			<h3>Animación y Edición de Video</h3>
 
-			<h3>Tipos de Proyectos</h3>
-			<p>Trailers de videojuegos, booktrailers, contenido promocional y videos corporativos.</p>
+			<p>He creado diversas piezas audiovisuales para proyectos muy variados, tanto personales como para terceros. Realizo edición y montaje de vídeo, creación de efectos y composición, trabajando principalmente con Premiere Pro, After Effects y CapCut. En algunas ocasiones he combinado planos generados con IA junto con edición tradicional para lograr resultados más complejos y con mayor libertad creativa.</p>
+
+			<p>También he desarrollado animaciones 2D y 3D, especialmente orientadas a videojuegos. En 2D trabajo con técnicas como morphing, sprite sheets y animación cuadro a cuadro. En 3D tengo experiencia en rigging, skinning, keyframe animation, cámaras, iluminación, materiales y renderizado, entre otras áreas del pipeline.</p>
+
+			<div class="separator-line"></div>
+
+			<div class="cta-section">
+				<p class="cta-text">Descubre más</p>
+				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
+			</div>
 		`
 	},
 	'Webs': {
 		title: 'Desarrollo Web',
 		content: `
-			<h3>Desarrollo Web Full Stack</h3>
-			<p>Creación de aplicaciones web modernas, responsivas y optimizadas, con enfoque en experiencia de usuario y rendimiento.</p>
+			<h3>Desarrollo de Webs y Software</h3>
 
-			<h3>Tecnologías</h3>
-			<ul>
-				<li>HTML5, CSS3, JavaScript (ES6+)</li>
-				<li>React, Vue.js</li>
-				<li>Node.js, Express</li>
-				<li>Bases de datos SQL y NoSQL</li>
-				<li>APIs RESTful y GraphQL</li>
-				<li>Control de versiones con Git</li>
-			</ul>
+			<p>He trabajado como freelance desarrollando páginas web y software tanto para clientes como para mis propios proyectos. He creado webs comerciales para marcas y productos, sistemas de gestión de datos, herramientas de edición 3D y pequeños programas diseñados para optimizar tareas específicas dentro de mi flujo de trabajo.</p>
 
-			<div class="modal-info-highlight">
-				<strong>Especialidades:</strong> UI/UX, Responsive Design, Performance Optimization
+			<p>Combino enfoque creativo y técnico para diseñar soluciones coherentes, funcionales y visualmente profesionales, siempre adaptadas al estilo y las necesidades del proyecto. Trabajo con HTML, CSS, JavaScript y Python, utilizando diversas librerías para crear tanto aplicaciones web como programas locales.</p>
+
+			<div class="separator-line"></div>
+
+			<div class="cta-section">
+				<p class="cta-text">Descubre más</p>
+				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
 			</div>
-
-			<h3>Proyectos</h3>
-			<p>Desde portfolios personales hasta aplicaciones empresariales complejas y sistemas de gestión.</p>
 		`
 	}
 };
@@ -245,6 +214,8 @@ function openCVInfoModal(groupName) {
 	// Obtener las imágenes según la sección
 	const images = cvInfoImages[groupName] || {};
 
+console.log("📹 Images config for", groupName, ":", images);
+
 	// Crear estructura del modal de información a pantalla completa
 
 	const image1HTML = images.image1
@@ -252,12 +223,14 @@ function openCVInfoModal(groupName) {
 		: '';
 
 	const video1HTML = images.video1
-		? `<div class="modal-info-video-1" style="pointer-events: auto;"><video src="${images.video1}" autoplay loop muted playsinline></video></div>`
+		? `<div class="modal-info-video-1" style="pointer-events: auto;"><video src="${images.video1}" autoplay loop muted playsinline preload="auto"></video></div>`
 		: '';
 
 	const image2HTML = images.image2
 		? `<div class="modal-info-image-2" style="pointer-events: auto;"><img src="${images.image2}" alt="Imagen de fondo"></div>`
 		: '';
+
+console.log("📹 Video HTML:", video1HTML ? "YES" : "NO");
 
 	const modalContent = modal.querySelector('.modal-content');
 
@@ -293,6 +266,16 @@ function openCVInfoModal(groupName) {
 	// Mostrar modal
 	modal.classList.add('active');
 	document.body.style.overflow = 'hidden';
+
+	// Forzar reproducción del video si existe
+	setTimeout(() => {
+		const videoElement = modal.querySelector('.modal-info-video-1 video');
+		if (videoElement) {
+			videoElement.play().catch(err => {
+				console.log('Error al reproducir video:', err);
+			});
+		}
+	}, 100);
 
 	// Configurar eventos de cierre
 	const closeBtn = document.getElementById('modalClose');
@@ -422,5 +405,13 @@ function closeCVInfoModal() {
 			modalImage.style.transition = 'transform 0.6s ease-out';
 			modalImage.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
 		});
+	}, 300);
+}
+
+// Función para ir al portfolio desde el modal de Videojuegos
+function goToPortfolio() {
+	closeCVInfoModal();
+	setTimeout(() => {
+		switchSection('portfolio');
 	}, 300);
 }

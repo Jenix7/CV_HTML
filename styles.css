@@ -2979,7 +2979,7 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 }
 
 .modal-info-text-area h3 {
-	font-size: 1.3rem;
+	font-size: 1.6rem;
 	color: #f4f4f5;
 	margin-top: 0;
 	margin-bottom: 15px;
@@ -2988,9 +2988,9 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 
 .modal-info-text-area p {
 	margin-bottom: 15px;
-	color: #a1a1aa;
+	color: #c4c4c8;
 	line-height: 1.6;
-	font-size: 0.95rem;
+	font-size: 1.05rem;
 }
 
 
@@ -3041,8 +3041,8 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 /* Estilos para video en modal de Webs - Video libre sin contenedor */
 .modal.info-modal.modal-webs .modal-info-video-1 video {
 	position: absolute;
-	left: 183px;
-	top: 255px;
+	left: 155px;
+	top: 257px;
 	width: 1054px;
 	height: 627px;
 	object-fit: cover;
@@ -3064,9 +3064,9 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 
 .modal.info-modal.modal-webs .modal-info-text-area {
 	position: absolute;
-	left: 1042px;
-	top: 303px;
-	width: 437px;
+	left: 1011px;
+	top: 301px;
+	width: 511px;
 	height: 626px;
 	z-index: 2;
 	padding: 30px;
@@ -3109,6 +3109,215 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 }
 
 /* ============================================
+   ESTILOS ESPECÍFICOS PARA MODAL DE MODELADO 3D
+   ============================================ */
+
+/* Imagen en lugar de video - misma posición que el video de Webs */
+.modal.info-modal.modal-modelado3d .modal-info-image-1 {
+	z-index: 1;
+}
+
+.modal.info-modal.modal-modelado3d .modal-info-image-1 img {
+	position: absolute;
+	left: 132px;
+	top: 271px;
+	width: 1054px;
+	height: 593px;
+	object-fit: contain;
+	display: block;
+	border-radius: 12px;
+	z-index: 1;
+	transform: translate(0px, -18px);
+	clip-path: inset(0 round 12px);
+}
+
+.modal.info-modal.modal-modelado3d .modal-info-text-area {
+	position: absolute;
+	left: 1017px;
+	top: 299px;
+	width: 537px;
+	height: 626px;
+	z-index: 2;
+	padding: 30px;
+	overflow-y: auto;
+	color: #e4e4e7;
+	background: rgba(24, 24, 27, 0.85);
+	backdrop-filter: blur(10px);
+	border-radius: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transform: translate(197px, -66px);
+}
+
+.modal.info-modal.modal-modelado3d .modal-close {
+	position: fixed;
+	top: 151px;
+	right: 170px;
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.1);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	color: #fff;
+	font-size: 32px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	backdrop-filter: blur(10px);
+	line-height: 1;
+	padding: 0;
+	z-index: 10002;
+}
+
+.modal.info-modal.modal-modelado3d .modal-close:hover {
+	background: rgba(248, 113, 113, 0.3);
+	border-color: rgba(248, 113, 113, 0.5);
+	transform: rotate(90deg) scale(1.1);
+	box-shadow: 0 0 20px rgba(248, 113, 113, 0.5);
+}
+
+/* ============================================
+   ESTILOS ESPECÍFICOS PARA MODAL DE ILUSTRACIÓN
+   ============================================ */
+
+/* Imagen - mismas posiciones que Modelado 3D */
+.modal.info-modal.modal-ilustracion .modal-info-image-1 {
+	z-index: 1;
+}
+
+.modal.info-modal.modal-ilustracion .modal-info-image-1 img {
+	position: absolute;
+	left: 132px;
+	top: 271px;
+	width: 1054px;
+	height: 593px;
+	object-fit: contain;
+	display: block;
+	border-radius: 12px;
+	z-index: 1;
+	transform: translate(0px, -18px);
+	clip-path: inset(0 round 12px);
+}
+
+.modal.info-modal.modal-ilustracion .modal-info-text-area {
+	position: absolute;
+	left: 1017px;
+	top: 299px;
+	width: 537px;
+	height: 626px;
+	z-index: 2;
+	padding: 30px;
+	overflow-y: auto;
+	color: #e4e4e7;
+	background: rgba(24, 24, 27, 0.85);
+	backdrop-filter: blur(10px);
+	border-radius: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transform: translate(197px, -66px);
+}
+
+.modal.info-modal.modal-ilustracion .modal-close {
+	position: fixed;
+	top: 151px;
+	right: 170px;
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.1);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	color: #fff;
+	font-size: 32px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	backdrop-filter: blur(10px);
+	line-height: 1;
+	padding: 0;
+	z-index: 10002;
+}
+
+.modal.info-modal.modal-ilustracion .modal-close:hover {
+	background: rgba(248, 113, 113, 0.3);
+	border-color: rgba(248, 113, 113, 0.5);
+	transform: rotate(90deg) scale(1.1);
+	box-shadow: 0 0 20px rgba(248, 113, 113, 0.5);
+}
+
+/* ============================================
+   ESTILOS ESPECÍFICOS PARA MODAL DE DISEÑO GRÁFICO
+   ============================================ */
+
+/* Imagen - mismas posiciones que Ilustración */
+.modal.info-modal.modal-diseño-grafico .modal-info-image-1 {
+	z-index: 1;
+}
+
+.modal.info-modal.modal-diseño-grafico .modal-info-image-1 img {
+	position: absolute;
+	left: 132px;
+	top: 271px;
+	width: 1054px;
+	height: 593px;
+	object-fit: contain;
+	display: block;
+	border-radius: 12px;
+	z-index: 1;
+	transform: translate(0px, -18px);
+	clip-path: inset(0 round 12px);
+}
+
+.modal.info-modal.modal-diseño-grafico .modal-info-text-area {
+	position: absolute;
+	left: 1018px;
+	top: 329px;
+	width: 537px;
+	height: 576px;
+	z-index: 2;
+	padding: 30px;
+	overflow-y: auto;
+	color: #e4e4e7;
+	background: rgba(24, 24, 27, 0.85);
+	backdrop-filter: blur(10px);
+	border-radius: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transform: translate(197px, -66px);
+}
+
+.modal.info-modal.modal-diseño-grafico .modal-close {
+	position: fixed;
+	top: 181px;
+	right: 170px;
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.1);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	color: #fff;
+	font-size: 32px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	backdrop-filter: blur(10px);
+	line-height: 1;
+	padding: 0;
+	z-index: 10002;
+}
+
+.modal.info-modal.modal-diseño-grafico .modal-close:hover {
+	background: rgba(248, 113, 113, 0.3);
+	border-color: rgba(248, 113, 113, 0.5);
+	transform: rotate(90deg) scale(1.1);
+	box-shadow: 0 0 20px rgba(248, 113, 113, 0.5);
+}
+
+
+
+/* ============================================
    ESTILOS ESPECÍFICOS PARA MODAL DE VIDEOJUEGOS
    ============================================ */
 
@@ -3147,9 +3356,9 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 
 .modal.info-modal.modal-edicion .modal-info-text-area {
 	position: absolute;
-	left: 222px;
-	top: 322px;
-	width: 660px;
+	left: 179px;
+	top: 262px;
+	width: 700px;
 	height: 560px;
 	z-index: 2;
 	padding: 30px;
@@ -3163,11 +3372,29 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 
 .modal.info-modal.modal-edicion .modal-info-image-1 img {
 	position: absolute;
-	left: 908px;
-	top: 306px;
-	width: 890px;
-	height: 573px;
+	left: 894px;
+	top: 251px;
+	width: 866px;
+	height: 583px;
 	transform: rotate(0deg);
+}
+
+/* Video para modal de Edición - misma posición que la imagen pero detrás */
+.modal.info-modal.modal-edicion .modal-info-video-1 video {
+	position: absolute;
+	left: 919px;
+	top: 323px;
+	width: 824px;
+	height: 440px;
+	object-fit: cover;
+	display: block;
+	border-radius: 12px;
+	z-index: 0;
+}
+
+/* Asegurar que la imagen de cinta esté por encima del video */
+.modal.info-modal.modal-edicion .modal-info-image-1 {
+	z-index: 2;
 }
 
 
@@ -3213,8 +3440,8 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 /* Estilos para video en modal de Videojuegos */
 .modal.info-modal.modal-videojuegos .modal-info-video-1 {
 	position: absolute;
-	left: 114px;
-	top: 330px;
+	left: 79px;
+	top: 348px;
 	width: 1019px;
 	height: 539px;
 	z-index: 1;
@@ -3224,8 +3451,8 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 
 .modal.info-modal.modal-videojuegos .modal-info-video-1 video {
 	position: relative;
-	left: 94px;
-	top: -70px;
+	left: 112px;
+	top: -71px;
 	width: 547px;
 	height: 309px;
 	transform: translate(144px, 87px);
@@ -3241,8 +3468,8 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 /* Asegurar que en Videojuegos la imagen esté por encima del video */
 .modal.info-modal.modal-videojuegos .modal-info-image-1 img {
 	position: absolute;
-	left: 113px;
-	top: 277px;
+	left: 96px;
+	top: 294px;
 	width: 1019px;
 	height: 539px;
 	z-index: 3;
@@ -3251,8 +3478,8 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 /* Imagen de fondo (consolaback) en modal de Videojuegos */
 .modal.info-modal.modal-videojuegos .modal-info-image-2 img {
 	position: absolute;
-	left: 114px;
-	top: 280px;
+	left: 79px;
+	top: 298px;
 	width: 1019px;
 	height: 539px;
 	z-index: 0;
@@ -3260,6 +3487,97 @@ body:has(.categories-container.expanded) .card-wrapper.featured {
 
 /* Text area específico para modal de Videojuegos */
 .modal.info-modal.modal-videojuegos .modal-info-text-area {
-	left: 1136px;
-	top: 257px;
+	left: 1127px;
+	top: 256px;
+	height: 592px;
+}
+
+/* ============================================
+   ESTILOS PARA MODAL DE VIDEOJUEGOS - ROLES Y CTA
+   ============================================ */
+
+.roles-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 15px;
+	margin: 20px 0 10px 0;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.role-item {
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.05rem;
+	letter-spacing: 1.5px;
+	color: #a1a1aa;
+	padding: 10px 15px;
+	background: rgba(161, 161, 170, 0.15);
+	border-radius: 6px;
+	border: 1px solid rgba(161, 161, 170, 0.25);
+}
+
+.cta-section {
+	margin-top: 15px;
+	text-align: center;
+	padding: 15px 0 10px 0;
+}
+
+.cta-text {
+	font-size: 1.3rem;
+	color: #d4d4d8;
+	margin-bottom: 15px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+}
+
+.portfolio-btn {
+	background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+	color: #18181b;
+	border: none;
+	padding: 14px 40px;
+	font-size: 1.1rem;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 15px rgba(74, 222, 128, 0.3);
+	position: relative;
+	overflow: hidden;
+}
+
+.portfolio-btn::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+	transition: left 0.5s ease;
+}
+
+.portfolio-btn:hover::before {
+	left: 100%;
+}
+
+.portfolio-btn:hover {
+	background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+	transform: translateY(-2px);
+	box-shadow: 0 6px 20px rgba(74, 222, 128, 0.4);
+}
+
+.portfolio-btn:active {
+	transform: translateY(0);
+	box-shadow: 0 2px 10px rgba(74, 222, 128, 0.3);
+}
+
+/* Línea separadora antes del CTA */
+.separator-line {
+	width: 100%;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.1);
+	margin: 20px 0 10px 0;
 }
