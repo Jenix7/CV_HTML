@@ -1,0 +1,16 @@
+{
+  "title": "Paper Pioneers",
+  "subtitle": "Creation of a 3D platform videogame",
+  "description": "Paper Pioneers is a 3D platform video game prototype in which a tiny spring merges with different everyday objects to acquire new skills and escape from a school. The environment has a narrative and comic tone that is expressed visually, without the need for dialogue.\n\nThe project was developed directly for the Level Design course at university, where both the spatial and narrative aspects of the environment had to be considered. The goal was not only to create a functional platform level, but also to make the stage itself tell a story.\n\nThe designed level takes place in a classroom, where small humorous and recognizable details of typical school situations are integrated. Different physical elements such as elastic surfaces on chairs or slippery areas were used to enrich the gameplay. In addition, the player guidance was carefully worked to maintain a clear orientation of the player, especially considering the small scale of the character and the vastness of the environment.",
+  "links": [
+    {
+      "text": "Paper Pioneers - Gameplay",
+      "url": "https://www.youtube.com/watch?v=8JS_S7ndNrQ",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "unity.png"
+  ],
+  "related": []
+}

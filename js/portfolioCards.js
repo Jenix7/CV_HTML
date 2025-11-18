@@ -186,6 +186,76 @@ function handleCardClick(e) {
 	console.log('Card clicked:', category);
 
 	if (clickedWrapper.classList.contains('featured')) {
+		// IMPORTANTE: Restaurar el modal a su estructura original antes de usarlo
+		const modal = document.getElementById('imageModal');
+		const modalContent = modal.querySelector('.modal-content');
+
+		// Limpiar cualquier clase especial de modales de información
+		modal.classList.remove('info-modal');
+		modal.classList.remove('modal-webs');
+		modal.classList.remove('modal-videojuegos');
+		modal.classList.remove('modal-modelado3d');
+		modal.classList.remove('modal-ilustracion');
+		modal.classList.remove('modal-edicion');
+		modal.classList.remove('modal-diseño-grafico');
+
+		// Restaurar pointer-events y animación
+		modalContent.style.pointerEvents = '';
+		modalContent.style.animation = '';
+
+		// Asegurarse de que tiene la estructura correcta
+		if (!modalContent.querySelector('#modalImage')) {
+			modalContent.innerHTML = `
+				<button class="modal-close" id="modalClose">&times;</button>
+				<img id="modalImage" src="" alt="">
+			`;
+
+			// Reconectar event listeners
+			const closeBtn = document.getElementById('modalClose');
+			const overlay = modal.querySelector('.modal-overlay');
+			const modalImage = document.getElementById('modalImage');
+
+			const handleCloseModal = () => {
+				modal.classList.remove('active');
+				document.body.style.overflow = '';
+				setTimeout(() => {
+					modalImage.src = '';
+				}, 300);
+			};
+
+			closeBtn.addEventListener('click', handleCloseModal);
+			overlay.addEventListener('click', handleCloseModal);
+
+			// Efectos de tarjeta
+			modalImage.addEventListener('mousemove', (e) => {
+				if (modalImage.hasAttribute('data-no-card-effect')) return;
+
+				const rect = modalImage.getBoundingClientRect();
+				const x = e.clientX - rect.left;
+				const y = e.clientY - rect.top;
+				const centerX = rect.width / 2;
+				const centerY = rect.height / 2;
+				const rotateX = ((y - centerY) / centerY) * -10;
+				const rotateY = ((x - centerX) / centerX) * 10;
+
+				modalImage.style.transition = 'transform 0.15s ease-out';
+				modalImage.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`;
+			});
+
+			modalImage.addEventListener('mouseenter', () => {
+				if (modalImage.hasAttribute('data-no-card-effect')) return;
+				modalImage.style.transition = 'transform 0.6s ease-out';
+			});
+
+			modalImage.addEventListener('mouseleave', () => {
+				if (modalImage.hasAttribute('data-no-card-effect')) return;
+				modalImage.style.transition = 'transform 0.6s ease-out';
+				modalImage.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
+			});
+		}
+
+		// Ahora sí abrir el modal
+		const modalImage = document.getElementById('modalImage');
 		modal.classList.add('active');
 		const cardImage = clickedWrapper.querySelector('.card-front img');
 		if (cardImage) {

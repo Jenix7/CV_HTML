@@ -1,0 +1,23 @@
+{
+  "title": "Metamorphosis - Trailer",
+  "subtitle": "Production and editing of a trailer for a thematic event",
+  "description": "Shooting and editing of a promotional trailer for the carnival themed event Metamorphosis. The project included filming with camera and drone, plus full editing in Adobe Premiere Pro.\n\nColor correction, visual effects, sound design and a carefully selected epic soundtrack were performed. The music was precisely timed to match the intensity and rhythm of each scene.",
+  "links": [
+    {
+      "text": "Metamorphosis - Trailer",
+      "url": "https://www.youtube.com/watch?v=5RiASQOkb_o&feature=youtu.be",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "premiere.png",
+    "afterefects.png",
+    "photoshop.png"
+  ],
+  "related": [
+    {
+      "text": "Events Branding",
+      "folder_name": "EVENTS_BRANDING"
+    }
+  ]
+}

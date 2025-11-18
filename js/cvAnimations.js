@@ -1,7 +1,7 @@
 window.addEventListener('load', () => {
-	loadPortfolioData().then(() => {
-		console.log('Portfolio data ready');
-	});
+	// Ya no llamamos a loadPortfolioData() aquí
+	// El sistema de idiomas (languageManager.js) se encarga de eso
+	console.log('Portfolio system initialized by languageManager.js');
 
 	const cvElements = document.querySelectorAll('.cv-background > div');
 

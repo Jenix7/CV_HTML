@@ -1,0 +1,26 @@
+{
+  "title": "Kuni",
+  "subtitle": "3D modeling of an urban hero",
+  "description": "Kuni is an urban hero able to control the tattoos on his body and use them as weapons. A young tattoo artist, he represents the spirit of freedom, creativity and Japanese culture. He is inspired by a popular character from the Chinese novel Suikoden, reinterpreted with a modern vision.\n\nThis project was born from my final thesis, in which I researched in depth the tattoo culture: its history, styles and psychological aspects. The goal was to design a variety of characters inspired by this art.\n\nAt the end of my degree, I decided to continue developing one of those characters and create a more professional and polished version in 3D, thus giving shape to the character of Kuni.",
+  "links": [
+    {
+      "text": "Tattoo Studio - TFG",
+      "url": "https://drive.google.com/file/d/1butCp-xx1XcKFQtdtC6nrTi28Y5vVrpJ/view?usp=sharing",
+      "icon": "pdf.png"
+    }
+  ],
+  "programs": [
+    "zbrush.png",
+    "3dsmax.png",
+    "maya.png",
+    "substance.png",
+    "marmoset.png",
+    "photoshop.png"
+  ],
+  "related": [
+    {
+      "text": "Tatto Heroes",
+      "folder_name": "TATTO_HEROES"
+    }
+  ]
+}

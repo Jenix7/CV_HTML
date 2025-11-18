@@ -1,0 +1,15 @@
+{
+  "title": "Layma",
+  "subtitle": "3D facial modeling of a cartoon character",
+  "description": "Layma is a young heroine and artist capable of controlling and giving life to the graffiti she draws, using them to attack and move with agility. She masters the \"Model Pastel\" style, characterized by explosive energy and dynamism.\n\nThis model is a cartoon style reinterpretation of the character I designed during high school, when I developed my first videogame: Spray.",
+  "links": [],
+  "programs": [
+    "zbrush.png"
+  ],
+  "related": [
+    {
+      "text": "Spray: Mi primer videojuego",
+      "folder_name": "SPRAY_MI_PRIMER_VIDEOJUEGO"
+    }
+  ]
+}

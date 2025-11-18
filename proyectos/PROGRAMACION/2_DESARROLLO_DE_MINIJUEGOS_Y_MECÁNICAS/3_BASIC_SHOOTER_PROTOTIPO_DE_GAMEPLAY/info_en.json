@@ -1,0 +1,16 @@
+{
+  "title": "Basic Shooter - Gameplay Prototype",
+  "subtitle": "Implementation of a shooter mechanic for 3D games",
+  "description": "First-person shooter prototype composed of two levels, developed as a programming and development practice in Unity for the university course of 3D Development.\n\nThe project includes level design and modeling, as well as the implementation of lighting, shooting mechanics, life system, defense and ammunition. Obstacles, enemies with offensive behavior and tracking, as well as interaction with different objects in the environment were also integrated.",
+  "links": [
+    {
+      "text": "Basic Shooter",
+      "url": "https://www.youtube.com/watch?v=nDkWO9yb8s4",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "unity.png"
+  ],
+  "related": []
+}

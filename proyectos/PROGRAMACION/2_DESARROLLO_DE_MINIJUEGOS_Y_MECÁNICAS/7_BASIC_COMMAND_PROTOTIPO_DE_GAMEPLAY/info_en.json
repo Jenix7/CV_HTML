@@ -1,0 +1,18 @@
+{
+  "title": "Basic Command - Gameplay Prototype",
+  "subtitle": "Implementation of a command fight mechanic for 2D games.",
+  "description": "This project is based on the implementation of a command-based combat system, inspired by classic turn-based RPGs. In it, two teams of three characters face each other using a system of life, damage and skills, with selection of attacker and victim. It allows player vs. player, player vs. console or even console vs. console games.\n\nIt was developed as a programming and development practice in Unity for the university course of 2D Development.\n\nTo give it more life and dynamism, I used my own recycled and animated characters.",
+  "links": [
+    {
+      "text": "Basic Command",
+      "url": "https://www.youtube.com/watch?v=sRN9RYU-SSU",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "unity.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": []
+}

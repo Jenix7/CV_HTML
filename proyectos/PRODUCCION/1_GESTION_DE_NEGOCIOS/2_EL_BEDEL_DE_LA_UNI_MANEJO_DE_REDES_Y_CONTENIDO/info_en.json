@@ -1,0 +1,24 @@
+{
+  "title": "El Bedel de la Uni",
+  "subtitle": "Network and content management for a book",
+  "description": "Responsible for managing and creating content for platforms; Instagram, X (Twitter), YouTube, TikTok, Facebook and LinkedIn, during the process of launching and selling a mystery novel.\n\nThe work included the development of a communication and branding strategy to give identity to the universe of the work: presentation of characters, places in the book, curiosities and exclusive materials. We also managed the diffusion of the booktrailer, the presence in bookstores, and the development of a website dedicated to the project.",
+  "links": [
+    {
+      "text": "Web - El Bedel de la Uni",
+      "url": "https://www.elbedeldelauni.com/",
+      "icon": "web.png"
+    },
+    {
+      "text": "Booktrailer - El Bedel de la Uni",
+      "url": "https://www.youtube.com/watch?time_continue=1&v=1ZGBZWnoohE&embeds_referring_euri=https%3A%2F%2Fwww.elbedeldelauni.com%2F&source_ve_path=MjM4NTE",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "HTML.png",
+    "JAVA.png",
+    "CSS.png",
+    "photoshop.png"
+  ],
+  "related": []
+}

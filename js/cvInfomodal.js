@@ -32,24 +32,37 @@ const cvInfoImages = {
 
 // Mapeo de nombres de grupos a archivos JSON
 const cvInfoJSONMap = {
-	'Diseño Gráfico': 'curriculum/diseno_grafico.json',
-	'Modelado 3D': 'curriculum/modelado_3d.json',
-	'Ilustración': 'curriculum/ilustracion.json',
-	'Desarrollo Web': 'curriculum/desarrollo_web.json',
-	'Webs': 'curriculum/desarrollo_web.json',
-	'Videojuegos': 'curriculum/videojuegos.json',
-	'Edición': 'curriculum/edicion_video.json',
-	'Edición de Video': 'curriculum/edicion_video.json'
+	// Español
+	'Diseño Gráfico': 'curriculum/diseno_grafico',
+	'Modelado 3D': 'curriculum/modelado_3d',
+	'Ilustración': 'curriculum/ilustracion',
+	'Desarrollo Web': 'curriculum/desarrollo_web',
+	'Webs': 'curriculum/desarrollo_web',
+	'Videojuegos': 'curriculum/videojuegos',
+	'Edición': 'curriculum/edicion_video',
+	'Edición de Video': 'curriculum/edicion_video',
+	// Inglés
+	'Graphic Design': 'curriculum/diseno_grafico',
+	'3D Modeling': 'curriculum/modelado_3d',
+	'Illustration': 'curriculum/ilustracion',
+	'Web Development': 'curriculum/desarrollo_web',
+	'Video Games': 'curriculum/videojuegos',
+	'Videogames': 'curriculum/videojuegos',
+	'Editing': 'curriculum/edicion_video',
+	'Video Editing': 'curriculum/edicion_video'
 };
 
 // Cache para almacenar JSONs cargados
 const cvInfoCache = {};
 
-// Función para cargar contenido desde JSON
+// Función para cargar contenido desde JSON según el idioma actual
 async function loadCVInfoContent(groupName) {
+	// Crear clave de caché con idioma
+	const cacheKey = `${groupName}_${currentLanguage}`;
+
 	// Si ya está en caché, retornar inmediatamente
-	if (cvInfoCache[groupName]) {
-		return cvInfoCache[groupName];
+	if (cvInfoCache[cacheKey]) {
+		return cvInfoCache[cacheKey];
 	}
 
 	const jsonFile = cvInfoJSONMap[groupName];
@@ -58,8 +71,13 @@ async function loadCVInfoContent(groupName) {
 		return null;
 	}
 
+	// Añadir sufijo de idioma si es inglés
+	const jsonFilePath = currentLanguage === 'en'
+		? `${jsonFile}_en.json`
+		: `${jsonFile}.json`;
+
 	try {
-		const response = await fetch(jsonFile);
+		const response = await fetch(jsonFilePath);
 		if (!response.ok) {
 			throw new Error(`HTTP error! status: ${response.status}`);
 		}
@@ -72,12 +90,12 @@ async function loadCVInfoContent(groupName) {
 		};
 
 		// Guardar en caché
-		cvInfoCache[groupName] = formattedContent;
+		cvInfoCache[cacheKey] = formattedContent;
 
-		console.log('✅ CV Info loaded from JSON:', groupName);
+		console.log(`✅ CV Info loaded from JSON (${currentLanguage}):`, groupName);
 		return formattedContent;
 	} catch (error) {
-		console.error('❌ Error loading CV info JSON:', jsonFile, error);
+		console.error(`❌ Error loading CV info JSON: ${jsonFilePath}`, error);
 		return null;
 	}
 }
@@ -92,10 +110,10 @@ function formatCVContent(title, description, groupName) {
 	// Caso especial para Videojuegos con grid de roles
 	const rolesGrid = groupName === 'Videojuegos'
 		? `\n\t\t\t\t<div class="roles-grid">
-					<div class="role-item">DISEÑO</div>
-					<div class="role-item">ARTE</div>
-					<div class="role-item">PROGRAMACIÓN</div>
-					<div class="role-item">PRODUCCIÓN</div>
+					<div class="role-item">${t('videogames_modal.design')}</div>
+					<div class="role-item">${t('videogames_modal.art')}</div>
+					<div class="role-item">${t('videogames_modal.programming')}</div>
+					<div class="role-item">${t('videogames_modal.production')}</div>
 				</div>\n`
 		: `\n\t\t\t\t<div class="separator-line"></div>\n`;
 
@@ -106,8 +124,8 @@ function formatCVContent(title, description, groupName) {
 
 			${rolesGrid}
 			<div class="cta-section">
-				<p class="cta-text">Descubre más</p>
-				<button class="portfolio-btn" onclick="goToPortfolio()">Ver Portfolio</button>
+				<p class="cta-text">${t('projects.discover_more')}</p>
+				<button class="portfolio-btn" onclick="goToPortfolio()">${t('projects.view_portfolio')}</button>
 			</div>
 		`;
 }
@@ -118,7 +136,7 @@ async function openCVInfoModal(groupName) {
 
 	const modal = document.getElementById('imageModal');
 
-	// Cargar contenido desde JSON
+	// Cargar contenido desde JSON según el idioma actual
 	const content = await loadCVInfoContent(groupName);
 
 	if (!content) {

@@ -1,0 +1,19 @@
+{
+  "title": "Porky's Day Out",
+  "subtitle": "Animation and cartoon editing",
+  "description": "2D animation and video editing of a cartoon short film in a comic and cartoon style. The project combines illustration, animation and audiovisual editing skills.\n\nCharacters and scenarios were designed in Photoshop and Illustrator, and later animated in OpenToonz. Finally, the material was edited in Adobe Premiere Pro to create a short film with rhythm and visual humor. In addition, a specific narrative and shot planning was developed to guide the structure and tone of the short film.",
+  "links": [
+    {
+      "text": "Porky's Day Out",
+      "url": "https://www.youtube.com/watch?v=58sHdVyKeGw&feature=youtu.be",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "opentoonz.png",
+    "premiere.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": []
+}

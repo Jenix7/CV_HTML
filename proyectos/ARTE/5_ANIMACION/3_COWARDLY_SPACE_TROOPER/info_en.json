@@ -1,0 +1,17 @@
+{
+  "title": "Cowardly Space Trooper",
+  "subtitle": "3D body animations of a character",
+  "description": "3D animation of a humanoid character for a video game, created in 3ds Max. Several animations were made representing different states and situations of the character within the game environment.\n\nThis project was developed for the course Introduction to 3D Animation, where the objective was to animate a space trooper. I decided to give him an original approach, representing him as a cowardly and clumsy soldier who constantly trembles. This creative direction allowed me to give him personality and exaggerate his gestures to clearly express his attitude.",
+  "links": [
+    {
+      "text": "Animations - Cowardly Space Trooper",
+      "url": "https://www.youtube.com/watch?v=ocPxbcr6r1U",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "3dsmax.png",
+    "marmoset.png"
+  ],
+  "related": []
+}

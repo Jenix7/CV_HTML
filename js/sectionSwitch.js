@@ -13,8 +13,12 @@ function switchSection(section) {
 		curriculumSection.classList.add('slide-left');
 		portfolioSection.classList.add('slide-left');
 
-		// Siempre mostrar "Portfolio" al entrar
-		sectionTitleHeader.textContent = 'Portfolio';
+		// Usar traducción según idioma actual
+		if (typeof t === 'function') {
+			sectionTitleHeader.textContent = t('header.portfolio');
+		} else {
+			sectionTitleHeader.textContent = 'Portfolio';
+		}
 
 		switchCV.classList.remove('active');
 		switchPortfolio.classList.add('active');
@@ -30,10 +34,24 @@ function switchSection(section) {
 				portfolioAnimated = true;
 			}, 200);
 		}
+
+		// IMPORTANTE: Actualizar títulos de tarjetas cuando entras a portfolio
+		// para que reflejen el idioma actual
+		if (typeof updateCardTitles === 'function') {
+			updateCardTitles();
+		}
+
 	} else {
 		curriculumSection.classList.remove('slide-left');
 		portfolioSection.classList.remove('slide-left');
-		sectionTitleHeader.textContent = 'Currículum';
+
+		// Usar traducción según idioma actual
+		if (typeof t === 'function') {
+			sectionTitleHeader.textContent = t('header.curriculum');
+		} else {
+			sectionTitleHeader.textContent = 'Currículum';
+		}
+
 		switchCV.classList.add('active');
 		switchPortfolio.classList.remove('active');
 		currentSection = 'curriculum';

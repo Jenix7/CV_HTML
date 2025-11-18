@@ -1,0 +1,41 @@
+{
+  "title": "Video games at Uni",
+  "subtitle": "Management of videogame projects during my university studies",
+  "description": "Management and monitoring of the development of several projects, controlling time, tasks and the organization of the production process. All of them were carried out between my university stage and the end of high school, covering a wide variety of genres, work methods and teams, with different roles and levels of responsibility in each project.",
+  "links": [],
+  "programs": [
+    "unity.png",
+    "3dsmax.png",
+    "zbrush.png",
+    "substance.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": [
+    {
+      "text": "Bubble Heights",
+      "icon": "coral.png",
+      "folder_name": "BUBBLE_HEIGHTS_MODELADO"
+    },
+    {
+      "text": "Aether",
+      "icon": "aether.png",
+      "folder_name": "AETHER_PROGRAMACION"
+    },
+    {
+      "text": "Paper Pioneers",
+      "icon": "paperpioneers.png",
+      "folder_name": "PAPER_PIONEERS_PROGRAMACION"
+    },
+    {
+      "text": "Star Crossed",
+      "icon": "starcrossed.png",
+      "folder_name": "STAR_CROSSED_PROGRAMACION"
+    },
+    {
+      "text": "Spray: Mi primer videojuego",
+      "icon": "spray.png",
+      "folder_name": "SPRAY_MI_PRIMER_VIDEOJUEGO"
+    }
+  ]
+}

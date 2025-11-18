@@ -1,0 +1,18 @@
+{
+  "title": "Rent me this bike - Manager",
+  "subtitle": "Development of a platform for the management of a motorcycle equipment rental business.",
+  "description": "I developed an internal software (manager) to manage the motorcycle equipment rental business Alquílame esta moto. The application, implemented in Python with HTML web interface, includes: inventory control and reservations, delivery and returns management, smart calendar, interactive map of collaborators and customer manager with customized histories. The objective was to centralize daily operations and improve the traceability of each order, from request to return.\n\nIn addition to the internal software, I also developed the website and the branding of the project.",
+  "links": [
+    {
+      "text": "Web - Rent Me This Bike",
+      "url": "https://alquilamestamoto.es/",
+      "icon": "web.png"
+    }
+  ],
+  "programs": [
+    "PY.png",
+    "HTML.png",
+    "CSS.png"
+  ],
+  "related": []
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Portal - Gameplay Prototype",
+  "subtitle": "Level design and implementation of Portal mechanics",
+  "description": "This project is based on the implementation of the mechanics of the video game Portal as a programming and development practice in Unity, made for the university course of 3D Development.\n\nThe level integrates in a functional way the main features of the original game; creating portals, grabbing and throwing objects, interaction with elastic and sliding materials, buttons, doors and enemies, as well as including new mechanics, such as changing the size of portals and objects when passing through them.",
+  "links": [
+    {
+      "text": "Portal - Prototype",
+      "url": "https://www.youtube.com/watch?v=rvlES-dg72o",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "unity.png"
+  ],
+  "related": []
+}

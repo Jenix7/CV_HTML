@@ -1,0 +1,32 @@
+{
+  "title": "My Character Verse",
+  "subtitle": "Character design applied to other projects",
+  "description": "Compilation of characters designed for different projects, each one developed according to the genre, style and context of their respective creative universe.",
+  "links": [],
+  "programs": [
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": [
+    {
+      "text": "SYDAN - Empathy Code",
+      "icon": "sydan.png",
+      "folder_name": "EMPATHY_CODE"
+    },
+    {
+      "text": "PORKY - Porky's Day Out",
+      "icon": "porky.png",
+      "folder_name": "PORKYS_DAY_OUT"
+    },
+    {
+      "text": "CORAL - Bubble Heights",
+      "icon": "coral.png",
+      "folder_name": "BUBBLE_HEIGHTS_MODELADO"
+    },
+    {
+      "text": "GARY - Green Heart",
+      "icon": "gary.png",
+      "folder_name": "GREEN_HEART"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Personal Branding",
+  "subtitle": "Personal web development with portfolio and interactive CV",
+  "description": "I developed a personal website as the backbone of my professional identity, integrating all my creative content in a unified and coherent way. The site brings together an animated portfolio, very visual and interactive, where each project has its own detailed section, and an animated resume with an artistic collage style that reflects my personality and skills.\n\nIn addition, I created cartoon-like cards that represent me in different roles, providing a distinctive and original touch. The whole design responds to a complete personal branding, designed to show my creative and technical capabilities through the style, structure and functioning of the site itself.",
+  "links": [
+    {
+      "text": "Web - El Bedel de la Uni",
+      "url": "https://www.elbedeldelauni.com/",
+      "icon": "web.png"
+    }
+  ],
+  "programs": [
+    "HTML.png",
+    "JAVA.png",
+    "CSS.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": []
+}

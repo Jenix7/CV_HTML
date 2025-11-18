@@ -1,0 +1,18 @@
+{
+  "title": "Super Mario Xmas",
+  "subtitle": "Development of a Mario 64 level with a Christmas theme",
+  "description": "The project is based on the recreation of the first level of the video game Super Mario 64, reinterpreted with a Christmas style and approach. Developed as a programming and development practice in Unity for the university course of 3D Development.\n\nThe level reproduces in a functional way the main features of the original game: all types of Mario's movements, camera effects, obstacles and moving platforms. In addition, a Christmas setting was added to give the project its own personality and experiment with the implementation of new elements within the Unity 3D environment.",
+  "links": [
+    {
+      "text": "Super Mario Xmas",
+      "url": "https://www.youtube.com/watch?v=GMDSRdKfywA",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "unity.png",
+    "3dsmax.png",
+    "photoshop.png"
+  ],
+  "related": []
+}

@@ -1,0 +1,59 @@
+{
+  "header": {
+    "curriculum": "Resume",
+    "portfolio": "Portfolio"
+  },
+  "cv": {
+    "personal_card": "Personal Card",
+    "personal_summary": "Personal Summary",
+    "experience": "Experience",
+    "skills": "Skills",
+    "degree": "University Degree",
+    "photoshop": "Photoshop",
+    "zbrush": "ZBrush",
+    "opentoonz": "OpenToonz",
+    "premiere": "Premiere",
+    "after_effects": "After Effects",
+    "unreal": "Unreal Engine",
+    "cascadeur": "Cascadeur",
+    "marmoset": "Marmoset",
+    "substance": "Substance",
+    "3dmax": "3D Max",
+    "maya": "Maya",
+    "blender": "Blender",
+    "unity": "Unity",
+    "illustrator": "Illustrator",
+    "portfolio_title": "Portfolio",
+    "graphic_design": "Graphic Design",
+    "3d_modeling": "3D Modeling",
+    "illustration": "Illustration",
+    "video_editing": "Video Editing",
+    "web_development": "Web Development",
+    "webs": "Webs",
+    "videogames": "Videogames",
+    "editing": "Editing"
+  },
+  "categories": {
+    "arte": "ART",
+    "programacion": "PROGRAMMING",
+    "diseno": "DESIGN",
+    "produccion": "PRODUCTION",
+    "comunicacion": "COMMUNICATION",
+    "todo": "TODO"
+  },
+  "projects": {
+    "discover_more": "Discover more",
+    "view_portfolio": "View Portfolio",
+    "back": "Back",
+    "back_to_previous": "Back to previous project",
+    "previous": "Previous",
+    "next": "Next",
+    "close": "Close"
+  },
+  "videogames_modal": {
+    "design": "DESIGN",
+    "art": "ART",
+    "programming": "PROGRAMMING",
+    "production": "PRODUCTION"
+  }
+}

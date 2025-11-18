@@ -1,0 +1,12 @@
+{
+  "title": "My internal tools",
+  "subtitle": "Small programs developed to optimize my workflow and streamline tasks",
+  "description": "I have developed several customized tools to optimize my workflow and streamline specific tasks, each with a specific and distinct function.\n\nThese programs allow me a total level of customization, adapting completely to my way of working and to the specific needs of each project, improving efficiency and reducing execution times.",
+  "links": [],
+  "programs": [
+    "PY.png",
+    "HTML.png",
+    "CSS.png"
+  ],
+  "related": []
+}

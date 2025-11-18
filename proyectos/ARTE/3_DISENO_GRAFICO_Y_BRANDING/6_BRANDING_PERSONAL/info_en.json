@@ -1,0 +1,20 @@
+{
+  "title": "Personal Branding",
+  "subtitle": "Personal website, portfolio and interactive CV development",
+  "description": "I developed a complete personal branding to promote myself in a creative and coherent way. I created an interactive and animated resume with an artistic collage style that reflects my identity and skills.\n\nI also designed an animated portfolio, very visual and interactive, where each project has its own detailed section. All the content was integrated into a personal website with a unified and coherent aesthetic. In addition, I included cartoon-like cards that represent me in different roles.\n\nThe goal was to show my creative and technical capabilities through the design and functioning of the site itself.",
+  "links": [
+    {
+      "text": "Web - El Bedel de la Uni",
+      "url": "https://www.elbedeldelauni.com/",
+      "icon": "web.png"
+    }
+  ],
+  "programs": [
+    "photoshop.png",
+    "illustrator.png",
+    "HTML.png",
+    "JAVA.png",
+    "CSS.png"
+  ],
+  "related": []
+}

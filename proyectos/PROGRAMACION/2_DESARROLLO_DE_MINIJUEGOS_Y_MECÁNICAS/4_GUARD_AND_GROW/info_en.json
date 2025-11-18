@@ -1,0 +1,18 @@
+{
+  "title": "Guard & Grow",
+  "subtitle": "Development of a mini-game with navigation systems and AI behavior in NPCs.",
+  "description": "Guard and Grow is a simple top-down clicker-style mini-game in which the player must protect his orchard from crows and flies trying to steal the potatoes. While the farmer harvests them, the player controls a scarecrow that, by clicking on different areas, scares the creatures away using a rechargeable energy system.\n\nThe game incorporates navigation systems and AI behavior in NPCs, developed as programming practice for the university's Artificial Intelligence course.\n\nI also created the visual art for the project to give it personality and authenticity.",
+  "links": [
+    {
+      "text": "Guard & Grow",
+      "url": "https://www.youtube.com/watch?v=0JjwsvII62c",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "unity.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": []
+}

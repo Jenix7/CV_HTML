@@ -1,0 +1,23 @@
+{
+  "title": "Aether",
+  "subtitle": "Pixelart for a 2D video game Top Down",
+  "description": "Aether is a top-down action-puzzle RPG video game, developed in pixel art style. Its main mechanics combine strategy and creativity, based on the fusion of primary elements; plant, water, fire and electricity, which can be mixed together to create defenses, circuits or tools necessary to advance in the game.\n\nTo carry out the project, I fully designed the mechanics and levels, in addition to making all the visual art in pixel art style and implementing the entire game in Unity. Aether has two levels that progressively introduce the main mechanics, with the possibility of expanding the project in the future thanks to the originality of its gameplay.\n\nIt was developed for the Projects subject of the first university course, with which I was able to obtain an honors degree.",
+  "links": [
+    {
+      "text": "Aether Trailer",
+      "url": "https://www.youtube.com/watch?v=M9VmHHxm92c",
+      "icon": "youtube.png"
+    },
+    {
+      "text": "Aether - Gameplay",
+      "url": "https://www.youtube.com/watch?v=1SVAl43raVo&feature=youtu.be",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "unity.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": []
+}

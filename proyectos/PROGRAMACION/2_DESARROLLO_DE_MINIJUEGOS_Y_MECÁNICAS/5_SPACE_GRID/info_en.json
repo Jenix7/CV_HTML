@@ -1,0 +1,18 @@
+{
+  "title": "Space Grid",
+  "subtitle": "Development of a mini-game with navigation systems and AI behavior in NPCs.",
+  "description": "Space Grid is a simple top-down clicker mini-game developed to implement navigation systems in Unity within a grid. The game takes place in a maze where an astronaut must collect pieces to open the final door and escape from the level, while being chased by enemies that follow their own routes, deviate when detected and respect restricted areas.\n\nThe project incorporates navigation systems and AI behavior in NPCs, developed as programming practice for the Artificial Intelligence university course.\n\nIn addition, I created the visual art of the game to give it personality and authenticity.",
+  "links": [
+    {
+      "text": "Space Grid",
+      "url": "https://www.youtube.com/watch?v=ArKfsq8XfmQ",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "unity.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": []
+}

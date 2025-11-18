@@ -1,0 +1,20 @@
+{
+  "title": "Rent Me This Bike",
+  "subtitle": "Management of a rental service",
+  "description": "Management of an approved motorcycle equipment rental service, designed for those who need to practice or take the motorcycle exam. The goal is to facilitate the whole process, managing the delivery and collection of the material in a fast and comfortable way for each person. In addition, I developed the branding, web and graphic material of the project, creating a coherent visual identity, a functional page with automatic order calculation and promotional pieces for print and social networks.",
+  "links": [
+    {
+      "text": "Web - Rent Me This Bike",
+      "url": "https://alquilamestamoto.es/",
+      "icon": "web.png"
+    }
+  ],
+  "programs": [
+    "HTML.png",
+    "JAVA.png",
+    "CSS.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": []
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Evil Tom Holland",
+  "subtitle": "3D body and facial animation",
+  "description": "3D body and facial animation of a character, developed as a sequence in which the model had to interpret a phrase through lipsync, combining facial expressions and body movements in a coherent way.\n\nThe project was done for the 3D Animation course, where the model of Tom Holland was to be animated reciting a phrase taken from a movie. The interpretation was focused on reflecting a dark and malicious character, according to the tone of the audio, which conveyed a slow, sinister and restrained feeling.",
+  "links": [
+    {
+      "text": "Animation - Evil Tom Holland",
+      "url": "https://www.youtube.com/watch?v=rDvlEVBQUsc",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "maya.png"
+  ],
+  "related": []
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Rent Me This Bike",
+  "subtitle": "Web development for a motorcycle gear rental business",
+  "description": "I fully developed the website for Alquílame esta moto, a business dedicated to renting equipment for motorcyclists. The website allows users to calculate orders automatically, contact easily and access all the necessary information about the service, offering a clear, functional and professional experience.\n\nIn addition, I was in charge of creating all the branding and visual identity of the project, defining a coherent style and a corporate color palette that transmits confidence and professionalism. I also designed business cards, flyers and advertising and informative graphic pieces, designed for both physical printing and digital dissemination on social networks.",
+  "links": [
+    {
+      "text": "Web - Rent Me This Bike",
+      "url": "https://alquilamestamoto.es/",
+      "icon": "web.png"
+    }
+  ],
+  "programs": [
+    "HTML.png",
+    "JAVA.png",
+    "CSS.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": []
+}

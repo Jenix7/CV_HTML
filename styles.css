@@ -227,6 +227,48 @@ body.green-theme .header-bar::before {
 	z-index: 2;
 }
 
+.header-content>.section-title-header {
+	justify-self: start;
+}
+
+.header-content>.section-switch {
+	justify-self: center;
+}
+
+/* Selector de idioma posicionado absolutamente en la esquina izquierda */
+.header-content>.language-selector {
+	position: fixed;
+	left: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10001;
+	transition: all 0.3s ease;
+}
+
+/* Ajustar selector cuando el header se reduce */
+body:has(.section.portfolio.slide-left .project-viewer.active) .language-selector {
+	transform: translateY(-50%) scale(0.8);
+}
+
+body:has(.section.portfolio.slide-left .project-viewer.active) .language-selector .language-current {
+	padding: 6px 12px;
+	gap: 8px;
+}
+
+body:has(.section.portfolio.slide-left .project-viewer.active) .language-selector .language-flag {
+	width: 24px;
+	height: 24px;
+	font-size: 16px;
+}
+
+body:has(.section.portfolio.slide-left .project-viewer.active) .language-selector .language-label {
+	font-size: 8px;
+}
+
+body:has(.section.portfolio.slide-left .project-viewer.active) .language-selector .language-name {
+	font-size: 12px;
+}
+
 .section-title-header {
 	font-size: 2.2rem;
 	font-weight: 700;

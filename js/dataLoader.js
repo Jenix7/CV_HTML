@@ -3,9 +3,13 @@ const projectCache = new Map();
 const MAX_CACHED_PROJECTS = 8;
 let cacheAccessOrder = [];
 
+// ESTA FUNCIÓN YA NO SE USA - El idioma se maneja en languageManager.js
+// Se mantiene por compatibilidad pero no se llama automáticamente
 async function loadPortfolioData() {
-	console.log('Loading portfolio data from JSON...');
+	console.log('⚠️ loadPortfolioData() llamada desde dataLoader.js');
+	console.log('ℹ️  El sistema de idiomas ahora maneja la carga en languageManager.js');
 
+	// Por compatibilidad, cargar español por defecto
 	try {
 		const response = await fetch('portfolio-data.json');
 		if (!response.ok) {
@@ -23,7 +27,6 @@ async function loadPortfolioData() {
 	} catch (error) {
 		console.error('❌ Error loading portfolio data:', error);
 		console.error('⚠️ Asegúrate de que existe el archivo portfolio-data.json');
-		console.error('⚠️ Ejecuta el script generate_portfolio.py primero');
 	}
 }
 

@@ -1,0 +1,16 @@
+{
+  "title": "Star Crossed",
+  "subtitle": "Creation of a narrative video game",
+  "description": "Star-Crossed is a narrative video game centered on the story of Jessica, a young psychologist who, while trying to help others, must also face her own inner demons. When her partner mysteriously disappears, she is drawn into a series of paranormal events that could alter the fate of the world.\n\nThe game combines decision-making, skill management and elements of chance. The player must carefully choose his actions to avoid game overs, improve his abilities and overcome the various plot obstacles. The narrative is immersive and branching, with several characters to interrogate and multiple paths leading to the same outcome from different perspectives.\n\nThe story, characters and decision trees were designed in detail, and then implemented in the Narrat engine, which uses its own language.",
+  "links": [
+    {
+      "text": "Star Crossed",
+      "url": "https://jenix7.itch.io/star-crossed",
+      "icon": "itchio.png"
+    }
+  ],
+  "programs": [
+    "narrat.png"
+  ],
+  "related": []
+}

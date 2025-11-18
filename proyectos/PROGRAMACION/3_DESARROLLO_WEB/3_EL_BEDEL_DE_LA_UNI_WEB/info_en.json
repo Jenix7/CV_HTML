@@ -1,0 +1,24 @@
+{
+  "title": "El Bedel de la Uni",
+  "subtitle": "Web development for a book",
+  "description": "I developed the website for the novel El Bedel de la Uni as the main axis of its launching campaign, conceived to reflect the atmosphere of the story and offer an informative and visually coherent space with the book's identity.\n\nIn addition, I designed the complete visual identity, ensuring aesthetic coherence between the cover, the color palette and the overall graphic style. I also created the book trailer and different graphic pieces for social networks and printed materials, thus reinforcing the dissemination of the project in different formats.\n\nEl Bedel de la Uni is a romance and mystery novel set in Barcelona in the 80s. It tells the story of Carla, a young university student in love with her professor, who becomes involved in a chilling event that completely transforms her life.",
+  "links": [
+    {
+      "text": "Web - El Bedel de la Uni",
+      "url": "https://www.elbedeldelauni.com/",
+      "icon": "web.png"
+    },
+    {
+      "text": "Booktrailer - El Bedel de la Uni",
+      "url": "https://www.youtube.com/watch?time_continue=1&v=1ZGBZWnoohE&embeds_referring_euri=https%3A%2F%2Fwww.elbedeldelauni.com%2F&source_ve_path=MjM4NTE",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "HTML.png",
+    "JAVA.png",
+    "CSS.png",
+    "photoshop.png"
+  ],
+  "related": []
+}

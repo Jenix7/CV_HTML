@@ -1,0 +1,19 @@
+{
+  "title": "ERSCE 3D cabinet configurator",
+  "subtitle": "3D software development for an elevator company",
+  "description": "I developed an online 3D configurator in HTML and JavaScript using Three.js, a JavaScript rendering engine that allows to generate interactive three-dimensional environments directly in the browser. The project, developed for an elevator company, allows customers to customize cabins in real time through a clear and intuitive interface, from which they can modify measurements, textures, lighting, mirrors and handrails with a high level of detail, obtaining a fluid and realistic visual experience.\n\nThe configurator follows the company's corporate identity, applying its colors, typography and logo to maintain a coherent and professional image.",
+  "links": [
+    {
+      "text": "Cabin configurator",
+      "url": "https://www.ersceconfigurador.com/",
+      "icon": "web.png"
+    }
+  ],
+  "programs": [
+    "HTML.png",
+    "JAVA.png",
+    "CSS.png",
+    "photoshop.png"
+  ],
+  "related": []
+}

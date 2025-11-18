@@ -324,7 +324,8 @@ function renderCategoryDetail(categoryIndex) {
 	const backButton = document.createElement('button');
 	backButton.className = 'back-button';
 	backButton.style.display = 'flex';
-	backButton.innerHTML = '← Atrás';
+	const backText = currentLanguage === 'es' ? 'Atrás' : 'Back';
+	backButton.innerHTML = `← ${backText}`;
 	backButton.onclick = closeCategoryDetail;
 
 	const divider = document.createElement('div');

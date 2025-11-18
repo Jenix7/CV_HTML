@@ -1,0 +1,18 @@
+{
+  "title": "Basic Shop - Gameplay Prototype",
+  "subtitle": "Implementation of an exchange mechanic for 2D games",
+  "description": "This project is based on the implementation of a logic system for a store, which includes interaction, buying and selling mechanics through an interface. It was developed as a programming and development practice in Unity for the university course of 2D Development.\n\nTo improve the final result, I incorporated my own recycled character art, adding animations and pose variations to the characters interacting in the store.",
+  "links": [
+    {
+      "text": "Basic Shop",
+      "url": "https://www.youtube.com/watch?v=B5Fcxk3SSGw",
+      "icon": "youtube.png"
+    }
+  ],
+  "programs": [
+    "unity.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": []
+}

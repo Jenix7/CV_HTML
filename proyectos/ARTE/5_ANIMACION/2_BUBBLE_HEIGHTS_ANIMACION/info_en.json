@@ -1,0 +1,38 @@
+{
+  "title": "Bubble Heights",
+  "subtitle": "3D modeling of characters and scenery for video games",
+  "description": "Bubble Heights is a 3D platform and puzzle game starring Coral, a brave young girl who explores the ruins of an ancient civilization in search of a magical artifact capable of saving her village.\n\nThe main mechanic consists of shooting water bubbles in different areas of the map, creating aquatic paths through which Coral can swim and advance in her adventure.\n\nIn this project I participated as Lead Artist, doing 3D modeling, texturing, concept art and animations. The game was developed together with my university classmates in the Projects course of the third year.",
+  "links": [
+    {
+      "text": "Bubble Heights",
+      "url": "https://demmiurge.itch.io/bubble-heights",
+      "icon": "itchio.png"
+    },
+    {
+      "text": "Bubble Heights Trailer",
+      "url": "https://www.youtube.com/watch?v=bPRH-fpcZxQ",
+      "icon": "youtube.png"
+    },
+    {
+      "text": "Modeling Coral",
+      "url": "https://www.youtube.com/watch?v=XBfljElJQMw&feature=youtu.be",
+      "icon": "youtube.png"
+    },
+    {
+      "text": "Game Design Document",
+      "url": "https://drive.google.com/file/d/13IKzX3V7Nn-9waTLjOlEzsG03ZoU-VuC/view?usp=drive_link",
+      "icon": "pdf.png"
+    }
+  ],
+  "programs": [
+    "zbrush.png",
+    "3dsmax.png",
+    "substance.png",
+    "marmoset.png",
+    "cascadeur.png",
+    "unity.png",
+    "photoshop.png",
+    "illustrator.png"
+  ],
+  "related": []
+}

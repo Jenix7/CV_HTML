@@ -1,0 +1,24 @@
+{
+  "title": "Spray: My first video game",
+  "subtitle": "Creation of a third-person shooter",
+  "description": "Spray was my first contact with the world of video games since I was a child. It is a third-person shooter in which a group of graffiti artists, able to materialize their works, faces a society dominated by an authoritarian and robotic regime.\n\nThe project was part of my research work in high school, at a stage when I still had no experience in video game development or in the field of 3D. This first creation allowed me to explore and experiment with the basics of design and programming, awakening my interest in the industry and marking the beginning of my career in this field.",
+  "links": [
+    {
+      "text": "Trailer Spray",
+      "url": "https://www.youtube.com/watch?v=vqj4yA2vkY4",
+      "icon": "youtube.png"
+    },
+    {
+      "text": "TR - Spray",
+      "url": "https://drive.google.com/file/d/1J4Aik55U4AbUVC2Xhjq_RFOlQRdS3iD6/view?usp=sharing",
+      "icon": "pdf.png"
+    }
+  ],
+  "programs": [
+    "unity.png",
+    "zbrush.png",
+    "3dsmax.png",
+    "photoshop.png"
+  ],
+  "related": []
+}

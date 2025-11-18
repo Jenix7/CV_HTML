@@ -113,7 +113,8 @@ function openProjectViewer(categoryIndex, projectIndex, fromRelated = false) {
 	backButtonInSidebar.className = 'back-button';
 	backButtonInSidebar.style.display = 'flex';
 	backButtonInSidebar.style.marginBottom = '20px';
-	backButtonInSidebar.innerHTML = '← Atrás';
+	const backText = currentLanguage === 'es' ? 'Atrás' : 'Back';
+	backButtonInSidebar.innerHTML = `← ${backText}`;
 	backButtonInSidebar.onclick = () => {
 		closeProjectViewer();
 	};
@@ -144,7 +145,7 @@ function openProjectViewer(categoryIndex, projectIndex, fromRelated = false) {
 	const descText = document.createElement('div');
 	descText.className = 'project-description-text';
 	const description = projectData.description || 'Sin descripción disponible';
-	descText.innerHTML = description.replace(/\n/g, '<br><br>');
+	descText.innerHTML = description.replace(/\n/g, '<br>');
 
 	descContent.appendChild(descText);
 	descSection.appendChild(descTitle);
