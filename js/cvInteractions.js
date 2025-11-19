@@ -86,7 +86,12 @@ clickableElements.forEach(elementId => {
 
 			const highResImage = highResMap[elementId];
 			if (highResImage) {
-				modalImage.src = highResImage;
+				// Usar la función de imageLanguageManager para obtener la ruta correcta
+				const imagePathForLang = typeof getImagePathForLanguage === 'function'
+					? getImagePathForLanguage(highResImage, currentLanguage)
+					: highResImage;
+
+				modalImage.src = imagePathForLang;
 
 				if (elementId === 'cv-licenciado') {
 					modalImage.setAttribute('data-no-card-effect', 'true');
