@@ -52,6 +52,61 @@ const clickableElements = [
 	'cv-licenciado'
 ];
 
+// Función para reconectar eventos del modal después de reconstruirlo
+function reconnectModalEvents(modalImage, modal) {
+	console.log('🔄 Reconectando eventos del modal...');
+
+	// Eventos de mousemove para el efecto 3D
+	const mousemoveHandler = (e) => {
+		const wrapper = document.getElementById('resumenPersonalWrapper');
+		if (wrapper) return; // Si hay wrapper, sus eventos se encargan
+
+		if (modalImage.hasAttribute('data-no-card-effect')) {
+			return;
+		}
+
+		const rect = modalImage.getBoundingClientRect();
+		const x = e.clientX - rect.left;
+		const y = e.clientY - rect.top;
+
+		const centerX = rect.width / 2;
+		const centerY = rect.height / 2;
+
+		const rotateX = ((y - centerY) / centerY) * -10;
+		const rotateY = ((x - centerX) / centerX) * 10;
+
+		modalImage.style.transition = 'transform 0.15s ease-out';
+		modalImage.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`;
+	};
+
+	const mouseenterHandler = () => {
+		const wrapper = document.getElementById('resumenPersonalWrapper');
+		if (wrapper) return;
+
+		if (modalImage.hasAttribute('data-no-card-effect')) {
+			return;
+		}
+		modalImage.style.transition = 'transform 0.6s ease-out';
+	};
+
+	const mouseleaveHandler = () => {
+		const wrapper = document.getElementById('resumenPersonalWrapper');
+		if (wrapper) return;
+
+		if (modalImage.hasAttribute('data-no-card-effect')) {
+			return;
+		}
+		modalImage.style.transition = 'transform 0.6s ease-out';
+		modalImage.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
+	};
+
+	modalImage.addEventListener('mousemove', mousemoveHandler);
+	modalImage.addEventListener('mouseenter', mouseenterHandler);
+	modalImage.addEventListener('mouseleave', mouseleaveHandler);
+
+	console.log('✅ Eventos del modal reconectados');
+}
+
 clickableElements.forEach(elementId => {
 	const element = document.getElementById(elementId);
 	if (element) {
@@ -72,15 +127,61 @@ clickableElements.forEach(elementId => {
 
 			hideTooltip();
 
-			// IMPORTANTE: Obtener referencias frescas cada vez
-			const modal = document.getElementById('imageModal');
-			const modalImage = document.getElementById('modalImage');
+			// IMPORTANTE: Obtener referencias frescas cada vez y asegurar que existen
+			let modal = document.getElementById('imageModal');
+			let modalImage = document.getElementById('modalImage');
+			let modalContent = document.querySelector('.modal-content');
 
 			console.log('🔍 Modal encontrado:', modal);
 			console.log('🔍 ModalImage encontrado:', modalImage);
+			console.log('🔍 ModalContent encontrado:', modalContent);
+
+			// Si no existe modalImage, intentar reconstruir la estructura del modal
+			if (!modalImage && modalContent) {
+				console.log('⚠️ Reconstruyendo estructura del modal...');
+
+				// Limpiar contenido actual
+				modalContent.innerHTML = '';
+
+				// Reconstruir estructura
+				const closeBtn = document.createElement('button');
+				closeBtn.className = 'modal-close';
+				closeBtn.id = 'modalClose';
+				closeBtn.innerHTML = '&times;';
+				closeBtn.addEventListener('click', () => {
+					modal.classList.remove('active');
+					document.body.style.overflow = '';
+
+					// Limpiar elementos de Resumen Personal si existen
+					if (typeof removeResumenPersonalElements === 'function') {
+						removeResumenPersonalElements();
+					}
+
+					setTimeout(() => {
+						const img = document.getElementById('modalImage');
+						if (img) img.src = '';
+					}, 300);
+				});
+
+				const img = document.createElement('img');
+				img.id = 'modalImage';
+				img.src = '';
+				img.alt = '';
+
+				modalContent.appendChild(closeBtn);
+				modalContent.appendChild(img);
+
+				// Actualizar referencia
+				modalImage = img;
+
+				// IMPORTANTE: Reconectar eventos del modal
+				reconnectModalEvents(modalImage, modal);
+
+				console.log('✅ Modal reconstruido con eventos');
+			}
 
 			if (!modalImage) {
-				console.error('❌ ERROR: modalImage no existe!');
+				console.error('❌ ERROR: No se pudo crear modalImage!');
 				return;
 			}
 
@@ -105,8 +206,19 @@ clickableElements.forEach(elementId => {
 					modalImage.removeAttribute('data-no-card-effect');
 				}
 			}
+
 			modal.classList.add('active');
 			document.body.style.overflow = 'hidden';
+
+			// Si es Resumen Personal, crear los elementos interactivos
+			if (elementId === 'cv-resumen-personal') {
+				// Esperar a que el modal esté visible
+				setTimeout(() => {
+					if (typeof createResumenPersonalElements === 'function') {
+						createResumenPersonalElements();
+					}
+				}, 100);
+			}
 		});
 	}
 });
