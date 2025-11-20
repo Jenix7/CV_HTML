@@ -58,4 +58,9 @@ function switchSection(section) {
 
 		document.body.className = '';
 	}
+
+	// Emitir evento personalizado de cambio de sección
+	window.dispatchEvent(new CustomEvent('sectionChanged', {
+		detail: { section: section }
+	}));
 }
