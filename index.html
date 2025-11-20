@@ -216,6 +216,19 @@
 		</div>
 	</div>
 
+	<!-- BOTONES DE NAVEGACIÓN ENTRE SECCIONES -->
+	<button class="section-nav-button left" id="navToCV" onclick="switchSection('curriculum')"
+		aria-label="Ir a Currículum">
+		<span class="arrow-icon">←</span>
+		<span class="nav-label" data-translate="nav.curriculum">Currículum</span>
+	</button>
+
+	<button class="section-nav-button right" id="navToPortfolio" onclick="switchSection('portfolio')"
+		aria-label="Ir a Portfolio">
+		<span class="arrow-icon">→</span>
+		<span class="nav-label" data-translate="nav.portfolio">Portfolio</span>
+	</button>
+
 	<div id="imageModal" class="modal">
 		<div class="modal-overlay"></div>
 		<div class="modal-content">
@@ -241,6 +254,7 @@
 	<script src="js/cvInteractions.js"></script>
 	<script src="js/modal.js"></script>
 	<script src="js/sectionSwitch.js"></script>
+	<script src="js/sectionNavButtons.js"></script>
 	<script src="js/portfolioCards.js"></script>
 	<script src="js/categories.js"></script>
 	<script src="js/projectViewer.js"></script>

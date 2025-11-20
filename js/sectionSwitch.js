@@ -58,4 +58,11 @@ function switchSection(section) {
 
 		document.body.className = '';
 	}
+
+	// Actualizar visibilidad de botones de navegación grandes
+	if (typeof updateSectionNavButtons === 'function') {
+		setTimeout(() => {
+			updateSectionNavButtons();
+		}, 100);
+	}
 }

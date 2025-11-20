@@ -18,6 +18,256 @@ body {
 	transition: background-image 0.6s ease-in-out;
 }
 
+/* ============================================
+   BOTONES DE NAVEGACIÓN ENTRE SECCIONES - DISEÑO MODERNO
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.section-nav-button {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 80px;
+	height: 65vh;
+	min-height: 400px;
+	max-height: 600px;
+	background: linear-gradient(135deg,
+			rgba(255, 255, 255, 0.1) 0%,
+			rgba(255, 255, 255, 0.05) 100%);
+	border: 2px solid rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(20px);
+	cursor: pointer;
+	z-index: 9999;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	overflow: hidden;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.section-nav-button::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(135deg,
+			rgba(74, 222, 128, 0.1) 0%,
+			rgba(59, 130, 246, 0.1) 50%,
+			rgba(168, 85, 247, 0.1) 100%);
+	opacity: 0;
+	transition: opacity 0.4s ease;
+	z-index: -1;
+}
+
+.section-nav-button:hover::before {
+	opacity: 1;
+}
+
+/* Posicionamiento */
+.section-nav-button.left {
+	left: 0;
+	border-left: none;
+	border-radius: 0 24px 24px 0;
+}
+
+.section-nav-button.right {
+	right: 0;
+	border-right: none;
+	border-radius: 24px 0 0 24px;
+}
+
+/* Flecha moderna y redondeada */
+.section-nav-button .arrow-icon {
+	font-size: 48px;
+	font-weight: 800;
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease;
+	line-height: 1;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Texto elegante con Poppins */
+.section-nav-button .nav-label {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.95);
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	transform: rotate(180deg);
+	text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease;
+}
+
+/* Efectos hover sofisticados */
+.section-nav-button:hover {
+	width: 100px;
+	background: linear-gradient(135deg,
+			rgba(255, 255, 255, 0.15) 0%,
+			rgba(255, 255, 255, 0.08) 100%);
+	border-color: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3),
+		0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+}
+
+.section-nav-button:hover .arrow-icon {
+	transform: scale(1.2);
+	color: rgba(255, 255, 255, 1);
+	text-shadow: 0 6px 20px rgba(74, 222, 128, 0.4);
+}
+
+.section-nav-button.left:hover .arrow-icon {
+	animation: bounceLeft 0.6s ease infinite;
+}
+
+.section-nav-button.right:hover .arrow-icon {
+	animation: bounceRight 0.6s ease infinite;
+}
+
+.section-nav-button:hover .nav-label {
+	color: rgba(255, 255, 255, 1);
+	letter-spacing: 2px;
+	text-shadow: 0 4px 12px rgba(74, 222, 128, 0.4);
+}
+
+/* Efecto de brillo que recorre el botón */
+.section-nav-button::after {
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+	background: linear-gradient(45deg,
+			transparent 30%,
+			rgba(255, 255, 255, 0.1) 50%,
+			transparent 70%);
+	transform: translateX(-100%) translateY(-100%) rotate(45deg);
+	transition: transform 0.6s ease;
+}
+
+.section-nav-button:hover::after {
+	transform: translateX(100%) translateY(100%) rotate(45deg);
+}
+
+/* Animaciones de rebote */
+@keyframes bounceLeft {
+
+	0%,
+	100% {
+		transform: translateX(0) scale(1.2);
+	}
+
+	50% {
+		transform: translateX(-5px) scale(1.2);
+	}
+}
+
+@keyframes bounceRight {
+
+	0%,
+	100% {
+		transform: translateX(0) scale(1.2);
+	}
+
+	50% {
+		transform: translateX(5px) scale(1.2);
+	}
+}
+
+/* Efecto activo (cuando se hace clic) */
+.section-nav-button:active {
+	transform: translateY(-50%) scale(0.95);
+}
+
+/* Responsive - Tablets */
+@media (max-width: 1024px) {
+	.section-nav-button {
+		width: 60px;
+		height: 50vh;
+		min-height: 300px;
+		max-height: 450px;
+	}
+
+	.section-nav-button:hover {
+		width: 75px;
+	}
+
+	.section-nav-button .arrow-icon {
+		font-size: 36px;
+	}
+
+	.section-nav-button .nav-label {
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+}
+
+/* Responsive - Móviles */
+@media (max-width: 768px) {
+	.section-nav-button {
+		width: 50px;
+		height: 40vh;
+		min-height: 250px;
+		max-height: 350px;
+		gap: 15px;
+	}
+
+	.section-nav-button:hover {
+		width: 60px;
+	}
+
+	.section-nav-button .arrow-icon {
+		font-size: 28px;
+	}
+
+	.section-nav-button .nav-label {
+		font-size: 12px;
+		letter-spacing: 0.8px;
+	}
+
+	.section-nav-button.left {
+		border-radius: 0 16px 16px 0;
+	}
+
+	.section-nav-button.right {
+		border-radius: 16px 0 0 16px;
+	}
+}
+
+/* Ocultar en pantallas muy pequeñas */
+@media (max-width: 480px) {
+	.section-nav-button {
+		width: 40px;
+		height: 35vh;
+		min-height: 200px;
+		gap: 10px;
+	}
+
+	.section-nav-button:hover {
+		width: 50px;
+	}
+
+	.section-nav-button .arrow-icon {
+		font-size: 24px;
+	}
+
+	.section-nav-button .nav-label {
+		font-size: 10px;
+		letter-spacing: 0.5px;
+	}
+}
+
+
 body.red-theme {
 	background-color: #2d1b1b;
 	background-image: url('images/FondoWeb_Arte.png');
