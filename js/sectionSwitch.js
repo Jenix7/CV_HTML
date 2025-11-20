@@ -60,8 +60,12 @@ function switchSection(section) {
 	}
 }
 
-// Función para manejar el botón de contacto (por ahora no hace nada)
+// Función para manejar el botón de contacto
 function handleContact() {
-	console.log('🟢 Botón de contacto pulsado - Funcionalidad pendiente');
-	// Aquí se implementará la funcionalidad de contacto en el futuro
+	console.log('📞 Abriendo modal de contacto');
+	if (typeof openContactModal === 'function') {
+		openContactModal();
+	} else {
+		console.error('❌ openContactModal no está definida');
+	}
 }

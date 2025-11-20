@@ -408,7 +408,7 @@ body:has(.section.portfolio.slide-left .project-viewer.active) .header-content {
 	height: 297mm;
 	position: relative;
 	transform: scale(0.75);
-	margin-top: -24px;
+	margin-top: -35px;
 	/* Añade esto para subir el CV */
 	transition: none;
 	overflow: visible;
@@ -4086,5 +4086,283 @@ body:has(.project-viewer.active) .portfolio-curriculum-cta {
 
 	.portfolio-curriculum-btn i {
 		font-size: 1rem;
+	}
+}
+
+/* ============================================
+   MODAL DE CONTACTO
+   ============================================ */
+
+.contact-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10000;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.contact-modal.active {
+	display: flex;
+	opacity: 1;
+}
+
+.contact-modal-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+}
+
+.contact-modal-content {
+	position: relative;
+	background: linear-gradient(135deg, rgba(30, 30, 40, 0.95) 0%, rgba(20, 20, 30, 0.98) 100%);
+	border-radius: 24px;
+	padding: 40px;
+	max-width: 550px;
+	width: 90%;
+	box-shadow:
+		0 20px 60px rgba(0, 0, 0, 0.5),
+		0 0 1px rgba(255, 255, 255, 0.1) inset;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	animation: contactModalZoomIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	transform-origin: center center;
+}
+
+@keyframes contactModalZoomIn {
+	0% {
+		opacity: 0;
+		transform: scale(0.9) translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1) translateY(0);
+	}
+}
+
+/* Botón X igual que los otros modales */
+.contact-modal-close {
+	position: absolute;
+	top: -50px;
+	right: -50px;
+	width: 50px;
+	height: 50px;
+	background: rgba(255, 255, 255, 0.1);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	color: #fff;
+	font-size: 32px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	backdrop-filter: blur(10px);
+	line-height: 1;
+	padding: 0;
+	z-index: 10;
+}
+
+.contact-modal-close:hover {
+	background: rgba(248, 113, 113, 0.3);
+	border-color: rgba(248, 113, 113, 0.5);
+	transform: rotate(90deg) scale(1.1);
+	box-shadow: 0 0 20px rgba(248, 113, 113, 0.5);
+}
+
+.contact-modal-header {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.contact-modal-title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.2rem;
+	font-weight: 700;
+	background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	margin-bottom: 8px;
+	letter-spacing: -0.5px;
+}
+
+.contact-modal-subtitle {
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.95rem;
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: 400;
+}
+
+.contact-sections {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.contact-section {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.contact-section-title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.75rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: rgba(255, 255, 255, 0.5);
+	margin-bottom: 2px;
+}
+
+.contact-item {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	padding: 14px 18px;
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	text-decoration: none;
+	color: inherit;
+}
+
+.contact-item:hover {
+	background: rgba(74, 222, 128, 0.1);
+	border-color: rgba(74, 222, 128, 0.3);
+	transform: translateX(8px);
+	box-shadow: 0 4px 12px rgba(74, 222, 128, 0.2);
+}
+
+.contact-item-icon {
+	width: 44px;
+	height: 44px;
+	min-width: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, rgba(74, 222, 128, 0.2) 0%, rgba(34, 197, 94, 0.2) 100%);
+	border-radius: 12px;
+	font-size: 22px;
+	color: #4ade80;
+	transition: all 0.3s ease;
+}
+
+.contact-item:hover .contact-item-icon {
+	transform: scale(1.1) rotate(5deg);
+	background: linear-gradient(135deg, rgba(74, 222, 128, 0.3) 0%, rgba(34, 197, 94, 0.3) 100%);
+}
+
+.contact-item-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+
+.contact-item-label {
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.75rem;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.contact-item-value {
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.95rem;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.95);
+}
+
+.contact-item-arrow {
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.4);
+	transition: all 0.3s ease;
+}
+
+.contact-item:hover .contact-item-arrow {
+	color: #4ade80;
+	transform: translateX(4px);
+}
+
+/* Estilos para elementos NO clicables (correo y teléfono) */
+.contact-item-non-clickable {
+	cursor: default !important;
+	pointer-events: none;
+}
+
+.contact-item-non-clickable:hover {
+	background: rgba(255, 255, 255, 0.05) !important;
+	border-color: rgba(255, 255, 255, 0.1) !important;
+	transform: translateX(0) !important;
+	box-shadow: none !important;
+}
+
+.contact-item-non-clickable .contact-item-icon {
+	cursor: default;
+}
+
+.contact-item-non-clickable:hover .contact-item-icon {
+	transform: none !important;
+	background: linear-gradient(135deg, rgba(74, 222, 128, 0.2) 0%, rgba(34, 197, 94, 0.2) 100%) !important;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+	.contact-modal-content {
+		padding: 32px 24px;
+		width: 95%;
+		max-width: 95%;
+	}
+
+	.contact-modal-close {
+		top: 10px;
+		right: 10px;
+		width: 40px;
+		height: 40px;
+		font-size: 24px;
+	}
+
+	.contact-modal-title {
+		font-size: 1.8rem;
+	}
+
+	.contact-modal-subtitle {
+		font-size: 0.85rem;
+	}
+
+	.contact-sections {
+		gap: 20px;
+	}
+
+	.contact-item {
+		padding: 12px 14px;
+	}
+
+	.contact-item-icon {
+		width: 38px;
+		height: 38px;
+		min-width: 38px;
+		font-size: 18px;
+	}
+
+	.contact-item-value {
+		font-size: 0.85rem;
 	}
 }
