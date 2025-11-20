@@ -454,7 +454,8 @@ function openTodoProject(projectData) {
 
 			const sectionTitleHeader = document.getElementById('sectionTitleHeader');
 			if (portfolioData[targetSection]) {
-				sectionTitleHeader.textContent = portfolioData[targetSection].name;
+				const portfolioText = currentLanguage === 'en' ? 'PORTFOLIO' : 'PORTFOLIO';
+				sectionTitleHeader.textContent = portfolioText + ' - ' + portfolioData[targetSection].name;
 			}
 
 			const color = categoryColors[targetSection];

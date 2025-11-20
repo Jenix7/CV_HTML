@@ -681,7 +681,8 @@ function navigateToRelatedProject(targetSection, targetCategoryIndex, targetProj
 
 		const sectionTitleHeader = document.getElementById('sectionTitleHeader');
 		if (portfolioData[targetSection]) {
-			sectionTitleHeader.textContent = portfolioData[targetSection].name;
+			const portfolioText = currentLanguage === "en" ? "PORTFOLIO" : "PORTFOLIO";
+			sectionTitleHeader.textContent = portfolioText + " - " + portfolioData[targetSection].name;
 		}
 
 		const color = categoryColors[targetSection];
@@ -763,7 +764,8 @@ function returnToPreviousProject() {
 
 		const sectionTitleHeader = document.getElementById('sectionTitleHeader');
 		if (portfolioData[targetSection]) {
-			sectionTitleHeader.textContent = portfolioData[targetSection].name;
+			const portfolioText = currentLanguage === "en" ? "PORTFOLIO" : "PORTFOLIO";
+			sectionTitleHeader.textContent = portfolioText + " - " + portfolioData[targetSection].name;
 		}
 
 		const color = categoryColors[targetSection];

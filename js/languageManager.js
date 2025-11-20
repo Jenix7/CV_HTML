@@ -95,7 +95,7 @@ function updateInterfaceTextsOnly() {
 			sectionTitleHeader.textContent = t('header.curriculum');
 		} else if (currentSection === 'portfolio') {
 			if (currentCategory && portfolioData[currentCategory]) {
-				sectionTitleHeader.textContent = portfolioData[currentCategory].name;
+				sectionTitleHeader.textContent = t('header.portfolio') + ' - ' + portfolioData[currentCategory].name;
 			} else {
 				sectionTitleHeader.textContent = t('header.portfolio');
 			}

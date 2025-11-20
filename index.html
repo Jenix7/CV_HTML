@@ -7,6 +7,7 @@
 	<title>Portfolio Profesional</title>
 	<link href="styles.css" rel="stylesheet" type="text/css">
 	<link href="language-selector.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -247,6 +248,38 @@
 	<script src="js/portfolioCards.js"></script>
 	<script src="js/categories.js"></script>
 	<script src="js/projectViewer.js"></script>
+
+	<!-- Botón flotante CTA Portfolio -->
+	<div class="curriculum-portfolio-cta" id="curriculumPortfolioCTA">
+		<span class="curriculum-cta-text" id="curriculumCTAText">Conoce mi trabajo</span>
+		<button class="curriculum-portfolio-btn" id="curriculumPortfolioBtn" onclick="switchSection('portfolio')">
+			<span id="curriculumBtnText">Ver Portfolio</span>
+			<i class="fa-solid fa-arrow-right"></i>
+		</button>
+	</div>
+
+	<!-- Script para traducciones del botón -->
+	<script>
+		function updateCurriculumCTATexts() {
+			const ctaText = document.getElementById('curriculumCTAText');
+			const btnText = document.getElementById('curriculumBtnText');
+
+			if (ctaText && btnText) {
+				if (typeof currentLanguage !== 'undefined') {
+					if (currentLanguage === 'es') {
+						ctaText.textContent = 'Conoce mi trabajo';
+						btnText.textContent = 'Ver Portfolio';
+					} else {
+						ctaText.textContent = 'Check out my work';
+						btnText.textContent = 'View Portfolio';
+					}
+				}
+			}
+		}
+
+		document.addEventListener('DOMContentLoaded', updateCurriculumCTATexts);
+		window.addEventListener('languageChanged', updateCurriculumCTATexts);
+	</script>
 </body>
 
 </html>

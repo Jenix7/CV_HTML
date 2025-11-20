@@ -312,7 +312,8 @@ function handleCardClick(e) {
 	currentCategory = category;
 
 	if (portfolioData[category]) {
-		sectionTitleHeader.textContent = portfolioData[category].name;
+		const portfolioText = currentLanguage === 'en' ? 'PORTFOLIO' : 'PORTFOLIO';
+		sectionTitleHeader.textContent = portfolioText + ' - ' + portfolioData[category].name;
 	}
 
 	console.log('Calling renderCategories for:', category);

@@ -36,6 +36,10 @@
     "discover_more": "Want to discover more about my projects?",
     "view_portfolio": "View Portfolio"
   },
+  "curriculum_cta": {
+    "text": "Check out my work",
+    "button": "View Portfolio"
+  },
   "videogames_modal": {
     "design": "Design",
     "art": "Art",
