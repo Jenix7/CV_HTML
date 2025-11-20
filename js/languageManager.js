@@ -81,11 +81,13 @@ function changeLanguage(lang) {
 }
 
 function updateInterfaceTextsOnly() {
-	const switchCV = document.getElementById('switchCV');
-	const switchPortfolio = document.getElementById('switchPortfolio');
+	const navCV = document.getElementById('navCV');
+	const navPortfolio = document.getElementById('navPortfolio');
+	const navContact = document.getElementById('navContact');
 
-	if (switchCV) switchCV.textContent = t('header.curriculum');
-	if (switchPortfolio) switchPortfolio.textContent = t('header.portfolio');
+	if (navCV) navCV.textContent = t('header.curriculum');
+	if (navPortfolio) navPortfolio.textContent = t('header.portfolio');
+	if (navContact) navContact.textContent = t('header.contact');
 
 	const sectionTitleHeader = document.getElementById('sectionTitleHeader');
 	if (sectionTitleHeader) {

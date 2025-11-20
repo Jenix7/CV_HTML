@@ -1,7 +1,8 @@
 {
   "header": {
     "curriculum": "Resume",
-    "portfolio": "Portfolio"
+    "portfolio": "Portfolio",
+    "contact": "Contact"
   },
   "cv": {
     "personal_card": "Personal Card",
@@ -27,33 +28,18 @@
     "graphic_design": "Graphic Design",
     "3d_modeling": "3D Modeling",
     "illustration": "Illustration",
-    "video_editing": "Video Editing",
-    "web_development": "Web Development",
-    "webs": "Webs",
-    "videogames": "Videogames",
-    "editing": "Editing"
-  },
-  "categories": {
-    "arte": "ART",
-    "programacion": "PROGRAMMING",
-    "diseno": "DESIGN",
-    "produccion": "PRODUCTION",
-    "comunicacion": "COMMUNICATION",
-    "todo": "TODO"
+    "editing": "Editing",
+    "webs": "Web Development",
+    "videogames": "Video Games"
   },
   "projects": {
-    "discover_more": "Discover more",
-    "view_portfolio": "View Portfolio",
-    "back": "Back",
-    "back_to_previous": "Back to previous project",
-    "previous": "Previous",
-    "next": "Next",
-    "close": "Close"
+    "discover_more": "Want to discover more about my projects?",
+    "view_portfolio": "View Portfolio"
   },
   "videogames_modal": {
-    "design": "DESIGN",
-    "art": "ART",
-    "programming": "PROGRAMMING",
-    "production": "PRODUCTION"
+    "design": "Design",
+    "art": "Art",
+    "programming": "Programming",
+    "production": "Production"
   }
 }

@@ -6,8 +6,8 @@ function switchSection(section) {
 	const curriculumSection = document.getElementById('curriculumSection');
 	const portfolioSection = document.getElementById('portfolioSection');
 	const sectionTitleHeader = document.getElementById('sectionTitleHeader');
-	const switchCV = document.getElementById('switchCV');
-	const switchPortfolio = document.getElementById('switchPortfolio');
+	const navCV = document.getElementById('navCV');
+	const navPortfolio = document.getElementById('navPortfolio');
 
 	if (section === 'portfolio') {
 		curriculumSection.classList.add('slide-left');
@@ -20,8 +20,8 @@ function switchSection(section) {
 			sectionTitleHeader.textContent = 'Portfolio';
 		}
 
-		switchCV.classList.remove('active');
-		switchPortfolio.classList.add('active');
+		navCV.classList.remove('active');
+		navPortfolio.classList.add('active');
 		currentSection = 'portfolio';
 
 		if (currentTheme) {
@@ -52,10 +52,16 @@ function switchSection(section) {
 			sectionTitleHeader.textContent = 'Currículum';
 		}
 
-		switchCV.classList.add('active');
-		switchPortfolio.classList.remove('active');
+		navCV.classList.add('active');
+		navPortfolio.classList.remove('active');
 		currentSection = 'curriculum';
 
 		document.body.className = '';
 	}
+}
+
+// Función para manejar el botón de contacto (por ahora no hace nada)
+function handleContact() {
+	console.log('🟢 Botón de contacto pulsado - Funcionalidad pendiente');
+	// Aquí se implementará la funcionalidad de contacto en el futuro
 }

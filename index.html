@@ -12,14 +12,7 @@
 <body>
 	<div class="header-bar">
 		<div class="header-content">
-			<div class="section-title-header" id="sectionTitleHeader">Currículum</div>
-			<div class="section-switch">
-				<button class="switch-btn active" id="switchCV"
-					onclick="switchSection('curriculum')">Currículum</button>
-				<button class="switch-btn" id="switchPortfolio" onclick="switchSection('portfolio')">Portfolio</button>
-			</div>
-
-			<!-- SELECTOR DE IDIOMA INTEGRADO EN HEADER -->
+			<!-- Selector de idioma a la izquierda -->
 			<div class="language-selector" id="languageSelector">
 				<div class="language-current" id="languageCurrent">
 					<div class="language-flag" id="currentFlag">
@@ -47,6 +40,16 @@
 					</div>
 				</div>
 			</div>
+
+			<!-- Logo/Título en el centro -->
+			<div class="section-title-header" id="sectionTitleHeader">Currículum</div>
+
+			<!-- Navegación a la derecha -->
+			<nav class="header-nav">
+				<button class="nav-btn active" id="navCV" onclick="switchSection('curriculum')">Currículum</button>
+				<button class="nav-btn" id="navPortfolio" onclick="switchSection('portfolio')">Portfolio</button>
+				<button class="nav-btn nav-btn-contact" id="navContact" onclick="handleContact()">Contacto</button>
+			</nav>
 		</div>
 	</div>
 
