@@ -3818,7 +3818,7 @@ body.green-theme .header-content::before {
 	z-index: 900;
 	display: none;
 	flex-direction: column;
-	align-items: flex-end;
+	align-items: flex-start;
 	gap: 12px;
 	opacity: 0;
 	transform: translateY(20px);
@@ -3841,7 +3841,6 @@ body:has(.section.curriculum:not(.slide-left)) .curriculum-portfolio-cta {
 	color: rgba(255, 255, 255, 0.9);
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 	letter-spacing: 0.3px;
-	animation: floatText 3s ease-in-out infinite;
 }
 
 @keyframes floatText {
@@ -3870,7 +3869,7 @@ body:has(.section.curriculum:not(.slide-left)) .curriculum-portfolio-cta {
 	font-weight: 700;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	border-radius: 50px;
+	border-radius: 12px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	box-shadow:
@@ -3939,6 +3938,153 @@ body:has(.section.curriculum:not(.slide-left)) .curriculum-portfolio-cta {
 	}
 
 	.curriculum-portfolio-btn i {
+		font-size: 1rem;
+	}
+}
+
+/* ============================================
+   BOTÓN CTA PORTFOLIO → CURRICULUM
+   ============================================ */
+
+.portfolio-curriculum-cta {
+	position: fixed;
+	bottom: 40px;
+	left: 40px;
+	z-index: 900;
+	display: none;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+	opacity: 0;
+	transform: translateY(20px);
+	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Mostrar SOLO en Vista 2 (cuando se ven las subcategorías) */
+body:has(.card-wrapper.featured):not(:has(.categories-container.expanded)) .portfolio-curriculum-cta {
+	display: flex;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Ocultar en vista principal de portfolio (sin categoría seleccionada) */
+body:has(.section.portfolio.slide-left):not(:has(.card-wrapper.featured)) .portfolio-curriculum-cta {
+	display: none !important;
+	opacity: 0;
+}
+
+/* Ocultar SIEMPRE en sección currículum */
+body:has(.section.curriculum:not(.slide-left)) .portfolio-curriculum-cta,
+.section.curriculum:not(.slide-left)~* .portfolio-curriculum-cta {
+	display: none !important;
+	opacity: 0;
+}
+
+/* Ocultar cuando está en Vista 3 (detalle de categoría - .expanded) */
+body:has(.categories-container.expanded) .portfolio-curriculum-cta {
+	display: none !important;
+	opacity: 0;
+}
+
+/* Ocultar cuando está en Vista 4 (proyecto abierto) */
+body:has(.project-viewer.active) .portfolio-curriculum-cta {
+	display: none !important;
+	opacity: 0;
+}
+
+/* Texto del CTA */
+.portfolio-cta-text {
+	font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	font-size: 1rem;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 0.9);
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	letter-spacing: 0.3px;
+}
+
+/* Botón verde brillante */
+.portfolio-curriculum-btn {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+	color: #18181b;
+	border: none;
+	padding: 16px 32px;
+	font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	font-size: 1.1rem;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow:
+		0 4px 15px rgba(74, 222, 128, 0.4),
+		0 8px 25px rgba(0, 0, 0, 0.2);
+	position: relative;
+	overflow: hidden;
+}
+
+.portfolio-curriculum-btn::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+	transition: left 0.5s ease;
+}
+
+.portfolio-curriculum-btn:hover::before {
+	left: 100%;
+}
+
+.portfolio-curriculum-btn:hover {
+	background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+	transform: translateY(-3px) scale(1.02);
+	box-shadow:
+		0 6px 20px rgba(74, 222, 128, 0.5),
+		0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-curriculum-btn:active {
+	transform: translateY(-1px) scale(0.98);
+	box-shadow:
+		0 3px 12px rgba(74, 222, 128, 0.4),
+		0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Icono de flecha (invertida) */
+.portfolio-curriculum-btn i {
+	font-size: 1.2rem;
+	transition: transform 0.3s ease;
+}
+
+.portfolio-curriculum-btn:hover i {
+	transform: translateX(-5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.portfolio-curriculum-cta {
+		bottom: 20px;
+		left: 20px;
+		gap: 8px;
+	}
+
+	.portfolio-cta-text {
+		font-size: 0.9rem;
+	}
+
+	.portfolio-curriculum-btn {
+		padding: 12px 24px;
+		font-size: 0.95rem;
+		gap: 10px;
+	}
+
+	.portfolio-curriculum-btn i {
 		font-size: 1rem;
 	}
 }

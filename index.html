@@ -258,6 +258,14 @@
 		</button>
 	</div>
 
+	<!-- Botón flotante CTA Curriculum -->
+	<div class="portfolio-curriculum-cta" id="portfolioCurriculumCTA">
+		<button class="portfolio-curriculum-btn" id="portfolioCurriculumBtn" onclick="switchSection('curriculum')">
+			<i class="fa-solid fa-arrow-left"></i>
+			<span id="portfolioBtnText">Currículum</span>
+		</button>
+	</div>
+
 	<!-- Script para traducciones del botón -->
 	<script>
 		function updateCurriculumCTATexts() {
@@ -277,8 +285,29 @@
 			}
 		}
 
-		document.addEventListener('DOMContentLoaded', updateCurriculumCTATexts);
-		window.addEventListener('languageChanged', updateCurriculumCTATexts);
+		function updatePortfolioCTATexts() {
+			const btnText = document.getElementById('portfolioBtnText');
+
+			if (btnText) {
+				if (typeof currentLanguage !== 'undefined') {
+					if (currentLanguage === 'es') {
+						btnText.textContent = 'Currículum';
+					} else {
+						btnText.textContent = 'Resume';
+					}
+				}
+			}
+		}
+
+		document.addEventListener('DOMContentLoaded', () => {
+			updateCurriculumCTATexts();
+			updatePortfolioCTATexts();
+		});
+
+		window.addEventListener('languageChanged', () => {
+			updateCurriculumCTATexts();
+			updatePortfolioCTATexts();
+		});
 	</script>
 </body>
 
