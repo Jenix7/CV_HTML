@@ -13,11 +13,17 @@ function switchSection(section) {
 		curriculumSection.classList.add('slide-left');
 		portfolioSection.classList.add('slide-left');
 
-		// Usar traducción según idioma actual
-		if (typeof t === 'function') {
-			sectionTitleHeader.textContent = t('header.portfolio');
+		// Restaurar título según categoría actual
+		if (currentCategory && portfolioData[currentCategory]) {
+			const portfolioText = typeof t === 'function' ? t('header.portfolio') : 'Portfolio';
+			sectionTitleHeader.textContent = portfolioText + ' - ' + portfolioData[currentCategory].name;
 		} else {
-			sectionTitleHeader.textContent = 'Portfolio';
+			// Usar traducción según idioma actual
+			if (typeof t === 'function') {
+				sectionTitleHeader.textContent = t('header.portfolio');
+			} else {
+				sectionTitleHeader.textContent = 'Portfolio';
+			}
 		}
 
 		navCV.classList.remove('active');
