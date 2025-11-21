@@ -80,23 +80,23 @@ async function preloadAllLanguageImages() {
 async function preloadCVModalAssets() {
 	console.log('🎬 Precargando assets de modales CV...');
 
-	// Obtener cvInfoImages desde cvInfomodal.js
-	if (typeof cvInfoImages === 'undefined') {
-		console.warn('⚠️ cvInfoImages no disponible aún');
-		return false;
-	}
+	// Assets hardcodeados - NO depende de cvInfoImages
+	const cvAssets = [
+		// IMÁGENES
+		{ type: 'image', src: 'images/consola_Detalles.png' },
+		{ type: 'image', src: 'images/consolaback_Detalles.png' },
+		{ type: 'image', src: 'images/Modelado_Detalles.png' },
+		{ type: 'image', src: 'images/DisenoGrafico_Detalles.png' },
+		{ type: 'image', src: 'images/Ilustracion_Detalles.png' },
+		{ type: 'image', src: 'images/cintavideo_Detalles.png' },
+		// VIDEOS
+		{ type: 'video', src: 'videos/Videojeugos_Recap.mp4' },
+		{ type: 'video', src: 'videos/Edicion_Recap.mp4' },
+		{ type: 'video', src: 'videos/Webs_Recap.mp4' }
+	];
 
-	const allAssets = [];
-
-	// Recolectar todas las imágenes y videos
-	Object.values(cvInfoImages).forEach(modalData => {
-		if (modalData.image1) allAssets.push({ type: 'image', src: modalData.image1 });
-		if (modalData.image2) allAssets.push({ type: 'image', src: modalData.image2 });
-		if (modalData.video1) allAssets.push({ type: 'video', src: modalData.video1 });
-	});
-
-	// Precargar todos los assets
-	const loadPromises = allAssets.map(asset => {
+	// Precargar todos los assets EN PARALELO
+	const loadPromises = cvAssets.map(asset => {
 		if (asset.type === 'image') {
 			return preloadSingleImage(asset.src);
 		} else {
@@ -106,7 +106,7 @@ async function preloadCVModalAssets() {
 
 	try {
 		await Promise.all(loadPromises);
-		console.log(`✅ ${allAssets.length} assets de modales CV precargados`);
+		console.log(`✅ ${cvAssets.length} assets de modales CV precargados`);
 		return true;
 	} catch (error) {
 		console.error('❌ Error precargando assets de modales CV:', error);
@@ -345,14 +345,11 @@ function updateHighResMap() {
 async function initializeImageLanguageSystem() {
 	console.log('🎨 Inicializando sistema de imágenes multiidioma...');
 
-	// Precargar todas las imágenes
-	await preloadAllLanguageImages();
-
-	// Precargar assets de modales CV (imágenes y videos)
-	// Esperamos un poco para que cvInfoImages esté disponible
-	setTimeout(async () => {
-		await preloadCVModalAssets();
-	}, 100);
+	// Precargar TODO en paralelo - SIN ESPERAS
+	await Promise.all([
+		preloadAllLanguageImages(),
+		preloadCVModalAssets()
+	]);
 
 	// Actualizar imágenes según idioma actual
 	updateAllImages();
