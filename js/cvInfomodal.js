@@ -166,17 +166,39 @@ async function openCVInfoModal(groupName) {
 
 	const images = cvInfoImages[groupName] || {};
 
-	const image1HTML = images.image1
-		? `<div class="modal-info-image-1" style="pointer-events: auto;"><img src="${images.image1}" alt="Imagen principal"></div>`
-		: '';
+	// Usar imágenes precargadas si están disponibles
+	let image1HTML = '';
+	if (images.image1) {
+		const cachedImg = imagePreloadCache?.get(images.image1);
+		if (cachedImg) {
+			// Clonar la imagen del cache para uso inmediato
+			image1HTML = `<div class="modal-info-image-1" style="pointer-events: auto;"><img src="${cachedImg.src}" alt="Imagen principal"></div>`;
+		} else {
+			image1HTML = `<div class="modal-info-image-1" style="pointer-events: auto;"><img src="${images.image1}" alt="Imagen principal"></div>`;
+		}
+	}
 
-	const video1HTML = images.video1
-		? `<div class="modal-info-video-1" style="pointer-events: auto;"><video src="${images.video1}" autoplay loop muted playsinline preload="auto"></video></div>`
-		: '';
+	// Usar videos precargados si están disponibles
+	let video1HTML = '';
+	if (images.video1) {
+		const cachedVideo = videoPreloadCache?.get(images.video1);
+		if (cachedVideo) {
+			// Clonar el video del cache
+			video1HTML = `<div class="modal-info-video-1" style="pointer-events: auto;"><video src="${cachedVideo.src}" autoplay loop muted playsinline preload="auto"></video></div>`;
+		} else {
+			video1HTML = `<div class="modal-info-video-1" style="pointer-events: auto;"><video src="${images.video1}" autoplay loop muted playsinline preload="auto"></video></div>`;
+		}
+	}
 
-	const image2HTML = images.image2
-		? `<div class="modal-info-image-2" style="pointer-events: auto;"><img src="${images.image2}" alt="Imagen de fondo"></div>`
-		: '';
+	let image2HTML = '';
+	if (images.image2) {
+		const cachedImg = imagePreloadCache?.get(images.image2);
+		if (cachedImg) {
+			image2HTML = `<div class="modal-info-image-2" style="pointer-events: auto;"><img src="${cachedImg.src}" alt="Imagen de fondo"></div>`;
+		} else {
+			image2HTML = `<div class="modal-info-image-2" style="pointer-events: auto;"><img src="${images.image2}" alt="Imagen de fondo"></div>`;
+		}
+	}
 
 	console.log("🔹 Video HTML:", video1HTML ? "YES" : "NO");
 

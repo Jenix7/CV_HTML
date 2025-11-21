@@ -41,6 +41,9 @@ const IMAGE_LANGUAGE_MAP = {
 // Cache de imágenes precargadas
 const imagePreloadCache = new Map();
 
+// Cache de videos precargados
+const videoPreloadCache = new Map();
+
 // ============================================
 // FUNCIONES DE PRECARGA
 // ============================================
@@ -72,6 +75,46 @@ async function preloadAllLanguageImages() {
 }
 
 /**
+ * Precarga TODAS las imágenes y videos de modales CV
+ */
+async function preloadCVModalAssets() {
+	console.log('🎬 Precargando assets de modales CV...');
+
+	// Obtener cvInfoImages desde cvInfomodal.js
+	if (typeof cvInfoImages === 'undefined') {
+		console.warn('⚠️ cvInfoImages no disponible aún');
+		return false;
+	}
+
+	const allAssets = [];
+
+	// Recolectar todas las imágenes y videos
+	Object.values(cvInfoImages).forEach(modalData => {
+		if (modalData.image1) allAssets.push({ type: 'image', src: modalData.image1 });
+		if (modalData.image2) allAssets.push({ type: 'image', src: modalData.image2 });
+		if (modalData.video1) allAssets.push({ type: 'video', src: modalData.video1 });
+	});
+
+	// Precargar todos los assets
+	const loadPromises = allAssets.map(asset => {
+		if (asset.type === 'image') {
+			return preloadSingleImage(asset.src);
+		} else {
+			return preloadSingleVideo(asset.src);
+		}
+	});
+
+	try {
+		await Promise.all(loadPromises);
+		console.log(`✅ ${allAssets.length} assets de modales CV precargados`);
+		return true;
+	} catch (error) {
+		console.error('❌ Error precargando assets de modales CV:', error);
+		return false;
+	}
+}
+
+/**
  * Precarga una imagen individual
  */
 function preloadSingleImage(src) {
@@ -94,6 +137,43 @@ function preloadSingleImage(src) {
 		};
 
 		img.src = src;
+	});
+}
+
+/**
+ * Precarga un video individual
+ */
+function preloadSingleVideo(src) {
+	// Si ya está en caché, retornar inmediatamente
+	if (videoPreloadCache.has(src)) {
+		return Promise.resolve(videoPreloadCache.get(src));
+	}
+
+	return new Promise((resolve, reject) => {
+		const video = document.createElement('video');
+
+		// Configurar atributos del video
+		video.preload = 'auto';
+		video.muted = true;
+		video.playsInline = true;
+
+		// Cuando el video tenga suficientes datos para reproducir
+		video.oncanplaythrough = () => {
+			videoPreloadCache.set(src, video);
+			console.log(`✅ Video precargado: ${src}`);
+			resolve(video);
+		};
+
+		video.onerror = () => {
+			console.warn(`⚠️ Error cargando video: ${src}`);
+			// No rechazamos para que no bloquee la carga completa
+			resolve(null);
+		};
+
+		video.src = src;
+
+		// Iniciar la carga
+		video.load();
 	});
 }
 
@@ -267,6 +347,12 @@ async function initializeImageLanguageSystem() {
 
 	// Precargar todas las imágenes
 	await preloadAllLanguageImages();
+
+	// Precargar assets de modales CV (imágenes y videos)
+	// Esperamos un poco para que cvInfoImages esté disponible
+	setTimeout(async () => {
+		await preloadCVModalAssets();
+	}, 100);
 
 	// Actualizar imágenes según idioma actual
 	updateAllImages();
