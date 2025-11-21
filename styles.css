@@ -4434,8 +4434,8 @@ body:has(.project-viewer.active) .portfolio-curriculum-cta {
 	}
 }
 
-/* Mostrar solo en móviles y tablets */
-@media (max-width: 1024px) {
+/* Mostrar solo en móviles y tablets (basado en ancho de pantalla) */
+@media (max-width: 768px) {
 	.mobile-warning {
 		display: flex;
 	}
