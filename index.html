@@ -11,6 +11,21 @@
 </head>
 
 <body>
+	<!-- Mensaje para dispositivos móviles -->
+	<div class="mobile-warning" id="mobileWarning">
+		<div class="mobile-warning-content">
+			<div class="mobile-warning-icon">📱</div>
+			<h2 class="mobile-warning-title" id="mobileWarningTitle">Versión de Escritorio</h2>
+			<p class="mobile-warning-text" id="mobileWarningText">
+				Este portfolio está optimizado para experiencia de escritorio.
+				La versión móvil se encuentra en desarrollo.
+			</p>
+			<p class="mobile-warning-subtext" id="mobileWarningSubtext">
+				Para una experiencia completa, por favor accede desde un ordenador.
+			</p>
+		</div>
+	</div>
+
 	<div class="header-bar">
 		<div class="header-content">
 			<!-- Selector de idioma a la izquierda -->
@@ -255,7 +270,9 @@
 						</div>
 						<div class="contact-item-content">
 							<div class="contact-item-label" id="contactLabelEmail">Correo</div>
-							<div class="contact-item-value">javiersagales7@gmail.com</div>
+							<div class="contact-item-value"><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+									data-cfemail="5d373c2b34382f2e3c3a3c31382e6a1d3a303c3431733e3230">[email&#160;protected]</a>
+							</div>
 						</div>
 					</div>
 
@@ -315,6 +332,7 @@
 	</div>
 
 	<!-- IMPORTANTE: languageManager.js DEBE cargarse ANTES que los demás scripts -->
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 	<script src="js/config.js"></script>
 	<script src="js/dataLoader.js"></script>
 	<script src="js/languageManager.js"></script>
@@ -330,6 +348,7 @@
 	<script src="js/projectViewer.js"></script>
 	<script src="js/contactModal.js"></script>
 	<script src="js/sectionSwitch.js"></script>
+	<script src="js/mobileWarning.js"></script>
 
 	<!-- Botón flotante CTA Portfolio -->
 	<div class="curriculum-portfolio-cta" id="curriculumPortfolioCTA">
@@ -382,11 +401,4 @@
 		}
 
 		document.addEventListener('DOMContentLoaded', updateCurriculumCTATexts);
-		window.addEventListener('languageChanged', updateCurriculumCTATexts);
-		document.addEventListener('DOMContentLoaded', updatePortfolioCTATexts);
-		window.addEventListener('languageChanged', updatePortfolioCTATexts);
-	</script>
-
-</body>
-
-</html>
+		window.addEventLi

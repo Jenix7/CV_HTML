@@ -4366,3 +4366,77 @@ body:has(.project-viewer.active) .portfolio-curriculum-cta {
 		font-size: 0.85rem;
 	}
 }
+
+/* ============================================
+   MENSAJE MÓVIL
+   ============================================ */
+.mobile-warning {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.95);
+	backdrop-filter: blur(20px);
+	z-index: 999999;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.mobile-warning-content {
+	text-align: center;
+	max-width: 500px;
+	padding: 40px 30px;
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 20px;
+	backdrop-filter: blur(10px);
+}
+
+.mobile-warning-icon {
+	font-size: 80px;
+	margin-bottom: 20px;
+	animation: pulse 2s ease-in-out infinite;
+}
+
+.mobile-warning-title {
+	font-size: 28px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 20px;
+	letter-spacing: -0.5px;
+}
+
+.mobile-warning-text {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.85);
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+
+.mobile-warning-subtext {
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.6);
+	line-height: 1.5;
+}
+
+@keyframes pulse {
+
+	0%,
+	100% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+}
+
+/* Mostrar solo en móviles y tablets */
+@media (max-width: 1024px) {
+	.mobile-warning {
+		display: flex;
+	}
+}
