@@ -983,7 +983,7 @@
             "links": [
               {
                 "text": "Personal Web",
-                "url": "hhttps://javiersagales.com/",
+                "url": "https://javiersagales.com/",
                 "icon": "web.png"
               }
             ],
@@ -1794,7 +1794,7 @@
             "links": [
               {
                 "text": "Personal Web",
-                "url": "hhttps://javiersagales.com/",
+                "url": "https://javiersagales.com/",
                 "icon": "web.png"
               }
             ],
@@ -1808,12 +1808,16 @@
             "related": [],
             "images": [
               {
-                "type": "image",
-                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/1.png"
+                "type": "video",
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/1.mp4"
               },
               {
                 "type": "image",
                 "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/2.png"
+              },
+              {
+                "type": "image",
+                "src": "proyectos\\PROGRAMACION/3_DESARROLLO_WEB/2_BRANDING_PERSONAL_WEB/3.png"
               }
             ]
           },
