@@ -13,12 +13,15 @@ function switchSection(section) {
 		curriculumSection.classList.add('slide-left');
 		portfolioSection.classList.add('slide-left');
 
-		// Restaurar título según categoría actual
-		if (currentCategory && portfolioData[currentCategory]) {
+		// Verificar si hay una tarjeta seleccionada (featured)
+		const featuredCard = document.querySelector('.card-wrapper.featured');
+
+		// Solo restaurar categoría si hay una tarjeta seleccionada
+		if (featuredCard && currentCategory && portfolioData[currentCategory]) {
 			const portfolioText = typeof t === 'function' ? t('header.portfolio') : 'Portfolio';
 			sectionTitleHeader.textContent = portfolioText + ' - ' + portfolioData[currentCategory].name;
 		} else {
-			// Usar traducción según idioma actual
+			// Sin tarjeta seleccionada, mostrar solo "Portfolio"
 			if (typeof t === 'function') {
 				sectionTitleHeader.textContent = t('header.portfolio');
 			} else {
