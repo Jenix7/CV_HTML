@@ -2348,45 +2348,6 @@
         "title": "GESTIÓN DE NEGOCIOS",
         "images": [
           {
-            "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/portada.jpg",
-            "title": "Alquílame Esta Moto",
-            "subtitle": "Gestión de un servicio de alquiler",
-            "description": "Dirección de un servicio de alquiler de equipamiento de moto homologado, pensado para quienes necesitan practicar o presentarse al examen de moto. El objetivo es facilitar todo el proceso, gestionando la entrega y recogida del material de forma rápida y cómoda para cada persona. Además, desarrollé el branding, la web y el material gráfico del proyecto, creando una identidad visual coherente, una página funcional con cálculo automático de pedidos y piezas promocionales para impresión y redes sociales.",
-            "links": [
-              {
-                "text": "Web - Alquílame Esta Moto",
-                "url": "https://alquilamestamoto.es/",
-                "icon": "web.png"
-              }
-            ],
-            "programs": [
-              "HTML.png",
-              "JAVA.png",
-              "CSS.png",
-              "photoshop.png",
-              "illustrator.png"
-            ],
-            "related": [],
-            "images": [
-              {
-                "type": "video",
-                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/1.mp4"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/2.png"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/3.png"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/1_ALQUILAME_ESTA_MOTO_GESTION/4.png"
-              }
-            ]
-          },
-          {
             "src": "proyectos\\PRODUCCION/1_GESTION_DE_NEGOCIOS/2_EL_BEDEL_DE_LA_UNI_MANEJO_DE_REDES_Y_CONTENIDO/portada.jpg",
             "title": "El Bedel de la Uni",
             "subtitle": "Manejo de redes y contenido para un libro",
@@ -2646,45 +2607,6 @@
               {
                 "type": "image",
                 "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/1_21_DE_MARZO_CATERING/1.png"
-              }
-            ]
-          },
-          {
-            "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/portada.jpg",
-            "title": "Alquílame Esta Moto",
-            "subtitle": "Asesoramiento y gestión con personas",
-            "description": "Atención y asesoramiento a las personas durante el alquiler de equipamiento de moto homologado, explicando el servicio y gestionando las entregas y recogidas de forma rápida y cómoda para cada usuario.\n\nAdemás, desarrollé el branding, la web y el material gráfico del proyecto, creando una identidad visual coherente, una página funcional con cálculo automático de pedidos y piezas promocionales para impresión y redes sociales.",
-            "links": [
-              {
-                "text": "Web - Alquílame Esta Moto",
-                "url": "https://alquilamestamoto.es/",
-                "icon": "web.png"
-              }
-            ],
-            "programs": [
-              "HTML.png",
-              "JAVA.png",
-              "CSS.png",
-              "photoshop.png",
-              "illustrator.png"
-            ],
-            "related": [],
-            "images": [
-              {
-                "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/1.png"
-              },
-              {
-                "type": "video",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/2.mp4"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/3.png"
-              },
-              {
-                "type": "image",
-                "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/4.png"
               }
             ]
           }
@@ -3118,14 +3040,6 @@
         "subtitle": "Planificación y creación de escaperooms",
         "section": "produccion",
         "category_index": 1,
-        "project_index": 1
-      },
-      {
-        "src": "proyectos\\COMUNICACION/1_ATENCION_AL_CLIENTE/2_ALQUILAME_ESTA_MOTO_COMUNICACION/portada.jpg",
-        "title": "Alquílame Esta Moto",
-        "subtitle": "Asesoramiento y gestión con personas",
-        "section": "comunicacion",
-        "category_index": 0,
         "project_index": 1
       },
       {

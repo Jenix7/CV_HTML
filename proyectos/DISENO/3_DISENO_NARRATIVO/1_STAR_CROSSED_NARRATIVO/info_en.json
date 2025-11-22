@@ -12,5 +12,6 @@
   "programs": [
     "narrat.png"
   ],
-  "related": []
+  "related": [],
+  "active": true
 }

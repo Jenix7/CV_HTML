@@ -12,5 +12,6 @@
   "programs": [
     "maya.png"
   ],
-  "related": []
+  "related": [],
+  "active": true
 }

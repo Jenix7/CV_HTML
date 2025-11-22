@@ -121,6 +121,7 @@ def translate_info_json(info_path):
         project_links = []
         project_programs = []
         project_related = []
+        project_active = True  # Por defecto, todos los proyectos están activos
 
         # Intentar detectar el formato
         is_custom_format = info_content.startswith('Tit:')
@@ -199,6 +200,12 @@ def translate_info_json(info_path):
                         })
                     current_field = None
 
+                elif line_stripped.startswith('Active:'):
+                    # Formato: Active:false o Active:true
+                    active_value = line_stripped[7:].strip().lower()
+                    project_active = active_value != "false"
+                    current_field = None
+
                 elif current_field == 'description' and line_stripped:
                     # Continuar agregando líneas a la descripción
                     desc_lines.append(line_stripped)
@@ -220,6 +227,7 @@ def translate_info_json(info_path):
                 project_links = data.get("links", [])
                 project_programs = data.get("programs", [])
                 project_related = data.get("related", [])
+                project_active = data.get("active", True)  # Por defecto true si no existe
             except json.JSONDecodeError:
                 print(f"      ⚠️ Formato no reconocido en {info_path}")
                 return None, None
@@ -231,7 +239,8 @@ def translate_info_json(info_path):
             "description": project_description,
             "links": project_links,
             "programs": project_programs,
-            "related": project_related
+            "related": project_related,
+            "active": project_active
         }
 
         # Traducir a inglés si DeepL está disponible
@@ -254,7 +263,8 @@ def translate_info_json(info_path):
                 "description": translate_text(project_description),
                 "links": translated_links,
                 "programs": project_programs,  # Los nombres de programas no se traducen
-                "related": project_related  # Los nombres relacionados no se traducen
+                "related": project_related,  # Los nombres relacionados no se traducen
+                "active": project_active  # El estado activo no se traduce
             }
 
             # Guardar info_en.json
@@ -570,9 +580,15 @@ def generate_portfolio_data():
                         "description": "",
                         "links": [],
                         "programs": [],
-                        "related": []
+                        "related": [],
+                        "active": True
                     }
                     info_en = info_es
+
+                # Verificar si el proyecto está activo
+                if not info_es.get("active", True):
+                    print(f"    ⏭️  Saltado (inactivo): {info_es['title']}")
+                    continue
 
                 print(f"    ✅ {info_es['title']} / {info_en['title']}")
 
@@ -732,8 +748,14 @@ def generate_portfolio_data():
                                             info_es, info_en = translate_info_json(info_path)
 
                                             if not info_es:
-                                                info_es = {"title": project_folder, "subtitle": ""}
+                                                info_es = {"title": project_folder, "subtitle": "", "active": True}
                                                 info_en = info_es
+
+                                            # Verificar si el proyecto está activo
+                                            if not info_es.get("active", True):
+                                                print(f"    ⏭️  Saltado (inactivo): {info_es['title']} ({section_key})")
+                                                found = True
+                                                break
 
                                             todo_projects.append({
                                                 "src": portada_relative,
