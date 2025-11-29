@@ -403,5 +403,15 @@
 			}
 		}
 
-		document.addEventListener('DOMContentLoaded', updateCurriculumCTATexts);
-		window.addEventLi
+		    document.addEventListener('DOMContentLoaded', () => {
+        updateCurriculumCTATexts();
+        updatePortfolioCTATexts();
+    });
+
+    window.addEventListener('load', () => {
+        updateCurriculumCTATexts();
+        updatePortfolioCTATexts();
+    });
+</script>
+</body>
+</html>
